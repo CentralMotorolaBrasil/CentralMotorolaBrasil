@@ -50,18 +50,6 @@
             </div>
           </div>
         </div>
-        <div class="fade-up fade-up-3">
-          <p class="settings-section-title">Tema Base</p>
-          <div class="d-flex gap-3">
-            <div v-for="t in themes" :key="t.id"
-              class="ch-card p-3 flex-1 text-center"
-              :style="{ cursor:'pointer', borderColor: activeTheme === t.id ? 'var(--accent)' : '' }"
-              @click="activeTheme = t.id">
-              <i :class="t.icon" style="font-size:1.5rem;color:var(--accent);display:block;margin-bottom:8px;"></i>
-              <div style="font-size:0.85rem;font-weight:500;">{{ t.label }}</div>
-            </div>
-          </div>
-        </div>
       </template>
       <template v-if="tab === 'about'">
         <div class="ch-card p-5 text-center fade-up">
