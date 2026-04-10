@@ -3,8 +3,8 @@
     <div class="container-lg px-3 px-md-4 py-4" style="max-width:1100px;margin:0 auto;">
       <div v-if="!device" class="empty-state">
         <i class="bi bi-exclamation-circle"></i>
-        <p>Dispositivo não encontrado.</p>
-        <router-link to="/devices" class="btn-accent btn mt-3">← Voltar</router-link>
+        <p>{{ t('deviceNotFound') }}</p>
+        <router-link to="/devices" class="btn-accent btn mt-3">{{ t('btnBack') }}</router-link>
       </div>
 
       <template v-else>
@@ -12,8 +12,9 @@
           style="color:var(--text-secondary);font-size:0.875rem;transition:color 0.2s;"
           @mouseenter="e=>e.target.style.color='var(--accent)'"
           @mouseleave="e=>e.target.style.color='var(--text-secondary)'">
-          <i class="bi bi-arrow-left"></i> Todos os dispositivos
+          <i class="bi bi-arrow-left"></i> {{ t('backToDevices') }}
         </router-link>
+
         <div class="ch-card p-4 mb-4 fade-up">
           <div class="row align-items-center g-3">
             <div class="col-auto">
@@ -42,6 +43,7 @@
             </div>
           </div>
         </div>
+
         <div class="ch-tabs mb-4 fade-up fade-up-1" style="overflow-x:auto;">
           <button v-for="tab in tabs" :key="tab.id"
             class="ch-tab"
@@ -53,11 +55,13 @@
             </span>
           </button>
         </div>
+
         <div class="fade-up fade-up-2">
+          <!-- ROMs -->
           <div v-if="activeTab === 'roms'">
             <div v-if="device.roms.length === 0" class="empty-state">
               <i class="bi bi-android2"></i>
-              <p>Nenhuma ROM disponível ainda para este dispositivo.</p>
+              <p>{{ t('noRoms') }}</p>
             </div>
             <div v-else class="d-flex flex-column gap-3">
               <div v-for="rom in device.roms" :key="rom.name" class="dl-row">
@@ -76,17 +80,18 @@
                   </div>
                   <div class="col-auto">
                     <a :href="rom.link" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
-                      <i class="bi bi-download"></i> Download
+                      <i class="bi bi-download"></i> {{ t('btnDownload') }}
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div v-if="activeTab === 'recoveries'">
             <div v-if="device.recoveries.length === 0" class="empty-state">
               <i class="bi bi-arrow-counterclockwise"></i>
-              <p>Nenhuma recovery disponível ainda.</p>
+              <p>{{ t('noRecoveries') }}</p>
             </div>
             <div v-else class="d-flex flex-column gap-3">
               <div v-for="rec in device.recoveries" :key="rec.name" class="dl-row">
@@ -101,17 +106,18 @@
                   </div>
                   <div class="col-auto">
                     <a :href="rec.link" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
-                      <i class="bi bi-download"></i> Download
+                      <i class="bi bi-download"></i> {{ t('btnDownload') }}
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div v-if="activeTab === 'gcams'">
             <div v-if="device.gcams.length === 0" class="empty-state">
               <i class="bi bi-camera"></i>
-              <p>Nenhuma GCam disponível ainda.</p>
+              <p>{{ t('noGcams') }}</p>
             </div>
             <div v-else class="d-flex flex-column gap-3">
               <div v-for="gcam in device.gcams" :key="gcam.name" class="dl-row">
@@ -119,7 +125,7 @@
                   <div class="col">
                     <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
                       <span style="font-weight:600;font-size:0.95rem;">{{ gcam.name }}</span>
-                      <span v-if="gcam.recommended" class="ch-badge recommended">⭐ Recomendado</span>
+                      <span v-if="gcam.recommended" class="ch-badge recommended">{{ t('recommended') }}</span>
                     </div>
                     <div class="d-flex flex-wrap gap-3" style="font-size:0.78rem;color:var(--text-secondary);">
                       <span class="mono" style="color:var(--text-muted);">{{ gcam.version }}</span>
@@ -130,17 +136,18 @@
                   </div>
                   <div class="col-auto">
                     <a :href="gcam.link" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
-                      <i class="bi bi-download"></i> Download
+                      <i class="bi bi-download"></i> {{ t('btnDownload') }}
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div v-if="activeTab === 'kernels'">
             <div v-if="device.kernels.length === 0" class="empty-state">
               <i class="bi bi-cpu"></i>
-              <p>Nenhum kernel disponível ainda.</p>
+              <p>{{ t('noKernels') }}</p>
             </div>
             <div v-else class="d-flex flex-column gap-3">
               <div v-for="kernel in device.kernels" :key="kernel.name" class="dl-row">
@@ -161,14 +168,13 @@
                   </div>
                   <div class="col-auto">
                     <a :href="kernel.link" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
-                      <i class="bi bi-download"></i> Download
+                      <i class="bi bi-download"></i> {{ t('btnDownload') }}
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </template>
     </div>
@@ -179,7 +185,9 @@
 import { ref, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { devices, categories } from '../data/devices.js'
+import { useI18n } from '../composables/useI18n.js'
 
+const { t } = useI18n()
 const route = useRoute()
 const device = computed(() => devices.find(d => d.id === route.params.id))
 const activeTab = ref('roms')
@@ -192,20 +200,20 @@ const categoryLabel = computed(() => {
 const tabs = computed(() => {
   if (!device.value) return []
   return [
-    { id: 'roms', label: 'ROMs', icon: 'bi bi-android2', count: device.value.roms.length },
-    { id: 'recoveries', label: 'Recoveries', icon: 'bi bi-arrow-counterclockwise', count: device.value.recoveries.length },
-    { id: 'gcams', label: 'GCams', icon: 'bi bi-camera', count: device.value.gcams.length },
-    { id: 'kernels', label: 'Kernels', icon: 'bi bi-cpu', count: device.value.kernels.length },
+    { id: 'roms',       label: t('tabRoms'),       icon: 'bi bi-android2',              count: device.value.roms.length },
+    { id: 'recoveries', label: t('tabRecoveries'), icon: 'bi bi-arrow-counterclockwise', count: device.value.recoveries.length },
+    { id: 'gcams',      label: t('tabGcams'),      icon: 'bi bi-camera',                count: device.value.gcams.length },
+    { id: 'kernels',    label: t('tabKernels'),    icon: 'bi bi-cpu',                   count: device.value.kernels.length },
   ]
 })
 
 const summary = computed(() => {
   if (!device.value) return []
   return [
-    { count: device.value.roms.length, label: 'ROMs' },
-    { count: device.value.recoveries.length, label: 'Recoveries' },
-    { count: device.value.gcams.length, label: 'GCams' },
-    { count: device.value.kernels.length, label: 'Kernels' },
+    { count: device.value.roms.length,       label: t('tabRoms') },
+    { count: device.value.recoveries.length, label: t('tabRecoveries') },
+    { count: device.value.gcams.length,      label: t('tabGcams') },
+    { count: device.value.kernels.length,    label: t('tabKernels') },
   ]
 })
 

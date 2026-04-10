@@ -24,15 +24,14 @@
           </router-link>
         </div>
 
-        <!-- Right side -->
         <div class="d-flex align-items-center gap-2 nav-right">
-          <router-link to="/settings" class="icon-btn" title="Configurações">
+          <router-link to="/settings" class="icon-btn" :title="t('settings')">
             <i class="bi bi-gear"></i>
           </router-link>
         </div>
-
       </div>
     </nav>
+
     <div class="mobile-nav d-flex d-md-none">
       <router-link v-for="link in navLinks" :key="link.to" :to="link.to"
         class="mobile-nav-item"
@@ -42,9 +41,10 @@
       </router-link>
       <router-link to="/settings" class="mobile-nav-item" :class="{ active: $route.path === '/settings' }">
         <i class="bi bi-gear"></i>
-        <span>Config</span>
+        <span>{{ t('navConfig') }}</span>
       </router-link>
     </div>
+
     <main style="padding-bottom:80px;" class="pb-md-0">
       <router-view v-slot="{ Component }">
         <transition name="page" mode="out-in">
@@ -56,10 +56,15 @@
 </template>
 
 <script setup>
-const navLinks = [
-  { to: '/', label: 'Início', icon: 'bi bi-house' },
-  { to: '/devices', label: 'Dispositivos', icon: 'bi bi-phone' },
-]
+import { computed } from 'vue'
+import { useI18n } from './composables/useI18n.js'
+
+const { t } = useI18n()
+
+const navLinks = computed(() => [
+  { to: '/', label: t('navHome'), icon: 'bi bi-house' },
+  { to: '/devices', label: t('navDevices'), icon: 'bi bi-phone' },
+])
 </script>
 
 <style scoped>
@@ -69,17 +74,12 @@ const navLinks = [
   margin: 0 auto;
   width: 100%;
 }
-
 .nav-center {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-
-.nav-right {
-  margin-left: auto;
-}
-
+.nav-right { margin-left: auto; }
 .nav-link-item {
   display: flex;
   align-items: center;
@@ -96,10 +96,8 @@ const navLinks = [
   background: var(--accent-dim);
   color: var(--accent);
 }
-
 .icon-btn {
-  width: 36px;
-  height: 36px;
+  width: 36px; height: 36px;
   border-radius: 9px;
   display: flex;
   align-items: center;
@@ -110,16 +108,10 @@ const navLinks = [
   text-decoration: none;
   transition: all 0.2s;
 }
-.icon-btn:hover {
-  border-color: var(--border-hover);
-  color: var(--accent);
-}
-
+.icon-btn:hover { border-color: var(--border-hover); color: var(--accent); }
 .mobile-nav {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 0; left: 0; right: 0;
   background: rgba(10, 15, 26, 0.95);
   backdrop-filter: blur(12px);
   border-top: 1px solid var(--border-color);
