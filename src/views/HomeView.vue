@@ -27,9 +27,6 @@
           <router-link to="/devices" class="btn-accent btn d-flex align-items-center gap-2">
             <i class="bi bi-phone"></i> {{ t('btnExploreDevices') }}
           </router-link>
-          <button class="btn-ghost btn d-flex align-items-center gap-2" @click="goSearch">
-            <i class="bi bi-search"></i> {{ t('btnSearch') }}
-          </button>
         </div>
       </div>
 
