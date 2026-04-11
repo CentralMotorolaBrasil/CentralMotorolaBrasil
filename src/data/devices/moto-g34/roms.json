@@ -1,5 +1,20 @@
 [
   {
+    "name": "Halcyon",
+    "version": "16.2",
+    "android": "Android 16 QPR2",
+    "author": "Alif Fathur",
+    "origin": "official",
+    "date": "11/04/2026",
+    "link": "https://get.hlcyn.org/builds/fogos",
+    "size": "1.14 GB / 1.90 GB",
+    "status": "stable",
+    "variants": [
+    { "label": "Vanilla", "link": "https://get.hlcyn.org/files/beta/bloom/fogos/vanilla/20260411-0952" },
+    { "label": "GApps", "link": "https://get.hlcyn.org/files/beta/bloom/fogos/gms/20260411-1036" }
+  ]
+  }, 
+  {
     "name": "YAAP",
     "version": "25Q4",
     "android": "Android 16 QPR2",
