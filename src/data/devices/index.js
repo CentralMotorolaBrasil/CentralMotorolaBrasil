@@ -1,38 +1,33 @@
 // NOSSO AGREGADOR DO CENTRALMOTOROLABRASIL
 /* Como adicionar um novo aparelho:
-1. crie uma pasta com o nome do id do aparelho
-2. dentro de src/data/devices/ coloque info.json, roms.json, gcams.json,
-   kernels.json e recoveries.json
+1. Crie uma pasta com o nome do id do aparelho dentro de src/data/devices/
+2. Dentro dela, crie os arquivos YAML:
+   info.yaml        <--- dados do dispositivo
+   roms.yaml        <--- ROMs do dispositivo
+   gcams.yaml       <--- GCams do dispositivo
+   kernels.yaml     <--- Kernels do dispositivo
+   recoveries.yaml  <--- Recoveries do dispositivo
 
-info.json <--- info dos devices
-roms.json <---- roms do dispositivo respectivo
-gcams.json <---- gcams do dispositivo respectivo
-kernels.json <---- kernels do dispositivo respectivo
-recoveries.json <---- recoveries do dispositivo respectivo */
+O agregador detecta tudo automaticamente. Não precisa registrar nada aqui. */
 
 import { categories } from './categories.js'
 
-const infoModules = import.meta.glob('./*/info.json', { eager: true })
-const romsModules = import.meta.glob('./*/roms.json', { eager: true })
-const recoveriesModules = import.meta.glob('./*/recoveries.json', { eager: true })
-const gcamsModules = import.meta.glob('./*/gcams.json', { eager: true })
-const kernelsModules = import.meta.glob('./*/kernels.json', { eager: true })
+const infoModules       = import.meta.glob('./*/info.yaml',        { eager: true })
+const romsModules       = import.meta.glob('./*/roms.yaml',        { eager: true })
+const recoveriesModules = import.meta.glob('./*/recoveries.yaml',  { eager: true })
+const gcamsModules      = import.meta.glob('./*/gcams.yaml',       { eager: true })
+const kernelsModules    = import.meta.glob('./*/kernels.yaml',     { eager: true })
 
 export { categories }
 
 export const devices = Object.entries(infoModules).map(([path, mod]) => {
-  // Extrai o id da pasta: "./moto-g32/info.json" ---> "moto-g32"
+  // Extrai o id da pasta: "./moto-g34/info.yaml" → "moto-g34"
   const id = path.split('/')[1]
 
-  const romsPath = `./${id}/roms.json`
-  const recoveriesPath = `./${id}/recoveries.json`
-  const gcamsPath = `./${id}/gcams.json`
-  const kernelsPath = `./${id}/kernels.json`
-
-  const roms = romsModules[romsPath]?.default ?? []
-  const recoveries = recoveriesModules[recoveriesPath]?.default ?? []
-  const gcams = gcamsModules[gcamsPath]?.default ?? []
-  const kernels = kernelsModules[kernelsPath]?.default ?? []
+  const roms       = romsModules[`./${id}/roms.yaml`]?.default            ?? []
+  const recoveries = recoveriesModules[`./${id}/recoveries.yaml`]?.default ?? []
+  const gcams      = gcamsModules[`./${id}/gcams.yaml`]?.default           ?? []
+  const kernels    = kernelsModules[`./${id}/kernels.yaml`]?.default       ?? []
 
   return {
     ...mod.default,

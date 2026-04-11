@@ -1,0 +1,32 @@
+- name: LineageOS 23.0
+  version: '23.0'
+  android: Android 16
+  author: LineageOS Team
+  date: 12/10/2025
+  link: >-
+    https://mirrorbits.lineageos.org/full/berlin/20251012/lineage-23.0-20251012-nightly-berlin-signed.zip
+  size: 1.2 GB
+  status: nightly
+- name: LineageOS 22.1
+  version: '22.1'
+  android: Android 15
+  author: LineageOS Team
+  date: 31/12/2024
+  link: >-
+    https://mirrorbits.lineageos.org/full/berlin/20241231/lineage-22.1-20241231-nightly-berlin-signed.zip
+  size: 1.2 GB
+  status: nightly
+- name: BlissROM v17.8.1
+  version: v17.8.1
+  android: Android 15
+  author: VitorSSSouzaBR
+  date: 17/10/2024
+  link: >-
+    https://mirrorbits.lineageos.org/full/berlin/20241231/lineage-22.1-20241231-nightly-berlin-signed.zip
+  size: 1.2 GB
+  status: nightly
+  variants:
+    - label: Vanilla (sem GApps)
+      link: 'https://...'
+    - label: GApps (MindTheGapps)
+      link: 'https://...'

@@ -1,8 +1,12 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import yamlPlugin from './vite-plugin-yaml.js'
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    yamlPlugin(),
+    vue(),
+  ],
   build: {
     minify: 'terser',
     terserOptions: {
