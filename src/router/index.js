@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DevicesView from '../views/DevicesView.vue'
 import DeviceDetailView from '../views/DeviceDetailView.vue'
@@ -12,7 +12,7 @@ const routes = [
 ]
 
 export default createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
   scrollBehavior: () => ({ top: 0 }),
 })
