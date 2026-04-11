@@ -10,6 +10,7 @@ const languages = [
 
 const translations = {
   pt: {
+    // Settings
     preferences: 'Preferências',
     settings: 'Configurações',
     themes: 'Temas',
@@ -78,6 +79,8 @@ const translations = {
     btnBack: '← Voltar',
     btnDownload: 'Download',
     recommended: '⭐ Recomendado',
+    badgeOfficial: 'Oficial',
+    badgeUnofficial: 'Não oficial',
   },
 
   es: {
@@ -145,6 +148,8 @@ const translations = {
     btnBack: '← Volver',
     btnDownload: 'Descargar',
     recommended: '⭐ Recomendado',
+    badgeOfficial: 'Oficial',
+    badgeUnofficial: 'No oficial',
   },
 
   en: {
@@ -212,6 +217,8 @@ const translations = {
     btnBack: '← Back',
     btnDownload: 'Download',
     recommended: '⭐ Recommended',
+    badgeOfficial: 'Official',
+    badgeUnofficial: 'Unofficial',
   },
 }
 

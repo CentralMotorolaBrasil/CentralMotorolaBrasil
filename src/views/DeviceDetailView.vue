@@ -57,6 +57,7 @@
         </div>
 
         <div class="fade-up fade-up-2">
+
           <!-- ROMs -->
           <div v-if="activeTab === 'roms'">
             <div v-if="device.roms.length === 0" class="empty-state">
@@ -69,7 +70,10 @@
                   <div class="col">
                     <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
                       <span style="font-weight:600;font-size:0.95rem;">{{ rom.name }}</span>
-                      <span :class="['ch-badge', rom.status]">{{ rom.status }}</span>
+                      <span :class="['ch-badge', rom.status]">{{ statusLabel(rom.status) }}</span>
+                      <span v-if="rom.origin" :class="['ch-badge', 'origin-' + rom.origin]">
+                        {{ rom.origin === 'official' ? t('badgeOfficial') : t('badgeUnofficial') }}
+                      </span>
                     </div>
                     <div class="d-flex flex-wrap gap-3" style="font-size:0.78rem;color:var(--text-secondary);">
                       <span><i class="bi bi-android2 me-1"></i>{{ rom.android }}</span>
@@ -79,15 +83,53 @@
                     </div>
                   </div>
                   <div class="col-auto">
-                    <a :href="rom.link" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
+
+                    <!-- ROM com variantes → dropdown -->
+                    <div v-if="rom.variants && rom.variants.length" class="variant-dropdown-wrap">
+                      <button
+                        class="btn-accent btn d-flex align-items-center gap-2"
+                        style="font-size:0.85rem;padding:8px 18px;"
+                        @click.stop="toggleVariant(rom.name)">
+                        <i class="bi bi-download"></i>
+                        {{ t('btnDownload') }}
+                        <i class="bi ms-1"
+                          :class="openVariant === rom.name ? 'bi-chevron-up' : 'bi-chevron-down'"
+                          style="font-size:0.7rem;"></i>
+                      </button>
+                      <transition name="variant-drop">
+                        <div v-if="openVariant === rom.name" class="variant-menu">
+                          <a
+                            v-for="v in rom.variants"
+                            :key="v.label"
+                            :href="v.link"
+                            target="_blank"
+                            rel="noopener"
+                            class="variant-item"
+                            @click="openVariant = null">
+                            <i class="bi bi-download me-2" style="color:var(--accent);font-size:0.8rem;"></i>
+                            {{ v.label }}
+                          </a>
+                        </div>
+                      </transition>
+                    </div>
+
+                    <!-- ROM sem variantes → botão direto -->
+                    <a v-else
+                      :href="rom.link"
+                      target="_blank"
+                      rel="noopener"
+                      class="btn-accent btn d-flex align-items-center gap-2"
+                      style="font-size:0.85rem;padding:8px 18px;">
                       <i class="bi bi-download"></i> {{ t('btnDownload') }}
                     </a>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Recoveries -->
           <div v-if="activeTab === 'recoveries'">
             <div v-if="device.recoveries.length === 0" class="empty-state">
               <i class="bi bi-arrow-counterclockwise"></i>
@@ -105,7 +147,7 @@
                     </div>
                   </div>
                   <div class="col-auto">
-                    <a :href="rec.link" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
+                    <a :href="rec.link" target="_blank" rel="noopener" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
                       <i class="bi bi-download"></i> {{ t('btnDownload') }}
                     </a>
                   </div>
@@ -114,6 +156,7 @@
             </div>
           </div>
 
+          <!-- GCams -->
           <div v-if="activeTab === 'gcams'">
             <div v-if="device.gcams.length === 0" class="empty-state">
               <i class="bi bi-camera"></i>
@@ -135,7 +178,7 @@
                     </div>
                   </div>
                   <div class="col-auto">
-                    <a :href="gcam.link" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
+                    <a :href="gcam.link" target="_blank" rel="noopener" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
                       <i class="bi bi-download"></i> {{ t('btnDownload') }}
                     </a>
                   </div>
@@ -144,6 +187,7 @@
             </div>
           </div>
 
+          <!-- Kernels -->
           <div v-if="activeTab === 'kernels'">
             <div v-if="device.kernels.length === 0" class="empty-state">
               <i class="bi bi-cpu"></i>
@@ -167,7 +211,7 @@
                     </div>
                   </div>
                   <div class="col-auto">
-                    <a :href="kernel.link" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
+                    <a :href="kernel.link" target="_blank" rel="noopener" class="btn-accent btn d-flex align-items-center gap-2" style="font-size:0.85rem;padding:8px 18px;">
                       <i class="bi bi-download"></i> {{ t('btnDownload') }}
                     </a>
                   </div>
@@ -175,6 +219,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </template>
     </div>
@@ -182,7 +227,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { devices, categories } from '../data/devices/index.js'
 import { useI18n } from '../composables/useI18n.js'
@@ -191,6 +236,20 @@ const { t } = useI18n()
 const route = useRoute()
 const device = computed(() => devices.find(d => d.id === route.params.id))
 const activeTab = ref('roms')
+const openVariant = ref(null)
+
+function toggleVariant(romName) {
+  openVariant.value = openVariant.value === romName ? null : romName
+}
+
+function closeOnOutsideClick(e) {
+  if (!e.target.closest('.variant-dropdown-wrap')) {
+    openVariant.value = null
+  }
+}
+
+onMounted(() => document.addEventListener('click', closeOnOutsideClick))
+onBeforeUnmount(() => document.removeEventListener('click', closeOnOutsideClick))
 
 const categoryLabel = computed(() => {
   if (!device.value) return ''
@@ -217,8 +276,84 @@ const summary = computed(() => {
   ]
 })
 
+const statusLabels = {
+  stable:   { pt: 'Estável',   es: 'Estable',   en: 'Stable'   },
+  estavel:  { pt: 'Estável',   es: 'Estable',   en: 'Stable'   },
+  beta:     { pt: 'Beta',      es: 'Beta',       en: 'Beta'     },
+  nightly:  { pt: 'Nightly',   es: 'Nightly',    en: 'Nightly'  },
+  unstable: { pt: 'Instável',  es: 'Inestable',  en: 'Unstable' },
+  instavel: { pt: 'Instável',  es: 'Inestable',  en: 'Unstable' },
+}
+
+function statusLabel(status) {
+  const { currentLanguage } = useI18n()
+  return statusLabels[status]?.[currentLanguage.value] ?? status
+}
+
 function onImgErr(e) {
   e.target.style.display = 'none'
   e.target.parentElement.innerHTML = '<div class="device-img-fallback" style="font-size:2rem;"><i class="bi bi-phone"></i></div>'
 }
 </script>
+
+<style scoped>
+.variant-dropdown-wrap {
+  position: relative;
+}
+
+.variant-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  min-width: 220px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-hover);
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 50;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.variant-item {
+  display: flex;
+  align-items: center;
+  padding: 11px 16px;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: background 0.15s;
+  border-bottom: 1px solid var(--border-color);
+}
+.variant-item:last-child {
+  border-bottom: none;
+}
+.variant-item:hover {
+  background: var(--accent-dim);
+  color: var(--accent);
+}
+
+.variant-drop-enter-active,
+.variant-drop-leave-active {
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  transform-origin: top right;
+}
+.variant-drop-enter-from,
+.variant-drop-leave-to {
+  opacity: 0;
+  transform: scaleY(0.9);
+}
+
+/* Badge oficial — azul */
+.ch-badge.origin-official {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+/* Badge unofficial — amarelo */
+.ch-badge.origin-unofficial {
+  background: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+</style>

@@ -4,7 +4,7 @@
   "category": "moto-edge",
   "android": "Android 11 → 13",
   "chip": "Snapdragon 778G",
-  "img": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-edge-20-2.jpg",
+  "img": "https://fujiokadistribuidor.vteximg.com.br/arquivos/ids/217447", 
   "recoveries": [
     { "name": "TWRP", "version": "3.7.1", "author": "TeamWin", "date": "2024-01-05", "link": "#", "size": "82 MB" }
   ],
