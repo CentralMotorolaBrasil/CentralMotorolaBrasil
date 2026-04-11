@@ -56,15 +56,34 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, watchEffect } from 'vue'
+import { useRoute } from 'vue-router'
 import { useI18n } from './utils/i18n.js'
+import { devices } from './data/devices/index.js'
 
 const { t } = useI18n()
+const route = useRoute()
+const appName = 'CentralMotorolaBrasil'
 
 const navLinks = computed(() => [
   { to: '/', label: t('navHome'), icon: 'bi bi-house' },
   { to: '/devices', label: t('navDevices'), icon: 'bi bi-phone' },
 ])
+
+watchEffect(() => {
+  let pageLabel = t('navHome')
+
+  if (route.path === '/devices') {
+    pageLabel = t('navDevices')
+  } else if (route.path === '/settings') {
+    pageLabel = t('settings')
+  } else if (route.path.startsWith('/device/')) {
+    const device = devices.find(d => d.id === route.params.id)
+    pageLabel = device?.name || t('deviceNotFound')
+  }
+
+  document.title = `${appName} - ${pageLabel}`
+})
 </script>
 
 <style scoped>
