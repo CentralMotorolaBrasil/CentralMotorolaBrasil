@@ -18,7 +18,7 @@ export const categories = [
     description: "Entrada e acessíveis",
   },
   {
-    id: "motorola-one",
+    id: "moto-one",
     label: "Motorola One",
     icon: "bi-motherboard",
     description: "Linha Android One",
