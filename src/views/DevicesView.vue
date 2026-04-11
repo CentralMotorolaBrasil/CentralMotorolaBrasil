@@ -78,7 +78,7 @@ import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { devices, categories } from '../data/devices/index.js'
 import DeviceCard from '../components/DeviceCard.vue'
-import { useI18n } from '../composables/useI18n.js'
+import { useI18n } from '../utils/i18n.js'
 
 const { t } = useI18n()
 const route = useRoute()

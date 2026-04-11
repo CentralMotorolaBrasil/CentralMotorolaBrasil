@@ -98,7 +98,7 @@
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { devices, categories } from '../data/devices/index.js'
-import { useI18n } from '../composables/useI18n.js'
+import { useI18n } from '../utils/i18n.js'
 
 const router = useRouter()
 const { t } = useI18n()

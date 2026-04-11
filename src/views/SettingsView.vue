@@ -123,7 +123,7 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
-import { useI18n } from '../composables/useI18n.js'
+import { useI18n } from '../utils/i18n.js'
 
 const { t, currentLanguage, currentLanguageLabel, languages, setLanguage } = useI18n()
 
