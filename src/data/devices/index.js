@@ -10,6 +10,9 @@ import { categories } from './categories.js'
 
 const infoModules = import.meta.glob('./*/info.json', { eager: true })
 const romsModules = import.meta.glob('./*/roms.json', { eager: true })
+const recoveriesModules = import.meta.glob('./*/recoveries.json', { eager: true })
+const gcamsModules = import.meta.glob('./*/gcams.json', { eager: true })
+const kernelsModules = import.meta.glob('./*/kernels.json', { eager: true })
 
 export { categories }
 
@@ -18,11 +21,21 @@ export const devices = Object.entries(infoModules).map(([path, mod]) => {
   const id = path.split('/')[1]
 
   const romsPath = `./${id}/roms.json`
+  const recoveriesPath = `./${id}/recoveries.json`
+  const gcamsPath = `./${id}/gcams.json`
+  const kernelsPath = `./${id}/kernels.json`
+
   const roms = romsModules[romsPath]?.default ?? []
+  const recoveries = recoveriesModules[recoveriesPath]?.default ?? []
+  const gcams = gcamsModules[gcamsPath]?.default ?? []
+  const kernels = kernelsModules[kernelsPath]?.default ?? []
 
   return {
     ...mod.default,
     id,
     roms,
+    recoveries,
+    gcams,
+    kernels,
   }
 })

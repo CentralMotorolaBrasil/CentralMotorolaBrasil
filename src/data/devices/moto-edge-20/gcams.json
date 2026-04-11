@@ -1,0 +1,20 @@
+[
+  {
+    "name": "GCam MGC 8.9",
+    "version": "8.9.097",
+    "author": "Urnyx05",
+    "date": "2024-02-01",
+    "link": "#",
+    "size": "95 MB",
+    "recommended": true
+  },
+  {
+    "name": "GCam NGCam 8.5",
+    "version": "8.5.300",
+    "author": "Nikita",
+    "date": "2024-01-15",
+    "link": "#",
+    "size": "98 MB",
+    "recommended": false
+  }
+]
