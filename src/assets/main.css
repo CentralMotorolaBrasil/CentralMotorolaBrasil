@@ -58,9 +58,8 @@ body::before {
   z-index: 1;
 }
 
-/* FIXME: Ver se a scrollbar não quebra durante troca de páginas, por enquanto a default será usada */
 /* scroll bar mais discreta */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 6px;
 }
 
@@ -71,7 +70,7 @@ body::before {
 ::-webkit-scrollbar-thumb {
   background: var(--border-hover);
   border-radius: 3px;
-} */
+}
 
 /* card padrão */
 .ch-card {
