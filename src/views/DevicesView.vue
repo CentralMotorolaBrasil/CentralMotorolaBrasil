@@ -47,7 +47,7 @@
           </div>
           <div class="row g-3">
             <div class="col-12 col-sm-6 col-lg-4"
-              v-for="device in devicesByCategory(cat.id).slice(0, 3)"
+              v-for="device in categoryPreview[cat.id]"
               :key="device.id">
               <DeviceCard :device="device" />
             </div>
@@ -74,7 +74,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { devices, categories } from '../data/devices/index.js'
 import DeviceCard from '../components/DeviceCard.vue'
@@ -85,21 +85,38 @@ const route = useRoute()
 const search = ref(route.query.q || '')
 const activeCategory = ref('all')
 
-const devicesByCategory = (catId) => devices.filter(d => d.category === catId)
+const devicesByCategoryMap = computed(() => {
+  const byCategory = Object.create(null)
+  for (const device of devices) {
+    if (!byCategory[device.category]) byCategory[device.category] = []
+    byCategory[device.category].push(device)
+  }
+  return byCategory
+})
+
+const categoryPreview = computed(() => {
+  const preview = Object.create(null)
+  for (const cat of categories) {
+    preview[cat.id] = (devicesByCategoryMap.value[cat.id] || []).slice(0, 3)
+  }
+  return preview
+})
+
+const normalizedDevices = devices.map(device => ({
+  device,
+  category: device.category,
+  searchKey: `${device.name} ${device.codename} ${device.chip}`.toLowerCase(),
+}))
 
 const filteredDevices = computed(() => {
-  let list = devices
+  let list = normalizedDevices
   if (activeCategory.value !== 'all') {
     list = list.filter(d => d.category === activeCategory.value)
   }
-  if (search.value.trim()) {
-    const q = search.value.toLowerCase()
-    list = list.filter(d =>
-      d.name.toLowerCase().includes(q) ||
-      d.codename.toLowerCase().includes(q) ||
-      d.chip.toLowerCase().includes(q)
-    )
+  const normalizedSearch = search.value.trim().toLowerCase()
+  if (normalizedSearch) {
+    list = list.filter(d => d.searchKey.includes(normalizedSearch))
   }
-  return list
+  return list.map(d => d.device)
 })
 </script>

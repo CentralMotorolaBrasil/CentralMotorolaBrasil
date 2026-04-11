@@ -3,7 +3,8 @@
     <div class="ch-card p-3 h-100" style="cursor:pointer;">
       <div class="d-flex align-items-start gap-3 mb-3">
         <div class="device-img-wrap" style="width:56px;height:56px;">
-          <img :src="device.img" :alt="device.name" @error="onImgErr" />
+          <img v-if="!imageFailed" :src="device.img" :alt="device.name" @error="onImgErr" />
+          <div v-else class="device-img-fallback"><i class="bi bi-phone"></i></div>
         </div>
         <div class="flex-grow-1 overflow-hidden">
           <div style="font-weight:600;font-size:0.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
@@ -45,9 +46,13 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+
 defineProps({ device: Object })
+
+const imageFailed = ref(false)
+
 function onImgErr(e) {
-  e.target.style.display = 'none'
-  e.target.parentElement.innerHTML = '<div class="device-img-fallback"><i class="bi bi-phone"></i></div>'
+  imageFailed.value = true
 }
 </script>

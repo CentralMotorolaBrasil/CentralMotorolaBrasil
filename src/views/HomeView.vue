@@ -73,7 +73,8 @@
             <router-link :to="`/device/${device.id}`" class="text-decoration-none">
               <div class="ch-card p-3 d-flex align-items-center gap-3" style="cursor:pointer;">
                 <div class="device-img-wrap">
-                  <img :src="device.img" :alt="device.name" @error="onImgErr" />
+                  <img v-if="!failedImages[device.id]" :src="device.img" :alt="device.name" @error="onImgErr(device.id)" />
+                  <div v-else class="device-img-fallback"><i class="bi bi-phone"></i></div>
                 </div>
                 <div class="flex-grow-1 overflow-hidden">
                   <div style="font-weight:600;font-size:0.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{ device.name }}</div>
@@ -103,6 +104,7 @@ import { useI18n } from '../utils/i18n.js'
 const router = useRouter()
 const { t } = useI18n()
 const searchQuery = ref('')
+const failedImages = ref({})
 
 function goSearch() {
   if (searchQuery.value.trim()) {
@@ -112,9 +114,8 @@ function goSearch() {
   }
 }
 
-function onImgErr(e) {
-  e.target.style.display = 'none'
-  e.target.parentElement.innerHTML = '<div class="device-img-fallback"><i class="bi bi-phone"></i></div>'
+function onImgErr(deviceId) {
+  failedImages.value[deviceId] = true
 }
 
 const stats = [

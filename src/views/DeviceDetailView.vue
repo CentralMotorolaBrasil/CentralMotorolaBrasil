@@ -8,10 +8,8 @@
       </div>
 
       <template v-else>
-        <router-link to="/devices" class="d-inline-flex align-items-center gap-2 mb-4 text-decoration-none fade-up"
-          style="color:var(--text-secondary);font-size:0.875rem;transition:color 0.2s;"
-          @mouseenter="e=>e.target.style.color='var(--accent)'"
-          @mouseleave="e=>e.target.style.color='var(--text-secondary)'">
+        <router-link to="/devices" class="d-inline-flex align-items-center gap-2 mb-4 text-decoration-none fade-up detail-back-link"
+          style="color:var(--text-secondary);font-size:0.875rem;transition:color 0.2s;">
           <i class="bi bi-arrow-left"></i> {{ t('backToDevices') }}
         </router-link>
 
@@ -19,7 +17,8 @@
           <div class="row align-items-center g-3">
             <div class="col-auto">
               <div class="device-img-wrap" style="width:88px;height:88px;border-radius:16px;">
-                <img :src="device.img" :alt="device.name" @error="onImgErr" />
+                <img v-if="!deviceImageFailed" :src="device.img" :alt="device.name" @error="onImgErr" />
+                <div v-else class="device-img-fallback" style="font-size:2rem;"><i class="bi bi-phone"></i></div>
               </div>
             </div>
             <div class="col">
@@ -232,11 +231,12 @@ import { useRoute } from 'vue-router'
 import { devices, categories } from '../data/devices/index.js'
 import { useI18n } from '../utils/i18n.js'
 
-const { t } = useI18n()
+const { t, currentLanguage } = useI18n()
 const route = useRoute()
 const device = computed(() => devices.find(d => d.id === route.params.id))
 const activeTab = ref('roms')
 const openVariant = ref(null)
+const deviceImageFailed = ref(false)
 
 function toggleVariant(romName) {
   openVariant.value = openVariant.value === romName ? null : romName
@@ -286,17 +286,19 @@ const statusLabels = {
 }
 
 function statusLabel(status) {
-  const { currentLanguage } = useI18n()
   return statusLabels[status]?.[currentLanguage.value] ?? status
 }
 
 function onImgErr(e) {
-  e.target.style.display = 'none'
-  e.target.parentElement.innerHTML = '<div class="device-img-fallback" style="font-size:2rem;"><i class="bi bi-phone"></i></div>'
+  deviceImageFailed.value = true
 }
 </script>
 
 <style scoped>
+.detail-back-link:hover {
+  color: var(--accent);
+}
+
 .variant-dropdown-wrap {
   position: relative;
 }
