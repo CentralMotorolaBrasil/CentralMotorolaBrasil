@@ -1,10 +1,14 @@
 // NOSSO AGREGADOR DO CENTRALMOTOROLABRASIL
 /* Como adicionar um novo aparelho:
 1. crie uma pasta com o nome do id do aparelho
-2. dentro de src/data/devices/ coloque info.json e roms.json
+2. dentro de src/data/devices/ coloque info.json, roms.json, gcams.json,
+   kernels.json e recoveries.json
 
 info.json <--- info dos devices
-roms.json <---- roms do dispositivo respectivo */
+roms.json <---- roms do dispositivo respectivo
+gcams.json <---- gcams do dispositivo respectivo
+kernels.json <---- kernels do dispositivo respectivo
+recoveries.json <---- recoveries do dispositivo respectivo */
 
 import { categories } from './categories.js'
 
