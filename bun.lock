@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "centralhub",
+      "name": "centralmotorolabrasil",
       "dependencies": {
         "bootstrap": "^5.3.3",
         "bootstrap-icons": "^1.11.3",
