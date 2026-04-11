@@ -1,29 +1,35 @@
-- name: STOCK MOD V
+- name: STOCK MOD V2
   version: 'V1TMS35H.3-45-1'
   android: Android 15
   author: allexwin50
+  origin: unofficial
   date: 23/10/2025
   link: >-
    https://drive.google.com/drive/folders/1DdzdPaYpfrHhNtDwT5C8qLNQferkjWW2
-  size: 1.2 GB
+  size: 3.4 GB
   status: stable
 
-- name: STOCK MOD V
+- name: STOCK MOD V1
   version: 'U1TMS34.107-34-9-3-4'
   android: Android 14
   author: allexwin50
+  origin: unofficial
   date: 16/08/2025
   link: >-
     https://telegra.ph/Stock-Mod---Edge-40-Neo-08-17
-  size: 1.2 GB
+  size: 3.3GB
   status: stable
 
 - name: YAAP
   version: 'U1TMS34.107-34-9-3-4'
-  android: Android 14
-  author: rexix01
-  date: 16/08/2025
+  android: Android 15
+  author: rexix01q
+  origin: unofficial
+  date: 09/07/25
   link: >-
-    https://telegra.ph/Stock-Mod---Edge-40-Neo-08-17
-  size: 1.2 GB
+    https://sourceforge.net/projects/manaus-archive/files/YAAP-15-HOMEMADE-manaus-20250709.zip/download
+  size: 2.1 GB
   status: stable
+  variants:
+    - label: Recovery
+      link: https://sourceforge.net/projects/manaus-archive/files/vendor_boot.img/download

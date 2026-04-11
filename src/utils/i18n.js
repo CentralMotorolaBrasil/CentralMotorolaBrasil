@@ -72,7 +72,7 @@ const translations = {
     tabGcams: 'GCams',
     tabKernels: 'Kernels',
     noRoms: 'Nenhuma ROM disponível ainda para este dispositivo.',
-    noRecoveries: 'Nenhuma recovery disponível ainda.',
+    noRecoveries: 'Nenhum recovery disponível ainda.',
     noGcams: 'Nenhuma GCam disponível ainda.',
     noKernels: 'Nenhum kernel disponível ainda.',
     deviceNotFound: 'Dispositivo não encontrado.',
