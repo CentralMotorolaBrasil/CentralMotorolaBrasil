@@ -184,7 +184,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { devices, categories } from '../data/devices.js'
+import { devices, categories } from '../data/devices/index.js'
 import { useI18n } from '../composables/useI18n.js'
 
 const { t } = useI18n()

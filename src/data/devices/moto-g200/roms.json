@@ -1,0 +1,22 @@
+[
+  {
+    "name": "LineageOS 21",
+    "version": "21.0",
+    "android": "Android 14",
+    "author": "LineageOS Team",
+    "date": "2024-04-05",
+    "link": "#",
+    "size": "1.3 GB",
+    "status": "stable"
+  },
+  {
+    "name": "crDroid 10",
+    "version": "10.4",
+    "android": "Android 14",
+    "author": "crDroid",
+    "date": "2024-03-01",
+    "link": "#",
+    "size": "1.1 GB",
+    "status": "stable"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "name": "Moto G200",
+  "codename": "xpeng",
+  "category": "moto-g",
+  "android": "Android 11 → 12",
+  "chip": "Snapdragon 888+",
+  "img": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g200-5g-1.jpg",
+  "recoveries": [
+    {
+      "name": "TWRP",
+      "version": "3.7.2",
+      "author": "TeamWin",
+      "date": "2024-01-20",
+      "link": "#",
+      "size": "88 MB"
+    },
+    {
+      "name": "OrangeFox",
+      "version": "R12.1",
+      "author": "OrangeFox Team",
+      "date": "2024-02-05",
+      "link": "#",
+      "size": "84 MB"
+    }
+  ],
+  "gcams": [
+    {
+      "name": "GCam MGC 9.2",
+      "version": "9.2.113",
+      "author": "Urnyx05",
+      "date": "2024-03-15",
+      "link": "#",
+      "size": "105 MB",
+      "recommended": true
+    }
+  ],
+  "kernels": [
+    {
+      "name": "Sultan Kernel",
+      "version": "4.0",
+      "author": "sultanxda",
+      "date": "2023-12-10",
+      "link": "#",
+      "size": "14 MB",
+      "features": ["Performance", "KProfiles"]
+    }
+  ]
+}

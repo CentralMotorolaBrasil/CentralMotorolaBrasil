@@ -76,7 +76,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { devices, categories } from '../data/devices.js'
+import { devices, categories } from '../data/devices/index.js'
 import DeviceCard from '../components/DeviceCard.vue'
 import { useI18n } from '../composables/useI18n.js'
 

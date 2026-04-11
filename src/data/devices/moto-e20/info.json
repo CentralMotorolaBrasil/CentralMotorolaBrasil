@@ -1,0 +1,30 @@
+{
+  "name": "Moto E20",
+  "codename": "rhodep",
+  "category": "moto-e",
+  "android": "Android 11",
+  "chip": "UNISOC T606",
+  "img": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-e20-1.jpg",
+  "recoveries": [
+    {
+      "name": "TWRP Unofficial",
+      "version": "3.7.0",
+      "author": "Comunidade",
+      "date": "2024-01-01",
+      "link": "#",
+      "size": "77 MB"
+    }
+  ],
+  "gcams": [
+    {
+      "name": "GCam BSG 8.4",
+      "version": "8.4.400",
+      "author": "BSG",
+      "date": "2023-11-10",
+      "link": "#",
+      "size": "90 MB",
+      "recommended": true
+    }
+  ],
+  "kernels": []
+}
