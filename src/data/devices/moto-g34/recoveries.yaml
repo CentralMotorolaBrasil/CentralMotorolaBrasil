@@ -1,20 +1,20 @@
+- name: SkyHawk Recovery Project (SHRP)
+  version: "1"
+  author: PrintHelloPeople
+  date: 17/05/2024
+  link: https://drive.google.com/file/d/14l5gvvV6tl1qc7-7x94KzOJF-kLhlL2Q/view?usp=sharing
+  size: 95.9 MB
+
 - name: TWRP
-  version: 3.7.1
-  author: TeamWin
-  date: 10/04/2026
-  link: https://twrp.me/motorola/motorolamotog34.html
-  size: 28 MB
+  version: "3.7.1"
+  author: TeamWin group
+  date: 20/09/2023
+  link: https://drive.google.com/uc?export=download&id=1mdbi35geNlhi3vB90nHF0HHwQzG0ORHx
+  size: 35 MB
 
 - name: OrangeFox
-  version: R12.1 - A14
-  author: PrintHelloPeople
-  date: 17/03/2024
-  link: https://github.com/PrintHelloPeople/fogos_recovery/releases/download/Latest/OrangeFox-R12.1_A14-Stable-fogos.img
-  size: 96 MB
-
-- name: SHRP
-  version: Desconhecido
-  author: PrintHelloPeople
-  date: 17/03/2024
-  link: https://github.com/PrintHelloPeople/fogos_recovery/releases/download/Latest/shrp.img
-  size: 95.9 MB
+  version: "12.1"
+  author: OrangeFox team
+  date: "2024"
+  link: https://github.com/PrintHelloPeople/fogos_recovery/releases
+  size: 40 MB

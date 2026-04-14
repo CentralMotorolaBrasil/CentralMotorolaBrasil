@@ -1,14 +1,23 @@
-- name: GCam MGC 8.9
-  version: 8.9.097
-  author: Urnyx05
-  date: '2024-02-01'
-  link: '#'
-  size: 95 MB
+- name: SGCAM_8.4.400.42_V43
+  version: "8.4.400.42/V43"
+  author: Shamim
+  date: 25/12/2022
+  link: https://drive.google.com/file/d/1N0z59bToSqAyz5xJyAYtyfTswCoJ5F6I/view?usp=sharing
+  size: 133.8 MB
   recommended: true
-- name: GCam NGCam 8.5
-  version: 8.5.300
-  author: Nikita
-  date: '2024-01-15'
-  link: '#'
-  size: 98 MB
+  
+- name: MGC_8.1.101_GV2b
+  version: "8.1.101/GV2b"
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/file/d/1kOy2wQwgxypas-Iz9JiyNCDCqagbWH6D/view?usp=sharing
+  size: 81.2 MB
+  recommended: true
+
+- name: HC-StrikeRemix
+  version: "1.1"
+  author: rz_end
+  date: 22/11/2020
+  link: https://drive.google.com/file/d/1pxCoGmsBynoYiEAsIXTYgZk1awkuFhR3/view?usp=sharing
+  size: 84.5 MB
   recommended: false

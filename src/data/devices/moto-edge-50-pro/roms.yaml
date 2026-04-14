@@ -1,0 +1,197 @@
+
+  - name: Lunaris AOSP
+    version: Android 16
+    android: Android 16
+    author: NB
+    origin: unofficial
+    date: 04/04/2026
+    link: https://drive.google.com/drive/folders/1gcIEd9OuUU3t4r-_6kd7GMtMbiKQNv8T?usp=sharing
+    size: 2.48 GB
+    status: stable
+    notes:
+      - Versão não oficial da LunarisAOSP 3.9
+      - Alternativa simples ao AOSP com particularidades
+      - Variant: user
+      - Type: release
+      - Release: bp4a
+    variants:
+      - label: Build anterior
+        link: https://drive.google.com/drive/folders/1Fobnle0G_25xpjEnn8fWdN866Zuo7Qfa?usp=drive_link
+      - label: Fonte
+        link: https://t.me/MotorolaEdge50Pro/178262
+
+  - name: Axion AOSP
+    version: Android 16
+    android: Android 16
+    author: NB
+    origin: unofficial
+    date: 03/04/2026
+    link: https://drive.usercontent.google.com/download?id=1KNlX3AhM78Bg91aU6vdpzWv5JMorWbeT&export=download
+    size: 2.64 GB
+    status: beta
+    notes:
+      - Versão não oficial da AxionAOSP 2.5 BETA
+      - Em desenvolvimento
+      - Foco em simplicidade e base AOSP
+    changelog:
+      - Variant: user
+      - Type: release
+      - Release: bp4a
+      - GMS: true
+      - GMS Variant: pico
+    variants:
+      - label: Fonte
+        link: https://t.me/MotorolaEdge50Pro/178212
+
+  - name: Lunaris OS
+    android: Android 16
+    author: KalpShah.dev
+    origin: unofficial
+    date: 20/02/2025
+    link: https://drive.google.com/drive/folders/1VED_GxXZXzE1jU4YYzjRZh91FZhV7UAF?usp=sharing
+    size: 2.54 GB
+    status: stable
+    notes:
+      - Versão não oficial da LunarisAOSP 3.7
+    changelog:
+      - Adicionado indicador de raio para estilo de bateria apenas texto
+      - Permitir espaçamento modificado para tiles
+      - Integração HSV no Monet
+      - Novo design "Sobre o telefone"
+      - Cor de acentuação nos indicadores de privacidade
+      - Suporte a ciclos de uso de dados
+    variants:
+      - label: Build anterior
+        link: https://drive.google.com/drive/folders/1Fobnle0G_25xpjEnn8fWdN866Zuo7Qfa?usp=drive_link
+      - label: Fonte
+        link: https://t.me/MotorolaEdge50Pro/175782
+
+  - name: crDroid
+    version: Android 16
+    android: Android 16
+    author: z7g4n1u8
+    origin: unofficial
+    date: 11/11/2025
+    link: https://drive.google.com/drive/folders/1nMV_laXZhxQzzM998ZFOubFUUVLeBBW8?usp=drive_link
+    size: 1.72/1.95 GB
+    status: stable
+    changelog:
+      - Patch de segurança de novembro
+      - MotoCam incluído (instável em vídeo/slow motion)
+      - Fontes atualizadas
+    known_issues:
+      - MotoCam trava em vídeo e câmera lenta
+    notes:
+      - Instalação suja suportada
+      - Versões VANILLA e GAPPS disponíveis
+    variants:
+      - label: Fonte
+        link: https://t.me/MotorolaEdge50Pro/165660
+
+  - name: Lineage OS
+    version: Android 16
+    android: Android 16
+    author: z7g4n1u8
+    origin: unofficial
+    date: 03/01/2026
+    link: https://drive.google.com/drive/folders/13jsPEZ3Fj0XsRYmVzlEyJQhI3lDZjyNh?usp=sharing
+    size: 1.56 GB
+    status: stable
+    notes:
+      - LineageOS 23.1 QPR1 não oficial
+    variants:
+      - label: Fonte
+        link: https://sourceforge.net/projects/eqe/files/LineageOS/
+      - label: Fonte
+        link: https://sourceforge.net/projects/eqe/files/LineageOS/
+
+  - name: LineageOS
+    version: Android 15
+    android: Android 15
+    author: SamarV-121
+    origin: unofficial
+    date: 09/06/2025
+    link: https://drive.google.com/drive/folders/1VNJgz2A2kTuboSPkDYUMtf9CqTydp6K_?usp=sharing
+    size: 1.39/1.49 GB
+    status: stable
+    changelog:
+      - A15 QPR2 com patch de junho
+      - Compartilhamento de energia corrigido
+      - Correções gerais
+    notes:
+      - VANILLA e GAPPS disponíveis
+    variants:
+      - label: Source
+        link: https://t.me/MotorolaEdge50Pro/144279
+
+  - name: DerpFest
+    version: Android 15
+    android: Android 15
+    author: Luke
+    origin: unofficial
+    date: 10/05/2025
+    link: https://drive.google.com/drive/folders/1l1hcang1y5hBGd71xhpPH0OfFilhhwDP?usp=drive_link
+    size: 2.31 GB
+    status: beta
+    changelog:
+      - Patch de segurança de maio
+      - Fonte atualizada
+    known_issues:
+      - USB tethering não funciona
+      - Vibração quebrada em recentes
+    notes:
+      - Sem root/KSU
+    variants:
+      - label: Fonte
+        link: https://t.me/MotorolaEdge50Pro/140408
+
+  - name: /e/OS
+    version: Android 15
+    android: Android 15
+    author: ronnz98
+    origin: unofficial
+    date: 03/10/2025
+    link: https://drive.google.com/drive/folders/1n_DxPf40GhDBw0P71QQ8R2wS-qZKg8CO?usp=sharing
+    size: 1.77 GB
+    status: stable
+    notes:
+      - ROM focada em privacidade, sem Google
+    variants:
+      - label: Fonte
+        link: https://community.e.foundation/t/unofficial-build-motorola-edge-50-pro-eqe-for-e-os-a15-3-2/76577
+
+  - name: AxionAOSP
+    version: Android 16
+    android: Android 16
+    author: KalpShah.dev
+    origin: unofficial
+    date: 31/12/2025
+    link: https://drive.google.com/drive/folders/1hvgEf8kPYIRq0Kn5lIG4C8kWvv2hvJp_
+    size: 2.05 GB
+    status: beta
+    notes:
+      - Build em desenvolvimento (BETA)
+    variants:
+      - label: Fonte
+        link: https://t.me/MotorolaEdge50Pro/172039
+      - label: Guia de instalação
+        link: https://hackmd.io/@SamarV-121/rycBLPxKJx
+
+  - name: Evolution X
+    version: Android 16
+    android: Android 16
+    author: Peace
+    origin: unofficial
+    date: 07/11/2025
+    link: https://drive.serverhive.in/drive/wRAk5FvKXHwYaStZ6rW4dpRb/eqe/2025-11-07/EvolutionX-16.0-20251107-eqe-11.4-Unofficial.zip
+    size: 2.8 GB
+    status: stable
+    changelog:
+      - Moto Camera adicionada (experimental)
+      - Fontes atualizadas
+    notes:
+      - Patch de segurança de novembro
+      - Build tipo user
+    variants:
+      - label: Fonte
+        link: https://t.me/MotorolaEdge50Pro/165025

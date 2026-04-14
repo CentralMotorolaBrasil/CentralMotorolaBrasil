@@ -1,15 +1,55 @@
-- name: MGC_8.1.101_A9_GV2b_MGC
-  version: "8.1.101"
+- name: SGCAM_8.5.300.XX.10_STABLE_V24_ENG_PACKAGE
+  version: "SGCAM_8.5.300.XX.10_STABLE_V24_ENG_PACKAGE"
+  author: Shamin
+  date: 07/01/2026
+  link: https://drive.google.com/file/d/1ySpv_GTR4qxxlcN9Cu0j8mzlYjvWijFM/view?usp=sharing
+  size: 164.5 MB
+  recommended: true
+
+- name: MGC_9.3_Snap
+  version: "9.3"
   author: BSG
-  date: 31/05/2022
-  link: https://files.gcambrasil.com.br/devs/bsg/changelog220531/MGC_8.1.101_A9_GV2b_MGC.apk
-  size: 81.2 MB
+  date: 07/06/2025
+  link: https://drive.google.com/uc?export=download&id=1n8MPUX_BFUafjpzenRePpAnirtmUmQX9
+  size: 411 MB
+  recommended: true
+
+- name: MGC_9.4_Snap
+  version: "9.4"
+  author: BSG
+  date: 10/10/2025
+  link: https://1-dontsharethislink.celsoazevedo.com/file/filesc/MGC_9.4.103_V17_snap.apk
+  size: 381 MB
+  recommended: true
+
+- name: MGC_9.4.103_V22
+  version: "9.4.103/V22"
+  author: BSG
+  date: 15/11/2025
+  link: https://1-dontsharethislink.celsoazevedo.com/file/filesc/MGC_9.4.103_V22_snap.apk
+  size: 380 MB
   recommended: true
 
 - name: SGCAM_8.4.400.42.XXX_STABLE_V43
-  version: "8.4.400.42"
+  version: "8.4"
+  author: Shamim
+  date: 25/12/2022
+  link: https://gcambrasil.com.br/devs/shamim/changelog221225/SGCAM_8.4.400.42.XXX_STABLE_V43.apk
+  size: 204 MB
+  recommended: false
+
+- name: SGCAM_9.4.103_Snap
+  version: "9.4.103"
   author: Shamin
-  date: 18/12/2022
-  link: https://files.gcambrasil.com.br/devs/shamim/changelog221225/SGCAM_8.4.400.42.XXX_STABLE_V43.apk
-  size: 134 MB
+  date: 14/06/2025
+  link: https://files.gcambrasil.com.br/devs/bsg/changelog251108/MGC_9.4.103_V21_snap.apk
+  size: 381 MB
+  recommended: true
+
+- name: SGCAM_8.5.300.XX.10_STABLE_V2
+  version: "8.5.300.10/V2"
+  author: Shamim
+  date: 14/11/2025
+  link: https://1-dontsharethislink.celsoazevedo.com/file/filesc/SGCAM_8.5.300.XX.10_STABLE_V2.apk
+  size: 160 MB
   recommended: true

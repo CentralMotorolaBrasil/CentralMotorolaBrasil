@@ -112,3 +112,1024 @@
   variants:
     - label: Tutorial
       link: https://t.me/fogosamigosgandos/31
+
+# Moto G34 (fogos) — ROMs
+# Convertido do romsData.motog34
+
+- name: Infinity X
+  version: "3.9"
+  android: Android 16
+  author: Shipu
+  origin: unofficial
+  date: 05/04/2026
+  link: https://drive.google.com/drive/folders/1maVANwWSXJ-rQ4vRXpvqMyW8tFY3iX9_?usp=sharing
+  size: 1.6 GB
+  status: stable
+  changelog:
+    - Revert back to EvoX Dolby
+    - Add statusbar/lockscreen dynamic bar implementation
+    - Add App drawer customizations and tunings
+    - Add Toggle to launch notification apps in bubble or floating screen
+    - Add optional toggleable Classic style QS Panel along with tile shapes
+    - Allow switching to default Android 16 brightness slider style
+    - Add detailed Idle manager with advanced per-app control
+    - Add 11 more Lockscreen custom clock styles
+    - Fix custom clock styles disappearing on tablets or landscape rotation
+    - Allow applying volume panel gradient customization to extended style
+    - Allow showing Volume percentage on extended and expanded volume panel
+    - Add toggle to kill Flash SMS messages
+    - Simplify Always-on-Display charging checks
+    - Remove QS boost hints that lead to battery drain / heat
+    - Remove unnecessary scrolling boost hints that lead to battery drain / heat
+    - Add back lockscreen weather wind and humidity info from v3.7
+    - Remove ongoing media chip — fixes systemui crash with media chip enabled
+    - Add optional Glow effect in notch ring
+    - Add music playback progress in cutout ring
+    - Improve padding for search icon in app drawer search bar
+    - Add launcher wallpaper carousel
+    - Fix default fonts display for regular and headline in QS Panel
+    - Fix NPE in CallListener Gamespace
+    - Fix scrolling in recovery image when touch is rotated
+    - Allow changing size of custom clock styles
+    - Fix PlanesLockGuard buffer lock leak in av
+    - Fix preferences in launcher3 icon pack fragment turning purple
+    - Hide VmTerminal fragment if device doesn't support it
+    - Improvements on memory usage and battery backup
+    - Tried adding Lunaris Dolby
+  notes:
+    - "Trees: LineageOS, TheMuppets"
+    - "Server: Crave"
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1kBqF2EFeZ9VdL8p0kjD-qU1WJeJn3_uF?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/226413
+
+- name: "Oxygen OS | PORT"
+  version: "16.0.2"
+  android: Android 16
+  author: randomprot
+  origin: unofficial
+  date: 04/04/2026
+  link: https://gofile.io/d/WZ2opB
+  size: 5.7 GB
+  status: beta
+  known_issues:
+    - Volte
+    - Dolby effect
+    - Usuários relataram que o uso em dispositivos com 4GB e até 8GB de RAM não está favorável — esperado em PORTs
+  notes:
+    - Face unlock, priv safe e hidden app corrigidos
+    - Added kaoriostoolbox
+    - Ao flashear a ROM você concorda que sua garantia é anulada e o faz por sua conta e risco
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1HV46Uf2g6n1OkJAR2X7UnhBIWWevafJc?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/226447
+
+- name: Lunaris OS
+  version: "3.9"
+  android: Android 16
+  author: JNW_SG
+  origin: official
+  date: 03/04/2026
+  link: https://drive.usercontent.google.com/download?id=16J8ieaQkpJ-6_l2uN4e5OPOxVnIcPm61&export=download
+  size: 2.28 GB
+  status: stable
+  changelog:
+    - Allow choose custom color/gradient for clock chip
+    - Media chip popup follow qs seekbar style
+    - Vol. percentage in redesigned style
+    - Add basic sleep mode
+    - Allow switch to legacy statusbar icon order
+    - Implement proper UI for per-app spoofing
+    - Add battery indicator, glow effect, music indicator in notch ring
+    - Allow changes launcher hotseat QSB style
+    - Introduce appdrawer app & searchbar styles
+    - Add option to clear home screen in settings
+    - Add idle manager (like greenify)
+    - Allow set custom color in app drawer bg
+    - Add method to block PairIP license check activity
+    - Add torch toggle for double tap power gesture
+    - Implement new dynamic VoLTE/VoWiFi and VoNR status bar icons
+    - Allow disable flash SMS messages
+    - Add classic a11 like QS panel style
+    - Add 24 new clock style and many improvements
+    - Lockscreen widget improvements
+    - Add lockscreen now playing popup dialog
+    - Enable bubble notification app
+    - Allow disable qs media player
+    - Introduce navbar pill auto-hide (for launcher3 only)
+    - Improve app scrolling
+    - Many UI related bugfixes
+    - Merge arm-optimization and lineage changes
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1BNdzqcylaWGJQyMckhN32pSbw-S5JmJq?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/226386
+
+- name: Halcyon
+  version: periódico
+  android: Android 16
+  author: herobuxx
+  origin: official
+  date: Periodicamente
+  link: https://drive.google.com/drive/folders/1yaLxgGQIGXoagMRKGtEtVOed_KGQZCDP?usp=sharing
+  size: 2.30 GB
+  status: stable
+  notes:
+    - O link é atualizado automaticamente para a versão mais recente da ROM
+  variants:
+    - label: Página oficial
+      link: https://get.hlcyn.org/builds
+
+- name: Ayaka UI
+  version: Março 2026
+  android: Android 16
+  author: Akari
+  origin: official
+  date: 29/03/2026
+  link: https://drive.google.com/drive/folders/1zESOLwwqGzsztucvih0pzf1mG8of55Mr?usp=sharing
+  size: 2.21 GB
+  status: stable
+  changelog:
+    - Signed rom by default
+    - Fixed voip calls without audio
+    - Updated fp/certification to Pixel 10 model
+    - Droped partially livedisplay
+    - Switch kernel to sedona trees
+    - Fixed noises in whatsapp video call
+  notes:
+    - OSS based
+    - GApps build
+    - "SELinux: Enforcing"
+    - Dolby Atmos e Moto Camera incluídos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Brasil/664289
+
+- name: Axion OS
+  version: v2.5
+  android: Android 16
+  author: Shipu
+  origin: unofficial
+  date: 28/03/2026
+  link: https://drive.google.com/drive/folders/1QSoqNMT1n-gL3XrJwCAGB3qcjRbNom6g?usp=sharing
+  size: 2.32 GB
+  status: stable
+  notes:
+    - "Trees: LineageOS"
+    - "Server: Crave"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/225099
+
+- name: Mist OS
+  version: "4.5 Velour"
+  android: Android 16
+  author: jinwoo
+  origin: official
+  date: 24/03/2026
+  link: https://drive.usercontent.google.com/download?id=1qkWJLKw-hv6-inkR6M58fBxigIm3r7Sl&export=download
+  size: 2.44 GB
+  status: stable
+  changelog:
+    - Initial Official Release
+    - March 2026 Security Patch
+    - Fixed DT2W
+    - Fixed black screen issue with fingerprint unlocking
+    - Switched to Sedona Kernel
+    - Implemented DeviceAsWebcam
+    - Set CPU UP_Rate_Limit to 0 For INTERACTIVE
+    - Dropped Lineage LiveDisplay
+    - QPR2 March Patch
+    - Monet Settings / Now playing / Depth Wallpaper / Wallpaper Glymps
+    - Volume Styles / Smart Pixels / Cutout Progress Ring
+    - Status Bar Action Chip / Lockscreen Custom Clock / Lockscreen Widget
+    - Custom AOD / Shake Gestures / QS tiles Shapes
+    - Custom Recent Panel / Single tone QS / QS panel Scrims
+    - Edge Light / Sensor block / Custom font & prebuild fonts
+    - Changing animations / Charging Ripple Animations
+    - More bug fixes and improvements
+  notes:
+    - OSS based
+    - GApps build
+    - "SELinux: Enforcing"
+    - Dirty flash from previous release is fine
+    - Dolby Atmos e Moto Camera incluídos
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/file/d/15IAyOgFvmWk6kXkQrg53kNsJ3f1ou20V/view?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/224207
+
+- name: Mist OS
+  version: "4.5 Velour"
+  android: Android 16
+  author: Shipu
+  origin: unofficial
+  date: 16/03/2026
+  link: https://drive.google.com/drive/folders/1ioPLmY1iZtZPSNle6FzPVL1n0a6EjgmF?usp=sharing
+  size: 1.73 GB
+  status: stable
+  notes:
+    - "Trees: LineageOS, TheMuppets"
+    - "Server: Crave"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Brasil/663818
+
+- name: Voltage OS
+  version: v5.7
+  android: Android 16
+  author: TRIDEV099
+  origin: unofficial
+  date: 16/03/2026
+  link: https://drive.google.com/drive/folders/1R_rM_VQn18yTlip1-Q974rf64Ftq5GbL?usp=sharing
+  size: 1.4 GB
+  status: stable
+  changelog:
+    - Synced Latest Source
+    - Edge Light Added
+    - Camera Cutout Progress Added
+  notes:
+    - Vanilla Build
+    - OSS based
+    - "SELinux: Enforcing"
+    - Dolby Atmos e Moto Camera incluídos
+    - use sandbox (disponível no repositório junto ao download da ROM)
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1w49zxaJnQD_0mV5YChLdPx9R02BapxAn?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Brasil/663662
+
+- name: DerpFest
+  version: Android 16
+  android: Android 16
+  author: Shipu
+  origin: unofficial
+  date: 16/03/2026
+  link: https://drive.google.com/drive/folders/1NcDmNvzY6H6NZW4-5Gqmh4-5K6aMDGMf?usp=sharing
+  size: 2.26 GB
+  status: stable
+  notes:
+    - "Trees: LineageOS, TheMuppets"
+    - QPR2
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1X6tudhGsPOkdZ3KutOOD5egM4rZiaMTL?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Brasil/663654
+
+- name: Flux OS
+  version: Março 2026
+  android: Android 16
+  author: ringoshake
+  origin: official
+  date: 08/03/2026
+  link: https://drive.google.com/drive/folders/1dsw0tQpjtwI6TyulaeKjZhoZ6rnA_iO7?usp=sharing
+  size: 3.52 GB
+  status: stable
+  changelog:
+    - MapleTrees (Modo Lockless) / Per VMA Locks
+    - Algoritmo de Agendamento EEVDF Ajustado
+    - Adicionado suporte para undervolting do PMIC (desabilitado por padrão)
+    - CPU com Undervolt / LazyRCU / Erofs 6.1 / F2FS 6.1 / BFQ 6.1 / HZ=1000
+    - LZ4-1.10 acelerado para Arm64
+    - Algoritmo TCP Westwood / Agendador de Rede FQ Codel
+    - MultiGen LRU / LTO Completo / Otimizado O3
+    - Driver de GPU atualizado para v837 (de v530)
+    - Usar Vulkan para Renderização (Versão 1.3.295)
+    - Spoof de SoC para Snapdragon-8-Elite-Gen5
+    - Corrigido VoWifi e RCS
+    - Spoof de Dispositivo para Realme 14 5G para 120 FPS no FreeFire
+    - Google Fotos Ilimitado (Qualidade Original)
+    - Desbloquear recursos de 8GB RAM em dispositivos com 4GB
+    - Emojis do iPhone / Fonte Aprimorada / Desfoques em Todo Lugar
+    - Script de instalação aprimorado
+  notes:
+    - "Dev: Considere a otimização de dex assim que estiver disponível. Altere o BootSlot para A"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Global/1/6259
+
+- name: Axion OS
+  version: periódico
+  android: Android 16
+  author: Byben
+  origin: official
+  date: Periodicamente
+  link: https://www.axionos.org/
+  size: ~1.8 GB
+  status: stable
+  notes:
+    - Notas e Changelogs disponíveis no repositório oficial da ROM
+    - O site está conectado ao repositório oficial para fornecer sempre a versão mais recente
+  variants:
+    - label: Página oficial
+      link: https://www.axionos.org/
+
+- name: crDroid
+  version: "12.7"
+  android: Android 16
+  author: irawansalt
+  origin: unofficial
+  date: 02/03/2026
+  link: https://drive.google.com/drive/folders/1_ZtLt8L8B4Bx59LhNTsn015OV5o88m0s?usp=sharing
+  size: 1.4 GB
+  status: stable
+  changelog:
+    - Reverter apenas 64 bits (estava causando instabilidade com os blobs)
+    - Implementar gestos de toque único
+  known_issues:
+    - Auto HDR no MotCamera às vezes causa crashes — desabilite como solução
+    - Se encontrar mais, reporte com logs adequados
+  notes:
+    - "Firmware: V1UGS35H.75-14-3-5 (incluído)"
+    - Tipo Vanilla
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1y87a-EcWF1FqY95SILjIQxSn09aAgqUB?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Brasil/662940
+
+- name: Pixel OS
+  version: Janeiro 2026
+  android: Android 16
+  author: heybyben
+  origin: unofficial
+  date: 03/01/2026
+  link: https://drive.usercontent.google.com/download?id=1wkTKVLoSLdmSWn4KA1a-O665Wee2JXCl&export=download
+  size: 2.16 GB
+  status: stable
+  changelog:
+    - Lançamento inicial QPR2
+    - Inclui MotoCam
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/file/d/1jycdsFyfuqCXTCfPvT33LcBudoZjyOOd/view?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/220134
+
+- name: Axion OS
+  version: "2.4 Solace"
+  android: Android 16
+  author: nakchwal
+  origin: unofficial
+  date: 27/02/2026
+  link: https://drive.usercontent.google.com/download?id=1-fRGZ2CayKeJwcPMj5GLKSR16D8kWtUh&export=download
+  size: 1.75 GB
+  status: stable
+  changelog:
+    - Mudança para kernel Sedona / Removido DT2W
+    - Patch de segurança — Janeiro 2026
+    - Adicionados relógios cyberpunk 2077 e axion age
+    - Adicionado widget Axion de progresso do ano
+    - Adicionada restrição de localização falsa (mock location)
+    - Adicionado recurso de taxa de atualização por aplicativo
+    - Adicionada notificação para otimização dexopt
+    - Adicionados recursos always-on-display
+    - Adicionadas configurações de nível de desfoque e opacidade do drawer
+    - Corrigido e melhorado ax burst engine
+    - Melhorada velocidade do desbloqueio facial
+    - Corrigido throttling de top-app
+    - Corrigido recurso de forçar tela cheia
+    - Corrigido crash do google fotos
+    - Corrigidos problemas de animação udfps
+    - Corrigidos problemas do painel de volume
+    - Corrigidos atrasos/travamentos na expansão de todos os apps
+  notes:
+    - Baseado em OSS
+    - Build GApps
+    - "SELinux: Enforcing"
+    - Dolby Atmos e Moto Camera incluídos
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/file/d/1spTas-akche-6JS4EjWr-0yIk2f7Zc00/view?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/220195
+
+- name: Project Stoke
+  version: Fevereiro 2026
+  android: Android 16
+  author: ringoshake
+  origin: official
+  date: 17/02/2026
+  link: https://drive.google.com/file/d/1hoFuxlWhoIebqpn1Cb9bGDNnpizTjHHI/view?usp=sharing
+  size: 3.51 GB
+  status: stable
+  changelog:
+    - MapleTrees reaplicado (modo lockless)
+    - RCU 6.1 / BFQ 6.1
+    - Afinação KGSL e DRM IRQs para CPU 4 e 5
+    - Adicionado suporte para undervolting do PMIC
+    - Removido Face Unlock da Motorola
+    - Vulkan sendo usado
+    - EEVDF aprimorado e correções adicionais
+    - Adicionado suporte para FreeFire 120 FPS
+    - Outras otimizações diversas
+  notes:
+    - Você pode usar StokeModule para otimizar ainda mais
+    - Não use nenhum outro módulo de otimização
+    - Não use magisk ou apatch
+    - Suporte a KernelSu, KernelSuNext, RKSU, MKSU, SukiSuUltra (apenas 1 por vez)
+    - Recurso de economia de energia — abaixo de 20% vai para 90Hz e abaixo de 2% para 60Hz
+    - Por favor, instale google fotos ou alguma galeria após instalar
+    - Considere fazer dexoptimisation uma vez após instalar
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Brasil/661756
+
+- name: Euclid OS
+  version: periódico
+  android: Android 16
+  author: TRIDEV099
+  origin: official
+  date: Periodicamente
+  link: https://www.euclidos.org/downloads/fogos/
+  size: ~2.2 GB
+  status: stable
+  notes:
+    - Changelogs e Issues disponíveis no repositório oficial da ROM
+    - O site está sincronizado ao repositório Euclid automaticamente
+  variants:
+    - label: Página oficial
+      link: https://www.euclidos.org/downloads/fogos/
+
+- name: Axion OS
+  version: "2.4 Solace"
+  android: Android 16
+  author: Shipu
+  origin: unofficial
+  date: 04/02/2026
+  link: https://drive.google.com/file/d/1erw6rUNu3YS9wPS4sDIlOKrKotARZ0FW/view?usp=sharing
+  size: 1.65 GB
+  status: stable
+  changelog:
+    - Código-fonte atualizado (upstream)
+    - Release estável
+    - Problema nos níveis de volume corrigido
+    - Crashes aleatórios da System UI corrigidos
+    - Adicionado controle de desfoque em nível de janelas
+    - Algumas mudanças visuais e na interface
+    - Patch de segurança de janeiro
+  notes:
+    - Build baseada em OSS
+    - Build com GApps inclusos
+    - "SELinux: Enforcing"
+    - Dolby Atmos incluso
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/658900
+
+- name: DerpFest
+  version: Android 16 QPR2
+  android: Android 16
+  author: TRIDEV099
+  origin: unofficial
+  date: 05/02/2026
+  link: https://drive.google.com/file/d/19T4Pjv5qlXLO4XxvfhhUF53H-1LhyGJ9/view?usp=sharing
+  size: 1.2 GB
+  status: stable
+  changelog:
+    - Release inicial do Android 16 QPR2
+    - Patch de segurança de fevereiro
+  notes:
+    - Build baseada em OSS
+    - Build com GApps inclusos
+    - "SELinux: Enforcing"
+    - ROM utiliza EROFS com compressão LZ4
+    - Dolby Atmos e Moto Camera inclusos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/658639
+
+- name: Evolution X
+  version: "11.6"
+  android: Android 16
+  author: fawzydede
+  origin: unofficial
+  date: 28/01/2026
+  link: https://drive.google.com/file/d/1YM9XcQxj_c1mnnCrjmAAW24UIILpccmk/view?usp=sharing
+  size: 2.7 GB
+  status: stable
+  changelog:
+    - Fonte atualizada (sidebar, edge light removidos, vending spoofing, etc.)
+    - Suporte a OTA adicionado
+    - Atualização de 04/02/2026 com correções importantes de bugs
+  notes:
+    - Baseado em OSS / Build com GApps
+    - "SELinux: Enforcing"
+    - ROM no formato EROFS
+    - Dolby Atmos e Moto Camera incluídos
+    - Suporte a OTA — verifique em Configurações > Atualização do sistema
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/fogosdiscussion/12966
+
+- name: Pixel OS
+  version: Janeiro 2026
+  android: Android 16
+  author: Akari
+  origin: unofficial
+  date: 15/01/2026
+  link: https://drive.google.com/drive/folders/11TPYYnKb5hp2G4WyhGY04tTNlKo_ai_h?usp=sharing
+  size: 2.1 GB
+  status: stable
+  changelog:
+    - Backports de LRU mesclados no kernel
+    - RKSU incluído por padrão, com suporte a outras variantes do KernelSU
+    - Correções no gravador de tela e no descarte de notificações
+    - Opção para escolher a posição do painel de volume
+    - Reformulação e melhorias no Smartspace
+    - Novos ícones de rede (LTE+, 4G+, 5G SA)
+    - Dolby Atmos totalmente atualizado e modernizado
+    - Novo equalizador gráfico e equalizador inteligente do Dolby
+    - Tema Expressive e suporte a Material 3 no Dolby
+    - Melhor integração do Dolby com a interface do sistema
+  notes:
+    - Baseada em OSS / Build com GApps
+    - "SELinux: Enforcing"
+    - Dirty flash da versão anterior permitido
+    - Dolby Atmos e Moto Camera incluídos
+    - Integridade — não passa por padrão
+  variants:
+    - label: Tutorial de instalação
+      link: https://drive.google.com/drive/folders/17uEitTUBEQRLDiF7_8LHgEJ-zRd_vX3E?usp=drive_link
+    - label: Fonte / Telegram
+      link: https://t.me/akaristuffsgroup/274
+
+- name: Evolution X
+  version: "11.5"
+  android: Android 16
+  author: TRIDEV099
+  origin: unofficial
+  date: 09/01/2026
+  link: https://drive.google.com/drive/folders/1rxnO0cfryQ-XBZIPiC97l4McBIff-qWS?usp=sharing
+  size: 2.93 GB
+  status: stable
+  changelog:
+    - Patch de segurança de janeiro de 2026
+    - Problema do botão de energia corrigido
+    - Estalos de áudio e problema em chamadas do WhatsApp corrigidos
+    - Adicionado GameBar
+    - DT2W removido
+  notes:
+    - Baseada em OSS / Build com GApps
+    - "SELinux: Enforcing"
+    - Dolby Atmos e Moto Camera incluídos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/209762
+
+- name: LineageOS
+  version: "23.1"
+  android: Android 16
+  author: Anand
+  origin: unofficial
+  date: 01/01/2026
+  link: https://github.com/Motorola-SM6375-Devs/releases/releases/tag/23.1-20260101/signed-ota_update.zip
+  size: 1.31 GB
+  status: stable
+  changelog:
+    - Correção das personalizações de porcentagem da bateria
+    - Correção do seletor de papéis de parede
+    - Correção dos problemas restantes de VoIP
+    - Correção de reinicializações aleatórias
+    - Melhorias no desbloqueio facial
+  known_issues:
+    - "Integridade Play: não passa"
+  notes:
+    - Baseado em OSS / Build vanilla
+    - "SELinux: Enforcing"
+    - Moto Camera incluída
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/627368
+
+- name: crDroid
+  version: v12.5
+  android: Android 16
+  author: tiIt_rgb
+  origin: unofficial
+  date: 29/12/2025
+  link: https://drive.google.com/file/d/1nW_Roh21lQjdyc5in3JTPOpvFt_VQlDl/view?usp=sharing
+  size: 1.36 GB
+  status: stable
+  changelog:
+    - Lançamento inicial do A16 QPR1
+    - Patch de segurança de dezembro de 2025
+    - Troca para libperf
+    - Drivers da GPU Adreno atualizados
+  notes:
+    - Baseado em OSS / Build Vanilla
+    - "SELinux: Enforcing"
+    - Firmware incluído
+    - RKernelSU ativado por padrão (use RKSU Manager.apk)
+    - Para Play Integrity, importe uma keybox válida nas configurações do crDroid
+    - Dolby Atmos e Moto Camera incluídos
+    - "Tree: LineageOS"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/615215
+
+- name: PandaDroid
+  version: Android 16 QPR2
+  android: Android 16
+  author: "Vishal e NotKerd"
+  origin: official
+  date: 25/12/2025
+  link: https://drive.google.com/drive/folders/13HJ4XDiSDdhT_H9GWUQmxIyzFnMoHfuY?usp=sharing
+  size: 2.4 GB
+  status: stable
+  changelog:
+    - Lançamento inicial A16 QPR2
+    - Adicionada Moto Camera e animação de boot própria
+    - NFC HAL não carrega em variantes fogos sem NFC
+    - DT2W corrigido para G45
+    - Corrigidos crashes do serviço de GPU e da SystemUI
+    - Corrigido problema de deep sleep reduzido
+    - Corrigido problema do Hotspot não funcionar
+    - Blurs otimizados mantendo baixo consumo de energia
+    - Melhorias no áudio
+  notes:
+    - Baseado em OSS / Build com GApps
+    - "SELinux: Enforcing"
+    - Firmware mais recente / Moto Camera incluída
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/605968
+
+- name: Project Sakura
+  version: "16.0"
+  android: Android 16
+  author: nakchwal
+  origin: unofficial
+  date: 19/12/2025
+  link: https://drive.serverhive.in/drive/0fwfGfghymv9cwgChrao9vgH/fogos/2025-12-18/ProjectSakura-16.0-20251218-1737-GAPPS-fogos-UNOFFICIAL.zip
+  size: 1.4 GB
+  status: stable
+  changelog:
+    - Lançamento inicial
+  known_issues:
+    - DT2W removido
+    - Lags ao utilizar blur
+  notes:
+    - Baseada em OSS / Build com GApps
+    - "SELinux: Enforcing"
+    - Desative o blur para melhor fluidez
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/600797
+
+- name: Orion OS
+  version: Android 16
+  android: Android 16
+  author: Hirokixd28
+  origin: unofficial
+  date: 16/12/2025
+  link: https://drive.google.com/file/d/1O4GfFzFlSD4tEoZWi_6HSJ6FDT-FDRFU/view?usp=sharing
+  size: 2.24 GB
+  status: stable
+  changelog:
+    - Build inicial do OrionOS para o dispositivo fogos
+  notes:
+    - Baseada em OSS / Build com GApps
+    - "SELinux: Enforcing"
+    - Dolby Atmos e Moto Camera incluídos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/200298
+
+- name: AlphaDroid
+  version: Android 16
+  android: Android 16
+  author: nakchwal
+  origin: official
+  date: 05/12/2025
+  link: https://drive.google.com/file/d/1qe_1x89XtUzt4SHfzV1DXd7Tq4y11XeL/view
+  size: 2.3 GB
+  status: stable
+  changelog:
+    - Correção no problema do botão de energia
+    - Blur habilitado por padrão
+    - Adicionadas personalizações extras
+    - Travamentos incomuns resolvidos
+    - Muitas outras otimizações
+  notes:
+    - Base OSS / Build com GApps
+    - "SELinux: Enforcing"
+    - Dolby Atmos e Moto Camera NÃO incluídos
+    - GameBar e OuterTune incluídos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/580014
+
+- name: The Clover Project
+  version: "3.3"
+  android: Android 16
+  author: Akarizao
+  origin: unofficial
+  date: 28/11/2025
+  link: https://pixeldrain.com/l/ZKSS6Thw
+  size: 2.28 GB
+  status: stable
+  changelog:
+    - GameBar implementada / PowerHint implementado
+    - Correção de chamadas em jogos como Free Fire
+    - PowerHint reescrito e ajustado para maior fluidez
+    - Correção do bug de tela preta ao pressionar botão lateral (FogOS)
+    - Correção de ausência de áudio no microfone em chamadas e Discord
+    - Correção do atraso no áudio do microfone em chamadas VoIP
+    - Mudança para libperfmgr / QTI Perf removido
+  notes:
+    - GApps incluído / Base LineageOS
+    - MotoCam incluída / Enforcing e UserDebug
+    - Veja o tópico no XDA para instruções
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/572219
+
+- name: "StatiX OS | BETA"
+  version: Android 16 QPR1
+  android: Android 16
+  author: XxxVishalxxX
+  origin: unofficial
+  date: 23/11/2025
+  link: https://gofile.io/d/ZUuVQ9
+  size: 2.6 GB
+  status: beta
+  changelog:
+    - Build A16 QPR1
+    - Correção dos efeitos Live
+    - Desative o Auto HDR na MotoCam (caso contrário fará fotos de 0.7MP)
+    - Integridade não funciona
+  notes:
+    - Baseada em OSS / Build com GApps
+    - "SELinux: Enforcing"
+    - Recomendado clean flash se vier de outra ROM
+    - Dirty flash funciona se vier da última build StatixOS
+    - Moto Camera incluída / Use o TWRP para instalar
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/571243
+
+- name: Rising OS
+  version: Android 16
+  android: Android 16
+  author: nakchwal
+  origin: unofficial
+  date: 26/11/2025
+  link: https://gofile.io/d/gLcqXr
+  size: 1.4 GB
+  status: stable
+  changelog:
+    - Patch de segurança de Novembro
+    - Migração do device tree para o oficial da LineageOS
+    - Brilho automático corrigido / GameBar adicionada
+    - KernelOSS atualizado para 5.4.300
+    - Contador de ciclos de bateria ativado
+    - Ajuste dos thresholds de taxa de quadros para 120Hz
+    - Haptic feedback no cursor de texto ativado
+    - Suporte a múltiplos níveis de intensidade de vibração
+    - Dolby Atmos removido / Necessário Clean Flash
+  notes:
+    - Base OSS
+    - Para GApps usar NickGapps variante core
+    - "SELinux: Enforcing"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog34official/196618
+
+- name: LumineDroid
+  version: periódico
+  android: Android 16
+  author: Byben
+  origin: official
+  date: Periodicamente
+  link: https://luminedroid.pages.dev/download/fogos
+  size: ~2.1 GB
+  status: stable
+  notes:
+    - Para integridade, vá em Configurações e importe seu PIF e Keybox válidos
+    - Como ROM oficial, a versão mais recente sempre estará disponível via repositório oficial
+  variants:
+    - label: Página oficial
+      link: https://luminedroid.pages.dev/download/fogos
+
+- name: LMODroid
+  version: "6.2"
+  android: Android 15
+  author: LibreMobileOS
+  origin: official
+  date: Semanalmente
+  link: https://get.libremobileos.com/devices/fogos/builds
+  size: ~1 GB
+  status: stable
+  notes:
+    - O link é atualizado automaticamente para a versão mais recente da ROM
+  variants:
+    - label: Página oficial
+      link: https://get.libremobileos.com/devices/fogos/builds
+
+- name: LineageOS
+  version: nightly
+  android: Android 16
+  author: LineageOS Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/fogos/builds
+  size: ~1 GB
+  status: stable
+  notes:
+    - O link é atualizado automaticamente para a versão mais recente da ROM
+  variants:
+    - label: Página oficial
+      link: https://download.lineageos.org/devices/fogos/builds
+
+- name: YAAP Voyager
+  version: Android 16
+  android: Android 16
+  author: "@XxxVishalxxX"
+  origin: unofficial
+  date: 18/08/2025
+  link: https://drive.google.com/uc?export=download&id=1Mwp06uqf_og2NJH7AlqIK-aVb2VkqjC4
+  size: 1.4 GB
+  status: stable
+  notes:
+    - Agradecimentos aos Devs da Motorola Sedona, testers e todos os autores respectivos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MadLaBDiscussion
+
+- name: Infinity X
+  version: Android 16
+  android: Android 16
+  author: Akarizao
+  origin: unofficial
+  date: 17/10/2025
+  link: https://pixeldrain.com/l/L29to7Pj
+  size: 1.4 GB
+  status: stable
+  changelog:
+    - Build Inicial / Changelog V3.2
+  notes:
+    - GApps e MotoCam incluídos
+    - Leia a Thread no XDA para mais informações
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/515811
+
+- name: /e/OS
+  version: "3.2"
+  android: Android 15
+  author: MarenaCommunity
+  origin: unofficial
+  date: 25/10/2025
+  link: https://images.ecloud.global/community/fogos/e-3.2-a15-20251025540112-community-fogos.zip
+  size: 1.4 GB
+  status: stable
+  variants:
+    - label: Repositório / Builds
+      link: https://images.ecloud.global/community/fogos/
+
+- name: SunOS
+  version: Android 15
+  android: Android 15
+  author: Irawansalt
+  origin: unofficial
+  date: 20/09/2025
+  link: https://drive.google.com/uc?export=download&id=1WTo-zHIfB39mMaz6AR6hdDtP9OgtDd5q
+  size: 1.3 GB
+  status: stable
+  changelog:
+    - Corrigido o problema de desligamento da tela em jogos e altas temperaturas
+    - Corrigidos problemas de volume ao fazer chamadas VoIP
+    - Inclui AOSPADolby
+  notes:
+    - Não inclui MotoCamera
+    - Para root com KernelSU-Next, flasheie boot-ksunext.img
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/483109
+
+- name: LineageOS
+  version: Android 15
+  android: Android 15
+  author: Irawansalt
+  origin: unofficial
+  date: 10/07/2025
+  link: https://drive.google.com/uc?export=download&id=17lYOIeu77sjOtVwEBqFJgvl-crEqv3OP
+  size: 1.2 GB
+  status: stable
+  changelog:
+    - Corrigido volume ficando no máximo mesmo no nível mais baixo em chamadas VoIP
+    - Corrigido problema de ausência de som ao mudar para alto-falante em chamadas VoIP
+    - Corrigido problema no microfone durante chamadas
+    - Corrigido estalo/ruído em alguns jogos
+    - Corrigido problema de desligamento automático da tela em jogos ou altas temperaturas
+  known_issues:
+    - O Auto HDR no MotoCamera às vezes causa travamentos — desative o HDR como solução
+  notes:
+    - Baseado em OSS / GApps incluídos / Build assinada
+    - "SELinux: Enforcing"
+    - Dolby Atmos e MotoCamera incluídos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/480142
+
+- name: MyUI 7 Lite
+  version: Android 15
+  android: Android 15
+  author: "Motorola Team, AndyLin"
+  origin: unofficial
+  date: 10/09/2025
+  link: https://drive.google.com/uc?export=download&id=1RfY3KBwBEvQEPaKFDaLriB429IPdikzS
+  size: 1.8 GB
+  status: beta
+  changelog:
+    - Removido todo o software lixo chinês, mantidos apenas apps da Moto
+    - Removidos os limites do Google Play Service
+    - Atualizado o launcher para a versão MyUI 8
+    - Efeitos de desfoque ativados por padrão
+    - Pré-rooteado com APatch
+  notes:
+    - Flashear via TWRP
+    - Ative o Play Service e baixe a Play Store e o APatch manualmente
+    - "A SuperKey do APatch é 114514Aa — pode ser alterada reaplicando o patch na imagem de boot"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34/456671
+
+- name: Helluva OS
+  version: Vallhound
+  android: Android 15
+  author: Vishal
+  origin: unofficial
+  date: 05/04/2025
+  link: https://drive.google.com/file/d/1YhJWyn9jORz7UTuW_OMGS0UbHW74pbPp/view?usp=sharing
+  size: 2.29 GB
+  status: stable
+  notes:
+    - ROM com GApps
+    - "Dev: se quiser bloquear o bootloader, não tente na versão de dezembro — apenas compatível com janeiro ou mais recente"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Global/10/2989
+
+- name: Project Pixelage
+  version: Android 15
+  android: Android 15
+  author: Black_luciferS
+  origin: unofficial
+  date: 16/12/2024
+  link: https://drive.google.com/file/d/1S2aKl_hHXxW_RdHliq-dk83J4X7iDw68/view?usp=sharing
+  size: 1.80 GB
+  status: stable
+  notes:
+    - Build com GApps
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Global/918/920
+
+- name: Voltage OS
+  version: Android 15
+  android: Android 15
+  author: SK01x
+  origin: unofficial
+  date: 11/11/2024
+  link: https://drive.google.com/file/d/1fORRanUpVsdTWzj24l9f6wrR6NSJZreN/view?usp=sharing
+  size: 1.22 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Global/355/357
+
+- name: 2by2
+  version: Android 14
+  android: Android 14
+  author: "lahaina_RMX3687, Vishal"
+  origin: unofficial
+  date: 28/07/2024
+  link: https://drive.google.com/file/d/1a-t27HNZ9J7Z4kBKQvg4uuSc0nrZ2Tlf/view?usp=sharing
+  size: 1.56 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Global/32/46
+
+- name: AOSP
+  version: Android 15
+  android: Android 15
+  author: Vishal
+  origin: unofficial
+  date: 06/09/2024
+  link: https://drive.google.com/file/d/12udaQIE2Y60zYIW-WoGHjntkdYTVX8T6/view?usp=sharing
+  size: 1.68 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG34Global/29/43

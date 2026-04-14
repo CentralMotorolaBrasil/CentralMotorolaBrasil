@@ -1,18 +1,19 @@
-- name: Sushi Kernel
-  version: 20260103-0316
-  author: Akari
-  date: 23/02/2026
-  link: https://t.me/AyakaUI/1081
-  size: 24.9 MB
-  features:
-    - Sushi Kernel
-    - fp not work yet (for chipone users).
-
 - name: Stoke Kernel
-  version: 20/01/2026
-  author: Project Stoke
-  date: Não definido.
+  version: "1.0"
+  author: AppleShake
+  date: 20/01/2026
   link: https://drive.google.com/uc?export=download&id=1YkS5tVdAjaCmNMskcYwAEk9e300QPiKz
   size: 19.7 MB
   features:
-    - Kernel para Stock
+    - Uso com a stock
+    - KernelSU
+    
+- name: sushi-うう Kernel
+  version: "sixteen"
+  author: Sushi ~ nightly
+  date: 03/01/2026
+  link: https://drive.google.com/file/d/1NrFMQh9_8V4yaFwYxYdudHpRYJOWReWV/view?usp=sharing
+  size: 24.9 MB
+  features:
+    - base MoeKernel
+    - KernelSU
