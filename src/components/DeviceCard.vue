@@ -16,7 +16,8 @@
           <div style="font-size:0.76rem;color:var(--text-secondary);">{{ device.chip }}</div>
         </div>
       </div>
-      
+
+      <!-- Content badges -->
       <div class="d-flex flex-wrap gap-2">
         <span v-if="device.roms.length" class="ch-badge stable" style="white-space:nowrap;">
           <i class="bi bi-android2 me-1"></i>{{ device.roms.length }} ROM{{ device.roms.length > 1 ? 's' : '' }}
@@ -34,6 +35,7 @@
           style="font-size:0.7rem;color:var(--text-muted);">Em breve...</span>
       </div>
 
+      <!-- Android version -->
       <div class="mt-2 pt-2" style="border-top:1px solid var(--border-color);">
         <span style="font-size:0.73rem;color:var(--text-muted);">
           <i class="bi bi-phone me-1"></i>{{ device.android }}
