@@ -118,11 +118,13 @@ function onImgErr(deviceId) {
   failedImages.value[deviceId] = true
 }
 
+const count = (key) => devices.reduce((a, d) => a + d[key].length, 0)
+
 const stats = [
-  { value: `${devices.length}+`,                                    labelKey: 'statDevices' },
-  { value: `${devices.reduce((a, d) => a + d.roms.length, 0)}+`,       labelKey: 'statRoms' },
-  { value: `${devices.reduce((a, d) => a + d.recoveries.length, 0)}+`, labelKey: 'statRecoveries' },
-  { value: `${devices.reduce((a, d) => a + d.gcams.length, 0)}+`,      labelKey: 'statGcams' },
+  { value: devices.length,        labelKey: 'statDevices'    },
+  { value: count('roms'),         labelKey: 'statRoms'       },
+  { value: count('recoveries'),   labelKey: 'statRecoveries' },
+  { value: count('gcams'),        labelKey: 'statGcams'      },
 ]
 
 const quickCategories = [
