@@ -38,7 +38,7 @@ const translations = {
     stableTag: 'v1.0 · Site estável',
     heroTitle1: 'Tudo para seu',
     heroTitle2: 'dispositivo Motorola',
-    heroSubtitle: 'ROMs customizadas, recoverys, GCams, kernels e tutoriais organizados por dispositivo.',
+    heroSubtitle: 'ROMs customizadas, recoveries, GCams, kernels e tutoriais organizados por dispositivo.',
     searchPlaceholder: 'Buscar dispositivo, ROM, tutorial...',
     btnExploreDevices: 'Explorar Dispositivos',
     btnSearch: 'Buscar',
