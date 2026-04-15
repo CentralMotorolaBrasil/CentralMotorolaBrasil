@@ -16,26 +16,24 @@
           <div style="font-size:0.76rem;color:var(--text-secondary);">{{ device.chip }}</div>
         </div>
       </div>
-
-      <!-- Content badges -->
+      
       <div class="d-flex flex-wrap gap-2">
-        <span v-if="device.roms.length" class="ch-badge stable">
+        <span v-if="device.roms.length" class="ch-badge stable" style="white-space:nowrap;">
           <i class="bi bi-android2 me-1"></i>{{ device.roms.length }} ROM{{ device.roms.length > 1 ? 's' : '' }}
         </span>
-        <span v-if="device.recoveries.length" class="ch-badge beta">
+        <span v-if="device.recoveries.length" class="ch-badge beta" style="white-space:nowrap;">
           <i class="bi bi-arrow-counterclockwise me-1"></i>Recovery
         </span>
-        <span v-if="device.gcams.length" class="ch-badge recommended">
+        <span v-if="device.gcams.length" class="ch-badge recommended" style="white-space:nowrap;">
           <i class="bi bi-camera me-1"></i>GCam
         </span>
-        <span v-if="device.kernels.length" style="background:rgba(99,102,241,0.15);color:#818cf8;" class="ch-badge">
+        <span v-if="device.kernels.length" class="ch-badge" style="background:rgba(99,102,241,0.15);color:#818cf8;white-space:nowrap;">
           <i class="bi bi-cpu me-1"></i>Kernel
         </span>
-        <span v-if="!device.roms.length && !device.recoveries.length && !device.gcams.length" 
+        <span v-if="!device.roms.length && !device.recoveries.length && !device.gcams.length"
           style="font-size:0.7rem;color:var(--text-muted);">Em breve...</span>
       </div>
 
-      <!-- Android version -->
       <div class="mt-2 pt-2" style="border-top:1px solid var(--border-color);">
         <span style="font-size:0.73rem;color:var(--text-muted);">
           <i class="bi bi-phone me-1"></i>{{ device.android }}
@@ -52,7 +50,7 @@ defineProps({ device: Object })
 
 const imageFailed = ref(false)
 
-function onImgErr(e) {
+function onImgErr() {
   imageFailed.value = true
 }
 </script>
