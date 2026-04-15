@@ -1,0 +1,51 @@
+- name: MGC 8.7
+  version: 8.7.250/V15a
+  author: BSG
+  date: 01/04/2023
+  link: https://1-dontsharethislink.celsoazevedo.com/file/filesc/MGC_8.7.250_A11_V15a_MGC.apk
+  size: 367 MB
+  recommended: false
+  notes:
+    - Versão estável da série 8.7.250
+    - "Múltiplas variantes de package ID disponíveis: MGC, Snap, ENG, Aweme, Scan3D"
+    - Compatível com Android 11+
+- name: MGC 8.9
+  version: 8.9.097/V15
+  author: BSG
+  date: 28/10/2023
+  link: https://1-dontsharethislink.celsoazevedo.com/file/filesc/MGC_8.9.097_A11_V15_MGC.apk
+  size: 290 MB
+  recommended: false
+  notes:
+    - Versão estável e altamente configurável
+    - "Suporte a múltiplos package IDs: MGC, Snap, ENG, Aweme, Scan3D"
+    - Compatível com Android 11+
+    - Recomendado usar LibPatcher para otimizar performance
+- name: SGCAM 8.4
+  version: 8.4.400/STABLE_V43
+  author: Shamim
+  date: 25/12/2022
+  link: https://files.gcambrasil.com.br/devs/shamim/changelog221225/SGCAM_8.4.400.42.XXX_STABLE_V43.apk
+  size: 134 MB
+  recommended: false
+  notes:
+    - Versão estável recomendada
+    - >-
+      Suporte a múltiplos package IDs: com.shamim.cam, org.codeaurora.snapcam, com.google.android.GoogleCameraEng,
+      com.ss.android.ugc.aweme, com.samsung.android.ruler, com.samsung.android.scan3d
+    - Primeira versão ESTÁVEL da série 8.4.400 com suporte a watermark
+- name: LMC 8.3
+  version: 8.3/Release_2
+  author: Hasli
+  date: 31/10/2024
+  link: https://drive.google.com/file/d/1IQpgfKRzMZPS7RWTV5nvVdxtB7XuE57c/view?usp=sharing
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Versão estável baseada em colaboração comunitária
+    - Trabalho colaborativo incluindo contribuições de Shamim, Xenius, BSG, BigKaka, Arnova8G2
+    - "Múltiplas variantes de package ID disponíveis: LMC, Scan3D, Aweme, Meitu, Snap, GLens, Samsung"
+    - Compatibilidade com Android 10+
+    - Suporte profissional com controles avançados de fotografia
+    - XMLs de configuração disponíveis por dispositivo
+    - Se Google Play Protect avisar, clique 'Mais Detalhes' e 'Instalar Mesmo Assim'

@@ -1,0 +1,448 @@
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: Lineage Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/rhodep/builds#:~:text=more%20info.,Latest
+  size: ~1.1 GB
+  status: stable
+  notes:
+    - Changelogs, notas e mais, disponíveis no repositório oficial da ROM
+    - >-
+      Como uma ROM oficial, nosso site é integrado diretamente ao repositório oficial Lineage, e portanto, sempre que
+      uma nova atualização for postada, estará automaticamente disponível aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://wiki.lineageos.org/devices/rhodep/
+- name: LMDroid
+  version: Android 15
+  android: Android 15
+  author: LMDroid Team
+  origin: official
+  date: Semanalmente
+  link: https://get.libremobileos.com/devices/rhodep/builds#:~:text=You%20can%20verify,Latest
+  size: ~1.2 GB
+  status: stable
+  notes:
+    - >-
+      Como uma ROM oficial, nosso site é integrado diretamente ao repositório oficial LMDroid, e portanto, sempre que
+      uma nova atualização for postada, estará automaticamente disponível aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://get.libremobileos.com/devices/rhodep/builds
+- name: /e/os
+  version: Android 15
+  android: Android 15
+  author: MurenaCommunity
+  origin: official
+  date: Periodicamente
+  link: >-
+    https://images.ecloud.global/community/rhodep/#:~:text=Android%2015-,e%2D3.5%2Da15%2D20260212581008%2Dcommunity%2Drhodep.zip,-%5Bmd5%20%7C
+  size: ~1.4 GB
+  status: stable
+  notes:
+    - >-
+      Como uma ROM oficial, nosso site é integrado diretamente ao repositório oficial Murena, e portanto, sempre que uma
+      nova atualização for postada, estará automaticamente disponível aqui
+  variants:
+    - label: Build anterior
+      link: >-
+        https://images.ecloud.global/community/rhodep/#:~:text=%5BSHA256%5D-,e%2D3.4%2Da15%2D20260115569564%2Dcommunity%2Drhodep.zip,-%5Bmd5%20%7C
+    - label: Fonte / Telegram
+      link: https://doc.e.foundation/devices/rhodep
+- name: Project Clover
+  version: Android 16
+  android: Android 16
+  author: ProjectClover Team
+  origin: official
+  date: Periodicamente
+  link: https://thecloverproject.com/download/rhodep#:~:text=Source%20Changelog-,Latest%20Release,-Clover%20v3.5
+  size: ~2.16 GB
+  status: stable
+  notes:
+    - >-
+      Como uma ROM oficial, nosso site é integrado diretamente ao repositório oficial Project Clover, e portanto, sempre
+      que uma nova atualização for postada, estará automaticamente disponível aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://thecloverproject.com/download/rhodep
+- name: Evolution X
+  version: Android 15
+  android: Android 15
+  author: Deivid21
+  origin: official
+  date: Periodicamente
+  link: https://evolution-x.org/devices/rhodep
+  size: ~2.49 GB
+  status: stable
+  notes:
+    - >-
+      Como uma ROM oficial, nosso site é integrado diretamente ao repositório oficial EvolutionX, e portanto, sempre que
+      uma nova atualização for postada, estará automaticamente disponível aqui
+- name: Derpfest
+  version: Android 13
+  android: Android 13
+  author: Derpfest Team
+  origin: official
+  date: Periodicamente
+  link: https://derpfest.org/devices#:~:text=Copy%20curl-,Motorola%20Moto%20G52%20%26%20G42%20%26%20G82,-(rhode)
+  size: ~1.26 GB
+  status: stable
+  notes:
+    - >-
+      Como uma ROM oficial, nosso site é integrado diretamente ao repositório oficial Derpfest, e portanto, sempre que
+      uma nova atualização for postada, estará automaticamente disponível aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://derpfest.org/devices
+- name: Axion OS
+  version: Android 16
+  android: Android 16
+  author: akky_sharma
+  origin: unofficial
+  date: 10/01/2026
+  link: https://derpfest.org/devices#:~:text=Copy%20curl-,Motorola%20Moto%20G52%20%26%20G42%20%26%20G82,-(rhode)
+  size: 1.43/1.79 GB
+  status: stable
+  changelog:
+    - Kernel atualizado (NovaBlade) que é o lineage mais recente com algumas melhorias adicionais
+    - Tempo de abertura e fechamento de aplicativos melhorado
+    - Melhoria menor no desfoque com fluidez do SystemUI
+    - kernelsu next 1.1.1 integrado (para usuários root, apenas instale o gerenciador ksun 1.1.1 e continue)
+    - Integridade passa sem root com json válido e keybox
+    - Não precisa de Apatch, Magisk, etc para root
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog82updateschannel/396
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: AnandSuresh02
+  origin: unofficial
+  date: 03/01/2026
+  link: https://drive.google.com/drive/folders/1XZYivqqOohhnHNkuCS90iumN-fymuatt?usp=sharing
+  size: 1.24 GB
+  status: stable
+  changelog:
+    - Corrigidas personalizações de porcentagem da bateria
+    - Corrigido seletor de papel de parede
+    - Corrigidas reinicializações aleatórias relatadas por alguns usuários
+    - Melhorias no desbloqueio facial
+  notes:
+    - Baseado em OSS
+    - Build somente VANILLA disponível em nosso repositório para Download
+    - "SELinux: Enforcing"
+    - Moto Camera está incluída
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog82updateschannel/393
+- name: Pixel OS
+  version: Android 16
+  android: Android 16
+  author: akky_sharma
+  origin: unofficial
+  date: 03/01/2026
+  size: 2.11 GB
+  status: stable
+  changelog:
+    - "Em adição a isto: Link"
+    - Pixel OS limpo
+    - Recursos de Spoofing
+    - Backup ilimitado no Google Fotos
+    - Nova animação de inicialização
+    - Tema do menu de reinicialização avançado mudando de acordo com o tema
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/akkybuilds/43
+- name: Infinity X
+  version: Android 16
+  android: Android 16
+  author: akky_sharma
+  origin: unofficial
+  date: 29/12/2025
+  link: https://mega.nz/folder/y5YH0IrA#Fs3qoETesW3lFverzvAP1Q
+  size: 1.34/1.67 GB
+  status: stable
+  changelog:
+    - Kernel atualizado (NovaBlade) que é o lineage mais recente com algumas melhorias adicionais
+    - Tempo de abertura e fechamento de aplicativos melhorado
+    - Melhoria menor no desfoque com fluidez do SystemUI
+    - kernelsu next 1.1.1 integrado (para usuários root, apenas instale o gerenciador ksun 1.1.1 e continue)
+    - Integridade passa sem root com json válido e keybox
+    - Não precisa de Apatch, Magisk, etc para root
+    - Merge tag 'android-16.0.0_r3' (QPR1) [Rebase completa da fonte]
+    - Efeitos de desfoque desabilitados por padrão como mencionado acima
+    - >-
+      Melhorias importantes no GameSpace - melhorias no overlay de chamadas da statusbar / permitir desabilitar
+      notificações heads-up / melhorias no layout de notificações danmaku / novo layout do painel gamespace e muito mais
+      correções e melhorias
+    - >-
+      Removidos alguns recursos devido à incompatibilidade com QPR1 como controle de volume por app / passos de volume /
+      pacotes de ícone de tema da statusbar / estilos de bateria (em prol da nova statusbar qpr1) / tile nothingos de
+      toque / textview do painel de volume / fontes do relógio no lockscreen / estilos de animação do sistema /
+      cabeçalhos de relógio no QS / timeout bluetooth
+    - Corrigida alternância de fixar player de mídia no painel QS
+    - Fazer estilos de chip de relógio da statusbar serem aplicados sem necessidade de reiniciar systemui
+    - "Melhorias no recurso Force LTE CA (autor: userariii)"
+    - "Corrigido uso excessivo de localização pelo daemon de clima (autor: neobuddy89)"
+    - >-
+      Corrigido um caso ocasional onde apenas o painel de notificações era mostrado ao puxar para baixo sem os tiles
+      (autor: hellboy017)
+    - "Adicionado novo estilo de renderização pulse (autor: Ghosuto)"
+    - Corrigidas alternâncias do smart pixels resetando ao sair da página
+    - Corrigido problema onde lawnicons não era aplicado como ícones temáticos diretamente após o primeiro boot
+    - Adicionado de volta resumo de estimativa de tempo da bateria abaixo da barra de uso na seção de bateria
+  notes:
+    - A fonte para o @ProjectInfinityX v3.6 (QPR1) foi enviada para o branch 16
+    - A fonte v3.6 é uma atualização completamente rebaseada da v3.5 para v3.6, seguindo o AOSP Android 16 QPR1
+    - >-
+      Apesar das mudanças massivas na base de código, garantimos que os usuários podem atualizar com segurança da v3.5
+      para v3.6 via OTA ou dirty flash, sem necessidade de formatar dados
+    - Manter atualizações sem forçar limpezas de dados é e sempre será uma de nossas principais prioridades
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog82updateschannel/389
+- name: Panda Droid
+  version: Android 16
+  android: Android 16
+  author: Vishal, NotKerd
+  origin: official
+  date: 05/12/2025
+  link: https://mega.nz/file/LhhDhJ7K#WzM8Mwzu72t_0UtNMzWjrt-oSS_WyAGqM9UQCUmWo7U
+  size: 1.24 GB
+  status: stable
+  changelog:
+    - "Áudio: Melhorias em comparação com builds anteriores"
+    - "Visuais: Adicionada nossa própria animação de boot"
+    - "Conectividade: Corrigido problema que fazia o Hotspot não funcionar"
+    - "Conectividade: Parar de carregar HAL NFC para variantes fogos sem NFC"
+    - "Câmera: Adicionada câmera OEM para seus rostos bonitos"
+    - "Câmera: Ajustada câmera OEM para funcionar com nossa ROM"
+    - "Gerenciamento de Energia: Corrigido problema que causava menos suspensão profunda"
+    - "Gerenciamento de Energia: Otimizações feitas para lidar com desfoques adequadamente, monitorando uso de energia"
+    - "Diversos: Merge do Android 16 QPR2 e todos os Pixel Drops até novembro"
+    - "Diversos: Corrigidas falhas do gpuservice"
+    - "Diversos: Corrigidas falhas do SystemUI causadas por modelos de ML não carregando"
+  notes:
+    - É recomendado instalar esta ROM a partir da ROM stock mais recente para evitar problemas
+    - A ROM está estável o suficiente e pode ser usada como uso diário
+    - Se você enfrentar bugs, reporte-os no grupo com relatório de bug adequado
+    - Play integrity e essas coisas são por sua conta
+    - Faça flash usando TWRP/Lineage Recovery
+    - NÃO BLOQUEIE O BOOTLOADER (SUPORTE PARA BLOQUEIO DO BOOTLOADER FOI REMOVIDO)
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog82updateschannel/387
+- name: Euclid OS
+  version: Android 16
+  android: Android 16
+  author: akky_sharma
+  origin: unofficial
+  date: 12/12/2025
+  link: https://drive.usercontent.google.com/download?id=1dDTAN9eil2ZhDsM4RAphwaFUrwxdB30w&export=download
+  size: 2.11 GB
+  status: stable
+  notes:
+    - Build somente GAPPS disponível em nosso repositório para Download
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog82updateschannel/393
+- name: Derpfest
+  version: Android 16
+  android: Android 16
+  author: Generate_initramfs
+  origin: unofficial
+  date: 04/02/2026
+  link: https://drive.google.com/drive/folders/1Ff6iy25WpPB5_TJSknkK1EAb570sL8fi?usp=sharing
+  size: 2.17 GB
+  status: stable
+  changelog:
+    - "Versão mais recente: v16.2"
+    - A16 QPR2
+    - Build somente GAPPS dispoinível em nosso repositório
+    - Compilado com KernelSU next
+  notes:
+    - KSU NEXT disponível em nosso repositório junto com o Download
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/akkybuilds/52
+- name: Project Mica
+  version: Android 16
+  android: Android 16
+  author: Generate_initramfs
+  origin: unofficial
+  date: 02/01/2026
+  link: https://drive.usercontent.google.com/download?id=1kG5Sypck10ru8PeM0SRkocd2zIwYMcze&export=download
+  size: 2 GB
+  status: stable
+  changelog:
+    - Usadas árvores oficiais do LOS
+    - Adicionado gesto de 3 dedos para capturar tela
+    - Hotspot corrigido
+    - Crash do Bluetooth corrigido
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/akkybuilds/42
+- name: Evolution X
+  version: Android 16
+  android: Android 16
+  author: akkybuilds
+  origin: unofficial
+  date: 10/12/2025
+  link: https://drive.usercontent.google.com/download?id=10cmWoib3rJw8Vd-LuY1PYgWdRL-Zl-1i&export=download
+  size: 2.37 GB
+  status: stable
+  changelog:
+    - Atualização para o Android 16 QPR1
+    - Adicionado Dolby Atmos
+    - Adicionado Moto Cam
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog82updateschannel/377
+- name: Lunaris OS
+  version: Android 16
+  android: Android 16
+  author: akky_sharma
+  origin: unofficial
+  date: 06/12/2025
+  link: https://drive.usercontent.google.com/download?id=1IC6QQBvHi_gJFfD3mRtdxsiNzyeACQH3&export=download
+  size: 2.11 GB
+  status: stable
+  changelog:
+    - Atualizar string de segurança para 1 de dezembro de 2025
+    - Mudança para relógios LMO
+    - Introduzir recurso de troca de papel de parede baseado em temporizador no Lock Glymps
+    - Lock glymps > Wallpaper glymps (Adicionar opção de trocar papel de parede da tela inicial)
+    - Adicionar layout de pré-visualização no wallpaper glymps para recarregar papel de parede
+    - Adicionar opção para desabilitar 'Sempre mostrar mini player de mídia'
+    - Adicionar visualização de calendário no QS
+    - Adicionar interruptor de estado do AOD doze
+    - Adicionar 2 novos estilos de renderização pulse
+    - Introduzir 'Now playing' na tela de bloqueio
+    - Adicionar avatar do usuário próximo à barra de pesquisa de configurações
+    - Melhorar visibilidade dual tone quando desfoque desligado
+    - Adicionar tile de toque
+    - Reduzir tamanho do relógio do QS expandido
+    - Opção de usar udfps personalizado no AOD
+    - Adicionar mensagens aleatórias smartspace
+    - Melhorar suavidade do QS quando player de mídia está em execução
+    - Adicionar filtro Pixelation/Mosaic para arte de mídia
+    - Corrigir problema de espelhamento do controle de brilho em árabe
+    - Adicionar bloqueio de sensor por aplicativo
+    - Desabilitar visualizador pulse quando painel QS expande
+    - Introduzir novos efeitos de carregamento
+    - Atualizar easter egg
+    - Adicionar ondulação de carregamento nothing OS ao estilo de ondulação
+    - Permitir substituir restrição de Mock Location
+    - Corrigir recurso de tela cheia
+    - Permitir alternar fundo de tom único do QS
+    - Corrigir vazamentos de memória e segurança de thread no chip de statusbar em andamento
+    - Mesclar algumas mudanças de UI relacionadas ao qpr1
+    - Adicionar recurso overlay de chamada imersiva no GameSpace
+    - Remover interruptor de desabilitar split shade
+    - Remover alguns estilos feios de ícone de wifi e sinal
+    - Corrigir instabilidade ao abrir aplicativo pelo menu de recentes
+    - Adicionar proteção contra burn-in gestual no launcher3
+    - Definir launcher3 como padrão
+    - Corrigir incompatibilidade de cor do controle de volume
+    - Reduzir tamanho máximo de bitmap de mídia
+    - Atualizar mudanças boostfw do axion
+    - Mudar para design material expressivo no tuner da statusbar e algumas partes lineage
+    - Mudar para jemalloc_new do AOSP
+    - Mesclar últimas mudanças arm-optimized-routines
+    - Mesclar novas mudanças lineage
+    - Atualizar gms
+    - Melhorar estabilidade e desempenho do sistema
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog82updateschannel/374
+- name: Cheirish OS
+  version: Android 16
+  android: Android 16
+  author: akky_sharma
+  origin: unofficial
+  date: 07/10/2025
+  link: https://1024terabox.com/s/1LrCDveaEhBPpr678g8v6rA
+  size: 1.2/2.3 GB
+  status: stable
+  changelog:
+    - Strong integrity aprovado por padrão
+    - Removido AOSP Dolby e Viper4x
+    - Mudança para XiaomiDolby
+    - Implementação de Áudio Qcom
+    - Moto Cam
+    - Melhoria no áudio do microfone no WhatsApp
+    - Merge do patch de segurança de setembro 2025
+    - Trazer entradas HIDL Radio para FCM 7
+    - Atualizar pixel noodles do mustang BD3A.250721.001.B7
+    - Atualizar traduções do crowdin
+    - Adicionar preenchimento de bateria e caminho para pacotes de ícone Victor e Sam
+    - Adicionar suporte à interface lineagehealth IFastCharge
+    - Adicionar puxar painel rápido com um dedo
+    - Adicionar tile de volume
+    - Adicionar intensidade da lanterna
+    - Adicionar suporte a Data Lunar no cabeçalho QS
+    - Adicionar opção de timeout
+    - Atualizar qcom-caf do lineage-23.0
+    - Remover spoof da Play Store que fazia o dispositivo obter apenas integridade Básica quando ativado
+    - >-
+      Corrigir problema de timeout quando o aplicativo Calculadora do Google permanece ocluído após duplo clique no
+      botão de energia
+    - Corrigir vazamento de memória no car service
+    - Corrigir dimensões do diálogo biométrico
+    - Corrigir problema de split shade ausente
+    - Corrigir notificações não sendo dispensadas
+    - Melhorar animação do Udfps
+    - Melhorado outros aspectos do sistema
+  notes:
+    - Build VANILLA e GAPPS disponíveis em nossos repositórios para Download
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/akkybuilds/16
+- name: Mist OS
+  version: Android 16
+  android: Android 16
+  author: akky_sharma
+  origin: unofficial
+  date: 06/09/2025
+  link: https://1024terabox.com/s/1375qWfNFmKgweyIyMvA9zw
+  size: 2.3 GB
+  status: stable
+  changelog:
+    - Patch de agosto
+    - Ícones da barra de navegação
+    - Papéis de parede AOD
+    - Arte da capa de mídia
+    - Pulse (visualizador de música)
+    - Single tap na tela de bloqueio (Afforedance)
+    - Barra de bateria
+    - Chip de fundo personalizado
+    - Opção de cor personalizada no logotipo
+    - Ícones coloridos
+    - Contadores de notificação
+    - Uso de dados
+    - Imagens de cabeçalho QS
+    - Notificações Island
+    - Notificações em paisagem
+    - Spoofing Netflix
+    - Spoofing de jogos baseado em JSON
+    - Design do Pixel Launcher do Android 16 QPR1 no Mist Launcher
+    - Corrigido problema de dreno de bateria
+    - Corrigido crash de DPI alto
+    - Corrigida instabilidade nas notificações
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/akkybuilds/9
+- name: Helluva OS
+  version: Android 15
+  android: Android 15
+  author: VallhoundTeam
+  origin: official
+  date: 05/04/2025
+  link: https://1024terabox.com/s/1SkTpfwsD9E-mM8X0KwY-DA
+  size: 2.25 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog82updateschannel/362

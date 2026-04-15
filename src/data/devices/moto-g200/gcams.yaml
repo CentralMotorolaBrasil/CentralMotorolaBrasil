@@ -1,0 +1,28 @@
+- name: SGCAM 8.4
+  version: V43
+  author: Shamin
+  date: 25/12/2022
+  link: https://drive.google.com/uc?export=download&id=1OUtNhWA8Fm0D0T_q0AScBIsTZe2PPxPt
+  size: 133.8 MB
+  recommended: false
+  notes:
+    - Versão oficial otimizada para Snapdragon 888.
+- name: MGC 8.1
+  version: GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/uc?export=download&id=1lbAYs3C0K6UHS4VospqKi4iMZL2P_KCl
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Versão oficial otimizada para processadores Snapdragon.
+- name: GGCAM 5Beta
+  version: Beta 10
+  author: Arnova8G2
+  date: 18/02/2020
+  link: https://drive.google.com/file/d/1nTE2erL7lDXmlP2zj3hfgXhrwWOUzsyA/view?usp=sharing
+  size: 77.40 MB
+  recommended: false
+  notes:
+    - Versão não oficial, use por sua conta e risco.
+    - Pode apresentar instabilidades devido à natureza beta.

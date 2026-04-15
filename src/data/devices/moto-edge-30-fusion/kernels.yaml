@@ -1,0 +1,30 @@
+- name: HuPao
+  version: Final
+  author: HotaruOs
+  date: 07/10/2025
+  link: https://drive.google.com/file/d/1r8CqFVrVEZ_eol9oIlOTgs-p99gvpJ0v/view?usp=sharing
+  size: 27.6 MB
+  features:
+    - Corrigidos reinícios aleatórios do sistema
+    - Kernel 5.4.296 (estável)
+    - KernelSU Next versão 1.1.1 incluso
+    - Instalação via ADB ou FKM (Franco Kernel Manager)
+- name: HupFck
+  version: Final
+  author: HotaruOs
+  date: 23/01/2026
+  link: https://drive.google.com/file/d/1cryzhvl0v6ffE7a3MPuQo-ByA6ePziDh/view?usp=sharing
+  size: 27.6 MB
+  features:
+    - Otimização do modelo de energia
+    - Aumento da frequência mínima do LLCC
+    - Desativação de entradas desnecessárias
+    - Troca da disciplina de fila de rede para fq_codel
+    - Adicionado BBR Plus e bloqueador de WL
+    - Melhorias gerais no Wi-Fi
+    - Forçado o timeout de idle da GPU para 58 ms
+    - Desativado o reclaim por processo
+    - Adicionado suporte a ROMs em EROFS
+    - Habilitado o CONFIG_FAIR_GROUP_SCHED
+    - Root via KernelSU (rsuntk)
+    - Compilado com Clang AOSP r18

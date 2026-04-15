@@ -1,0 +1,23 @@
+- name: OrangeFox Recovery
+  version: "11.3"
+  author: CharaDreemurrDT
+  date: 30/12/2025
+  link: >-
+    https://github.com/CharaDreemurrDT/ofox_device_motorola_guam/releases/tag/11.3stable-newyeartomorrow#:~:text=AOSP%20and%20Stock.-,Assets,-6
+  size: 100 MB
+  notes:
+    - "Existem duas versões: AOSP e Stock."
+    - Use a versão AOSP se estiver em uma Custom ROM.
+    - Use a versão Stock se estiver na ROM de fábrica (Stock).
+    - A touchscreen agora funciona.
+- name: TWRP
+  version: 3.7.1
+  author: TeamWin Group
+  date: 20/02/2024
+  link: >-
+    https://dl.twrp.me/guamp/twrp-3.7.1_12-0-guamp.img#:~:text=start%20your%20download.-,Download%20twrp%2D3.7.1_12%2D0%2Dguamp.img,-Download%20PGP%20Signature
+  size: 100 MB
+  notes:
+    - Adição da biblioteca lpdump para melhor gerenciamento de partições dinâmicas
+    - Suporte a QTI Vibrator updates e boot-hal-1.2
+    - Correção do contexto padrão para o armazenamento do TWRP

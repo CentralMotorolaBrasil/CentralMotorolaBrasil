@@ -1,0 +1,137 @@
+- name: LineageOS Revived
+  version: Android 11 R
+  android: Android 11 R
+  author: Vhmit
+  origin: unofficial
+  date: 31/03/2026
+  link: https://drive.usercontent.google.com/download?id=1KdToFnqgLtc3DEOM1lHEj9MAi2OjeTvd&export=download
+  size: 702.8 MB
+  status: stable
+  changelog:
+    - Atualização nos componentes de energia, gráficos, media, time services e GPS
+    - Adição do MotoWaves como um mod de aúdio
+    - Adição de novas regras selinux remanecentes
+    - Aumento do ZRAM para 2GB e correção de nodes do kernel para melhor estabilidade
+  notes:
+    - "Patch de segurança: Dezembro de 2025"
+    - Build Vanilla
+    - Para bancos, se necessário use o ih8sn nas notas, sendo o método fácil
+    - Para certificação no geral, use módulos pra isso
+    - Envie logs em caso de report de bugs
+  variants:
+    - label: Build anterior
+      link: >-
+        https://github.com/Vhmit/releases-msm8953/releases/download/lineage-rev-18.1-20251024-UNOFFICIAL/lineage-rev-18.1-20251024-UNOFFICIAL-deen.zip
+    - label: Fonte / Telegram
+      link: https://t.me/onedeenbr/216601
+- name: Havoc-OS Revived
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 25/10/2025
+  link: >-
+    https://github.com/Vhmit/releases-msm8953/releases/download/Havoc-OS-v4.27-20251025-Community-Vanilla/Havoc-OS-v4.27-20251025-deen-Community-Vanilla.zip
+  size: 767 MB
+  status: stable
+  changelog:
+    - Suporte ao Dolby Atmos removido (ainda possível via módulos)
+    - Correção da distribuição de volume em gravações de vídeo
+    - Câmera padrão substituída pela Graphene
+    - Todas as builds agora são lançadas sem o ih8sn (disponível nas notas) e assinadas com chaves próprias
+    - Suporte ao widget MotoWeather
+    - "Patch de segurança: Agosto de 2025"
+  notes:
+    - Build Vanilla
+    - Blur desabilitado por padrão
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/OneScreenBR/208782
+- name: /e/OS
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 23/08/2024
+  link: >-
+    https://github.com/Vhmit/releases-msm8953/releases/download/e-2.3-r-20251023-UNOFFICIAL/e-2.3-r-20251023-UNOFFICIAL-deen.zip
+  size: 950 MB
+  status: stable
+  changelog:
+    - Build inicial e EOL
+    - Sem suporte à criptografia
+    - SimpleGallery e Via Browser incluídos
+    - "Patch de segurança: fevereiro de 2024"
+  notes:
+    - Não é necessário GApps
+    - Build assinada e com a última versão do Mimir
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/DeenCloudBR/47
+- name: crDroid
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 19/08/2024
+  link: >-
+    https://github.com/Vhmit/releases-msm8953/releases/download/crDroidAndroid-11.0-20240819-v7.44-security/crDroidAndroid-11.0-20240819-deen-v7.44-security.zip
+  size: 765 MB
+  status: stable
+  changelog:
+    - Build Vanilla
+    - "Patch de segurança: julho de 2024"
+  notes:
+    - Assinada e com Integridade
+    - Blur vindo câmera de som
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/DeenCloudBR/40
+- name: CipherOS Revived
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 29/10/2023
+  link: >-
+    https://github.com/Vhmit/releases-msm8953/releases/download/CipherOS_Revived_1_9_Eclipse_20231227_UNOFFICIAL_GAPPS/CipherOS-Revived-1.9-Eclipse-20231227-1954-deen-UNOFFICIAL-GAPPS.zip
+  size: 951 MB
+  status: stable
+  changelog:
+    - Build GApps
+    - SimpleGallery embutido
+    - Dolby substituído pelo AudioFX
+    - "Patch de segurança: dezembro de 2023"
+  known_issues:
+    - >-
+      Bug visual indicando armazenamento cheio no final das configurações (somente visual, funcionamento normal;
+      problema da source)
+  notes:
+    - Certificada e funcionando com apps de banco
+    - Integridade básica
+    - Para verificar SafetyNet e Integridade, use o aplicativo Spic
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/DeenCloudBR/26
+- name: ArrowOS Revived
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 28/07/2023
+  link: >-
+    https://github.com/Vhmit/releases-msm8953/releases/download/Arrow-Rev-v11.0-UNOFFICIAL-20230728-GAPPS/Arrow-Rev-v11.0-deen-UNOFFICIAL-20230728-GAPPS.zip
+  size: 1 GB
+  status: stable
+  changelog:
+    - "Patch de segurança: julho de 2023"
+    - Build com GApps incluído
+    - Build certificada e Enforcing
+    - Inclusão da atualização do Mimir Kernel
+  known_issues:
+    - Recovery da Arrow incluso, porém bugado ao instalar/flashar arquivos (recomendado usar TWRP)
+  notes:
+    - Acompanhe o recovery da Arrow, porém está bugado para instalar arquivos; recomendado voltar ao TWRP
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/DeenCloudBR/26

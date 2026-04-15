@@ -1,0 +1,321 @@
+- name: Project Infinity X
+  version: Android 16
+  android: Android 16
+  author: Shipu
+  origin: unofficial
+  date: 05/04/2026
+  link: https://drive.google.com/drive/folders/1Xp8AoxIswbSYJRoK1jQ56TQfSzER-oY4?usp=sharing
+  size: 1.6 GB
+  status: stable
+  changelog:
+    - "Add statusbar/lockscreen dynamic bar implementation (author: rmp22)"
+    - "Add App drawer customizations and tunings (author: shutter-cat, pbzinwindows, ChrisCatto)"
+    - "Add Toggle to launch notification apps in bubble or floating screen (author: shutter-cat)"
+    - >-
+      Add optional toggleable Classic style QS Panel along with tile shapes and ability to hide labels (author:
+      neobuddy89)
+    - Allow switching to default Android 16 brightness slider style
+    - "Add detailed Idle manager with advanced per-app control (author: Ghosuto)"
+    - "Add 11 more Lockscreen custom clock styles (author: IDontCare-05, spkal01, Ghosuto)"
+    - Fix custom clock styles disappearing on tablets or landscape rotation
+    - Allow applying volume panel gradient customization to extended volume panel style
+    - Allow showing Volume percentage on extended and expanded volume panel style
+    - "Add toggle to kill Flash SMS messages (author: adithya2306)"
+    - "Simplify Always-on-Display charging checks (author: NurKeinNeid)"
+    - Remove QS boost hints that lead to battery drain / heat
+    - Remove unnecessary scrolling boost hints that lead to battery drain / heat
+    - Add back lockscreen weather wind and humidity info from v3.7
+    - Remove ongoing media chip // Fixes systemui crash issues while media was playing with media chip enabled
+    - "Add optional Glow effect in notch ring (author: hxreborn)"
+    - "Add music playback progress in cutout ring (author: Ghosuto)"
+    - Improve padding for search icon in app drawer search bar when google app disabled
+    - "Add launcher wallpaper carousel (author: MrSluffy)"
+    - Fix default fonts display for regular and headline in QS Panel
+    - "Fix NPE in CallListener Gamespace (author: neobuddy89)"
+    - "Fix scrolling in recovery image when touch is rotated (author: AnierinBliss)"
+    - "Allow changing size of custom clock styles (author: Ghosuto)"
+    - "Fix PlanesLockGuard buffer lock leak in av (author: jsebechlebsky)"
+    - "Fix preferences in launcher3 icon pack fragment turning purple upon clicking (author: neobuddy89)"
+    - "Hide VmTerminal fragment if device doesn't support it (author: luk1337)"
+    - Improvements on memory usage and battery backup
+  notes:
+    - "Trees: LineageOS"
+    - "Server: Crave"
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1WxP2hjiMMsd3k5RGPkf-ujiHlk0me6Jf?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG10Official/13003
+- name: crDroid
+  version: Android 14
+  android: Android 14
+  author: Samw662
+  origin: unofficial
+  date: 08/08/2024
+  link: https://drive.google.com/drive/folders/12-DG08Wz2E44SaMLkVKJ4Q-lG9-o6PQ6?usp=sharing
+  size: 1 GB
+  status: stable
+  changelog:
+    - User build + Assinado (SafetyNet aprovado por padrão)
+    - Compilar kernel com clang 17.0.2 (r487747c)
+    - Habilitar Multi-gen LRU
+    - Definir readahead_size_kb=128 para cada partição física (Para evitar pressão de memória)
+    - Melhor gerenciamento de RAM
+    - >-
+      Usar HintManager para HWUI (Definir margem de 30% para CPU deve reduzir cargas da CPU para HWUI e usar GPU para o
+      resto)
+    - Algumas sysprops, melhorias de toque
+    - Desabilitar downscaler do rotador SDM
+    - Importar serviços de perfil dexopt speed (Reduzir RAM e armazenamento)
+    - Desabilitar logs de firmware WLAN (E removidos muitos serviços desnecessários relacionados ao WiFi)
+    - Silenciar tags de log spam
+    - Desabilitar registro de eventos de sensores
+    - Remover ajustes supérfluos de ZRAM
+    - Mudar para LMKD
+    - Aumentar desempenho durante inicialização
+    - CPUs de primeiro e segundo plano melhoradas
+    - "Sepolicy: Permitir configurar read_ahead_kb na partição /data"
+    - Remover cache de pacote na inicialização
+    - Desabilitar cache de composição de cliente SF (Ajuda no gerenciamento de fences de clientes framework)
+    - Reduzir brilho mínimo permitido
+    - Habilitar recurso de autenticação performant
+    - Habilitar proteção contra burn-in
+    - Configurar doze overlays (AOD não estava funcionando, agora está corrigido com isso)
+    - Estamos animados em anunciar o lançamento inicial do crDroid 10.6!
+    - >-
+      Esta atualização traz os patches de segurança mais recentes, correções de bugs e alguns novos recursos empolgantes
+      para elevar sua experiência de usuário
+    - Segurança em Primeiro Lugar
+    - >-
+      crDroid 10.6 incorpora os mais recentes patches de segurança de julho (android-14.0.0_r53), garantindo que seu
+      dispositivo esteja protegido contra as vulnerabilidades mais recentes
+    - Melhorias de Estabilidade e Desempenho
+    - >-
+      Adeus, Dreno de Bateria: Corrigido um possível dreno de bateria causado pelo WiFi, mantendo seu dispositivo
+      funcionando por mais tempo
+    - "Refinamentos do SystemUI:"
+    - >-
+      Fontes Correspondentes: A fonte do texto do carrier na tela de bloqueio agora se alinha perfeitamente com a fonte
+      do sistema para uma aparência uniforme
+    - "Limpeza de Ícones: Gaps suspeitos em torno de novos ícones móveis no SystemUI foram eliminados"
+    - "Uso de Dados Mais Claro: Informações de uso de dados no Quick Settings melhoradas para uma visão mais abrangente"
+    - >-
+      Correção de PIP Multi-Usuário: Uma falha no SystemUI relacionada ao Picture-in-Picture (PIP) no cenário
+      Multi-Usuário foi resolvida
+    - "Correções Gerais de Bugs: Corrigidos vários outros bugs para uma experiência geral mais suave"
+    - Melhorias Internas
+    - "Atualização do Aperture: Desfrute de uma experiência aprimorada do Aperture com a atualização mais recente"
+    - "Webview Melhorado: Webview atualizado para versão 125.0.6422.165 para navegação web aprimorada"
+    - "Etar: Atualizações de calendário também adicionadas"
+    - "Monet Monet: Corrigidos alguns problemas persistentes do Monet para um tema visual mais consistente"
+    - "Seedvault: InstallRestriction para Seedvault foi corrigido, garantindo funcionalidade adequada"
+    - >-
+      Salvador de Bateria: Um problema de alto uso de CPU causado pelo layout do Quick Settings, que impactava a vida da
+      bateria, foi corrigido
+    - >-
+      Consistência de Brilho: A inconsistência entre valores SCREEN_BRIGHTNESS antes e depois da reinicialização foi
+      resolvida
+    - Novos Recursos e Funcionalidades
+    - >-
+      Quick Tap Retorna: O amado recurso Quick Tap está de volta, permitindo realizar ações com duplo toque na parte
+      traseira do dispositivo
+    - "Integração Glimpse: ThemePicker agora usa o aplicativo Glimpse em vez do Gallery2"
+    - "Amor pelos Idiomas: Atualizamos traduções para uma experiência mais inclusiva"
+  notes:
+    - Agradecimentos especiais ao @mikeioannina por todas as fontes do kernel
+    - Firmware Android 11 OBRIGATÓRIO!
+    - CrDroidRecovery para flash
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG10BR/426
+- name: Matrixx OS
+  version: Android 14
+  android: Android 14
+  author: Caruzo
+  origin: unofficial
+  date: 18/08/2025
+  link: https://drive.google.com/drive/folders/1yHZXB8zGgL8OBXzhnFAlqwe8u7GaZWSn?usp=sharing
+  size: 1.28 GB
+  status: stable
+  notes:
+    - >-
+      Esta é uma compilação EOL (Fim de Vida), isso significa que não construirei mais MatrixxUI por enquanto porque
+      quero experimentar novos projetos
+    - >-
+      Alerta: Se for sua primeira vez instalando ROMs personalizadas (ou se estiver vindo da stock mesmo assim), você
+      precisa formatar dados, flash copy partitions e reiniciar para recovery novamente antes de flashar a ROM ou seu
+      dispositivo pode brickar
+    - Build somente GAPPS disponível em nosso repositório
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG10BR/427
+- name: LineageOS
+  version: Android 14
+  android: Android 14
+  author: Deivid21
+  origin: unofficial
+  date: 08/03/2025
+  link: https://drive.google.com/drive/folders/1P2vgNExJ_TVQXV4v1okvPkPzGlExHS9i?usp=sharing
+  size: 1.49 GB
+  status: stable
+  changelog:
+    - Build inicial do LineageOS 21
+    - Patch de Segurança de Fevereiro 2025
+    - Kernel Linux 4.19.325
+    - Compilado com MindTheGapps
+    - Mudança para Erofs
+    - Usar caminho correto para ACDB
+    - Adicionadas bibliotecas de câmera ausentes
+    - Melhor gerenciamento de RAM
+    - "Sepolicy: Permitir configurar read_ahead_kb na partição /data"
+    - "Properties: Mudança para LMKD"
+    - "Init: remover cache de pacote na inicialização"
+    - Definido readahead_size_kb=128 para data
+    - Construído MotoLiveWallpaper3 a partir de fonte pré-compilada
+    - Construído TimeWeather a partir de fonte pré-compilada
+    - Construído MotCamera3 a partir de fonte pré-compilada
+    - Construído AudioRecorder a partir de fonte pré-compilada
+    - Construído MotApps a partir de fonte pré-compilada
+    - Mostrar Turbo Power em vez de carregando rapidamente
+    - Corrigido SONAME para liblowlight_ai_portrait.arcsoft
+    - "Sepolicy: Rotular propriedades da câmera"
+    - Definir ro.mot.build.customerid conforme stock
+  notes:
+    - "SELinux: Enforcing"
+    - Build somente GAPPS disponíveis em nosso repositório
+    - "Patch de Segurança: Fevereiro2025"
+    - Assinado com dev-keys
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG10BR/12872
+- name: Evolution X
+  version: Android 14
+  android: Android 14
+  author: Deivid21
+  origin: unofficial
+  date: 16/03/2025
+  link: https://drive.google.com/drive/folders/1nQCPAWPRIrbJ5_IwzcplOi6Yhv0igbo1?usp=drive_link
+  size: 2.07 GB
+  status: stable
+  changelog:
+    - Build inicial Evolution X 9.x
+    - Patch de Segurança de Março 2025
+    - Kernel Linux 4.19.325
+    - Mudança para Erofs
+    - "Rootdir: Limpeza do shell acdb para variante de energia"
+    - Adicionadas bibliotecas de câmera ausentes
+    - Melhor gerenciamento de RAM
+    - "Sepolicy: Permitir configurar read_ahead_kb na partição /data"
+    - "Properties: Mudança para LMKD"
+    - "Init: remover cache de pacote na inicialização"
+    - Definido readahead_size_kb=128 para data
+    - Construído MotoLiveWallpaper3 a partir de fonte pré-compilada
+    - Construído TimeWeather a partir de fonte pré-compilada
+    - Construído MotCamera3 a partir de fonte pré-compilada
+    - Construído AudioRecorder a partir de fonte pré-compilada
+    - Construído MotApps a partir de fonte pré-compilada
+    - Mostrar Turbo Power em vez de carregando rapidamente
+    - Corrigido SONAME para liblowlight_ai_portrait.arcsoft
+    - "Sepolicy: Rotular propriedades da câmera"
+    - Definir ro.mot.build.customerid conforme stock
+    - Compatibilizar power_profile com stock
+  notes:
+    - "SELinux: Enforcing"
+    - Build somente GAPPS disponíveis no repositório
+    - "Patch de Segurança: Março 2025"
+    - Assinado com dev-keys
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG10BR/13012
+- name: Pixel OS
+  version: Android 16
+  android: Android 16
+  author: Akarizao
+  origin: unofficial
+  date: 19/12/2025
+  link: https://pixeldrain.com/l/RyknAXnu
+  size: 1.96 GB
+  status: stable
+  changelog:
+    - QPR1
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG10BR/17444
+- name: /E/OS
+  version: Android 15
+  android: Android 15
+  author: MarenaCommunity
+  origin: unofficial
+  date: 25/10/2025
+  link: https://images.ecloud.global/community/capri/e-3.2-a15-20251025540112-community-capri.zip
+  size: 1.3 GB
+  status: stable
+  changelog:
+    - Falta de informações suficientes :/
+  known_issues:
+    - Sem erros reportados :/
+  variants:
+    - label: Fonte / Telegram
+      link: https://images.ecloud.global/community/capri/
+- name: LineageOS
+  version: Android 16
+  android: Android 16
+  author: LineageOS Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/capri/builds
+  size: 1 GB
+  status: stable
+  notes:
+    - ROM oficial, recomendada para estabilidade e suporte a longo prazo.
+    - O link é atualizado automaticamente em nosso site para a versão mais recente da ROM
+  variants:
+    - label: Fonte / Telegram
+      link: https://download.lineageos.org/capri/
+- name: LMDROID
+  version: Android 15
+  android: Android 15
+  author: LibreMobileOS
+  origin: official
+  date: Semanalmente
+  link: https://get.libremobileos.com/devices/capri/builds
+  size: ~1.14 GB
+  status: stable
+  notes:
+    - ROM oficial focada em privacidade e segurança, baseada no Android AOSP.
+    - O link é atualizado automaticamente em nosso site para a versão mais recente da ROM
+  variants:
+    - label: Fonte / Telegram
+      link: https://libremobileos.com/
+- name: Evolution X
+  version: Android 15
+  android: Android 15
+  author: Deivid21
+  origin: official
+  date: 14/09/2025
+  link: https://drive.google.com/uc?export=download&id=1ZDqG0U_2-o33f6aVuG0jM8TdfqL4oclE
+  size: 2.10 GB
+  status: stable
+  changelog:
+    - EvolutionX v10.9
+    - Patch de segurança de setembro de 2025
+    - "Árvore de Dispositivo:"
+    - "capri: Ativado brilho adaptativo do LiveDisplay"
+    - "capri: Definido config de taxa de atualização padrão em 60 Hz"
+    - "capri: Adicionados blobs de impressão digital ausentes"
+    - "capri: Mudado para MotCamera4"
+    - "capri: init: Substituído props acdbdata por configuração em init.mmi.overlay.rc"
+    - "Árvore Comum:"
+    - "sm6225-common: init: Definidas permissões para o serviço chipone_ident"
+    - "sm6225-common: Atualizado para devon_g T2SNS33.73-22-3-19"
+    - "sm6225-common: Aumentados limites de memória dalvikik-healp"
+    - "sm6225-common: Limpeza de mais flags"
+    - "sm6225-common: Build do LiveDisplay sysfs HAL"
+    - "sm6225-common: Build do LiveDisplay SDM HAL"
+    - "sm6225-common: Ativado UFFD GC"
+    - "sm6225-common: Parou de incluir vendor/debugfs.config"
+  notes:
+    - ROM oficial com foco em personalização e performance, baseada no AOSP.
+  variants:
+    - label: Fonte / Telegram
+      link: https://evolution-x.org/

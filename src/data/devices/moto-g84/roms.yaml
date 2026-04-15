@@ -1,0 +1,1114 @@
+- name: Project Infinity X
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 05/04/2026
+  link: https://drive.google.com/drive/folders/1yCwXYOosoelrGQ1naDaPP9RGV-NaYG4Z?usp=sharing
+  size: 1.83 GB
+  status: stable
+  changelog:
+    - Complete Android 16 ROM Screenshots
+    - Highlighted Screenshots for this new release and changelog
+    - "Add statusbar/lockscreen dynamic bar implementation (author: rmp22)"
+    - "Add App drawer customizations and tunings (author: shutter-cat, pbzinwindows, ChrisCatto)"
+    - "Add Toggle to launch notification apps in bubble or floating screen (author: shutter-cat)"
+    - >-
+      Add optional toggleable Classic style QS Panel along with tile shapes and ability to hide labels (author:
+      neobuddy89)
+    - Allow switching to default Android 16 brightness slider style
+    - "Add detailed Idle manager with advanced per-app control (author: Ghosuto)"
+    - "Add 11 more Lockscreen custom clock styles (author: IDontCare-05, spkal01, Ghosuto)"
+    - Fix custom clock styles disappearing on tablets or landscape rotation
+    - Allow applying volume panel gradient customization to extended volume panel style
+    - Allow showing Volume percentage on extended and expanded volume panel style
+    - "Add toggle to kill Flash SMS messages (author: adithya2306)"
+    - "Simplify Always-on-Display charging checks (author: NurKeinNeid)"
+    - Remove QS boost hints that lead to battery drain / heat
+    - Remove unnecessary scrolling boost hints that lead to battery drain / heat
+    - Add back lockscreen weather wind and humidity info from v3.7
+    - Remove ongoing media chip // Fixes systemui crash issues while media was playing with media chip enabled
+    - "Add optional Glow effect in notch ring (author: hxreborn)"
+    - "Add music playback progress in cutout ring (author: Ghosuto)"
+    - Improve padding for search icon in app drawer search bar when google app disabled
+    - "Add launcher wallpaper carousel (author: MrSluffy)"
+    - Fix default fonts display for regular and headline in QS Panel
+    - "Fix NPE in CallListener Gamespace (author: neobuddy89)"
+    - "Fix scrolling in recovery image when touch is rotated (author: AnierinBliss)"
+    - "Allow changing size of custom clock styles (author: Ghosuto)"
+    - "Fix PlanesLockGuard buffer lock leak in av (author: jsebechlebsky)"
+    - "Fix preferences in launcher3 icon pack fragment turning purple upon clicking (author: neobuddy89)"
+    - "Hide VmTerminal fragment if device doesn't support it (author: luk1337)"
+    - Improvements on memory usage and battery backup
+  notes:
+    - "Build type: GApps"
+    - "Release: QPR2"
+    - "Variant: user"
+    - "Tree: LineageOS"
+    - "Server: EDU"
+    - "Kernel: SedonaTeam"
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1O7UyqXle97m0IBR8uqUfSkyQHGGiHcn5?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/85156
+- name: Lunaris AOSP
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 04/04/2026
+  link: https://drive.google.com/drive/folders/1Kcn931o7XA1L-jZBVE0X9C0XkvVQhPsK?usp=sharing
+  size: 2.41 GB
+  status: stable
+  changelog:
+    - Allow choose custom color/gradient for clock chip
+    - Media chip popup follow qs seekbar style
+    - Vol. percentage in redesigned style
+    - Add basic sleep mode
+    - Allow switch to legacy statusbar icon order
+    - Implement proper UI for per-app spoofing
+    - Add battery indicator, glow effect, music indicator in notch ring
+    - Allow changes launcher hotseat QSB style
+    - Introduce appdrawer app & searchbar styles
+    - Add option to clear home screen in settings
+    - Add idle manager (like greenify)
+    - Allow set custom color in app drawer bg
+    - Add method to block PairIP license check activity
+    - Add torch toggle for double tap power gesture
+    - Implement new dynamic VoLTE/VoWiFi and VoNR status bar icons
+    - Allow disable flash SMS messages
+    - Add classic a11 like QS panel style
+    - Add 24 new clock style and many improvements
+    - Lockscreen widget improvements
+    - Add lockscreen now playing popup dialog
+    - Enable bubble notification app
+    - Allow disable qs media player
+    - Introduce navbar pill auto-hide (for launcher3 only)
+    - Improve app scrolling
+    - Improve lmo freeform app scrolling
+    - Many UI related bugfixes
+    - Merge arm-optimization changes
+    - Merge lineage changes
+  notes:
+    - "Build type: GApps"
+    - "Release: QPR2"
+    - "Variant: user"
+    - "Tree: LineageOS"
+    - "Server: EDU"
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1SeZTBYAw4b9Y5o3FjSVxXc-94qvD8OVr?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/85148
+- name: Project Matrixx
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 04/04/2026
+  link: https://drive.google.com/drive/folders/1xYMg_a-R_HAoS7MvlRvixxnhCnZdIeQv?usp=sharing
+  size: 2.34 GB
+  status: stable
+  notes:
+    - "Build type: GApps"
+    - "Release: QPR2"
+    - "Variant: user"
+    - "Tree: LineageOS"
+    - "Server: EDU"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/85121
+- name: Avium UI
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 03/04/2026
+  link: https://drive.google.com/drive/folders/1lRlpLPNs_TdbK1cKBuYWMqPF7u4uZ143?usp=sharing
+  size: 2.36 GB
+  status: stable
+  changelog:
+    - Initial build, this one should have WPA3 working
+  notes:
+    - "Included: Dolby atmos Sony"
+    - "Included: Moto câmera"
+    - "Build type: GApps pico"
+    - "Release: BP4A"
+    - "Variant: user"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/85051
+- name: Axion AOSP
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 03/04/2026
+  link: https://drive.google.com/drive/folders/1eRf4cxe9mdyKT_nn42bvU_BArLj8jeSX?usp=sharing
+  size: 2.44 GB
+  status: stable
+  changelog:
+    - Dynamic Island lock screen position correction
+    - "Introducing AxionOS Easter egg (ctto: Saikrishna1504)"
+    - >-
+      Introducing AxPcMode - Secondary display/alt-display mode support with phone as mouse/trackpad, Added feature to
+      turn off main display while projecting main display to scrcpy/virtual display, Added support to change resolutions
+      during PC mode
+    - Introducing AxBravia Engine - Port of Bravia Engine utilizing patterns observed from Sony Bravia Engine research
+    - Introducing AxDynamic Bar - Shows important events such as music/now playing/sports
+    - Introducing AxQuickLook - Our own version of Smartspace
+    - "Introducing AxWallpaperEffects (ctto: Saad Ullah Khan) - New wallpaper effects"
+    - Introducing AxionFx Audio Engine
+    - Introducing Routines
+    - Improved OmniJaws Weather App UI
+    - Improved Lockscreen Widgets — real widgets
+    - New Lockscreen Clocks and improved lockscreen clock customizations with new depth wallpaper effect
+    - New Internet Dialog Data Usage Dashboard and internet tiles data summary
+    - New Essential Notifications UI
+    - Introducing Custom rom hide feature - blocks root/custom rom detections from user apps
+    - >-
+      New Pulse Launcher UI and Features - Lock recents app feature, New folder icon in app grid support, Smart drawer
+      folder customization, New Private Space UI, Fixed and accurate QSB/hotseat port from Pixel Launcher, New app
+      drawer UI bringing Material Expressive design
+    - New Axion User Interface Changes/Redesign - Material 3 Expressive integration to Axion UI + dual tone theme
+    - >-
+      Improved Ax Burst Engine — utilizing researched OEM strategies for smoother performance and efficient power
+      handling - Smoother QS expansion over previous Axion versions, Efficient background CPU handling ported from
+      OxygenOS
+    - Performance! reviving zlib-ng and bringing jemalloc optimization to pixels (ctto - grapheneos bionic allocator)
+    - New Advanced Tethering Options
+    - "New Sandbox Features ported from HMA-OSS (ctto: frknkrc44)"
+    - >-
+      Improved Font Overriding and Rendering - Fixed font weight related issues, Bypassed AOSP limitations on imported
+      custom fonts
+    - New Sidebar UI
+    - Redefined GameSpace — new GameHub and tiles UI
+    - New Quick Settings Reorder System — customize and reorder QS components without going to Settings
+    - Added More Status Bar Icons to Status Bar Tuner
+    - Added Privacy Indicator Toggles in Status Bar Tuner
+    - Added support for Aosmium, Cromite, Bromite webviews in Status Bar Tuner
+    - New USB BottomSheet UI
+  notes:
+    - "Included: Dolby atmos Sony"
+    - "Included: AxionFX"
+    - "Included: Moto câmera"
+    - "Build type: GApps pico"
+    - "Release: BP4A"
+    - "Variant: user"
+    - "Duas versões da mesma ROM disponíveis com Kernels diferentes: Sedona e Sushi"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/85050
+- name: Voltage OS
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 31/03/2026
+  link: https://drive.google.com/drive/folders/1d2kNyLN9QYCivXfPxk36Jba48v5wHyGY?usp=sharing
+  size: 1.53 GB
+  status: stable
+  changelog:
+    - "Included: Dolby atmos Sony"
+    - "Included: Some cool apps"
+    - "Included: Moto câmera"
+  notes:
+    - >-
+      Build type: Vanilla (To obtain gapps, use MindTheGapps, disponíveis em nossos repositórios oficiais junto com o
+      Download da ROM)
+    - "Release: BP4A"
+    - "Variant: user"
+    - "Build sign type: priv-keys"
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1rytzYNJhw4DXQ5u2qqa1zYRBhTyxrkMz?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/84606
+- name: Pixel OS
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 30/03/2026
+  link: https://drive.google.com/drive/folders/1QqmA6GbwBxizt-WewOSXPGx5x7SjFMrC?usp=sharing
+  size: 2.13 GB
+  status: stable
+  changelog:
+    - "Included: Dolby atmos Sony"
+    - "Included: Moto câmera"
+  notes:
+    - "Included: Dolby atmos Sony"
+    - "Included: Moto câmera"
+    - "GMS Variant: pico"
+    - "Release: BP4A"
+    - "Variant: userdebug"
+    - "SHA256: 63d73d566e8c25796063f5cd169675377894d278d2daa62c949432500100cab5"
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1rytzYNJhw4DXQ5u2qqa1zYRBhTyxrkMz?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/84454
+- name: crDroid
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 28/03/2026
+  link: https://drive.google.com/drive/folders/1XHjwqV-M3VhovkTXSKfnEY3fRVaYSHZl?usp=sharing
+  size: 1.35 GB
+  status: stable
+  changelog:
+    - Removing eBPF
+    - Removing LiveDisplay
+    - Merged March 2026 Android security patches
+    - Updated Chromium WebView to 145.0.7632.109
+    - Memory management improvements for screen-wake scenarios
+    - Improved compatibility with certain banking apps (reduced custom ROM detection)
+    - Added ongoing action chip implementation
+    - Squiggle seekbar for media progress panel
+    - Gradient styling for volume buttons and slider
+    - Added per-app volume support
+    - Fixed audio focus issues (disable multi-media focus if needed)
+    - Toggle for notification translucency
+    - Extended QS header image to support animated GIF/WEBP
+    - Data usage indicator option in QS footer
+    - >-
+      Removed status bar brightness control (no longer compatible with latest Android source - may be revisited in
+      future revisions)
+    - Added lockscreen widgets support
+    - Rewrote UDFPS icon picker and animations
+    - Fixed screen-off UDFPS
+    - Fixed fingerprint enrollment finish layout
+    - Status bar clock background chip styles
+    - Gradient customization for QS tiles, brightness slider, and volume slider
+    - Monet settings illustration added
+    - System icon shapes moved to Launcher3
+    - Proper Material You (M3) theming for dialogs
+    - Multiple settings pages converted to modern preference dialogs
+    - >-
+      Launcher3 received a large set of improvements: Optimized All Apps performance and icon allocations, Fixed recents
+      issues when navigation hint is disabled, Fixed row height customization in app drawer, Added wallpaper pop-up
+      carousel, Added AI search icon for Gemini, Fixed QSB layout issues and padding, Set default search bar opacity to
+      80%, Additional stability fixes and optimizations
+    - Added SoftAP client manager
+    - Option to disable private DNS while using VPN
+    - Fixed status bar clock reset issues
+    - Fixed AM/PM reset behavior
+    - Fixed roaming icon display
+    - Fixed incorrect positioning of custom status bar logo
+    - Fixed navbar inverse layout with taskbar enabled
+    - Fixed secondary user crash when system user is locked
+    - Fixed privacy dashboard crash
+    - Fixed Google battery widget
+    - Fixed radio info menu (##4636##)
+    - Fixed recents freeze when navigation hint is disabled
+    - Fixed ambient display edge light, media art, and pulse issues
+    - Fixed various SystemUI glitches and layout problems
+    - Fixed navbar issues when hint is disabled
+    - Fixed incorrect display of custom status bar logo
+    - Migrated to Material 3 Expressive design
+    - Fixed screensaver settings crash in Turkish locale
+    - Fixed night mode color preference bug
+    - Resource optimizations and cleanup
+    - Keyboard app improvements
+    - Added battery optimization shortcut from power usage summary
+    - Added missing Adaptive Connectivity icon
+    - Updated settings illustrations from Canary
+    - Updated translations
+    - Numerous smaller fixes and refinements throughout the system
+  notes:
+    - OSS based
+    - >-
+      Only Vanilla build available - Alternative to having Gapps: use NikGapps, está disponível em nossos repositórios
+      junto com a ROM
+    - "SELinux: Enforcing"
+    - Moto Camera included
+    - Dolby Sony included
+    - Kernel changed to Sedona
+    - "Build type: User"
+    - Smartpixels included
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/10PZlgWGt7_tYM-YEMzRldtVg18SCeMWv?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/84379
+- name: Mist OS
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 17/03/2026
+  link: https://drive.google.com/drive/folders/1MWcOmWJTwRj50ipu-K4d7oIihsInR8OB?usp=sharing
+  size: 2.39/2.39 GB
+  status: stable
+  changelog:
+    - Monet Settings — Deep Material You color customization
+    - Custom Font & Prebuilt Fonts — Change your system font effortlessly
+    - Changing Animations — Tune every transition to your taste
+    - QS Tile Shapes — Reshape your Quick Settings panel
+    - Single Tone QS — Clean, uniform Quick Settings look
+    - QS Panel Scrims — Elegant panel background control
+    - Volume Styles — Redesigned volume UI with multiple styles
+    - Lockscreen Custom Clock — Make your lockscreen truly yours
+    - Lockscreen Widget — Add widgets right on the lock screen
+    - Custom AOD — Always-On Display, reimagined
+    - Cutout Progress Ring — Charging ring around your camera cutout
+    - Charging Ripple Animations — Beautiful animations when charging
+    - Depth Wallpaper — Parallax depth effect for wallpapers
+    - Wallpaper Glimpse — Peek at your wallpaper from anywhere
+    - Edge Light — Notification glow on screen edges
+    - Status Bar Action Chip — Modern pill-style status bar info
+    - Now Playing — See what's playing right on your screen
+    - QPR2 March Patch — Latest Android 16 security update
+    - Smart Pixels — Save battery with pixel-level management
+    - Sensor Block — Control app sensor access per-app
+    - Shake Gestures — Trigger actions with a quick shake
+    - Mistify Launcher — Custom recents panel via Launcher3
+    - Bug Fixes & Improvements — Dozens of under-the-hood refinements
+  known_issues:
+    - "Integridade: falha"
+  notes:
+    - Baseado em OSS
+    - GApps build
+    - "Tipo da build: user"
+    - "SELinux: Enforcing"
+    - Moto Camera incluída
+    - RKSU Opcional (Faça o download em nossos repositórios juntamente com a ROM)
+    - Duas Builds disponíveis (com e sem RKSU)
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/84128
+- name: DerpFest
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 15/03/2026
+  link: https://drive.google.com/drive/folders/1oCLYHMJeKX-rTIUvcj8VFkqG7BwbdP4f?usp=sharing
+  size: 2.31 GB
+  status: stable
+  changelog:
+    - Modified tree for building DerpFest and solving build problem
+  notes:
+    - D2tw fixed
+    - NFC fixed
+    - Lag fixed
+    - MotCamera added
+    - Sushi kernel added
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Motog84ES/18823
+- name: Halcyon|BETA
+  version: Android 16
+  android: Android 16
+  author: herobuxx
+  origin: official
+  date: Periodicamente
+  link: https://get.hlcyn.co/builds/bangkk#:~:text=Back%20to%20Devices-,g84%205G,-bangkk
+  size: 1.12 GB
+  status: stable
+  notes:
+    - O link é atualizado automaticamente em nosso site para a versão mais recente da ROM
+  variants:
+    - label: Fonte / Telegram
+      link: https://get.hlcyn.co/files/beta/bloom/fogos
+- name: Mossify
+  version: Android 15
+  android: Android 15
+  author: ZedissP
+  origin: unofficial
+  date: 29/01/2026
+  link: https://drive.google.com/drive/folders/1rCEkze5dSe6_sweQdRjXh_bXHKSoYV0k?usp=sharing
+  size: 3.48 GB
+  status: stable
+  changelog:
+    - Aplicativos desnecessários removidos (debloat)
+    - Apps úteis e leves do Fossify adicionados
+    - Adicionado o recurso Circle to Search (CTS)
+    - Suporte a blur ativado na interface
+    - Alterado o tamanho da barra de navegação por gestos
+    - Novo banner informativo do dispositivo
+    - Novos wallpapers definidos como padrão
+    - Launcher atualizado com suporte a fundo transparente
+    - Atualizações OTA desativadas (para evitar brick)
+    - Todos os apps Fossify adicionados podem ser desinstalados
+  known_issues:
+    - O efeito de blur consome mais recursos e pode ser desativado em Opções do desenvolvedor > Window blur
+    - >-
+      Para melhor desempenho com blur ativado: definir taxa fixa de 120Hz, ativar Forçar 4x MSAA e desativar Hardware
+      Overlay (HW)
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/82587
+- name: 2by2
+  version: Android 15
+  android: Android 15
+  author: Caruzo
+  origin: unofficial
+  date: 03/01/2025
+  link: https://drive.google.com/drive/folders/1nDgUa42v000SkrkaA0XSfa-iopDt9mS-?usp=sharing
+  size: 1.9 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://sourceforge.net/projects/caruzoroms/files/bangkk/2by2/
+- name: Project Shadow
+  version: Android 16
+  android: Android 16
+  author: CentralMotoHub
+  origin: official
+  date: 20/01/2026
+  link: https://drive.google.com/file/d/1FtnXKBJo6J5xEQx4cGjo40fbzaqBoOtv/view?usp=sharing
+  size: "? GB"
+  status: stable
+  notes:
+    - Build ainda em desenvolvimento
+  variants:
+    - label: Fonte / Telegram
+      link: https://drive.google.com/drive/folders/1uOwDkrZ08lce8vMyWg28pqP5R485e38O?usp=sharing
+- name: Lineage OS
+  version: Android 15
+  android: Android 15
+  author: Anand
+  origin: unofficial
+  date: 21/04/2025
+  link: https://drive.google.com/drive/folders/1kMOvSayBGIvxrNWYMd3fdZWluHLCIBMg?usp=sharing
+  size: 1.2 GB
+  status: stable
+  changelog:
+    - Mesclado com Android 15 QPR2
+    - Build assinada, SELinux Enforcing e userdebug
+    - Correção do bug de frequência de clock travada em 1500 MHz
+    - Powerhint reajustado
+    - Correção de throttling térmico agressivo
+    - Desempenho e controle térmico melhorados, especialmente para jogos
+    - Kernel Android 15 da Motorola mesclado
+  notes:
+    - Use o boot.img da release anterior do bangkk por enquanto
+    - Checksums SHA256 incluídos para verificação de integridade
+    - "signed-ota_update.zip: 37d69b1a2dfabffc92cfbd8bf354e318e74e074be2f378d6c7d12012486db4cc"
+    - "boot.img: 512d31e6fed07ca570542141c90bcf434a485f0938bf9a6c26998b97a38dc054"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/63071
+- name: Helluva OS
+  version: Android 15
+  android: Android 15
+  author: Vishal
+  origin: unofficial
+  date: 03/03/2025
+  link: https://drive.google.com/drive/folders/1tjLbQGKNJhoLDHC70Q6lW9nfRy4g57L5?usp=sharing
+  size: 2.3 GB
+  status: stable
+  changelog:
+    - >-
+      Incrementado o índice de rollback do AVB (é seguro relockar o bootloader caso você já tenha flashado o patch de
+      Janeiro)
+    - Blobs atualizados a partir da stock mais recente do fogos
+    - Suporte a DT2W adicionado para dispositivos Moto G45, G34, G84 e G71
+    - 5G desativado quando a câmera está em uso no Moto G84 como solução temporária para lags e crashes da câmera
+    - Calibração awinic carregada corretamente em dispositivos G82
+    - Correção de diversas negações de sepolicy, principalmente relacionadas ao carregamento
+    - Mais nós de wakeup devidamente rotulados
+    - Partição vendor_dlkm adicionada
+  notes:
+    - >-
+      Não é recomendado fazer root ou qualquer outra modificação na ROM, pois tudo já foi ajustado para o melhor
+      funcionamento e a ROM já entrega tudo que um usuário comum precisa
+    - >-
+      Para passar na verificação de integridade do dispositivo, baixe e instale o app fornecido no grupo de suporte e
+      reinicie o aparelho
+    - Caso encontre bugs, reporte corretamente utilizando logcat
+    - >-
+      Foi observado que relockar o bootloader fez com que mais aplicativos funcionassem corretamente (alguns não
+      funcionavam com o bootloader desbloqueado mesmo passando na integridade do dispositivo)
+  variants:
+    - label: Fonte / Telegram
+      link: https://pixeldrain.com/u/Y21ycZXE
+- name: Pixelage
+  version: Android 15
+  android: Android 15
+  author: Caruzo
+  origin: unofficial
+  date: 09/02/2025
+  link: https://drive.google.com/drive/folders/1uBnO2jpET-rIPeCAftZoB1-j5kRzaHvx?usp=sharing
+  size: 2.1 GB
+  status: stable
+  changelog:
+    - DT2W funcionando em ambas as telas
+    - Leitor de digitais funcionando com a tela desligada em ambas as telas
+    - Opção adicionada para ajustar o brilho automático mínimo
+    - Opção adicionada para bloquear o acesso à internet de aplicativos específicos
+    - LiveDisplay adicionado
+    - Controle de volume por aplicativo adicionado
+    - Quick Tap adicionado
+    - Camelot adicionado (visualizador de PDF do Lineage)
+    - Play Integrity não requer mais APK (atualização automática durante o reboot)
+    - Interface do Radio Info totalmente reformulada
+  variants:
+    - label: Fonte / Telegram
+      link: https://sourceforge.net/projects/caruzoroms/files/bangkk/ProjectPixelage/
+- name: DerpFest
+  version: Android 15
+  android: Android 15
+  author: Caruzo
+  origin: unofficial
+  date: 30/12/2024
+  link: https://drive.google.com/drive/folders/1x42oRYkvwYHqxKBw46vMsR9ZWznogXNO?usp=sharing
+  size: 2.1 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/43465
+- name: Pixel Star
+  version: Android 14
+  android: Android 14
+  author: Caruzo
+  origin: unofficial
+  date: 14/11/2024
+  link: https://drive.google.com/drive/folders/1re7BDt5x8yZHWO5svH1Ea9WLabSJHkom?usp=sharing
+  size: 2.1 GB
+  status: stable
+  changelog:
+    - "Patch de segurança de Novembro mesclado (créditos: LineageOS)"
+    - Correção do bug visual do SELinux permissivo
+    - Correção dos sensores que não funcionavam, especialmente o giroscópio
+    - Suporte ao nano_recovery adicionado
+    - Múltiplos APNs adicionados por padrão
+    - Correção para operadoras que utilizam indicador de sinal com 5 barras
+    - Ícones Material para chamadas perdidas nas notificações da barra de status
+    - Remoção de vídeos desnecessários para liberar espaço de armazenamento
+    - Aplicativos customizados pré-instalados
+    - Melhoria nas mensagens contextuais do dashboard
+    - Diversas otimizações e mudanças internas
+    - Wallpaper atualizado
+  notes:
+    - ROM com build somente VANILLA
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/caruzoromschannel/18
+- name: Rising OS
+  version: Android 14
+  android: Android 14
+  author: Caruzo
+  origin: unofficial
+  date: 21/01/2024
+  link: https://drive.google.com/drive/folders/10TeKG7kpTm2l2CVwTYxJmIneDtEnpOKN?usp=sharing
+  size: 2.3 GB
+  status: stable
+  notes:
+    - ROM com build somente GAPPS
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Custom_channel/57
+- name: Project Flare
+  version: Android 15
+  android: Android 15
+  author: Caruzo
+  origin: unofficial
+  date: 14/01/2025
+  link: https://drive.google.com/drive/folders/1LU5tDNurF_1EobHSmJSN9c2XcQlnpc8O?usp=sharing
+  size: 1.9 GB
+  status: stable
+  notes:
+    - ROM com build somente GAPPS
+  variants:
+    - label: Fonte / Telegram
+      link: https://sourceforge.net/projects/caruzoroms/files/bangkk/ProjectFlare/
+- name: After Life
+  version: Android 14
+  android: Android 14
+  author: Caruzo
+  origin: unofficial
+  date: 22/11/2024
+  link: https://drive.google.com/drive/folders/1-fvBmyvf9VwgDtoWmAxL5XDmPUilJLxa?usp=sharing
+  size: 2.1 GB
+  status: stable
+  notes:
+    - ROM com build somente GAPPS
+  variants:
+    - label: Fonte / Telegram
+      link: https://sourceforge.net/projects/caruzoroms/files/bangkk/Afterlife/
+- name: WearyUI - SL
+  version: Android 14
+  android: Android 14
+  author: Sammm77
+  origin: unofficial
+  date: 01/04/2024
+  link: https://drive.google.com/drive/folders/19slhLr5MfXzijm5XIKJoyfsEgtsAaGEf?usp=sharing
+  size: 2.9 GB
+  status: stable
+  changelog:
+    - Baseado na build stock 22-64-18
+    - Otimização completa e debloat total do sistema
+    - Remoção de diversos serviços desnecessários e obsoletos
+    - GboardLite incluído
+    - Removida a restrição de montagem de partições como somente leitura (rw habilitado)
+    - Sistema de arquivos alterado de erofs-ro para ext4-rw
+    - Logs de firmware WLAN desativados
+    - Flag Secure, verificação de assinatura e diálogos de erro durante o boot desativados
+    - Ajuste nos limites de RSSI para re-associação do Wi-Fi
+    - readahead_size_kb definido como 128 para todas as partições físicas e /data para evitar pressão de memória
+  notes:
+    - Inclui a maioria dos recursos típicos desta ROM
+    - Flash do ZIP deve ser feito no TWRP fornecido
+    - Após a instalação, ir em Wipe > Format Data > Yes
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/12547
+- name: crDroid
+  version: Android 16
+  android: Android 16
+  author: Romansozanskij
+  origin: unofficial
+  date: 12/01/2026
+  link: https://drive.google.com/drive/folders/1fFz9AVkOXvb9S2X6br43C2RwtJ-Ie6fN?usp=drive_link
+  size: 1.55 GB
+  status: stable
+  changelog:
+    - Lançamento inicial
+  notes:
+    - Baseada em OSS
+    - Build Vanilla
+    - "SELinux: Enforcing"
+    - Dolby Atmos e Moto Camera incluídos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/BangkkDiscussion/10782
+- name: Pixel OS
+  version: Android 16
+  android: Android 16
+  author: Akari
+  origin: unofficial
+  date: 14/01/2026
+  link: https://drive.google.com/drive/folders/1wiOJdtWzmIS6Le2CBDsceNXM10zjAcKn?usp=sharing
+  size: 2.2 GB
+  status: stable
+  changelog:
+    - Implementado DT2W (double tap to wake) via powerhint
+    - Modo de energia GAME ativado no Power HAL
+    - Powerhint ajustado para Android 16 QPR1
+  known_issues:
+    - "Integridade: não passa por padrão"
+  notes:
+    - Baseada em OSS
+    - Build com GApps
+    - "SELinux: Enforcing"
+    - Dirty flash da versão anterior é permitido
+    - Dolby Atmos e Moto Camera incluídos
+    - "Integridade: não passa por padrão (consulte as instruções)"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/akaristuffsgroup/254
+- name: Axion OS
+  version: Android 16
+  android: Android 16
+  author: Romansozanskij
+  origin: unofficial
+  date: 12/01/2026
+  link: https://drive.google.com/drive/folders/1TKixnzutiE1tzUox9JDN1zq3dIMdwKGP?usp=sharing
+  size: 1.8 GB
+  status: stable
+  changelog:
+    - Migrado para o kernel Anand
+    - Alterações a partir do código-fonte
+  notes:
+    - Build inicial A16 QPR1
+    - Dolby OSS incluído
+    - MotoCamera4 incluída
+    - GApps versão Pico
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Motog84ES/17571
+- name: Evolution X
+  version: Android 16
+  android: Android 16
+  author: Romansozanskij
+  origin: unofficial
+  date: 12/01/2026
+  link: https://drive.google.com/drive/folders/1Fh91ylPKUs6zku49eIf9Gn4ZtFwOk6V6?usp=sharing
+  size: 2.6 GB
+  status: stable
+  notes:
+    - Primeira Build
+    - Build inicial A16 QPR1
+    - Dolby OSS incluído
+    - MotoCamera4 incluída
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/BangkkDiscussion/9848
+- name: Euclid Os
+  version: Android 16
+  android: Android 16
+  author: Aryan S
+  origin: official
+  date: Periodicamente
+  link: https://downloads.euclidos.org/0:/Bangkk/
+  size: ~2.0 GB
+  status: stable
+  changelog:
+    - Changelog mais recente através do próprio repositório oficial
+  notes:
+    - Link de download atualizado automaticamente. Nosso site é conectado diretamente ao repositório oficial da ROM
+  variants:
+    - label: Fonte / Telegram
+      link: https://www.euclidos.org/downloads/bangkk/#changelogs
+- name: Panda Droid
+  version: Android 16
+  android: Android 16
+  author: notkerdX, Vishal
+  origin: official
+  date: 26/12/25
+  link: https://drive.google.com/drive/folders/1RF7XGuK3YHx_hG7SENgvqrqaHHXpQf-8?usp=sharing
+  size: 2.3 GB
+  status: stable
+  changelog:
+    - Lançamento inicial do Android 16 QPR2
+    - Moto Camera adicionada
+    - Animação de boot própria adicionada
+    - Carregamento do HAL de NFC desativado para variantes fogos sem NFC
+    - Corrigidos crashes do serviço de GPU
+    - Corrigidos crashes da SystemUI causados por modelos de ML não carregarem
+    - Corrigido problema que reduzia o deep sleep
+    - Corrigido problema que fazia o Hotspot não funcionar
+    - Blur otimizado mantendo baixo consumo de energia
+    - Melhorias no áudio
+  notes:
+    - Baseada em OSS
+    - Build com GApps
+    - SELinux em modo Enforcing
+    - Firmware na versão mais recente
+    - Reporte bugs no grupo de suporte com um bug report adequado
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/BangkkDiscussion/5717
+- name: Mica OS
+  version: Android 16
+  android: Android 16
+  author: notkerdX, Vishal
+  origin: unofficial
+  date: 18/12/2025
+  link: https://drive.google.com/drive/folders/1d5w5T_TQt6gBY4blBN70lfY3pnz8elml?usp=sharing
+  size: 2.35 GB
+  status: stable
+  changelog:
+    - Lançamento inicial
+  notes:
+    - Baseada em OSS
+    - Build com GApps
+    - SELinux em modo Enforcing
+    - "Integridade do Play: não passa"
+    - Moto Camera incluída
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/79414
+- name: YAAP
+  version: Android 16
+  android: Android 16
+  author: barryblackcat
+  origin: unofficial
+  date: 27/12/2025
+  link: https://drive.google.com/drive/folders/1pFrtG4o1TripGKsl6MO15_b3HSA8sJpd?usp=sharing
+  size: 2.1 GB
+  status: stable
+  changelog:
+    - Hotspot corrigido
+    - Adicionada alta taxa de polling (agradecimentos a @XxxVishalxxX por encontrar os nodes)
+    - Modo Doze corretamente ativado
+    - Powerhint ajustado para efeitos de blur
+    - Dolby Atmos adicionado com Áudio Espacial
+    - Logspam corrigido
+    - Alguns backports no kernel para corrigir logspam e hotspot
+    - Corrigido crash nas Opções do Desenvolvedor
+    - Seleção de papel de parede corrigida
+    - Nova bootanimation e novo logo
+    - Várias correções gerais e de interface
+    - Correção adequada para crash do GPUService
+    - Última sincronização da source em 27/12
+  notes:
+    - Baseado em OSS
+    - Build com GApps
+    - "SELinux: Enforcing"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/barryplace/14
+- name: Project Matrixx
+  version: Android 16
+  android: Android 16
+  author: AryanS
+  origin: official
+  date: Mensalmente
+  link: https://www.projectmatrixx.org/downloads/bangkk#:~:text=Download-,Motorola%20G84,-bangkk%20%7C%20sixteen
+  size: 1.7/2.6 GB
+  status: stable
+  changelog:
+    - Lançamento inicial do Matrixx A16 oficial
+    - Moto Camera incluída
+  notes:
+    - Há tanto uma versão VANILLA como GAPPS disponíveis para download em nosso site
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/78583
+- name: crDroid
+  version: Android 16
+  android: Android 16
+  author: gem_1n1
+  origin: unofficial
+  date: 30/11/2025
+  link: https://drive.google.com/drive/folders/14JLzfCLDeEs9a26qFzitCcXNax9nN4xA?usp=drive_link
+  size: 1.34 GB
+  status: stable
+  changelog:
+    - Moto Camera adicionada
+    - Sincronizado com a source mais recente
+    - Patch de segurança de novembro
+    - >-
+      Ultimamente eu não consegui dedicar ao projeto como ele merece, mas espero trazer melhorias significativas nas
+      próximas semanas
+    - Dirty flash permitido se vier de uma versão anterior do crDroid
+  known_issues:
+    - dt2w não funciona com AOD
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/78577
+- name: The Clover Project
+  version: Android 16
+  android: Android 16
+  author: Akarizao
+  origin: unofficial
+  date: 25/11/2025
+  link: https://pixeldrain.com/l/gVgXyprr#:~:text=CloverProject%2Dv3.4%2Dbangkk%2DUNOFFICIAL%2D20251125
+  size: 2.25 GB
+  status: stable
+  changelog:
+    - GameBar adicionada
+    - Corrigido problema de microfone em apps como WhatsApp
+    - Lineage Camera removida
+    - Responsividade da interface aprimorada
+    - Permitido que mais apps em cache rodem em segundo plano
+    - Corrigido volume de áudio anormalmente baixo
+    - Dolby adicionado a partir do XiaomiDolby
+  notes:
+    - GApps incluído
+    - Trees do LineageOS
+    - MotoCam incluída
+    - Enforcing & UserDebug
+    - Veja o tópico no XDA para instruções
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/78225
+- name: Lunaris OS
+  version: Android 16
+  android: Android 16
+  author: aryangodxdoff
+  origin: unofficial
+  date: 18/12/2025
+  link: https://drive.google.com/drive/folders/1EsBZlOeGVW_HHgXBTLTaBsmmQImtNfki?usp=sharing
+  size: 1.82/2.1 GB
+  status: stable
+  changelog:
+    - Patch de segurança atualizado para 1º de dezembro de 2025
+    - Security R3 mais recente mesclado
+    - Troca para o jemalloc_new do AOSP
+    - arm-optimized-routines atualizado
+    - GMS atualizado e correção de nomes de pacotes incorretos
+    - Melhorias no gerenciamento de memória e segurança de threads
+    - Limpeza do repositório ART
+    - BCR atualizado
+    - Atualizações na interface do Instalador de Pacotes vindas do QPR2
+    - Material Expressive aplicado ao Status Bar Tuner e partes dos recursos do Lineage
+    - Novas animações no QS com maior fluidez
+    - Visualização de calendário adicionada ao QS
+    - Redução do tamanho do relógio no QS expandido
+    - Opções de fundo neutro e tom único no QS
+    - Controle de opacidade do QS
+    - Interface de diálogos do sistema melhorada
+    - Melhor visibilidade em temas dual-tone quando o blur está desativado
+    - Removidos estilos antigos de ícones de Wi-Fi e sinal
+    - Correção de engasgos ao abrir apps pelo menu Recentes
+    - Now Playing adicionado à tela de bloqueio
+    - Troca automática de papel de parede baseada em tempo
+    - Lock Glymps evoluído para Wallpaper Glymps
+    - Novo layout de visualização e recarregamento de papéis de parede
+    - Opção de alternar estado Doze no AOD
+    - UDFPS customizável no AOD
+    - Suporte ao clima OmniJaws na tela de bloqueio
+    - Mensagens aleatórias no Smartspace
+    - Botão de chamada de emergência oculto na tela de PIN/Padrão
+    - Launcher3 definido como padrão com proteção contra burn-in por gestos
+    - Opção para desativar o mini player de mídia sempre ativo
+    - Dois novos estilos de renderização Pulse
+    - Visualizer Pulse desativado ao expandir o QS
+    - Filtro de pixelização/mosaico para artes de mídia
+    - Redução do tamanho máximo de bitmaps de mídia
+    - Animações de mídia melhoradas
+    - Correção de inconsistência de cores no slider de volume
+    - Melhor desempenho do QS durante reprodução de mídia
+    - Tile de toque/silêncio (Ringer) adicionado
+    - Bloqueio de sensores por aplicativo
+    - Opção para ignorar restrições de Localização Falsa
+    - Forçar LTE_CA por assinatura
+    - Lanterna piscando em chamadas recebidas
+    - Novas animações de carregamento
+    - Efeito de carregamento estilo Nothing OS
+    - Easter Egg atualizado
+    - Overlay de chamadas imersivo no GameSpace
+    - Calendário Vikram Samvat adicionado
+    - Correções no comportamento de tela cheia
+    - Pré-visualização de fontes no seletor de fontes
+    - Download direto de fontes via GitHub
+    - Opção de fundo para o gesto de voltar
+    - Experiência do gerenciador de fontes aprimorada
+    - Rolagem do sistema mais suave
+    - Atualizações do boostfw vindas do Axion
+    - Merges de interface do QPR1 e QPR2
+    - Melhorias gerais de estabilidade e desempenho do sistema
+  notes:
+    - Há tanto uma versão VANILLA como GAPPS disponíveis para download em nosso site
+    - Lunaris OS 3.6 foca em polimento, fluidez e refinamento visual
+    - Atualização traz melhorias perceptíveis no uso diário
+    - Release voltado para personalização profunda sem comprometer desempenho
+    - Recomendado atualizar para aproveitar correções de segurança e estabilidade
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/79404
+- name: Project Matrixx
+  version: Android 16
+  android: Android 16
+  author: aryangodxdoff
+  origin: unofficial
+  date: 23/11/2025
+  link: https://drive.google.com/drive/folders/11E7eDal80CV1G72ddVxiWfY_YkOwkCFD?usp=sharing
+  size: 2.24 GB
+  status: stable
+  changelog:
+    - Patch de segurança de novembro
+    - Correção do carregamento lento
+    - Correção do DT2W e UDFPS não funcionando no AOD após 5 segundos
+    - Adição de ícones e animações do UDFPS
+    - Build Vanilla adicionada
+  notes:
+    - Há tanto uma versão VANILLA como GAPPS disponíveis para download em nosso site
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/78068
+- name: InfinityX
+  version: Android 16
+  android: Android 16
+  author: Akarizao
+  origin: unofficial
+  date: 14/11/2025
+  link: https://pixeldrain.com/l/BNrnCXfs
+  size: 1.82 GB
+  status: stable
+  changelog:
+    - Lançamento (build) inicial!
+  notes:
+    - Enforcing & userDebug
+    - Trees do LineageOS
+    - GApps incluídos
+    - Kernel SUSHI funciona nessas trees
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/77613
+- name: CalyxOS
+  version: Android 15
+  android: Android 15
+  author: Calyx Institute
+  origin: official
+  date: 13/11/2025
+  link: https://release.calyxinstitute.org/bangkk-ota_update-25608210.zip
+  size: 1.7 GB
+  status: stable
+  changelog:
+    - Baseada no Android 15
+    - "Patch de segurança: June 2025 Security update (2025-06-01)"
+    - Atualização do navegador Chromium para 137.0.7151.72
+    - Melhorias gerais de estabilidade e segurança para todos os dispositivos suportados
+  known_issues:
+    - >-
+      Algumas funções avançadas de restrição de tráfego claro (Cleartext Restriction) foram removidas por motivos
+      técnicos e de segurança.​
+    - >-
+      Os updates para modelos Motorola podem chegar com atraso de até dois meses, em relação aos Pixels, devido ao ciclo
+      do fornecedor.
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/77537
+- name: /E/OS
+  version: Android 15
+  android: Android 15
+  author: ronnz98
+  origin: unofficial
+  date: 09/06/2025
+  link: https://drive.google.com/file/d/1DV69YZl0zYvKy4gv9Q2chShtg32KA8Vy/view?usp=drive_link
+  size: 1.32 GB
+  status: stable
+  changelog:
+    - Controles parentais aprimorados
+    - Advanced Privacy expandido
+    - Find My Device via SMS
+    - Tablet Mode
+    - Murena Find
+    - Chromium atualizado
+    - Atualizações gerais de segurança patch de segurança junho 2025 (2025-06-01) com múltiplos CVEs corrigidos​
+  known_issues:
+    - NFC ainda pode estar instável
+    - Bootloader relocking sem dados ainda pode estar presente
+  notes:
+    - >-
+      A build e-3.0-a15-20250609-UNOFFICIAL-bangkk.zip é comunitária e não oficial; Murena ainda está trabalhando em
+      suporte oficial para Moto G84
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG84Brasil/77535
+- name: LineageOS
+  version: Android 16
+  android: Android 16
+  author: LineageOS Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/bangkk/builds
+  size: ~1.1 GB
+  status: stable
+  changelog:
+    - "Changelogs: https://download.lineageos.org/devices/bangkk/changes"
+  notes:
+    - >-
+      ROM oficial, recomendada para estabilidade e suporte a longo prazo. A atualização no site é automatica pelo link
+      de download oficial
+  variants:
+    - label: Fonte / Telegram
+      link: https://download.lineageos.org/bangkk/
+- name: LMDROID
+  version: Android 15
+  android: Android 15
+  author: LibreMobileOS
+  origin: official
+  date: 19/11/2025
+  link: https://get.libremobileos.com/devices/bangkk/builds#:~:text=LMODroid%2D6.2%2D20251119%2DRELEASE%2Dbangkk.zip
+  size: 1.2 GB
+  status: stable
+  notes:
+    - ROM oficial focada em privacidade e segurança, baseada no Android AOSP.
+  variants:
+    - label: Fonte / Telegram
+      link: https://libremobileos.com/
+- name: EvolutionX
+  version: Android 15
+  android: Android 15
+  author: Deivid21
+  origin: official
+  date: 21/09/2025
+  link: https://drive.google.com/drive/folders/12NGRDt9GTXrFO8xS4ml7x8hK-dIaqHk2?usp=sharing
+  size: 2.55 GB
+  status: stable
+  changelog:
+    - Corrigido não mostrar taxa de atualização.
+  notes:
+    - Moto Camera e GApps incluídos
+    - Leia o tópico do XDA para instruções
+  variants:
+    - label: Fonte / Telegram
+      link: https://evolution-x.org/

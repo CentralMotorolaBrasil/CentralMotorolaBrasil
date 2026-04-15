@@ -1,0 +1,37 @@
+- name: MGC
+  version: 8.1.101/A9 GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/file/d/1M95FW29b2AINqfZ9JbwtXAU6L1okXszl/view?usp=sharing
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Requer Android 10 ou superior (idealmente Android 11+) para funcionamento ideal
+    - Processador 64-bit obrigatório
+    - Suporte completo e otimizado para Camera2 API
+    - "Múltiplas variações de assinatura disponíveis: SNAP, ENG, MGC, SCAN3D, RULER, QCAMERA3, AWEME"
+    - Compatível com Xiaomi, OnePlus, Samsung, POCO, Redmi e muitas outras marcas
+- name: SGCam
+  version: 8.4.400.42/Stable V43
+  author: Shamim
+  date: 25/12/2022
+  link: https://drive.google.com/file/d/13GB65NKY3qVfhnR-lx5mfqQdxCqrxasR/view?usp=sharing
+  size: 133.8 MB
+  recommended: false
+  notes:
+    - Baseado no Google Camera 8.4.400.42, com múltiplas otimizações específicas do modder Shamim
+    - >-
+      Disponível em vários pacotes de assinatura: com.shamim.cam, org.codeaurora.snapcam, com.samsung.android.scan3d,
+      com.ss.android.ugc.aweme, com.google.android.GoogleCameraEng, com.samsung.android.ruler
+    - >-
+      Suporte completo a arquivos de configuração (XML), com ampla variedade de perfis para aparelhos como Xiaomi,
+      Samsung, OnePlus, Realme, POCO e outros
+    - Recomendado para dispositivos com Android 10 ou superior; para melhor estabilidade, idealmente Android 11+
+    - Requer suporte completo a Camera2 API para funcionamento ideal de todos os modos e lentes
+    - >-
+      Diversos perfis XML otimizados disponíveis na comunidade (Celso Azevedo, canais de Telegram e fóruns
+      especializados)
+    - >-
+      Inclui recursos avançados típicos dos mods Shamim, como ajustes finos de libpatcher, controle de ruído, contraste,
+      saturação e comportamento de HDR
+    - Indicada como build estável final da linha 8.4 (v43), muito utilizada em dispositivos com múltiplas câmeras

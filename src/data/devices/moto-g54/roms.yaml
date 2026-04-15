@@ -1,0 +1,446 @@
+- name: Avium UI
+  version: Android 16
+  android: Android 16
+  author: Harshvardhan_0011, dev_ayu
+  origin: unofficial
+  date: 01/03/2026
+  link: https://drive.google.com/drive/folders/1CbTJsNm9LjbLVC7HRPwVNLZSK8jPa6c_?usp=sharing
+  size: 2.86/1.96 GB
+  status: stable
+  changelog:
+    - Base atualizada para Android 16 QPR2
+    - Atualizados os patches de segurança mais recentes do Google
+    - Atualizados elementos visuais para aparência mais leve e dinâmica
+    - Otimizado efeito visual de alguns relógios da tela de bloqueio
+    - Otimizada lógica de janela flutuante leve e corrigidas falhas
+    - Introduzido novo aplicativo 'Flash Notes' para capturar inspirações instantâneas
+    - Otimizada experiência geral da tela de bloqueio com profundidade de campo
+    - >-
+      Corrigido problema onde parâmetros de gestos para janela flutuante leve não atualizavam imediatamente após
+      modificação
+    - Corrigido problema onde catshare não funcionava corretamente em alguns dispositivos
+    - Adicionadas sugestões de 'Código de verificação SMS'
+    - Otimizados efeitos visuais da janela flutuante
+    - Corrigido problema onde sites comuns não podiam ser capturados
+    - Adicionado feedback de vibração
+    - Adicionada alternância de estilo Pad no Launcher
+    - Adicionada inicialização de janela de bolha no Launcher
+    - Mescladas atualizações upstream no Launcher
+    - Otimizada lógica de atualização de parâmetros de gestos na janela flutuante leve
+    - Otimizada seleção de aplicativos para mais apps na janela flutuante leve
+    - Adicionada barra lateral global na janela flutuante leve
+    - >-
+      Otimizada experiência de ativação por gestos - deslize diretamente para selecionar e iniciar apps na janela
+      flutuante leve
+    - Adicionado feedback de vibração na janela flutuante leve
+    - Adicionada clonagem de aplicativos no Sistema
+    - Otimizados efeitos de notificação de apps do sistema no Sistema
+    - Letras de músicas na barra de status agora usam notificações ao vivo para suporte a mais aplicativos no Sistema
+    - Adicionada abertura leve de notificações - abra rapidamente apps de notificação em janela flutuante no Sistema
+    - Otimizada interface principal do Avium - categorização de funções mais clara
+    - Ocultadas dinamicamente algumas configurações no Avium
+    - Otimizado suporte a vários idiomas no Relógio
+    - Otimizado efeito de exibição para alguns estilos de relógio no Relógio
+    - Suportadas mais cores de componentes personalizáveis no Relógio
+  notes:
+    - Reporte problemas com adb logcat
+    - Limpeza necessária se você estiver vindo de outra ROM/port
+    - "SHA256 Vanilla: 08d42e69d849b2eabc15c3edd9b5fc15c6ea9286284219654fe39a34c459d90f"
+    - "SHA256 Gapps: a4ae360ed4c9c5a994e52ba8523102afe7540bf25d590f71198c557adaebbbf5"
+    - Builds VANILLA e GAPPS disponíveis para Download em nosso repositório
+    - Tutoriais para instalação disponíveis no repositório juntamente com o Download da ROM em nossos repositórios
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/68567
+- name: The Clover Project
+  version: Android 16
+  android: Android 16
+  author: sreejith7676
+  origin: official
+  date: Periodicamente
+  link: https://thecloverproject.com/download/cancunf#:~:text=Source%20Changelog-,Latest%20Release,-Clover%20v3.7
+  size: ~2.6 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://thecloverproject.com/download/cancunf
+- name: Leaf OS
+  version: Android 14
+  android: Android 14
+  author: Cg1a1
+  origin: unofficial
+  date: 11/10/2024
+  link: https://mega.nz/folder/K8gRBIrZ#X7ycFDTXhnGWOYgh9EuoMQ
+  size: 1.36/1.57 GB
+  status: stable
+  changelog:
+    - Build estável inicial
+  known_issues:
+    - DT2W (Double Tap to Wake)
+    - Distorção de áudio em volume alto
+  notes:
+    - Limpeza necessária por ser a primeira build feita por mim
+    - >-
+      Use a recovery específica da variante LeafOS para fazer o flash (Para recovery: Extraia vendor_boot.img do zip da
+      ROM e faça o flash)
+    - "MD5 Vanilla: 384d2998065047293641b315c5dbf11a"
+    - "MD5 Gapps: 33bc861bcf4381e2b62570996f55bfcb"
+    - Build VANILLA e GAPPS disponíveis em nossos repositórios para Download
+    - "Firmware necessário: Android 14 U1TD34M.94-12-7 ou mais recente"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/7496
+- name: crDroid
+  version: Android 15
+  android: Android 15
+  author: ussr_1674
+  origin: unofficial
+  date: 09/01/2025
+  link: https://drive.google.com/drive/folders/1wAFaeDcafv4RlDzP_vjBaDF-btrlEsqx?usp=sharing
+  size: 1.49 GB
+  status: stable
+  changelog:
+    - Build inicial A15
+    - Vem com kernel DH por padrão
+    - Atualizado com as últimas mudanças da Device Tree
+  notes:
+    - Limpeza necessária se você estiver vindo de outra ROM/port
+    - "MD5: 37513f26ae75e19f9615216b2c5ef7ce"
+    - Build somente VANILLA disponíveis em nossos repositórios para Download
+    - "Firmware necessário: Android 14 U1TD34M.94-12-7 ou mais recente (não Stock A15 beta)"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/16682
+- name: Rising OS
+  version: Android 15
+  android: Android 15
+  author: ussr_1674
+  origin: unofficial
+  date: 09/01/2025
+  link: https://drive.google.com/drive/folders/1qacGy7b68m8VeNz95gxkmV7iyiZDPqAs?usp=sharing
+  size: 1.59/2.39 GB
+  status: stable
+  changelog:
+    - Build inicial A15
+    - Pré-compilado com kernel DH
+    - Propriedades Dalvik configuradas para variantes 8Gb e 4Gb
+    - Atualizado com as últimas mudanças da Device Tree
+  notes:
+    - Limpeza necessária por ser a primeira build feita por mim
+    - "MD5(Vanilla): 3612132a831c43c05b45926c2fc6b11b"
+    - "MD5(GAPPS): a1406d1a19605b01b3576ef2fa6cdddc"
+    - Builds VANILLA e GAPPS disponíveis em nossos repositórios para Download
+    - "Firmware necessário: Android 14 U1TD34M.94-12-7 ou mais recente (não a15 beta)"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/16682
+- name: Voltage OS
+  version: Android 15
+  android: Android 15
+  author: dev_ayu
+  origin: unofficial
+  date: 22/02/2025
+  link: https://drive.google.com/drive/folders/1nA5SxCHi5C5GIsKxPJXem6c-wujXd1Bu?usp=sharing
+  size: 1.48 GB
+  status: stable
+  changelog:
+    - Adicionadas ações de clique e progresso de reprodução de mídia ao indicador de progresso
+    - Melhorada opacidade da barra de progresso e desempenho
+    - Introduzido estilo circular para o indicador compacto
+    - Movido indicador de progresso para o PowerHub
+    - Corrigido Login do Google para usuários GApps
+    - Melhorada estabilidade e manipulação de janelas Freeform
+    - Adicionados tiles QS de Toque e Volume
+    - Redesenhadas seekbars do sistema para aparência mais limpa
+    - Removidas notificações Island
+    - Corrigidos problemas de cor de fundo com ícones temáticos
+    - Resolvidos problemas na página de segurança para usuários sandbox/microG
+    - Adicionada de volta opção 'Ocultar IME'
+    - Restaurada funcionalidade BtHelper
+    - Corrigidos aplicativos clonados não aparecendo no drawer de apps
+    - Correções e melhorias adicionais ao GMSCompat
+    - Adicionada fonte Fluid Sans para tipografia melhorada
+    - Forçado uso de ícones monocromáticos em todo o sistema
+    - Atualizado pacote de aplicativos padrão
+  notes:
+    - Limpeza necessária se você estiver vindo de outra ROM
+    - Use a recovery recomendada
+    - Para usar Sandboxed GApps, siga o tutorial em nosso repositório junto com o download
+    - "SHA256SUM: df4c8c1ff84bfb51142e57e601818117831a6166705fd13c9f35e98536a0f6a7"
+    - "Variante da Build: Sandboxed GAPPS"
+    - "Firmware necessário: Android 14 U1TD34M.94-12-7 ou mais recente (não Android 15)"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/29473
+- name: Horizon Droid
+  version: Android 15
+  android: Android 15
+  author: dev_ayu
+  origin: unofficial
+  date: 19/06/2025
+  link: https://drive.usercontent.google.com/download?id=1v2Xu35JDi5AYFtnvG_N9VWdWn8MJwuJo&export=download
+  size: 1.9 GB
+  status: stable
+  changelog:
+    - "Patch de Segurança: Junho 2025"
+    - Corrigir segundos do relógio
+    - Corrigir switch 4G
+    - Corrigir tecla de gesto
+    - Redesenho do ícone UDFPS
+    - Redesenho da animação do controle de brilho
+    - Dividir sombra de notificações
+    - Integrar HorizonLab nas Configurações - Nova implementação
+    - Integrar Omnijaws
+    - Integrar Launcher3
+    - Adicionar dados Keybox
+    - Adicionar permitir ajuste de padding extra para layout da statusbar
+    - Adicionar permitir sempre mostrar hora no player de mídia
+    - Adicionar Feedback Háptico aos tiles
+    - Adicionar vibração de autenticação por impressão digital
+    - Adicionar propriedade de sistema para alternar Spoofing de Integridade do Google Play
+    - Adicionar atalho de affordance para Assistente de Voz por IA
+    - Adicionar mais ações de tecla do dispositivo
+    - Adicionar GameSpace
+    - Adicionar Animação P
+    - Adicionar Intensidade da Lanterna
+    - Adicionar Smartspace
+    - Adicionar Carregamento na Tela de Bloqueio
+    - Adicionar reiniciar SystemUI
+    - Adicionar permitir alterar altura do gesto de voltar
+    - Adicionar gestos de três dedos
+    - Adicionar TextView de Brilho
+    - Adicionar Novos Recentes na Taskbar
+    - Adicionar configuração de alternância de chip de ação em andamento
+    - Adicionar DNS AdGuard como provedor de DNS privado
+    - Adicionar Desbloqueio Facial com ParanoidSense
+    - Adicionar Suporte para downgrade de aplicativos
+    - Adicionar Suporte para janela ignorar segura
+    - Adicionar Animações de desligar tela
+    - Adicionar Contadores de notificação
+    - Adicionar Luz de Borda
+    - Adicionar Spoofing Netflix
+    - Adicionar tile de rede preferida
+    - Adicionar Volume por aplicativo
+    - Adicionar Notificação dividida
+    - Adicionar gesto de três dedos para screenshot
+    - Adicionar cores de ícone para notificações na statusbar
+    - Adicionar mostrar uso diário de dados no rodapé do QS
+    - Adicionar recurso de ícone padrão wifi
+    - Redesenho do diálogo de Volume
+    - Adicionar notchbarkiller
+    - Adicionar forçar LTE_CA
+    - Adicionar passos de volume
+    - Adicionar Tile QS de Switch de Dados
+    - Adicionar tarefas aos recentes
+    - Adicionar estilo de barra de busca
+    - Adicionar integrar avatar dentro da barra de busca reformulada A15
+    - Adicionar Ocultar ADB e desenvolvedor
+    - Adicionar provedor DNS Comss
+    - Adicionar mais provedores DNS
+    - Adicionar display hdr
+    - Android 15 com patch de segurança de junho (QPR2)
+    - Adicionar Mais Tiles QS
+    - Adicionar Tile QS de Volume
+    - Adicionar Ocultar menu de energia na tela de bloqueio segura
+    - Adicionar permitir desabilitar QS na tela de bloqueio segura
+    - Adicionar estilo de indicador de progresso compacto
+    - Adicionar permitir alterar opacidade da barra de progresso
+    - Adicionar Personalizações do Ambiente
+    - Adicionar Animação de Desbloqueio Ripple
+    - Adicionar ícone Início da Barra de Navegação do Pixel
+    - Adicionar ícones de notificação visíveis máximos ajustáveis
+    - Adicionar tile de modo de toque com três alvos
+    - Adicionar permitir ocultar barra de navegação ime
+    - Adicionar permitir alterar intensidade de brilho HDR
+    - Adicionar botão Matar aos detalhes de notificação
+    - Reformulação na UI de Uso de Dados
+    - Implementação inicial de KeyboxImitationHooks
+    - Redesenho da seekbar de acordo com o slider M3
+    - Usar cores material para seekbar
+    - Introduzir mecanismo Reality Display
+    - Introduzir PropImitationHooks
+    - Importar ilustrações
+  notes:
+    - Limpeza necessária se você estiver vindo de outra ROM
+    - Use a recovery recomendada
+    - "SHA256: a30d0a7c68cae537d947f9bb20b95aabc56b21274d8510276975225b8391d212"
+    - Settings/Apps tem o seletor de keybox
+    - "Firmware necessário: Android 14 U1TD34M.94-12-7 ou mais recente (não A15 beta)"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/31709
+- name: Orion OS
+  version: Android 15
+  android: Android 15
+  author: ussr_1674
+  origin: official
+  date: 22/02/2025
+  link: https://drive.google.com/drive/folders/1GPqDlWmXBYi-4nyDbBSDOo1B_GCzts7U?usp=sharing
+  size: 2.46 GB
+  status: stable
+  notes:
+    - Limpeza necessária se você estiver vindo de outra ROM/port
+    - Use a recovery recomendada para fazer o flash
+    - Não faça flash na Stock Android 14 January sp
+    - >-
+      Firmware necessário: Android 14 U1TD34M.94-12-7 ou mais recente (Não é a15 beta e nem atualização de janeiro do
+      Android 14)
+    - Build somente GAPPS disponíveis para download em nossos repositórios
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motorolag54updates/154
+- name: YAAP
+  version: Android 16
+  android: Android 16
+  author: cyberknight777, sarthakroy2002
+  origin: official
+  date: Periodicamente
+  link: https://mirror.codebucket.de/yaap/cancunf/
+  size: ~2.5 GB
+  status: stable
+  notes:
+    - Versões GAPP e VANILLA
+  variants:
+    - label: Fonte / Telegram
+      link: https://yaaprom.org/device?codename=cancunf
+- name: Project Matrixx
+  version: Android 16
+  android: Android 16
+  author: dev_ayu
+  origin: unofficial
+  date: 08/12/2025
+  link: https://drive.google.com/drive/folders/10mT8QUjNwoJS13csRok9c2lGLvkbU4r1?usp=sharing
+  size: 1.7/2.6 GB
+  status: stable
+  changelog:
+    - Matrixx v12.1.0 A16 QPR0
+    - Lançamento inicial do Android 16
+  notes:
+    - Necessário clean flash caso esteja vindo de outra ROM ou port
+    - Use os zips de instalação inicial específicos da variante
+    - Leia as instruções cuidadosamente
+    - SHA256 Vanilla 81d0376cb2a3d3d007cb8ff5a949d28dd7298a147b8e7044082fa7456a76615f
+    - SHA256 Gapps 67b02331a8ffb45c0dcfdbec84fd3e552334302b853335650467ac27621d4779
+    - Opções VANILLA e GAAPS disponíveis em nosso site!
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/64554
+- name: DERPFEST
+  version: Android 16
+  android: Android 16
+  author: Kmlo_Zzz
+  origin: unofficial
+  date: 16/10/2025
+  link: https://drive.usercontent.google.com/download?id=1SjBLG3qlHkmMA93IpzgXbabUvMrvtvQe&export=download&authuser=0
+  size: 2.6 GB
+  status: stable
+  changelog:
+    - Merge November Security Patch
+    - Changes to spoofing
+    - Pulse improvements
+    - Gesture anywhere added
+    - And more which can't find myself
+    - Update Wi-Fi HAL interfaces combination to match MediaTek BSP behaviour.
+    - Kernel state at r2a1.
+  notes:
+    - Clean flash needed if you are coming from other rom/port.
+    - Read the instructions thoroughly
+    - "SHA256: def0f18932bc6e9a8d6b8e9ca69621d3158a58ec7e4ef94d75f5f79b147d86f2"
+    - ROM versão com GAPPS incluidos
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/59577
+- name: InfinityX
+  version: Android 16
+  android: Android 16
+  author: Soviet(ussr_1674)
+  origin: official
+  date: Periodicamente
+  link: https://projectinfinity-x.com/downloads/cancunf#:~:text=Support-,Downloads,-Android%2016
+  size: 1.68/2.8 GB
+  status: stable
+  changelog:
+    - Compilado DisplayFeatures com ajustes de HBM e CABC
+    - Atualização dos blobs e firmware para V1TDS35M.83-20-5-5
+    - Atualização do índice AVB rollback para V1TTDS35M.83-20-5-5
+    - Implementado felicaDisabler() no MotoActions para desativar FeliCa em dispositivos fora do Japão
+    - Concedidas permissões necessárias para o felicaDisabler()
+    - Vendor_ramdisk DLKM pré-compilado para reduzir tempo de compilação
+    - Adicionadas traduções em espanhol e francês para DisplayFeatures
+    - Uso de OSS lib_driver_cmd_mt66xx para corrigir travamentos
+    - Restaurado suporte a hotspot WPA3-SAE
+    - Novo material switch no MotoActions combinando com Configurações
+    - Implementado MediaTek GbaService
+    - Habilitadas opções RTT encontradas no MtkTeleService
+    - Definidos 4GB de ZRAM para todas as variantes de RAM
+    - Removido atributo max_comp_streams obsoleto do ZRAM
+    - Definido tipo de ramdisk para fragmento vendor_ramdisk DLKM
+    - Parado de reservar espaço duas vezes para journaling
+    - Definido overlay rounded_corner_radius para deixar o prompt biométrico arredondado
+    - Definido biometric_dialog_corner_size para 155px
+    - Reescrita do HAL de iluminação AIDL em Rust
+    - Implementado ajuste de intensidade da lanterna
+    - Definido SurfaceFlinger min uclamp para 30% para reduzir travamentos
+    - Marcados eventos ACTION_UP em TouchKeyHandler como tratados para evitar conflitos
+    - Wakelocks mais eficientes e precisos no TouchKeyHandler
+    - Migração para o serviço Bluetooth OSS baseado em AIDL
+    - Reduzido reserve_root para 32768 para combinar com comportamento Pixel
+    - Definido readahead_size_kb=128 para system, vendor, product, system_ext e data
+    - Removida opção noflush_merge de userdata
+    - Uso de HintManager no HWUI para melhor escalonamento de CPU
+    - Removido módulo MTK RPS
+    - Removidos codecs de áudio MTK não utilizados
+    - Desativado Skia tracing por padrão
+    - Desativado rastreamento sf EGL image por ser recurso de debug
+    - Reduzido snapshot de tarefas para 70% para economizar RAM
+    - Atualização dos blobs e firmware para V1TDS35M.83-20-5-6
+    - Atualização do índice AVB rollback para V1TDS35M.83-20-5-6
+    - Importada Regulatory Info para XT2343-3
+    - Removidas ações usbotg redundantes do init
+    - Removido init.modem.rc devido ao RPS ter sido desativado
+    - Removidos serviços de conectividade de debug restantes
+    - Parado de alterar dirty_writeback_centisecs com valores da MediaTek
+    - Parado suporte a mmstat tracing
+    - Removidas dependências de firmware de engenharia
+    - Removidas ações de gauge e power da MediaTek no init
+    - Parado de esperar hwservicemanager.ready, pois é obsoleto
+    - Removidas escritas em race_marker (bootprof lida com isso)
+    - Parado de iniciar serviços inexistentes
+    - Parado de definir permissões para arquivos/pastas inexistentes
+    - Parado de criar pastas não utilizadas em /data/vendor
+    - Removidas escritas perfmgr e dramboost
+    - Removido symlink /sdcard
+  notes:
+    - O zip de instalação inicial já inclui boot e vendor_boot juntos
+    - Baixar o zip da ROM e o zip de instalação inicial
+    - Entrar no bootloader e conectar ao PC
+    - Executar fastboot reboot fastboot para entrar no FastbootD
+    - Verificar detecção com fastboot devices
+    - Atualizar o zip inicial via fastboot --skip-reboot update
+    - Reiniciar para o recovery
+    - Formatar os dados (factory reset)
+    - Aplicar atualização via ADB
+    - Sideload do zip da ROM
+    - Reiniciar para o sistema
+    - "Para dirty flash: baixar ROM recente"
+    - Entrar no recovery e aplicar via ADB sideload
+    - Reiniciar para o sistema
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG54BR/62918
+- name: Axion OS
+  version: Android 16
+  android: Android 16
+  author: Ayan
+  origin: official
+  date: Mensalmente
+  link: https://www.axionos.org/download.html#:~:text=ACTIVE-,cancunf,-Maintained%20by
+  size: ~1.6/2.1 GB
+  status: stable
+  changelog:
+    - Linkado no site oficial
+  notes:
+    - ROM atualizada automaticamente no site pelo repositório oficial
+  variants:
+    - label: Fonte / Telegram
+      link: https://www.axionos.org/

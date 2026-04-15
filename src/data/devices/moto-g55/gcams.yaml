@@ -1,0 +1,30 @@
+- name: MGC 9.3
+  version: 9.3.160/V0
+  author: BSG
+  date: 12/10/2024
+  link: https://drive.google.com/uc?export=download&id=1YEFiK5t_e3l53ODkMKZ5vEQaFADtTcO5
+  size: 425.5 MB
+  recommended: false
+  notes:
+    - Primeira versão, pode conter bugs.
+    - Recomendado fazer backup antes de instalar.
+- name: MGC 9.1
+  version: 9.1.098/V15
+  author: BSG
+  date: 16/03/2024
+  link: https://drive.google.com/uc?export=download&id=1tYBpbhAlcVwCfX0s3bkNruRqfhJZb6gw
+  size: 397.6 MB
+  recommended: false
+  notes:
+    - Versão estável e testada.
+    - Recomendado para uso diário.
+- name: GCAM 8.7
+  version: 8.7.250.build-8.1
+  author: Arnova8G2
+  date: 24/04/2023
+  link: https://drive.google.com/uc?export=download&id=1WbVaQHecsAxImQB0KRiOjI_BkUZRcPZA
+  size: 213.9 MB
+  recommended: false
+  notes:
+    - Versão mais antiga mas estável.
+    - Compatível com Android 12 e superior.

@@ -1,0 +1,178 @@
+- name: Project Infinity X
+  version: Android 16
+  android: Android 16
+  author: EzerMod
+  origin: unofficial
+  date: 12/03/2026
+  link: https://drive.google.com/drive/folders/1c6NCMUBhEKcaKAqYVPJaQNRTgT9Hkos3?usp=sharing
+  size: 1.76/1.45 GB
+  status: stable
+  changelog:
+    - Updated to the latest version
+    - Added RKSU
+  notes:
+    - And only for now
+    - Builds GAPPS e VANILLA disponíveis em nossos repositórios para Download
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/ezknports/15
+- name: Hyper OS|Port
+  version: Android 16
+  android: Android 16
+  author: EzerMod
+  origin: unofficial
+  date: 18/02/2026
+  link: https://drive.google.com/drive/folders/1c6NCMUBhEKcaKAqYVPJaQNRTgT9Hkos3?usp=sharing
+  size: 4.2 GB
+  status: stable
+  changelog:
+    - Base inicial baseada no Xiaomi 13 (Fuxi)
+  notes:
+    - >-
+      Do próprio desenvolvedor: 'É bastante fluido e básico, não sei se é bom para jogos ou uso diário, é apenas mais
+      uma versão beta lol, só isso'.
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Ezerstuff/50
+- name: crDroid
+  version: Android 16
+  android: Android 16
+  author: DaviXpeng
+  origin: unofficial
+  date: 03/01/2026
+  link: https://drive.google.com/drive/folders/13aCkqN0FxTZbFQt_mVvA9vGs91oXFpIr?usp=sharing
+  size: 2.2 GB
+  status: stable
+  changelog:
+    - Alterações a partir da fonte mais recente
+    - Adicionada MotoCamera
+    - Adicionado algoritmo TCP BBR Plus
+    - Adicionado RKSU + SUSFS 2.0
+    - ROM assinada com release-keys
+  notes:
+    - ROM somente com GApps
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG100G200BR/56196
+- name: Pixel OS
+  version: Android 16
+  android: Android 16
+  author: DaviXpeng
+  origin: unofficial
+  date: 29/12/2025
+  link: https://drive.google.com/drive/folders/1zsi3BYf_PkRVODlMi4QXW9_BzDNupRhI
+  size: 2.2 GB
+  status: stable
+  changelog:
+    - Alterações da fonte mais recente
+    - Adicionado ViperFX
+    - Adicionada Moto Camera
+    - Adicionado FQ e mais algoritmos TCP
+    - Adicionado KernelSU Next + SUSFS (usar ksu-next v1.1.1)
+  notes:
+    - ROM somente com GApps
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG100G200BR/56172
+- name: /E/OS
+  version: Android 15
+  android: Android 15
+  author: MarenaCommunity
+  origin: unofficial
+  date: 23/10/2025
+  link: https://images.ecloud.global/community/xpeng/e-3.2-a15-20251023539368-community-xpeng.zip
+  size: 1.4 GB
+  status: stable
+  notes:
+    - >-
+      Advanced Privacy: notificações em tempo real sobre tentativas de vazamento de dados; pode ser desativado nas
+      configurações da própria notificação.
+    - "App Lounge: tamanho de aplicativos provenientes do F-Droid agora exibido."
+    - "App Lounge: exibição de aplicativos comuns com base na região."
+    - "App Lounge: busca aprimorada."
+    - "App Lounge: tratamento correto de links da Play Store no modo somente open-source/PWA."
+    - "App Lounge: verificação semanal de atualizações agora respeita o intervalo correto."
+    - "App Lounge: redirecionamento para a tela inicial quando o link de app é inválido."
+    - "Atualizações gerais: últimos bug fixes e patches de segurança integrados."
+    - Browser atualizado para a versão 141.0.7390.111.
+    - microG atualizado; correções de crashes ao atualizar de versões antigas.
+    - Correção no botão de detalhes do relatório semanal de privacidade.
+    - Fones de ouvido com fio agora funcionam corretamente para áudio e chamadas.
+    - Taxa de atualização da tela ajustada para evitar erros gráficos.
+    - "Parental Control: crash esporádico corrigido."
+    - "Configurações: remoção de espaço em branco que acionava recurso indevido."
+    - "Aplicativos de terceiros: login funcionando novamente em apps que falhavam."
+    - "Aplicativos de terceiros: deeplinks agora tratados automaticamente."
+    - Patches de segurança Android incluídos até 01/10/2025.
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG100G200BR/55985
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: ThE_MarD
+  origin: unofficial
+  date: 09/12/2025
+  link: https://drive.google.com/file/d/129MLebR8E_RmLtcLnV2OxzN2u038I9Oa/view?usp=sharing
+  size: 1.2 GB
+  status: stable
+  changelog:
+    - Android 16 QPR1 incluído
+    - Inclui todos os novos elementos do Material Design 3
+    - Moto Camera incluída
+    - Correção para ignorar frames inválidos
+  notes:
+    - >-
+      Versão ainda beta e algumas funcionalidades estão faltando como personalizações da barra de status e plano de
+      fundo
+    - Algumas opções podem não funcionar por ser uma versão em desenvolvimento
+    - Reportar bugs com logcat
+    - MindTheGApps 16.0.0 ARM64 é a versão recomendada
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG100G200BR/55979
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: LineageOS Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/xpeng/builds
+  size: ~1 GB
+  status: stable
+  notes:
+    - ROM oficial, recomendada para estabilidade e suporte a longo prazo.
+    - O link é atualizado automaticamente e semanalmente em nosso site:)
+    - Os Changelogs constam diretamente no link de download
+  variants:
+    - label: Fonte / Telegram
+      link: https://wiki.lineageos.org/devices/xpeng/variant1/
+- name: iodé OS
+  version: Android 15
+  android: Android 15
+  author: ronnz98
+  origin: unofficial
+  date: 03/08/2025
+  link: https://drive.google.com/uc?export=download&id=1evsHE27fiuIQTxQPYL66mj9zXPylsQtn
+  size: 1.35 GB
+  status: stable
+  notes:
+    - ROM não oficial, use por sua conta e risco.
+    - Focada em privacidade e segurança, sem telemetria do Google.
+- name: LMDroid
+  version: Android 15
+  android: Android 15
+  author: LibreMobileOS
+  origin: official
+  date: Semanalmente
+  link: https://get.libremobileos.com/devices/xpeng/builds
+  size: ~1 GB
+  status: stable
+  notes:
+    - ROM oficial focada em privacidade e segurança, baseada no Android AOSP.
+    - ROM oficial, recomendada para estabilidade e suporte a longo prazo.
+    - O link é atualizado automaticamente e semanalmente em nosso site:)
+    - Os Changelogs constam diretamente no link de download
+  variants:
+    - label: Fonte / Telegram
+      link: https://get.libremobileos.com/changes

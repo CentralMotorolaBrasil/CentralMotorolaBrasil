@@ -1,0 +1,64 @@
+- name: LMC 8.4
+  version: 8.4/R15
+  author: Hasli
+  date: 29/11/2022
+  link: https://drive.google.com/uc?export=download&id=19gVdnPjEqmuQ3pY5w7rG_htCcI7YaLTm
+  size: 132 MB
+  recommended: false
+- name: SGCAM 8.4
+  version: 8.4.400.42.XXX/V43
+  author: Shamin
+  date: 25/12/2022
+  link: https://drive.google.com/uc?export=download&id=1o1N3WIxehJUU3CH0505gV_g8eKNUryDw
+  size: 134 MB
+  recommended: false
+- name: HyperCam 8.4
+  version: 8.4/v1.0
+  author: Jairo Rossi
+  date: 16/08/2025
+  link: https://files.gcambrasil.com.br/devs/rz_end/Hypercam_8.4_v1.0.apk
+  size: 132 MB
+  recommended: false
+  notes:
+    - Primeira versão da HyperCam 8.4 após retorno do projeto
+    - Baseada na LMC 8.4 de Hasli com melhorias visuais
+    - "Suporte a múltiplos package IDs: com.android.hypercam84, com.samsung.android.hypercam84"
+    - Compatibilidade confirmada com Dimensity (Mediatek) e Snapdragon
+    - XMLs disponíveis em gcambrasil.com.br para diversos modelos de dispositivos
+    - Trabalho colaborativo com IllusionLabs e comunidade
+    - Interface completamente em português
+    - Se Google Play Protect avisar, clicar em 'Mais Detalhes' e 'Instalar Mesmo Assim'
+    - Recomendado fazer backup antes de instalar
+    - Comunidade ativa em Telegram e Facebook (GCam Brasil)
+- name: Viper
+  version: 1.0/Aweme
+  author: Isaac Pains
+  date: 15/11/2025
+  link: https://files.gcambrasil.com.br/devs/isaacpains/changelog251115/Viper_Aweme.apk
+  size: 82.9 MB
+  recommended: false
+  notes:
+    - Primeira versão da linha Viper
+    - Focada em 'simplesmente funcionar' com excelente qualidade sem configurações complexas
+    - "Ideal para leigos: excelente qualidade sem necessidade de XML"
+    - Usuários avançados podem personalizar XML como desejarem
+    - Otimização especial para chipsets MediaTek e Helio
+    - "Package ID: com.ss.android.ugc.aweme (Aweme)"
+    - Desenvolvida com foco em fotógrafos que exigem precisão e controle
+    - Suporte disponível no GCam Brasil para adicionar reconhecimento de novos dispositivos
+    - Recomendado fazer backup antes de instalar
+    - Além disso, está em desenvolvimento, bugs e problemas podem ocorrer!
+- name: LMC 8.4
+  version: 8.4/R15
+  author: Hasli
+  date: 29/11/2022
+  link: https://drive.google.com/uc?export=download&id=19gVdnPjEqmuQ3pY5w7rG_htCcI7YaLTm
+  size: 132 MB
+  recommended: false
+- name: SGCAM 8.4
+  version: 8.4.400.42.XXX/V43
+  author: Shamin
+  date: 25/12/2022
+  link: https://drive.google.com/uc?export=download&id=1o1N3WIxehJUU3CH0505gV_g8eKNUryDw
+  size: 134 MB
+  recommended: false

@@ -1,0 +1,43 @@
+- name: TWRP
+  version: 3.7.1_12
+  author: Soviet(ussr_1674)
+  date: 21/12/2025
+  link: https://drive.google.com/file/d/1qU9vTrMka-RO_LxJ-pY3rpQlaEdUVYpk/view?usp=sharing
+  size: 64 MB
+  notes:
+    - Não utilize este recovery em ROMs customizadas devido ao uso de módulos OSS
+    - Uso exclusivo para ROMs stock e ports
+    - Ative o MTP nas configurações para transferência via USB
+    - Compatível apenas com firmware Android 15; para Android 14 utilize builds antigas
+    - Uma build separada será lançada para ROMs customizadas
+    - "MD5: 8403f61df2cbb6ad1eaf021d609b354b"
+    - Atualizado para a versão mais recente da source do TWRP
+    - Blobs atualizados para V1TDS35H.83-20-5-6 (Android 15)
+    - Correção do brilho
+- name: PitchBlack Recovery
+  version: "4.0"
+  author: Soviet(ussr_1674)
+  date: 21/12/2025
+  link: https://drive.google.com/file/d/17FClBGkYKFXQlr90Vecsa6BzAumlJt96/view?usp=sharing
+  size: 64 MB
+  notes:
+    - Baseado no TWRP 3.7.1_12
+    - "MD5: caf3d4d2e130fa33c833e0ff7e20ff37"
+    - Não utilize este recovery em ROMs customizadas devido ao uso de módulos OSS
+    - Uso exclusivo para ROMs stock e ports
+    - Ative o MTP nas configurações para transferência via USB
+    - Compatível apenas com firmware Android 15; para Android 14 utilize builds antigas
+    - Uma build separada será lançada para ROMs customizadas
+    - Atualizado para a versão mais recente da source do PBRP
+    - Blobs atualizados para V1TDS35H.83-20-5-6
+    - Correção do brilho
+- name: OrangeFox
+  version: R 12.1
+  author: "@ussr_1674"
+  date: 16/11/2025
+  link: https://mega.nz/file/S95AXRSC#orlIHGxEnHujxGhPIlFEo7gfI_2zRfvXAY-RD6_j3ww
+  size: 63.6 MB
+  notes:
+    - Antes de instalar, faça backup completo dos seus dados
+    - Verifique se o bootloader está desbloqueado antes de prosseguir
+    - Suporte não oficial  para G54 (cancunf)

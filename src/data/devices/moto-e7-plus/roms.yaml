@@ -1,0 +1,442 @@
+- name: Genesis OS
+  version: Android 15
+  android: Android 15
+  author: makoto_naegi_thh
+  origin: unofficial
+  date: 04/04/2026
+  link: https://drive.google.com/drive/folders/1opvh3ymKl3BSJcr3qN3To327ZI-HoMKU?usp=sharing
+  size: 1.64 GB
+  status: stable
+  notes:
+    - Comes with xxKSU
+    - August 1 Security Patch
+    - QPR2
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7PlusOfc/127501
+- name: Project Infinity X
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 04/04/2026
+  link: https://drive.google.com/drive/folders/1r0RsXqgu2to5vKdVrWxLMdtdaO_Jylvk?usp=sharing
+  size: 1.43 GB
+  status: stable
+  changelog:
+    - "Add statusbar/lockscreen dynamic bar implementation (author: rmp22)"
+    - "Add App drawer customizations and tunings (author: shutter-cat, pbzinwindows, ChrisCatto)"
+    - "Add Toggle to launch notification apps in bubble or floating screen (author: shutter-cat)"
+    - >-
+      Add optional toggleable Classic style QS Panel along with tile shapes and ability to hide labels (author:
+      neobuddy89)
+    - Allow switching to default Android 16 brightness slider style
+    - "Add detailed Idle manager with advanced per-app control (author: Ghosuto)"
+    - "Add 11 more Lockscreen custom clock styles (author: IDontCare-05, spkal01, Ghosuto)"
+    - Fix custom clock styles disappearing on tablets or landscape rotation
+    - Allow applying volume panel gradient customization to extended volume panel style
+    - Allow showing Volume percentage on extended and expanded volume panel style
+    - "Add toggle to kill Flash SMS messages (author: adithya2306)"
+    - "Simplify Always-on-Display charging checks (author: NurKeinNeid)"
+    - Remove QS boost hints that lead to battery drain / heat
+    - Remove unnecessary scrolling boost hints that lead to battery drain / heat
+    - Add back lockscreen weather wind and humidity info from v3.7
+    - Remove ongoing media chip // Fixes systemui crash issues while media was playing with media chip enabled
+    - "Add optional Glow effect in notch ring (author: hxreborn)"
+    - "Add music playback progress in cutout ring (author: Ghosuto)"
+    - Improve padding for search icon in app drawer search bar when google app disabled
+    - "Add launcher wallpaper carousel (author: MrSluffy)"
+    - Fix default fonts display for regular and headline in QS Panel
+    - "Fix NPE in CallListener Gamespace (author: neobuddy89)"
+    - "Fix scrolling in recovery image when touch is rotated (author: AnierinBliss)"
+    - "Allow changing size of custom clock styles (author: Ghosuto)"
+    - "Fix PlanesLockGuard buffer lock leak in av (author: jsebechlebsky)"
+    - "Fix preferences in launcher3 icon pack fragment turning purple upon clicking (author: neobuddy89)"
+    - "Hide VmTerminal fragment if device doesn't support it (author: luk1337)"
+    - Improvements on memory usage and battery backup
+  notes:
+    - "Build type: GApps - Pico"
+    - "Release: QPR2"
+    - "Variant: user"
+    - "Tree: LineageOS"
+    - "Server: EDU"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7PlusOfc/127496
+- name: LunarisAOSP
+  version: Android 16
+  android: Android 16
+  author: Zedisspe
+  origin: unofficial
+  date: 04/04/2026
+  link: https://drive.google.com/drive/folders/1XSqPfQlgLERd2OmvZ98DMYl8YDWbEfgI?usp=sharing
+  size: 2.01 GB
+  status: stable
+  changelog:
+    - Allow choose custom color/gradient for clock chip
+    - Media chip popup follow qs seekbar style
+    - Vol. percentage in redesigned style
+    - Add basic sleep mode
+    - Allow switch to legacy statusbar icon order
+    - Implement proper UI for per-app spoofing
+    - Add battery indicator, glow effect, music indicator in notch ring
+    - Allow changes launcher hotseat QSB style
+    - Introduce appdrawer app & searchbar styles
+    - Add option to clear home screen in settings
+    - Add idle manager (like greenify)
+    - Allow set custom color in app drawer bg
+    - Add method to block PairIP license check activity
+    - Add torch toggle for double tap power gesture
+    - Implement new dynamic VoLTE/VoWiFi and VoNR status bar icons
+    - Allow disable flash SMS messages
+    - Add classic a11 like QS panel style
+    - Add 24 new clock style and many improvements
+    - Lockscreen widget improvements
+    - Add lockscreen now playing popup dialog
+    - Enable bubble notification app
+    - Allow disable qs media player
+    - Introduce navbar pill auto-hide (for launcher3 only)
+    - Improve app scrolling
+    - Improve lmo freeform app scrolling
+    - Many UI related bugfixes
+    - Merge arm-optimization changes
+    - Merge lineage changes
+  notes:
+    - "Build type: GApps - Pico"
+    - "Release: QPR2"
+    - "Variant: user"
+    - "Tree: LineageOS"
+    - "Server: EDU"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7PlusOfc/127384
+- name: crDroid
+  version: Android 15
+  android: Android 15
+  author: Zedisspe
+  origin: unofficial
+  date: 04/04/2026
+  link: https://drive.google.com/drive/folders/15EsIHtGT3fRTwnts2sHJ2ToLFn2dxdeX?usp=sharing
+  size: 1.25 GB
+  status: stable
+  notes:
+    - "Build type: GApps - Pico"
+    - "Release: BP1A"
+    - "Variant: user"
+    - "Tree: LineageOS"
+    - "Server: EDU"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7PlusOfc/127354
+- name: Axion OS
+  version: Android 16
+  android: Android 16
+  author: Clover
+  origin: unofficial
+  date: 02/03/2026
+  link: https://drive.google.com/drive/folders/1RTWVcJz3KId4UnCqL86BBLHyll7b6Rqk?usp=sharing
+  size: 1.56 GB
+  status: stable
+  changelog:
+    - Vem com StarlightKernel
+    - Patch de segurança de janeiro
+    - Compilação assinada
+  notes:
+    - >-
+      Vem com KernelSU-Next e SusFS. Use KernelSU-Next se for usar root. Suporte não garantido para outras soluções de
+      root.
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7PlusOfc/126021
+- name: Helluva OS
+  version: Android 13
+  android: Android 13
+  author: electimon
+  origin: unofficial
+  date: 28/03/2023
+  link: https://drive.google.com/file/d/17R1jL0u2_Ktwz1PzOLhE5NXd36exfdCT/view?usp=sharing
+  size: 1.66 GB
+  status: stable
+  changelog:
+    - Build inicial
+    - Construção com correção de bugs
+    - Patch de Fevereiro
+    - Bateria fix
+  notes:
+    - "SELinux: Enforcing"
+    - "Patch de Segurança: Fev 2023"
+    - Build somente GAPPS disponível
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7pUpdates/7
+- name: LMDroid
+  version: Android 13
+  android: Android 13
+  author: electimon
+  origin: unofficial
+  date: 05/04/2023
+  link: https://drive.google.com/drive/folders/1RKRpW6MhjQiOUg7xLYxHaiyf61MPlT0H?usp=sharing
+  size: 2.07 GB
+  status: stable
+  notes:
+    - Construção Inicial
+    - "SELinux: Enforcing"
+    - Build somente GAPPS
+    - "Patch de Segurança: 05/04/2023"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7pUpdates/9
+- name: Arrow OS
+  version: Android 13.1
+  android: Android 13.1
+  author: Fazwalrus
+  origin: unofficial
+  date: 30/06/2023
+  link: https://drive.google.com/file/d/1TYRxqW3S0jguIHijA1JYOZMC_48lNsSq/view?usp=sharing
+  size: 1.41 GB
+  status: stable
+  notes:
+    - Magisk não funciona, apenas em GSIs
+    - KernelSU para essa ROM disponível
+    - "SELinux: Enforcing"
+    - Build somente GAPPS
+    - "Patch de Segurança: 05/06/2023"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7pUpdates/12
+- name: MIUI | Port
+  version: Android 10
+  android: Android 10
+  author: ComunidadeE7Plus
+  origin: unofficial
+  date: 18/07/2024
+  link: https://drive.google.com/drive/folders/1mMV3JHWaJi0Yk3XUn4HLEUylvHag5pUC?usp=sharing
+  size: 2.63 GB
+  status: stable
+  changelog:
+    - Primeiramente faça o flash da stock antes de instalar
+    - Método de instalação via Fastbootd/TWRP
+    - Wi-fi, Bluetooth e 4G-LTE Funcionando
+  notes:
+    - É um PORT/GSI, tome cuidado
+    - Tutoriais incluídos no repositório juntamente com o Download do Port
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7pUpdates/20
+- name: Evolution X
+  version: Android 14
+  android: Android 14
+  author: Deivid21
+  origin: unofficial
+  date: 13/10/2024
+  link: https://drive.google.com/drive/folders/1QB7Z2XgwpECtYFSPol6zxIgTl3BaZ-gU?usp=sharing
+  size: 1.81 GB
+  status: stable
+  changelog:
+    - Build inicial
+    - Patch de Segurança de Outubro 2024
+    - Construído MotCamera2 a partir de fonte pré-compilada
+    - Blobs atualizados do devon_g T2SNS33.73-22-3-10
+    - "Overlay: Mostrar Turbo Power em vez de carregando rapidamente"
+    - Removidos media_profiles não utilizados
+    - "Media: usar codec FLAC do AOSP"
+    - Removidos media_codecs não utilizados
+    - Copiado media_codecs_vendor para media_codecs
+    - Usados os media_codecs corretos em dispositivos khaje
+    - Removidas referências de codec OMX de software
+    - Usadas classificações padrão Codec2/OMX do AOSP
+    - Removido media_codecs_google_c2*
+    - "Media: removidos codecs de vídeo OMX de software"
+    - "Media: removido codificador heic OMX"
+    - "Media: performance: remover codecs inexistentes"
+    - Removidos blobs OMX de software
+    - Adicionada propriedade para preferir codecs de hardware em miniaturas
+    - Adicionado 'can-swap-width-height' para codecs de vídeo
+    - Habilitados media_codecs para CPU lenta
+    - "Media_profiles: Editar perfis xml de acordo com esquema"
+    - Mudança para QTI Memtrack AIDL HAL
+    - Removido vendor-qti-hardware-sensorscalibrate.xml não utilizado
+    - Melhor gerenciamento de RAM
+    - "sepolicy: Permitir configurar read_ahead_kb na partição /data"
+    - "Properties: Mudança para LMKD"
+    - "Init: remover cache de pacote na inicialização"
+    - Definido readahead_size_kb=128 para data, system, system_ext, product e vendor
+    - Construído MotoLiveWallpaper3 a partir de fonte pré-compilada
+    - Construído TimeWeather a partir de fonte pré-compilada
+    - Usado libcomparetf2 shim para __lttf2
+    - Adicionadas bibliotecas de câmera ausentes
+    - Compilando kernel com clang 17.0.2 (r487747c)
+    - Kernel Linux atualizado para v4.19.322
+  notes:
+    - "SELinux: Enforcing"
+    - "Patch de Segurança: Outubro 2024"
+    - Build somente GAPPS disponível em nosso repositório
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7pUpdates/28
+- name: StockMod
+  version: Android 10
+  android: Android 10
+  author: ZedissP
+  origin: official
+  date: 16/02/2025
+  link: https://drive.usercontent.google.com/download?id=1qLnNRIAkkenb7IsNKk5G5RUOwlVquWu4&export=download&authuser=0
+  size: 1.6 GB
+  status: stable
+  changelog:
+    - Changes to the installation scripts
+    - I added a text file with the password for Apatch, I had forgotten it
+  notes:
+    - Root com Apatch incluído
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7PlusOfc/125440
+- name: Lineage OS
+  version: Android 15
+  android: Android 15
+  author: Clover
+  origin: unofficial
+  date: 14/02/2025
+  link: https://drive.google.com/drive/folders/1KggHs2wHMrcys8D8hCqdAto3RHaZyGDS?usp=sharing
+  size: 951.5 MB
+  status: stable
+  changelog:
+    - Vem com StarlightKernel
+    - Patch de segurança de fevereiro
+    - Compilação assinada
+  notes:
+    - >-
+      Vem com KernelSU-Next e SusFS. Use KernelSU-Next se for usar root. Suporte não garantido para outras soluções de
+      root.
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoE7PlusOfc/125280
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: LineageOS Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/guam/builds
+  size: 989 MB
+  status: stable
+  notes:
+    - >-
+      Para instalar, siga as instruções oficiais na wiki do dispositivo, incluindo flash de recovery atualizado e
+      formatação de dados se vier de ROM não-oficial.
+    - >-
+      O link é atualizado automaticamente em nosso site para a versão mais recente da ROM, graças a sincronização com o
+      repositório oficial
+- name: LMDROID
+  version: Android 15
+  android: Android 15
+  author: LibreMobileOS
+  origin: official
+  date: Semanalmente
+  link: https://get.libremobileos.com/devices/guam/builds
+  size: 1 GB
+  status: stable
+  notes:
+    - O link é atualizado automaticamente em nosso site para a versão mais recente da ROM
+- name: Evolution X
+  version: Android 15
+  android: Android 15
+  author: RazaDroid
+  origin: official
+  date: 14/09/2025
+  link: https://evolution-x.org/devices/guam
+  size: 2.13 GB
+  status: stable
+  changelog:
+    - Novos recursos visuais
+    - Retorno dos relógios personalizados da tela de bloqueio (recurso do Android 13 melhorado)
+    - Suporte para Depth Wallpaper com os relógios customizados
+    - Fontes personalizáveis para relógios
+    - Seletor de fonte universal redesenhado
+    - Quick Settings e AOD
+    - Uso de dados no rodapé do QS (WiFi/Dados móveis)
+    - Weather QS tile (tile de clima)
+    - Configurações de clima integradas
+    - Imagem customizável para Always-On Display
+    - Experiência Pixel
+    - Circle to Search funcional
+    - Interface baseada no Google Pixel com customizações extras
+    - Base LineageOS
+    - Baseado totalmente em LineageOS (mudança de base do projeto)
+  known_issues:
+    - Strong Integrity não passa por padrão (bootloader spoofing não aplicado)
+    - Requer módulos como Play Integrity Fork para corrigir
+  notes:
+    - Evolution X recebe atualizações frequentes com patches de segurança mais recentes
+- name: Pixel Experience
+  version: Android 12L
+  android: Android 12L
+  author: b
+  origin: unofficial
+  date: 07/10/2025
+  link: https://drive.google.com/drive/folders/15CcEnbhf7wyzNlE6QBlY-PNF4ItiGGV1?usp=sharing
+  size: 1.44 GB
+  status: stable
+- name: Project Infinity
+  version: Android 15
+  android: Android 15
+  author: Deivid21
+  origin: unofficial
+  date: 27/04/2025
+  link: https://drive.google.com/drive/folders/1tCrXCgEvv9iaQ07Qog84aPFi2CxsunsD?usp=sharing
+  size: 1.44 GB
+  status: stable
+  changelog:
+    - Build inicial do Project Infinity X 2.7.
+    - Patch de segurança de abril de 2025.
+    - Linux Kernel 4.19.325
+    - "guam: init: Ativado config_avoidGfxAccel para variantes de 4GB"
+    - "guam: Adicionado lib init para sobrescrever props do modelo"
+    - "guam: overlay: Ajustados paddings da barra de status"
+    - "guam: Mudado para EroFS"
+    - "guam: Não compilar imagem userdata"
+    - "guam: Mudado para MotCamera2 por enquanto"
+    - "guam: Adicionadas bibliotecas de câmera ausentes"
+    - "guam: Compilado MotCamera3 a partir de fonte pré-compilada"
+    - "guam: Definido readahead_size_kb=128 no fstab"
+    - "sm6225-common: Não compilar imagem userdata"
+    - "sm6225-common: Compilado MotApps a partir de fonte pré-compilada"
+    - "sm6225-common: Compilado AudioRecorder a partir de fonte pré-compilada"
+    - "sm6225-common: Mudado para Erofs"
+    - "sm6225-common: Removidas regras duplicadas"
+    - "sm6225-common: Compilado TimeWeather a partir de fonte pré-compilada"
+    - "sm6225-common: Compilado MotoLiveWallpaper3 a partir de fonte pré-compilada"
+    - "sm6225-common: overlay: Adicionadas traduções espanhola e portuguesa para TurboPower"
+    - "sm6225-common: overlay: Adaptado ao TurboPower como no Stock"
+    - "sm6225-common: overlay: Mostrar Turbo Charging em vez de charging rapidly"
+    - "sm6225-common: init: rm package cache no boot inicial"
+    - "sm6225-common: Properties: Mudado para LMKD"
+    - "sm6225-common: sepolicy: Permitir definir read_ahead_kb na partição /data"
+    - "sm6225-common: Melhor gerenciamento de RAM"
+    - "techpack: audio: Adicionados dispositivos guam/na/p ao guard SND_SOC_FS16XX"
+    - "arm64: config: bengal: Ativado EroFS"
+    - "drivers: staging: qca-wifi-host-cmn: Ativado 5 GHz para Guam"
+  variants:
+    - label: Fonte / Telegram
+      link: https://drive.google.com/drive/folders/1q2PYfQn5PPLxc6GOE2MlXCGGKmZNynRr?usp=sharing
+- name: PROJECT MATRIXX
+  version: Android 14
+  android: Android 14
+  author: Caruzo
+  origin: unofficial
+  date: 04/08/2025
+  link: https://drive.google.com/file/d/1gF6kIR8iAtda5IfUYEzws8HCu7xH5_px/view?usp=sharing
+  size: 1.18 GB
+  status: stable
+- name: /E/OS
+  version: Android 14
+  android: Android 14
+  author: MurenaCommunity
+  origin: unofficial
+  date: 04/08/2025
+  link: https://images.ecloud.global/community/guam/e-3.2-a15-20251025540112-community-guam.zip
+  size: 1.12 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://images.ecloud.global/community/guam/

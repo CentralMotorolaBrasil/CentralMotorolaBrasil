@@ -1,0 +1,19 @@
+- name: MGC 8.1
+  version: 8.1.101/GV2b
+  author: BGS
+  date: 31/05/2022
+  link: https://drive.google.com/uc?export=download&id=12QHqkeqn44HSkOALx_2AzKc1eDnIO04E
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Versão estável recomendada para uso diário
+- name: MGC 8.4
+  version: 8.4.400.42.XXX/V43
+  author: BGS
+  date: 25/12/2022
+  link: https://drive.google.com/uc?export=download&id=1ujumDv_r5aqG3Mot5a7N5EAEhPOnyxP-
+  size: 133.8 MB
+  recommended: false
+  notes:
+    - Versão estável com recursos avançados de marca d'água
+    - Modo Astro agora funciona apenas em modo manual para evitar travamentos

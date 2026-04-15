@@ -1,0 +1,37 @@
+- name: Puppet Kernel
+  version: "1"
+  author: Dev
+  date: 11/09/2022
+  link: https://drive.google.com/drive/folders/1YipQWDo4ZKvGOhJEMk7Aa9Yn-7eqbkdh?usp=sharing
+  size: 12.8 MB
+  features:
+    - "Duas versões disponíveis para Download: Android 11 e 12"
+- name: Hekireki
+  version: "337"
+  author: Dev
+  date: 13/02/2023
+  link: https://drive.google.com/file/d/1C1ODlNfo9PoA25gqTxzFg0CvEBrXBuil/view?usp=sharing
+  size: 13.1 MB
+  features:
+    - Este kernel só pode ser utilizado em ROMs que já vêm com kernel 4.9, como LineageOS 19.1 e Awaken
+    - Para inicializar este kernel em GSI, certifique-se de utilizar uma base Android 12
+- name: Skyline Kernel
+  version: "4.9"
+  author: Miqueiasshandow999
+  date: 08/06/2023
+  link: https://drive.google.com/drive/folders/18kODRiDj1EwLfMhyLOIiwRXnTJ2zNI70?usp=sharing
+  size: 6.2 MB
+  features:
+    - Mesclado com a base 4.9 do TogoFire
+    - KernelSU atualizado para a versão estável mais recente (v0.6.0)
+    - Este kernel só pode ser utilizado na variante aljeter
+    - Utilize apenas em ROMs baseadas em kernel 4.9
+    - Aplicativo com traduções pt-BR melhoradas disponível no link informado
+- name: Kernel SU
+  version: 0.6.6
+  author: Dev
+  date: 09/08/2023
+  link: https://drive.google.com/file/d/1O-d1ioSJ4gFPVg2Jid9pbmcLoOcj5Q1d/view?usp=drive_link
+  size: 6.3 MB
+  features:
+    - Atualização do KernelSU, para usar em conjunto com as novas versões do skyline.

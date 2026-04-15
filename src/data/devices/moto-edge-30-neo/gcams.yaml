@@ -1,0 +1,84 @@
+- name: SGCAM 8.5
+  version: 8.5.300.XX.10/V21
+  author: Shamim
+  date: 28/01/2025
+  link: https://drive.google.com/file/d/1mZn2wBzPZ1l9I9H8ktdGmVB02dDdFFcE/view?usp=sharing
+  size: 164.3 MB
+  recommended: false
+  notes:
+    - Android 10+ é OBRIGATÓRIO para funcionamento
+    - Clean installation (desinstalação completa antes da instalação) é RECOMENDADA
+    - Suporte C2API Level 3 e Full C2API
+    - "Package name: com.shamim.cam"
+    - Baseada em Google Camera 8.5.300 - última versão com todas as color parameters addresses
+    - Suporte completo a Lib Patcher com inúmeras opções de customização
+    - Watermark customizável (tamanho, posição, ícone, texto)
+    - Astro Mode (Night Sight) otimizado com Astro Force Mode manual
+    - HDR+ Enhanced como padrão
+    - Portrait Mode com bokeh natural
+- name: LMC 8.4
+  version: 8.4_R8
+  author: Hasli
+  date: 14/03/2022
+  link: https://drive.google.com/file/d/1mzQVx5UxwWO3yc5fo-HMYOsTveSJRfgn/view?usp=sharing
+  size: 128.1 MB
+  recommended: false
+  notes:
+    - Baseada em trabalho de Arnova8G2, BSG, Shamim e BigKaka
+    - Mod fortemente baseada em Shamim's SGCam GCam 8.4
+    - "Package name: com.camera.lmc84r7"
+    - "Suporte a múltiplas variantes: Snapcam, Samsung, Lite"
+    - RAW format selection para máxima qualidade
+    - SABER 3 e procesamento RAW to YUV avançado
+    - System settings page com todos os parâmetros de câmera
+    - Manual focus com controle completo de sliders
+    - Patcher avançado com dezenas de opções
+    - Suporte a lentes auxiliares (macro, wide, tele)
+    - Portrait Mode com bokeh natural
+    - Night Sight otimizado
+    - Modo Astro para fotografia noturna
+    - HDR+ Enhanced como padrão
+    - Vídeo com estabilização EIS
+    - Compatível com Android 9.0+
+    - Configurações XML customizáveis
+- name: MGC 8.1
+  version: 8.1.1019/GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/file/d/1qs2RVXjHSdoWKvut9FPRwRPl4ZLvkPJR/view?usp=sharing
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Recomendada para Xiaomi, Redmi, Poco e OnePlus devices, porém, versão otimizada para o Miami
+    - "Package name: com.android.mgc (compatível com a maioria dos devices)"
+    - "Variantes disponíveis: snap (Snapcam), ENG, ruler, scan3d, qcamera3, aweme"
+    - "Para OnePlus 8: use org.codeaurora.snapcam"
+    - "Para OnePlus 7: use com.google.android.GoogleCameraEng"
+    - "Para Samsung: use com.samsung.android.scan3d ou com.samsung.android.ruler"
+    - "Para outros: qualquer variante funciona bem"
+    - Suporte completo a RAW photos (DNG)
+    - "Recursos avançados: Modo noturno aprimorado, HDR+, Portrait mode, Astrophotography"
+    - Lib Patcher disponível para customizações avançadas
+- name: SGCAM 8.4
+  version: 8.4.400.42/V43
+  author: Shamim
+  date: 25/12/2022
+  link: https://drive.google.com/file/d/1RB97fKEFwt8Yfv9VJfRCnfGx0Karo4Le/view?usp=sharing
+  size: 133.8 MB
+  recommended: false
+  notes:
+    - Versão final da série 8.4 - altamente estável
+    - "Package name: com.shamim.cam"
+    - "Variantes disponíveis: Snapcam, Scan3D, Aweme, ENG, Ruler, Meitu"
+    - Suporte a Lib Patcher avançado com múltiplas opções
+    - Watermark customizável com texto, cores e background
+    - Detecção automática de lentes otimizada
+    - Merge Force mode habilitado por padrão para melhor processamento
+    - Astro mode com ajuste manual de tempo
+    - Night Sight otimizado
+    - HDR+ Enhanced como padrão
+    - Portrait Mode com bokeh natural
+    - Vídeo 4K com EIS
+    - Modo lento até 240FPS
+    - Suporte a XMLs customizadas
+    - Config files disponíveis para múltiplos devices

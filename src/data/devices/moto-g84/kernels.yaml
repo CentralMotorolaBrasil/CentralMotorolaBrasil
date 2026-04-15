@@ -1,0 +1,29 @@
+- name: sushi-うう Kernel
+  version: sixteen-qpr2
+  author: Akari
+  date: 11/03/2026
+  link: https://drive.google.com/uc?export=download&id=1E_oYVVuVu7eniYRu_6u1wz7fOQW41LU-
+  size: 24.1 MB
+  features:
+    - support UPSTREAM for qpr2 sixteen
+    - "sched/cass: Introduce the Capacity Aware Superset Scheduler"
+    - flash using your recovery or adb sideload
+    - It supports both variants, fts and goodix
+    - Untested in LineageOS
+- name: Moeニャン Kernel
+  version: fourteen~fifteen
+  author: Akari
+  date: 13/06/2025
+  link: https://drive.google.com/file/d/1blaIZJ7Qb-SfnS6q55cmf8McfPo9xFgZ/view?usp=sharing
+  size: 28 MB
+  features:
+    - Atualização do zstd para a versão mais recente zstd v1.5.7
+    - MPTCP -- Importação do driver mptcp
+    - Atualização do bbr para bbr3, a versão mais recente
+    - Adicionada conexão TCP bbrplus (e outras)
+    - Kernel Linux atualizado para a versão 5.4.292
+    - Integração do WireGuard ao kernel 5.4
+    - Multitarefa aprimorada para melhor desempenho
+    - Melhorias no zram e troca do zstd para lz4 para melhor capacidade de resposta
+    - E muito mais...
+    - Qualquer bug com o kernel, reporte ao desenvolvedor

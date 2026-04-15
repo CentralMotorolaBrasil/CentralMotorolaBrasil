@@ -1,0 +1,27 @@
+- name: MGC 8.1
+  version: 8.1.101/GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/uc?export=download&id=18jPNTCTXH_EQ4c204vfgug9Ptqs-mgTv
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Versão oficial otimizada para uso geral.
+- name: SGCAM 8.4
+  version: 8.4.400.42.XXX/V43
+  author: Shamin
+  date: 25/12/2022
+  link: https://drive.google.com/uc?export=download&id=1P1FV9kjiKWanI28ausdpPUAGLY358Fq5
+  size: 133.8 MB
+  recommended: false
+  notes:
+    - Versão oficial com processamento avançado.
+- name: HyperCam Remix
+  version: "1.1"
+  author: rz_end
+  date: 22/11/2020
+  link: https://drive.google.com/file/d/1Wy9fepNik8qBJSptR4QN06Vas9mwkqqz/view?usp=drive_link
+  size: 94.5 MB
+  recommended: false
+  notes:
+    - Versão oficial com suporte a múltiplos XMLs.

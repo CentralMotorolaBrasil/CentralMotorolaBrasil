@@ -1,0 +1,420 @@
+- name: Pixel OS
+  version: Android 16
+  android: Android 16
+  author: Raghav
+  origin: unofficial
+  date: 28/03/2026
+  link: https://drive.usercontent.google.com/download?id=1kQI_cEAg2WqA6VJP9vPYr7R4H_fw6GQ8&export=download
+  size: 2.82 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionUpdates/327
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: themard
+  origin: unofficial
+  date: 04/03/2026
+  link: https://drive.google.com/drive/folders/1ostNFWdTemXAx8RCLtEhkgArrNBb1EHs?usp=sharing
+  size: 1.39 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motoedge30fusion/58589
+- name: Infinity X
+  version: Android 16
+  android: Android 16
+  author: True Modder
+  origin: unofficial
+  date: 15/03/2026
+  link: https://drive.google.com/drive/folders/1qkfRHLZo-dR-hSqM9G8yvam4HRR76wo9?usp=sharing
+  size: 1.71 GB
+  status: stable
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/1c19kRr57PhCNCwvOSmmjdOSNEMSu92-Y?usp=drive_link
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/160384
+- name: crDroid
+  version: Android 16
+  android: Android 16
+  author: Luke
+  origin: unofficial
+  date: 10/03/2026
+  link: https://drive.google.com/drive/folders/1srAfu9XDlbEu7JiSbi3alCbTejTa7oTd?usp=sharing
+  size: 1.87/1.64 GB
+  status: stable
+  notes:
+    - "Notas do desenvolvedor: I don't use tundra as daily anymore, so best I can tell you so far is it boots fine"
+  variants:
+    - label: Build anterior
+      link: https://drive.google.com/drive/folders/16eQYXiBZVKv6XISdl6ooYo5rZbqPZ6wz?usp=sharing
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/160283
+- name: Hyper OS|Port
+  version: Android 16
+  android: Android 16
+  author: EzerMod
+  origin: unofficial
+  date: 18/02/2026
+  link: https://drive.google.com/drive/folders/19-zESjx7JcYZG6qD8AyuZEmTX92eBPlO?usp=sharing
+  size: 4.32 GB
+  status: stable
+  changelog:
+    - Base inicial baseada no Xiaomi 13 (Fuxi)
+  notes:
+    - >-
+      Do próprio desenvolvedor: 'É bastante fluido e básico, não sei se é bom para jogos ou uso diário, é apenas mais
+      uma versão beta lol, só isso'.
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Ezerstuff/50
+- name: Evolution X
+  version: Android 16
+  android: Android 16
+  author: jotanh
+  origin: unofficial
+  date: 09/02/2026
+  link: https://drive.google.com/drive/folders/1GoZHw-_uZdKg8FPMCxPPchyjCSi-WkfP?usp=sharing
+  size: 2.43 GB
+  status: stable
+  changelog:
+    - Modo de desempenho adicionado nas configurações de bateria
+    - Bugs de áudio corrigidos
+    - Outras pequenas melhorias e ajustes gerais
+  notes:
+    - KSU ativado por padrão
+    - Algumas telas paralelas agora funcionam com UDFPS
+    - Disponível em nosso repositório para download o RKSU suportado
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/156061
+- name: Pixel OS
+  version: Android 16
+  android: Android 16
+  author: HotaruOs
+  origin: unofficial
+  date: 25/01/2026
+  link: https://drive.google.com/drive/folders/19sTPjUPI8jqjJBcz2MvWKSxV-eQf-Luf?usp=sharing
+  size: 2.61 GB
+  status: stable
+  changelog:
+    - Adicionado suporte ao Moto Cam
+    - Implementação do sistema de arquivos EROFS
+    - Ajuste de UV/Overclock em 855–150
+    - Melhorias gerais na rede
+    - "Adicionada GameBar (créditos: @Omar99A)"
+    - Calibração de cores corrigida (HDR/WCG)
+    - Aumento do brilho máximo da tela
+    - Velocidade de desbloqueio por impressão digital aumentada
+    - Adicionado suporte ao Wi-Fi Aware
+    - Adicionado suporte a áudio de baixa latência
+    - Proteção contra burn-in no modo ambiente (Ambient Mode)
+    - Substituição do QTI perf pelo Libperfmgr
+    - Melhoria geral de desempenho do sistema
+    - "Correção de áudio distorcido (créditos: @ThE_MarD)"
+    - Deepsleep funcionando corretamente e melhoria na autonomia da bateria
+    - Padding da barra de status ajustado para o padrão stock
+    - Mudança para OpenGL no Skia
+    - Implementação do PowerOffAlarm
+    - Adicionado papel de parede para AOD (Always On Display)
+  notes:
+    - Agora utilizando a device tree da LineageOS
+    - O changelog é comparado à LineageOS 23
+    - KernelSU (rsuntk) ativado por padrão
+    - Instalação via ADB sideload
+    - QPR1
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/151728
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: LineageOS Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/tundra/builds
+  size: ~1.2 GB
+  status: stable
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada periodicamente
+    - >-
+      O site está sincronizado automaticamente ao repositório Lineage, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://wiki.lineageos.org/devices/tundra/
+- name: LMDroid
+  version: Android 15
+  android: Android 15
+  author: LMODroid Team
+  origin: official
+  date: Semanalmente
+  link: https://get.libremobileos.com/devices/tundra/builds#:~:text=its%20signature.-,Latest,-LMODroid%2D6.2%2D20251220
+  size: ~1.4 GB
+  status: stable
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada periodicamente
+    - >-
+      O site está sincronizado automaticamente ao repositório LM, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://lmo.framer.website/lmodroid
+- name: /e/OS
+  version: Android 15
+  android: Android 15
+  author: MurenaCommunity
+  origin: official
+  date: Periodicamente
+  link: https://images.ecloud.global/community/tundra/#:~:text=available%20here.-,Android,-15
+  size: ~1.6 GB
+  status: stable
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada periodicamente
+    - >-
+      O site está sincronizado automaticamente ao repositório Murena, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://doc.e.foundation/devices/tundra
+- name: Pixel OS
+  version: Android 14
+  android: Android 14
+  author: PixelOS Team
+  origin: official
+  date: Periodicamente
+  link: https://pixelos.net/download/tundra#:~:text=Raghav%20Tandon-,Latest%20Build%20%3A,-Download
+  size: ~1.8 GB
+  status: stable
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada periodicamente
+    - >-
+      O site está sincronizado automaticamente ao repositório Pixel, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://pixelos.net/download#:~:text=Xiaomi-,Motorola,-OnePlus
+- name: Evolution X
+  version: Android 15
+  android: Android 15
+  author: Deivid21
+  origin: official
+  date: Periodicamente
+  link: https://evolution-x.org/devices/tundra#:~:text=Changelog-,Download%20ROM,-%23KeepEvolving
+  size: ~2.44 GB
+  status: stable
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada periodicamente
+    - >-
+      O site está sincronizado automaticamente ao repositório EvolutionX, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+    - O repositório oficial da ROM indica o desenvolvimento do projeto como Inativo
+  variants:
+    - label: Fonte / Telegram
+      link: https://evolution-x.org/devices/tundra
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: RobertoNovelo
+  origin: unofficial
+  date: 17/01/2026
+  link: https://drive.google.com/drive/folders/1ODpm4JdtPXnMFUWqntwuj-o-wuJVDSwp?usp=drive_link
+  size: 1.23 GB
+  status: stable
+  changelog:
+    - Build inicial do Android 16 QPR1
+    - Merge da branch 'lineage-23.1'
+    - Políticas de SEPolicy atualizadas para o Android 16
+    - Papéis de parede funcionando corretamente
+  notes:
+    - Build vanilla (MindTheGapps 16.0 recomendado)
+    - Clean Flash é OBRIGATÓRIO (formatar /data)
+    - Sem root por padrão
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/143544
+- name: DerpFest
+  version: Android 16
+  android: Android 16
+  author: Omar99A
+  origin: unofficial
+  date: 20/12/2025
+  link: https://drive.google.com/drive/folders/1aV0FLiSQw4Hrj09KodvQ6odzFySJHfZV?usp=sharing
+  size: 2.29 GB
+  status: stable
+  changelog:
+    - Patch de segurança de dezembro
+    - Mescladas as últimas mudanças da LineageOS no device
+    - Adicionado suporte ao GameBar
+    - Suporte ao KSU-Next e susfs ativados por padrão no kernel
+    - Kernel Void atualizado para a versão 5.4.300 (upstream)
+    - Suporte ao KSU Next atualizado para o Manager v1.1.1
+    - susfs atualizado para a versão 1.5.12
+  notes:
+    - Suporte ao KSU Next incluso
+    - GApps e firmware já inclusos na build
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/139450
+- name: Axion AOSP
+  version: Android 16
+  android: Android 16
+  author: HotaruOs
+  origin: unofficial
+  date: 09/11/2025
+  link: https://drive.google.com/file/d/1Zgyud-Tjbn9gCsJSwq3P26TMIfDGmxHB/view?usp=sharing
+  size: 2.30 GB
+  status: stable
+  changelog:
+    - Melhor fluidez e otimização geral do sistema
+    - Dolby Atmos com melhorias gerais no áudio
+    - Problemas de superaquecimento resolvidos
+    - Distorção de áudio no alto-falante superior corrigida
+    - Tela com HDR e WCG (DCI-P3) ativados
+    - Menor latência para fones de ouvido Bluetooth
+    - Conectividade Wi-Fi aprimorada, com alternância inteligente entre redes 2.4 GHz e 5 GHz
+    - Problema de deepsleep corrigido
+  notes:
+    - Changelog comparado com a build anterior "RisingOS 8.0"
+    - Não inclui acesso root; deve ser feito manualmente pelo usuário
+    - Instalação via fastboot update
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/123289
+- name: Rising OS Revived
+  version: Android 16
+  android: Android 16
+  author: HotaruOs
+  origin: unofficial
+  date: 31/07/2025
+  link: https://drive.google.com/drive/folders/1GeUUOrgOYC6H1o_ysrIH7p9W_m59tgPd?usp=sharing
+  size: 2.24 GB
+  status: stable
+  notes:
+    - A ROM já vem com KernelSU Next incluso
+    - Agora a ROM oferece método de instalação via fastboot
+    - Para uma melhor experiência, é recomendado utilizar o kernel customizado em nosso repositório
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/103959
+- name: Hyper OS|PORT
+  version: Android 14
+  android: Android 14
+  author: 30 Fusion Community
+  origin: unofficial
+  date: 31/07/2025
+  link: https://drive.google.com/drive/folders/1I-ewZHb1dRuiiK3YrVC5QQe_yq0eXmqd?usp=sharing
+  size: 4.55 GB
+  status: stable
+  changelog:
+    - Port da HyperOS proveniente do Xiaomi 12 (cupid)
+    - Base SGSI do Fuxi utilizada
+    - Reconhecimento facial funcionando
+    - Lanterna funcionando corretamente
+    - NFC funcionando corretamente
+    - Sem atraso no wakeup (despertar do sistema)
+  known_issues:
+    - FOD (leitor de digitais sob a tela) com funcionamento inconsistente
+    - Overlay do FOD levemente desalinhado
+    - Logo de boot às vezes não aparece
+  notes:
+    - A ROM já vem com KernelSU Next incluso
+    - Agora a ROM oferece método de instalação via fastboot
+    - Para uma melhor experiência, é recomendado utilizar o kernel customizado em nosso repositório
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/102688
+- name: Oxygen OS|PORT
+  version: Android 15
+  android: Android 15
+  author: 30 Fusion Community
+  origin: unofficial
+  date: 18/08/2025
+  link: https://drive.google.com/drive/folders/1lc3SVMWVB1d7DcbHCumcEpW03F6_rWwZ
+  size: 7.1 GB
+  status: stable
+  known_issues:
+    - NFC não funcionando
+    - Atraso ao despertar do sistema (3–5 segundos)
+    - Overlay do OP10P com problemas/incompatibilidade
+    - FOD (leitor de digitais sob a tela) não funciona
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/101711
+- name: Hello UI|OEM Port
+  version: Android 15
+  android: Android 15
+  author: davimotog200
+  origin: unofficial
+  date: 04/08/2025
+  link: https://drive.usercontent.google.com/download?id=1oeFXc4Wo6LeeDst4LLL4Yx7EkjWzz6NQ&export=download&authuser=0
+  size: 3.3 GB
+  status: stable
+  changelog:
+    - Versão atualizada para V1UMS35M.10-67-9-1
+    - Instalador corrigido
+  known_issues:
+    - Apatch não funciona
+    - Alguns fones de ouvido Bluetooth apresentam bug na reprodução de mídia e no áudio (não afeta todos os modelos)
+  notes:
+    - GApps já inclusos
+    - Patch de segurança de 01/07/2025
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/99044
+- name: Mist OS
+  version: Android 16
+  android: Android 16
+  author: Luke
+  origin: unofficial
+  date: 23/07/2025
+  link: https://drive.google.com/drive/folders/1wrzUEXBrbitsG9Wa7sF2KiQjK5AYQwuf?usp=sharing
+  size: 1.55/2.11 GB
+  status: stable
+  notes:
+    - Multiplas versões GAPPS e VANILLA disponíveis em nosso repositório
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/91655
+- name: The Pixel Project
+  version: Android 15
+  android: Android 15
+  author: Omar99A
+  origin: unofficial
+  date: 18/04/2025
+  link: https://drive.google.com/drive/folders/1wrzUEXBrbitsG9Wa7sF2KiQjK5AYQwuf?usp=sharing
+  size: 1.55/2.11 GB
+  status: stable
+  changelog:
+    - Patch de segurança de abril mesclado
+    - Taxa de atualização adaptativa corrigida (créditos ao Hotaro)
+    - Suporte ao KSU-Next e susfs ativados por padrão no kernel
+  notes:
+    - Suporte ao KSU Next incluso
+    - Play Integrity aprovado por padrão
+    - GApps e firmware já inclusos na build
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/76583
+- name: Rising OS
+  version: Android 15
+  android: Android 15
+  author: HotaruOs
+  origin: unofficial
+  date: 04/01/2025
+  link: https://drive.google.com/drive/folders/13OVzxdPoTZulOQJd9QzaY2bs2B-myt_J?usp=sharing
+  size: 2.32 GB
+  status: stable
+  changelog:
+    - Melhorias gerais de estabilidade
+    - Dolby Atmos atualizado
+    - "Alteração na device tree: agora baseada na LineageOS"
+    - Outras pequenas melhorias e ajustes gerais
+  notes:
+    - KernelSU Next já incluso por padrão
+    - A ROM agora utiliza o mesmo método de instalação da LineageOS
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/Edge30FusionBR/76583

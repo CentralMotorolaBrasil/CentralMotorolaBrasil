@@ -1,0 +1,472 @@
+- name: aicp Revived
+  version: Android 11 R
+  android: Android 11 R
+  author: Dev
+  origin: unofficial
+  date: 10/10/2025
+  link: https://drive.google.com/file/d/1vM0XTMvooCscAusnDUuARDubdjqYHQMD/view?usp=sharing
+  size: 731.6 MB
+  status: stable
+  changelog:
+    - Mudanças iniciais para Android 11
+    - Suporte a outras variantes do Jeter
+    - Suporte a underclock/overclock e undervolt (ajustado em -20mV)
+    - Graphene Camera, navegador Via e Dolby Atmos incluídos
+    - Spoof de atestação básica para melhor compatibilidade com aplicativos bancários mesmo com root
+    - Miracast funcionando
+    - Kernel rebaseado para a última tag do mimir (3.18.140)
+    - Suporte a KCAL via kernel
+    - APN configurada por padrão para evitar problemas com dados móveis
+    - Melhorias na regulação térmica (dificilmente ultrapassa 40 °C)
+    - Melhorias na estabilidade geral
+    - Rebase nas árvores do Jarl para uma base mais adequada a versões futuras
+  notes:
+    - "Variante: Vanilla"
+    - "Patch de segurança: setembro de 2025"
+    - AICP possui funções que exigem root para acesso completo
+    - Sem resquícios de criptografia restantes
+    - "SHA256: 07fdfb48b491508e930914068845f8da2d38afa8bae39fb026c30083923a70ae"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/482
+- name: crDroid Revived
+  version: Android 10 Q
+  android: Android 10 Q
+  author: Vhmit
+  origin: unofficial
+  date: 20/08/2025
+  link: https://drive.google.com/file/d/1p6CLS9InS7-Re1hA4tPCTHlXLRmPVRL-/view?usp=sharing
+  size: 778.4 MB
+  status: stable
+  changelog:
+    - Suporte fixado a outras variantes do jeter
+    - Alguns parâmetros de performance corrigidos
+    - Undervolt reajustado para -20mV
+    - Animações reduzidas para 50%
+    - Blur desabilitado por padrão
+    - Lawnchair launcher como opcional
+  known_issues:
+    - Crypto (intencionalmente quebrado, as partições do jeter não têm espaço suficiente para criptografia)
+  notes:
+    - Full MicroG support
+    - Camera e flashlight funcionando
+    - WiFi funcionando
+    - Bluetooth funcionando
+    - Telefonia (chamadas e dados)
+    - Áudio (gravação e reprodução)
+    - Reprodução de vídeo
+    - Sensores funcionando
+    - GPS funcionando
+    - "SHA256: 7e22496edb4ca29ae1b4aab0e757422b93478698de8d746695fd23ae160034d0"
+    - Problemas de hardware só serão analisados com logcat, last_kmsg, tombstones e dmesg
+    - Não reportar bugs usando Substratum, módulos Magisk não suportados ou modificações no sistema
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/476
+- name: Lineage OS
+  version: Android 13
+  android: Android 13
+  author: Vhmit
+  origin: unofficial
+  date: 14/05/2023
+  link: https://drive.usercontent.google.com/download?id=1WdfKVxngMqn9c3isTdYR9i9Eu2rtHgwC&export=download&authuser=0
+  size: 782 MB
+  status: stable
+  changelog:
+    - Patch de segurança de maio
+    - Merge TQ2A de maio
+  known_issues:
+    - Auto-falante nas chamadas
+    - QR Code do Wi-Fi
+    - Não apaga digital salva
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/411
+- name: /e/OS
+  version: Android 11 R
+  android: Android 11 R
+  author: Vhmit
+  origin: unofficial
+  date: 05/10/2025
+  link: https://drive.google.com/file/d/1HZepSe5zLj4gZDABLyVcJq1wuav5zh-P/view?usp=sharing
+  size: 978.3 MB
+  status: stable
+  changelog:
+    - Build inicial e EOL (fim da vida)
+    - Suporte a outras variantes do jeter
+    - Suporte a uc/oc e undervolt (ajustado para -20mV)
+    - Navegador Via incluído
+    - Dolby Atmos incluído
+  notes:
+    - MicroG já instalado (não flashar GApps)
+    - "Build variant: Vanilla (MicroG)"
+    - "Patch de Segurança: Fevereiro de 2024"
+    - "SHA256: fdcb85a3d1772d0968e9e063eb352060fb78316bd5234709bcc56f01f39b175f"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/479
+- name: Pixel OS
+  version: Android 13
+  android: Android 13
+  author: Vhmit
+  origin: unofficial
+  date: 19/04/2023
+  link: https://drive.google.com/file/d/1aA-7vzJCuk7D28ZUXSgab-ToKLGmQWV4/view?usp=sharing
+  size: 1.14 GB
+  status: stable
+  changelog:
+    - Kernel com suporte ao KernelSU
+    - Debloat da maioria dos aplicativos da Google (inclusive o app Google)
+    - Galeria QuickPic adicionada
+    - ZRAM aumentado para 2GB
+    - Em resumo, é uma Pixel capada
+  notes:
+    - GApps build
+    - "SELinux: Enforcing"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/404
+- name: Derpfest
+  version: Android 13
+  android: Android 13
+  author: Vhmit
+  origin: unofficial
+  date: 14/04/23
+  link: https://drive.google.com/file/d/1e0bmDVZyqN6ToQ5IqZeCaVgw-wqjPK9Q/view?usp=sharing
+  size: 1.22 GB
+  status: stable
+  changelog:
+    - Kernel Hekireki atualizado para o Skyline
+    - Kernel com suporte ao KernelSU
+    - Dolby Áudio incluso
+    - Debloat da maioria dos aplicativos da Google (necessário para caber no jeter)
+    - Galeria QuickPic adicionada
+    - ZRAM aumentado para 2GB
+    - Em resumo, é uma Pixel com customização
+  notes:
+    - GApps build
+    - Enforcing user build
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/392
+- name: Awaken OS
+  version: Android 12.1
+  android: Android 12.1
+  author: Vhmit
+  origin: unofficial
+  date: 10/02/2023
+  link: https://drive.google.com/file/d/16gg7buFXE4o1BNGt1AjLP38unRCG3iVU/view?usp=sharing
+  size: 837.4 MB
+  status: stable
+  changelog:
+    - Pequenas otimizações gerais
+    - Hekireki kernel mais atualizado
+  notes:
+    - Serve somente para Aljeter
+    - "Android Security: Agosto/2022"
+    - "Architecture: ARM64"
+    - "GApps: Not Included"
+    - "SELinux: Enforcing"
+    - "Support for Treble: Yes"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/323
+- name: Pixel Experience
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 19/01/2023
+  link: https://drive.google.com/file/d/1e7n3nLoomKMNvn4OpWekGKbpm3hbtPE_/view?usp=sharing
+  size: 1.06 GB
+  status: stable
+  notes:
+    - Versão PLUS otimizada
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/321
+- name: Superior OS
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 09/12/2022
+  link: https://drive.google.com/file/d/18_EnX_vcS9kutpz_pEw_ct2JGoTv1VOT/view?usp=sharing
+  size: 698.1 MB
+  status: stable
+  changelog:
+    - Kernel Epic customizado (versão 127)
+    - Underclock para 345 MHz e 249 MHz (configurável via aplicativo de kernel)
+    - Kcal e controle de som adicionados
+    - Deep Sleep corrigido (necessita de mais testadores)
+    - ZRAM melhorado
+    - Função de saúde da bateria funcionando nas configurações
+    - Props do Pixel 5 adicionados (usar SafetyFix para correção)
+  notes:
+    - "Segurança do Android: dezembro de 2021"
+    - "Arquitetura: ARM64"
+    - GApps não incluídos
+    - "SELinux: Enforcing"
+    - "Suporte ao Treble: Sim"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/306
+- name: Havoc OS
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 27/11/2022
+  link: https://drive.google.com/file/d/1gGIMrEcYJkNNmhQfpFKZWMhwQ3-tgwuc/view?usp=drive_link
+  size: 684.4 MB
+  status: stable
+  changelog:
+    - Patch de segurança de julho aplicado
+    - Puppet incluído
+    - Câmera Graphene definida como padrão
+    - Economia de bateria aprimorada
+    - ZRAM melhorado
+    - SafetyNet passa por padrão
+  notes:
+    - "Segurança do Android: julho de 2022"
+    - "Arquitetura: ARM64"
+    - GApps não incluídos
+    - "SELinux: Enforcing"
+    - "Suporte ao Treble: Sim"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/301
+- name: PROS Q
+  version: Android 10
+  android: Android 10
+  author: Vhmit
+  origin: unofficial
+  date: 25/11/2022
+  link: https://drive.google.com/file/d/1kOvO_cOXcALkyBRrkiP2Vn8oxM0l4Xo1/view?usp=sharing
+  size: 811.3 MB
+  status: stable
+  changelog:
+    - Patch de segurança de Outubro/2022
+    - Puppet incluso
+    - Adicionado undervolt
+    - Graphene Câmera definida como padrão
+    - Melhor economia de bateria
+    - Zram melhorado
+  notes:
+    - "Android Security: Outubro/2022"
+    - "Arquitetura: ARM64"
+    - "GApps: Não incluídos"
+    - "Selinux: Enforcing"
+    - "Suporte ao Treble: Sim"
+    - É uma RR MOD com algumas pequenas modificações feitas por gringos e com patch atualizado
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/300
+- name: Android Ice Cold Project
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 16/10/2021
+  link: https://drive.google.com/file/d/1ld9hIs6xgGXsoiPHjCBHRSj9XMdgWQ0i/view?usp=sharing
+  size: 747.1 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/297
+- name: Project Sakura
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 08/01/2022
+  link: https://drive.google.com/file/d/124AylF2CIeH1MteUyUesBkMWLKQU2WMc/view?usp=sharing
+  size: 1 GB
+  status: stable
+  notes:
+    - Build somente GAPPS
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/296
+- name: Colt OS
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 16/09/2021
+  link: https://drive.google.com/file/d/1t-28XWapsJTb3ByL6DzRCuX-7HuySQTf/view?usp=sharing
+  size: 731 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/293
+- name: Nusantara Project
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 05/09/2021
+  link: https://drive.google.com/file/d/1baDYvy_-hT8GHlTt9B7OMqhtoMaLvZaZ/view?usp=sharing
+  size: 708.7 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/292
+- name: Corvus OS
+  version: Android 10
+  android: Android 10
+  author: Dev
+  origin: unofficial
+  date: 03/02/2021
+  link: https://drive.google.com/file/d/1yEjNY6YJXnAvFF36PQSheONpI8poefE_/view?usp=sharing
+  size: 760.4 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/238
+- name: Bliss OS
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 14/06/2021
+  link: https://drive.google.com/file/d/1kfO_k6ZSZcIGra1hzyUOCO7hQtwirTvy/view?usp=sharing
+  size: 716.4 MB
+  status: stable
+  notes:
+    - Build somente VANILLA
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/209
+- name: Nezuko OS
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 02/07/2021
+  link: https://drive.google.com/file/d/1OS325g3YcEsliftWnOLPj0btvlB9c24B/view?usp=sharing
+  size: 659.8 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/204
+- name: MoKee
+  version: Android 10
+  android: Android 10
+  author: Vhmit
+  origin: unofficial
+  date: 17/01/2021
+  link: https://drive.google.com/file/d/1kciW79FbflOXeu_JRU_2k6oY6yGrKOFe/view?usp=sharing
+  size: 732.1 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/201
+- name: Aosp Extended
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 08/12/2021
+  link: https://drive.google.com/file/d/179D0-0NjdW0JB7KzvYoGkoI3EaE0p5sz/view?usp=sharing
+  size: 714.6 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/199
+- name: Revenge OS
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 01/06/2021
+  link: https://drive.google.com/file/d/10Jo2_m_Z7nCOGCOwRkAPeAE0ZfSilRnb/view?usp=sharing
+  size: 639.7 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/176
+- name: Stock ROM Mod
+  version: Android 9
+  android: Android 9
+  author: Vhmit
+  origin: unofficial
+  date: 11/09/2022
+  link: https://drive.google.com/file/d/1QLQsQcuZROmOk9M9AR8aPgpgLrVzVSa6/view?usp=sharing
+  size: 1.10 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/135
+- name: dot OS
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 26/11/2021
+  link: https://drive.google.com/file/d/1ALcMh3PstvkVaUi1AruaNzMr8uWv7W37/view?usp=sharing
+  size: 717.4 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/126
+- name: Lineage OS Lite
+  version: Android 10
+  android: Android 10
+  author: Dev
+  origin: unofficial
+  date: 11/09/2022
+  link: https://drive.google.com/file/d/1E--uuL_j4gZCGpzsPuJsKTBBYGvKM3uY/view?usp=sharing
+  size: 783.5 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/128
+- name: Havoc OS
+  version: Android 11
+  android: Android 11
+  author: Dev
+  origin: unofficial
+  date: 20/06/2021
+  link: https://drive.google.com/file/d/1Eh3vLz4ttBr8wBPlXNe1XYwSeKMZ4eS_/view?usp=sharing
+  size: 728.3 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/114
+- name: Arrow OS
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 20/01/2022
+  link: https://drive.google.com/file/d/1HU-hzddlHCeYFvL9qGTObRoVVdtkkz3p/view?usp=sharing
+  size: 756 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/102
+- name: crDroid
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 25/05/2021
+  link: https://drive.google.com/file/d/1YqgT7kA1nwom420RTwbbPzkRxmQsPPTL/view?usp=sharing
+  size: 749 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/102
+- name: Lineage OS
+  version: Android 11
+  android: Android 11
+  author: Vhmit
+  origin: unofficial
+  date: 14/06/2022
+  link: https://drive.google.com/file/d/1eKP_xoDK2XUNi7a3-MQQz8m9vnSX2Gb6/view?usp=sharing
+  size: 702 MB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motog6playcloud/48

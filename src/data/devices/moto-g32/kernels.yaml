@@ -1,0 +1,16 @@
+- name: KultriKernel
+  version: "3"
+  author: Kultrinha_
+  date: 26/01/2026
+  link: https://drive.google.com/file/d/1fnTiXgK9GTaL17SwBpXospAh8X15WWga/view?usp=sharing
+  size: 17.9 MB
+  features:
+    - Kernel baseado no Linux 4.19.325
+    - Backslashxx KSU implementado
+    - Para ROMs LineageOS 23.X based
+    - >-
+      NÃO utilize recovery customizado junto com este kernel (ex.: TWRP, OrangeFox ou PBRP), pois isso causará brick no
+      dispositivo
+    - "O uso do recovery fornecido pela própria ROM customizada (ex.: LineageOS Recovery) é permitido"
+    - Caso ocorra bootloop, basta flashar o boot.img original ou reinstalar a ROM
+    - Código-fonte do kernel disponível no repositório oficial do LineageOS para o sm6225

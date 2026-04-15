@@ -1,0 +1,15 @@
+- name: Gcam-Go-VAnnila
+  version: 1.21/SROYd-in1b-Optimized
+  author: SROY
+  date: 12/10/2024
+  link: https://drive.google.com/file/d/1PNJT-scZIzQj9N68V97qYCxUmp3UeqBL/view?usp=sharing
+  size: 25 MB
+  recommended: false
+  notes:
+    - Versão otimizada para dispositivos de entrada e intermediária
+    - Compatível com Android 8.0 e superiores
+    - Funciona com Snapdragon, MediaTek, Exynos e outros chipsets
+    - Recomendado para usuários com dispositivos que não suportam Gcam completo
+    - Aplicativo leve com baixo consumo de recursos
+    - Baseado no Google Camera Go oficial do Google
+    - Excelente relação entre qualidade e uso de recursos

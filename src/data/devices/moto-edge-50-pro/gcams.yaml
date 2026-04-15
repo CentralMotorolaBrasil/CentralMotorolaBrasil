@@ -1,70 +1,54 @@
-
-  - name: AGC
-    version: 9.6.19/V4.0
-    author: BigKaKa
-    origin: official
-    date: 02/06/2025
-    link: https://drive.google.com/file/d/1DMhETmhDcTgKOCkAnL4xXAdaIbhljrzW/view?usp=drive_link
-    size: 260.8 MB
-    status: stable
-    notes:
-      - Versão oficial da AGC baseada no Google Camera 9.6.19
-      - Recomendado para uso diário
-    changelog:
-      - Suporte a Camera2API
-      - Reinicialização automática ao trocar para câmera frontal
-      - Saturation Patcher (ajuste de saturação)
-      - Botão HDRNet
-      - Correção do limite do Custom Patcher
-      - Suporte a arquivos .agc
-      - Compatível com Android 15 e anteriores
-
-  - name: LMC
-    version: 8.4/R18
-    author: Hasli
-    origin: unofficial
-    date: 14/06/2025
-    link: https://drive.google.com/uc?export=download&id=1d88YvaXYl6sq8p_I7Zg8Und7aYHnvQiF
-    size: 132.2 MB
-    status: beta
-    notes:
-      - Baseada na modificação SGCam (Shamim)
-      - Otimizada para Macan
-      - Uso por conta e risco
-    changelog:
-      - Interface aprimorada
-      - Slider de exposição otimizado
-      - Menu popup baseado em ZGCam
-      - Tema escuro melhorado
-      - Feedback de vibração
-      - Suporte a modelos AWB e ruído
-      - Ajustes de FPS do visor
-      - AUX padrão corrigido
-      - Melhorias gerais de UI
-      - Compatível com configs antigas
-      - Suporte a arquivos .lmc
-    known_issues:
-      - Necessita XML proprietária "JIT" para funcionar
-
-  - name: MGC
-    version: 9.3.160/V34
-    author: BGS
-    origin: official
-    date: 07/06/2025
-    link: https://drive.google.com/uc?export=download&id=1qJ7JnlkbBpImb-SHPp33Eyb6-_HV05ta
-    size: 411.3 MB
-    status: stable
-    notes:
-      - Recomendado para fotografia avançada
-      - Otimizado para dispositivos Snapdragon (incluindo Edge 50 Pro)
-    changelog:
-      - Novos controles de processamento
-      - Sabre Param com ajustes de denoise e cor
-      - Processing Param com ISO/Exposure
-      - Exposure darker dinâmico por ISO
-      - Otimizações específicas para Macan
-      - Sharp Tuning (L1–L18)
-      - Color Factor avançado
-      - Wiener Merge method configurável
-      - Ajustes adicionais de iluminação
-      - Cores naturais e estabilidade geral
+- name: AGC
+  version: 9.6.19/V4.0
+  author: BigKaKa
+  date: 02/06/2025
+  link: https://drive.google.com/file/d/1DMhETmhDcTgKOCkAnL4xXAdaIbhljrzW/view?usp=drive_link
+  size: 260.8 MB
+  recommended: false
+  notes:
+    - Versão oficial recomendada para uso diário.
+- name: LMC
+  version: 8.4/R18
+  author: Hasli
+  date: 14/06/2025
+  link: https://drive.google.com/uc?export=download&id=1d88YvaXYl6sq8p_I7Zg8Und7aYHnvQiF
+  size: 132.2 MB
+  recommended: false
+  notes:
+    - Versão não oficial, use por sua conta e risco.
+- name: MGC
+  version: 9.3.160/V34
+  author: BGS
+  date: 07/06/2025
+  link: https://drive.google.com/uc?export=download&id=1qJ7JnlkbBpImb-SHPp33Eyb6-_HV05ta
+  size: 411.3 MB
+  recommended: false
+  notes:
+    - Versão oficial recomendada para fotografia avançada.
+- name: AGC
+  version: 9.6.19/V4.0
+  author: BigKaKa
+  date: 02/06/2025
+  link: https://drive.google.com/file/d/1DMhETmhDcTgKOCkAnL4xXAdaIbhljrzW/view?usp=drive_link
+  size: 260.8 MB
+  recommended: false
+  notes:
+    - Versão oficial recomendada para uso diário.
+- name: LMC
+  version: 8.4/R18
+  author: Hasli
+  date: 14/06/2025
+  link: https://drive.google.com/uc?export=download&id=1d88YvaXYl6sq8p_I7Zg8Und7aYHnvQiF
+  size: 132.2 MB
+  recommended: false
+  notes:
+    - Versão não oficial, use por sua conta e risco.
+- name: MGC
+  version: 9.3.160/V34
+  author: BGS
+  date: 07/06/2025
+  link: https://drive.google.com/uc?export=download&id=1qJ7JnlkbBpImb-SHPp33Eyb6-_HV05ta
+  size: 411.3 MB
+  recommended: false
+  notes:
+    - Versão oficial recomendada para fotografia avançada.

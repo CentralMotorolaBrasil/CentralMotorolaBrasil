@@ -1,0 +1,36 @@
+- name: HyperCam Remix
+  version: 1.1/G6.1
+  author: rz_end
+  date: 22/11/2020
+  link: https://drive.google.com/file/d/107h95ngny3yqNKFl2L26cM89V6zl5pfI/view?usp=drive_link
+  size: 84.5 MB
+  recommended: false
+  notes:
+    - Versão não oficial, use por sua conta e risco.
+- name: GCAM 5.2
+  version: 5.200604.2138
+  author: Arnova8G2
+  date: 04/06/2020
+  link: https://drive.google.com/uc?export=download&id=118VE8zFO6vyvn064xnHuApZllUBGwMlA
+  size: 77.4 MB
+  recommended: false
+  notes:
+    - Versão não oficial, use por sua conta e risco.
+- name: MGC 8.1
+  version: 8.1.101/Gv2b
+  author: BGS
+  date: 31/05/2022
+  link: https://drive.google.com/uc?export=download&id=1ZTFgKCRcaKHSozn7RMLE7MwNY3DcFiH9
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Versão oficial, recomendada para estabilidade.
+- name: SGCAM 8.4
+  version: 8.4.400.42.XXX
+  author: Shamin
+  date: 25/12/2022
+  link: https://drive.google.com/uc?export=download&id=1wmxd8ABLUlXyz349fPe7pRdDvQRtKrQ4
+  size: 133.8 MB
+  recommended: false
+  notes:
+    - Versão oficial, recomendada para estabilidade.

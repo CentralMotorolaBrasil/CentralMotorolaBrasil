@@ -1,0 +1,43 @@
+- name: MGC
+  version: 8.1.101/A9-GV1zfix
+  author: BSG
+  date: 12/02/2022
+  link: https://drive.google.com/drive/folders/1g4KBay_Rqv42ozsYbED-wqriZ-QOdmmm?usp=sharing
+  size: 123,8 MB
+  recommended: false
+  notes:
+    - Versão estável e bem testada pela comunidade BSG
+    - Suportada em múltiplos pacotes (snap, MGC, ENG, ruler, scan3d, qcamera3)
+    - Compatível com diversos aparelhos Android 9+
+    - Recomendado para usuários que buscam estabilidade e compatibilidade
+- name: AGC 8.8
+  version: 8.8.224/V3.0Fix
+  author: BigKaka
+  date: 06/07/2023
+  link: https://drive.google.com/file/d/1wxY46hoPrBNxesjjgfV-yQYycYWiW4KL/view?usp=sharing
+  size: 118.5 MB
+  recommended: false
+  notes:
+    - "Versão estável e otimizada para Moto G32 (codename: devon)"
+    - Suporte a arquivos .xml e .agc para importar/exportar configurações
+    - "Disponível em 4 pacotes: snap, samsung, aweme, e apk padrão"
+    - Toolkit AGC compatível com esta versão
+    - Comunidade ativa em Telegram para suporte e XMLs customizados
+    - Recomendado para Moto G32 - excelente relação de recursos e estabilidade
+    - V3.0Fix é versão estável recomendada (V3.0 original tinha bug de Color Mix)
+- name: SGCAM 8.8
+  version: 8.8.224.10/STABLE-V9
+  author: Shamim
+  date: 29/10/2023
+  link: https://drive.google.com/drive/folders/1s5zpi9-NtHIc58E6tiCzakjaMxTBj0e0?usp=sharing
+  size: 253.3 MB
+  recommended: false
+  notes:
+    - Versão STABLE (marcada em negrito como estável na comunidade)
+    - "Suporte em 5 pacotes: padrão, snapcam, ruler, scan3d, aweme"
+    - Desenvolvida por Shamim com suporte ativo de comunidade
+    - "Comunidade ativa em Telegram para suporte: t.me/sgcam"
+    - Compatível com arquivos .xml personalizados
+    - Amplamente testada e recomendada para Moto G32
+    - Publicada em 29 de Outubro de 2023
+    - Versão bem estabelecida com múltiplas correções acumuladas

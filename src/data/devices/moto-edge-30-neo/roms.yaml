@@ -1,0 +1,316 @@
+- name: aicp
+  version: Android 16
+  android: Android 16
+  author: aicp Team
+  origin: official
+  date: Periodicamente
+  link: https://dwnld.aicp-rom.com/#:~:text=Motorola-,Moto%20Edge%2030%20Neo,-made%20by%20Motorola
+  size: ~1.13 GB
+  status: stable
+  notes:
+    - >-
+      The site is automatically synchronized to the aicp repository, therefore, whenever a new version is available, it
+      will be here
+  variants:
+    - label: Fonte / Telegram
+      link: https://dwnld.aicp-rom.com/
+- name: Axion OS
+  version: Android 16
+  android: Android 16
+  author: leibHz
+  origin: unofficial
+  date: 30/01/2026
+  link: https://drive.google.com/drive/folders/1lx8VWfhwJLcLGC9dT1-TAdtVdZYSkpqD?usp=sharing
+  size: 1.66 GB
+  status: stable
+  changelog:
+    - Lançamento inicial do axionOS
+    - KernelSU Next 1.1.1 incluído
+    - susfs 1.5.5 instalado (apenas em TESTE, pode não funcionar)
+    - Desempenho do kernel melhorado
+  notes:
+    - KernelSU Next pré-compilado
+    - Gapps | Build Userdebug
+    - "obs: O MÉTODO DE INSTALAÇÃO DIRTY FLASH NÃO É RECOMENDADO"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoEdge30Neo/52297
+- name: Arrow OS
+  version: Android 13
+  android: Android 13
+  author: Jasiek
+  origin: unofficial
+  date: 21/05/2025
+  link: https://drive.google.com/drive/folders/1fikU5ApnLnuU7Ca9ZQeE2zRRIQHeHrgb?usp=sharing
+  size: 972 MB
+  status: stable
+  notes:
+    - Após o adb sideload, faça o flash da imagem boot
+    - KernelSU-Next com SUSFS
+    - Build Vanilla | userdebug
+    - SELinux em modo enforcing
+    - "Patch de segurança: 5 de Abril de 2025"
+    - Build assinada com release keys
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/edge30neonew/81/138
+- name: Axion AOSP
+  version: Android 16
+  android: Android 16
+  author: Alguem0aleatorio
+  origin: unofficial
+  date: 24/01/2026
+  link: https://drive.google.com/drive/folders/1ht1X35YFXxYoTwl9YX1LQ6a4vaABLcYq?usp=sharing
+  size: 1.66 GB
+  status: stable
+  changelog:
+    - Interface do usuário totalmente reformulada
+    - Novo motor de temas com loja integrada
+    - Tricky Store integrada
+    - PIF integrado
+    - Novas notificações essenciais
+    - Novo recurso de GameSpoofing
+    - Nova experiência de Sandbox
+    - Recurso de arte de mídia aprimorado com suporte ao Doze e Always On Display
+    - Visualizador Pulse aprimorado com novo estilo de blocos com fade
+    - Suporte a múltiplos focos de áudio adicionado
+    - Experiência de freeform reformulada
+    - AxBurstEngine reintroduzido
+    - Animações da UI e desempenho aprimorados
+    - Botão de minimizar adicionado ao overlay de chamadas do Gamespace
+    - Nova interface do Pulse Launcher
+    - Novos ícones e customizações de pastas
+    - Provedores de barra de pesquisa adicionados
+    - Suporte a busca universal adicionado
+    - Aprimoramentos no Gamespace por rve27
+    - Gestos de agitar e três dedos adicionados
+    - Correção de um problema onde o visualizador Pulse não funcionava com dispositivos Bluetooth
+    - Correção do problema de foco do teclado no diálogo de volume
+    - Recursos do NothingOS (engenharia reversa do NOS 3.0)
+    - Desativar gesto de swipe no Quick Settings na tela de bloqueio
+    - Gesto de swipe com três dedos aprimorado
+    - Interceptação de captura de tela
+    - Indicador de rede
+    - Bloqueio de aplicativos
+    - Always-On Display no estilo NothingOS
+    - Relógios de tela de bloqueio no estilo NothingOS
+    - Atualizações de UI do AxionOS 2.0
+    - Nova interface de Configurações Rápidas
+    - Animações dos widgets da tela de bloqueio retrabalhadas
+    - QuickLook (informações rápidas na tela de bloqueio)
+    - Clima na tela de bloqueio
+    - Eventos do calendário na tela de bloqueio
+    - Now Playing (apenas dispositivos Pixel)
+    - Freeform AOSP aprimorado
+    - Ícones flutuantes
+    - Suporte a tela cheia em modo imersivo
+    - Animações aprimoradas
+    - Edge Light reimplementado seguindo especificações da Motorola
+    - Arte de mídia na tela de bloqueio otimizada para menor consumo de recursos
+    - Wi-Fi Standard com prevenção de vazamentos e otimizações de memória
+    - GameSpace totalmente reescrito com dashboard moderno e flexível
+    - Pulse Visualizer reescrito para FPS mais suave e melhor suporte ao AOD
+    - Gestos Doze/Pulse retrabalhados
+    - Sidebar totalmente reescrita do zero
+    - Notificações Heads-Up compactas
+    - Alternador de HDR Boost
+    - Alternador de som de captura de tela
+    - Verificação ao desligar o aparelho
+    - Desbloqueio facial
+    - Sistema debloatado para uma experiência limpa e minimalista
+    - Patches de segurança mais recentes aplicados
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/edge30neonew/81/556
+- name: /E/OS
+  version: Android 15
+  android: Android 15
+  author: MurenaCommunity
+  origin: official
+  date: Periodicamente
+  link: >-
+    https://images-ecloud-global.translate.goog/community/miami/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc#:~:text=available%20here.-,Android%2015,-e%2D3.4%2Da15
+  size: ~1.4 GB
+  status: stable
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada periodicamente
+    - >-
+      O site está sincronizado automaticamente ao repositório Murena, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://doc.foundation/devices/miami/install
+- name: Moto HelloUI
+  version: Android 15
+  android: Android 15
+  author: EzerMod, Biel José
+  origin: unofficial
+  date: 16/08/2025
+  link: https://pixeldrain.com/u/E7Tto5YR
+  size: 4.16 GB
+  status: stable
+  changelog:
+    - Primeiro port para o Helloui Edge 30 Neo
+    - Kernel stock incluído
+    - Baseado no Edge 50 Pro (equivalente ao snap)
+    - Moto Camera funcionando
+    - Patch de segurança de Janeiro
+  known_issues:
+    - FC não funcionando
+  notes:
+    - Port inicial feito pelos amigos EzerMod e Biel José
+    - Agradecimentos ao @ZetLinkUw pela ajuda
+    - Agradecimentos a @gabrielajuda pela ajuda
+    - Agradecimentos a @gabrielajuda pela ajuda
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoEdge30Neo/45021
+- name: Axion AOSP
+  version: Android 15
+  android: Android 15
+  author: Jasiak
+  origin: unofficial
+  date: 22/06/2025
+  link: https://drive.google.com/drive/folders/1oRTTLGoJM491McGmlBzyzAmXT3SayXK0?usp=drive_link
+  size: 1.7 GB
+  status: stable
+  changelog:
+    - Sincronizado com a fonte mais recente
+    - Patch de segurança de Junho de 2025
+    - Correção do problema de carregamento de vídeo AUX (reinicialização necessária)
+    - Pequenas mudanças e correções gerais
+  notes:
+    - KernelSU-Next com SUSFS
+    - "Tipo de build: GApps | userdebug"
+    - SELinux em modo enforcing
+    - Build assinada com release keys
+    - Base QPR2
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoEdge30Neo/38810
+- name: Infinity X
+  version: Android 15
+  android: Android 15
+  author: Rakhshan
+  origin: unofficial
+  date: 22/06/2025
+  link: https://drive.google.com/drive/folders/1mCfSvUDLgNcQwshAboURLr7W20ck-D7m?usp=drive_link
+  size: 2.3 GB
+  status: stable
+  changelog:
+    - Correção do problema de carregamento rápido (créditos ao Marcost)
+    - Correções gerais de performance e crash fixes
+  notes:
+    - KernelSU-Next com SUSFS (prebuilt)
+    - GApps incluídos | Build user
+    - SELinux em modo enforcing
+    - Build assinada com release keys
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoEdge30Neo/38563
+- name: Lineage OS Revived
+  version: Android 15
+  android: Android 15
+  author: SirRGB
+  origin: unofficial
+  date: 21/06/2025
+  link: https://drive.google.com/file/d/1t4pFY8snEXFHXjOoeG1FI8dEbUKMYgRS/view?usp=sharing
+  size: ~2.0 GB
+  status: stable
+  changelog:
+    - Sincronizado com a fonte mais recente
+    - Patch de segurança de Junho de 2025 (PR1)
+    - Correção do problema de carregamento rápido (créditos ao Marcost)
+    - Dolby alterado para Sony Dolby com interface da Motorola
+    - Suporte a Áudio Espacial adicionado
+    - Suporte a Dolby Atmos para dispositivos compatíveis
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada semanalmente
+    - >-
+      O site está sincronizado automaticamente ao repositório LineageOS, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoEdge30Neo/38599
+- name: Rising OS Revived
+  version: Android 15
+  android: Android 15
+  author: Rakhshan
+  origin: unofficial
+  date: 21/06/2025
+  link: https://drive.google.com/drive/folders/1Absg6kMcGCRP0__YmigFNU66JNrbppSi?usp=drive_link
+  size: ~2.4 GB
+  status: stable
+  changelog:
+    - Sincronizado com a fonte mais recente
+    - Patch de segurança de Junho de 2025
+    - Dolby alterado para Sony Dolby com interface da Motorola
+    - Suporte a Áudio Espacial adicionado
+    - Suporte a Dolby Atmos para dispositivos compatíveis
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada semanalmente
+    - >-
+      O site está sincronizado automaticamente ao repositório RisingOS, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoEdge30Neo/38810
+- name: Evolution X
+  version: Android 15
+  android: Android 15
+  author: EzerMod, Biel José
+  origin: unofficial
+  date: 30/05/2022
+  link: https://drive.google.com/drive/folders/1HXeM-AKjskLZ5UsRjTVJ8iKkHOe2gwcg?usp=drive_link
+  size: ~1.2 GB
+  status: stable
+  changelog:
+    - Correção do problema de reboot aleatório
+    - Kernel atualizado para a versão v5.4.290
+    - Suporte ao KernelSU Next adicionado (v1.0.4)
+    - Suporte ao SUSFS adicionado (v1.5.5)
+    - Correção do problema de recebimento de SMS
+    - Graves e reverberação aprimorados
+    - Uso de CPU reduzido durante a reprodução de áudio
+    - Arquitetura alterada para variante Dot Product (otimização aprimorada)
+    - Verificação ELF habilitada
+    - Codecs OMX de áudio e vídeo desativados
+  notes:
+    - KernelSU Next prebuilt
+    - Build assinada com release keys
+    - GApps incluídos | Build userdebug
+    - SELinux em modo enforcing
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/edge30neonew/81/122
+- name: LineageOS
+  version: Android 16
+  android: Android 16
+  author: LineageOS Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/miami
+  size: ~1 GB
+  status: stable
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada periodicamente
+    - >-
+      O site está sincronizado automaticamente ao repositório Lineage, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui
+  variants:
+    - label: Fonte / Telegram
+      link: https://wiki.lineageos.org/devices/miami/
+- name: LMDROID
+  version: Android 15
+  android: Android 15
+  author: LibreMobileOS
+  origin: official
+  date: Semanalmente
+  link: https://get.libremobileos.com/devices/miami/
+  size: ~1.4 GB
+  status: stable
+  notes:
+    - Changelogs e Issues estão disponíveis no repositório oficial da ROM para cada nova versão lançada periodicamente
+    - >-
+      O site está sincronizado automaticamente ao repositório LM, portanto, sempre que uma nova versão estiver
+      disponível, estará aqui

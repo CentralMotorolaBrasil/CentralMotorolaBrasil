@@ -1,0 +1,20 @@
+- name: PBRP Recovery
+  version: "4.0"
+  author: FelipeCH
+  date: 03/08/2025
+  link: https://github.com/Maluco-Test/android_device_java-twrp/releases/download/pbrp/pbrp-4-0-UNOFICIAL-java.img
+  size: 64 MB
+  notes:
+    - "Guia de instalação: inicie o aparelho no modo bootloader."
+    - Faça o flash do arquivo pbrp-4-0-UNOFICIAL-java.img nas partições boot_a e boot_b via fastboot.
+    - Reinicie diretamente para o recovery após o flash.
+    - Formate os dados (format data) para evitar erros e conflitos.
+- name: TWRP
+  version: 3.7.0_11-0
+  author: FelipeCH
+  date: 09/10/2024
+  link: https://drive.google.com/uc?export=download&id=1mdbi35geNlhi3vB90nHF0HHwQzG0ORHx
+  size: 64 MB
+  notes:
+    - Somente o ROOT funciona
+    - Vem com um Auto-install, caso necessário

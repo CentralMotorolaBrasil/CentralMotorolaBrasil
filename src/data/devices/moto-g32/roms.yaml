@@ -1,0 +1,604 @@
+- name: Luna OS
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: official
+  date: 06/04/2026
+  link: https://drive.google.com/file/d/10Pi_giY9onhsikuzr3GejH0Vw0wN_FQp/view?usp=sharing
+  size: 0.99 GB
+  status: stable
+  notes:
+    - Initial LunaOS ROM
+    - Vanilla build
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/250278
+- name: Project Infinity X
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 05/04/2026
+  link: https://drive.usercontent.google.com/download?id=1uKSw-q3YqkvfYnbje63_bktG590upnTg&export=download
+  size: 1.16 GB
+  status: stable
+  changelog:
+    - Lunaris Dolby implemented
+    - "Add statusbar/lockscreen dynamic bar implementation (author: rmp22)"
+    - "Add App drawer customizations and tunings (author: shutter-cat, pbzinwindows, ChrisCatto)"
+    - "Add Toggle to launch notification apps in bubble or floating screen (author: shutter-cat)"
+    - >-
+      Add optional toggleable Classic style QS Panel along with tile shapes and ability to hide labels (author:
+      neobuddy89)
+    - Allow switching to default Android 16 brightness slider style
+    - "Add detailed Idle manager with advanced per-app control (author: Ghosuto)"
+    - "Add 11 more Lockscreen custom clock styles (author: IDontCare-05, spkal01, Ghosuto)"
+    - Fix custom clock styles disappearing on tablets or landscape rotation
+    - Allow applying volume panel gradient customization to extended volume panel style
+    - Allow showing Volume percentage on extended and expanded volume panel style
+    - "Add toggle to kill Flash SMS messages (author: adithya2306)"
+    - "Simplify Always-on-Display charging checks (author: NurKeinNeid)"
+    - Remove QS boost hints that lead to battery drain / heat
+    - Remove unnecessary scrolling boost hints that lead to battery drain / heat
+    - Add back lockscreen weather wind and humidity info from v3.7
+    - Remove ongoing media chip // Fixes systemui crash issues while media was playing with media chip enabled
+    - "Add optional Glow effect in notch ring (author: hxreborn)"
+    - "Add music playback progress in cutout ring (author: Ghosuto)"
+    - Improve padding for search icon in app drawer search bar when google app disabled
+    - "Add launcher wallpaper carousel (author: MrSluffy)"
+    - Fix default fonts display for regular and headline in QS Panel
+    - "Fix NPE in CallListener Gamespace (author: neobuddy89)"
+    - "Fix scrolling in recovery image when touch is rotated (author: AnierinBliss)"
+    - "Allow changing size of custom clock styles (author: Ghosuto)"
+    - "Fix PlanesLockGuard buffer lock leak in av (author: jsebechlebsky)"
+    - "Fix preferences in launcher3 icon pack fragment turning purple upon clicking (author: neobuddy89)"
+    - "Hide VmTerminal fragment if device doesn't support it (author: luk1337)"
+    - Improvements on memory usage and battery backup
+  known_issues:
+    - Camera doesn't want to record video? exchange for another camera
+  notes:
+    - Vanilla build
+    - Rsuntk KernelSU implemented
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/250285
+- name: Axion OS
+  version: Android 16
+  android: Android 16
+  author: Kultrinha_
+  origin: unofficial
+  date: 02/04/2026
+  link: https://drive.google.com/drive/folders/1siMPz7-ur1Ko8rrwa8t1kxFae3vBFPCO?usp=sharing
+  size: 1.36 GB
+  status: stable
+  changelog:
+    - QS Header fixed
+  notes:
+    - Rsuntk KernelSU implemented (Download disponível do módulo juntamente com a ROM em nossos repositórios oficiais)
+    - Vanila build
+  variants:
+    - label: Build anterior
+      link: https://drive.usercontent.google.com/download?id=1mYsDPVZP5daIJSwekvA3zxbLu4se36tG&export=download&authuser=0
+    - label: Fonte / Telegram
+      link: https://t.me/sm6225projects/337
+- name: Genesis OS
+  version: Android 15
+  android: Android 15
+  author: Kultrinha_
+  origin: unofficial
+  date: 16/03/26
+  link: https://drive.google.com/drive/folders/1W_tIzFr7IfGyIoh6oTuq-a3KT1z5OJxP?usp=sharing
+  size: 1.73 GB
+  status: stable
+  notes:
+    - Initial GenesisOS CE 4.4
+    - Moto Dolby Atmos implemented
+    - Rsuntk KernelSU implemented (faça o Download em nossos repositórios oficiais juntamente com a ROM)
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/249046
+- name: Mist OS
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 14/03/2026
+  link: https://drive.google.com/drive/folders/123Wy0VBXSHAUhrRMtoGPUvmFYXUWS1Fg?usp=sharing
+  size: 1.17 GB
+  status: stable
+  notes:
+    - Vanilla build
+    - Rsuntk KernelSU implemented (Faça o download em nossos repositórios juntamente com o Download da ROM)
+    - Lunaris Dolby implemented
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/249036
+- name: crDroid
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 13/03/2026
+  link: https://drive.google.com/drive/folders/14L6p9w5L5lL_aTekEFf3z7oKjApr9DDn?usp=sharing
+  size: 1.14 GB
+  status: stable
+  notes:
+    - Vanilla build
+    - >-
+      Rsuntk KernelSU implemented (faça o download por meio dos nossos repositórios oficiais junto com o Download da
+      ROM)
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/249021
+- name: Lunaris AOSP
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 11/03/2026
+  link: https://drive.google.com/drive/folders/10h79aF3okJRHda9IEd7s8E9XYpkv8yCv?usp=sharing
+  size: 1.14 GB
+  status: stable
+  changelog:
+    - Bluetooth working
+  notes:
+    - Vanilla build
+    - >-
+      Rsuntk KernelSU implemented (Faça o download por meio de nossos repositórios oficiais juntamente ao Download da
+      ROM)
+  variants:
+    - label: Build anterior
+      link: https://drive.usercontent.google.com/download?id=1VRgVYLjop2YNkYrtot9QEecw-Z4Stcte&export=download
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/248745
+- name: Evolution X
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 11/03/2026
+  link: https://drive.usercontent.google.com/download?id=1pTlyoGwkpEjhk7KNzcEJXAeA4QMNjB26&export=download
+  size: 1.21 GB
+  status: stable
+  changelog:
+    - Bluetooth funcionando
+  notes:
+    - Vanilla build
+    - Kernel Rsuntk com KernelSU implementado
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/248110
+- name: aicp
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 10/03/2026
+  link: https://drive.usercontent.google.com/download?id=1dQP02E29bFKLpU2R8YqvnMsh0ovSVZvY&export=download
+  size: 1.21 GB
+  status: stable
+  notes:
+    - Vanilla build
+    - Rsuntk KernelSU implementado
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/248032
+- name: /e/os
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 09/03/26
+  link: https://drive.usercontent.google.com/download?id=1ejqM1SlRSmdmlhk79TVbjB1OCEXMnlN_&export=download
+  size: 1.47 GB
+  status: stable
+  changelog:
+    - Fossify Messages em vez do Mensagens do LineageOS, porque não funcionava
+    - Moto Camera 4 implementada
+  notes:
+    - Kernel Rsuntk com KernelSU implementado
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/247631
+- name: Project Clover
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 07/03/2026
+  link: https://drive.usercontent.google.com/download?id=1gSw5JQvCRufJNwjcFFbvOGAM7ERo2mod&export=download
+  size: 1.8 GB
+  status: stable
+  notes:
+    - Build Gapps
+    - Kernel Rsuntk com KernelSU implementado
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/247537
+- name: Project Sakura
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 02/03/2026
+  link: https://drive.google.com/file/d/1uzTUfQqjDj4hAbYbPb_lvS9WfAbFtXrj/view?usp=sharing
+  size: 1.24 GB
+  status: stable
+  notes:
+    - Kernel Rsuntk com KernelSU implementado
+    - Moto Camera 4 implementada
+    - Vanilla build
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/sm6225projects/91
+- name: crDroid
+  version: Android 16
+  android: Android 16
+  author: ZetLink
+  origin: unofficial
+  date: 01/03/2026
+  link: https://drive.usercontent.google.com/download?id=1c9SQDh_ibC0uMskalX9VCC7qG4A2KF0i&export=download
+  size: 1.25 GB
+  status: stable
+  changelog:
+    - Vanilla build
+    - Patch de fevereiro
+    - Adicionado KernelSU NEXT (Use o gerenciador do nosso repositório juntamente com o Download da ROM)
+    - Adicionado Dolby Atmos
+    - Adicionado MotoCam
+  notes:
+    - Vanilla build
+    - ROM conta com gerenciador que está presente em nossos repositórios juntamente com o Download da ROM
+    - Tutorial de instalação da ROM está presente em nossos repositórios juntamente com o Download da ROM
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/sdm680_moto/423348
+- name: Project Mica
+  version: Android 16
+  android: Android 16
+  author: ZetLink
+  origin: unofficial
+  date: 19/11/2025
+  link: https://drive.usercontent.google.com/download?id=1ravxO2Zz6QbYleSaYmhcJ0VAMaCmetAG&export=download
+  size: 1.96 GB
+  status: stable
+  changelog:
+    - Gapps build
+    - September patch
+    - Adicionado KernelSU NEXT
+    - Adicionado Dolby Atmos
+    - Adicionado MotoCam
+  notes:
+    - Build BETA para Moto G32, G42 e G52
+    - Inclui Google Apps (Gapps) embutido
+    - KernelSU NEXT incluso para root avançado
+    - Dolby Atmos integrado para melhoria de áudio
+    - MotoCam incluída com recursos avançados de câmera
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/zetlink_files/181
+- name: AlphaDroid
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 02/03/26
+  link: https://drive.usercontent.google.com/download?id=1gt-OX77a-8krfim19mCywY8SVkyXjqcV&export=download
+  size: 1.22 GB
+  status: stable
+  changelog:
+    - Kernel Rsuntk com KernelSU implementado
+    - Moto Camera 4 implementada
+  notes:
+    - Vanilla build
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/247200
+- name: DerpFest
+  version: Android 16
+  android: Android 16
+  author: Kultrinha_
+  origin: unofficial
+  date: 01/03/26
+  link: https://drive.usercontent.google.com/download?id=1_w30Zf0BcYST4NMBN9T2KrCSEKkL_34z&export=download
+  size: 2.08 GB
+  status: stable
+  changelog:
+    - Build Gapps
+    - Kernel Rsuntk com KernelSU implementado
+  notes:
+    - Versão beta (instável)
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG52BR/246799
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 21/01/2026
+  link: https://drive.google.com/drive/folders/1Fnm1OCrkMDzbC3IvHI5YDraC61e6kdnh?usp=sharing
+  size: 1.0 GB
+  status: stable
+  changelog:
+    - Patch de segurança de Janeiro de 2026
+  notes:
+    - Flashável via LineageOS e Recovery customizado
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/sm6225projects/10
+- name: crDroid
+  version: Android 16
+  android: Android 16
+  author: Kultrinha
+  origin: unofficial
+  date: 21/01/2026
+  link: https://drive.google.com/drive/folders/10keeI6XO6b7nq8gcKlARVCd3s3_3979G?usp=sharing
+  size: 1.1 GB
+  status: stable
+  changelog:
+    - Patch de segurança de Janeiro de 2026
+  notes:
+    - Flashável via CrDroid e Recovery customizado
+    - Para usar KSU no Moto G52, utilize o meu kernel
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/sm6225projects/9
+- name: Pixel OS
+  version: Android 16
+  android: Android 16
+  author: josexda
+  origin: unofficial
+  date: 20/12/2025
+  link: https://pixeldrain.com/u/xL5ot6JV
+  size: 2.03 GB
+  status: stable
+  changelog:
+    - Melhorias no gerenciamento de ram
+    - Melhorias na performance e estabilidade
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/42401
+- name: Avium UI
+  version: Android 16
+  android: Android 16
+  author: Helloisnotadevsadly
+  origin: unofficial
+  date: 25/11/2025
+  link: https://drive.google.com/drive/folders/1fj61Kr--IxNKLVr4IevsmkLtJAUWT-RE?usp=sharing
+  size: 1.43 GB
+  status: stable
+  notes:
+    - Build Vanilla; para GApps use o pacote separado disponível em nosso site
+    - Construída inteiramente a partir das trees da LineageOS
+    - Se alguém tiver problemas ao baixar pelo PixelDrain, basta trocar o DNS para OpenDNS
+    - ROM QPR0
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/42270
+- name: The Clover Project
+  version: Android 16
+  android: Android 16
+  author: Stock_Sucks
+  origin: unofficial
+  date: 24/11/2025
+  link: https://pixeldrain.com/u/wiMsfp2a
+  size: 2.1 GB
+  status: stable
+  changelog:
+    - Atualização inicial do Android 16 QPR1 de Novembro (v3.4)
+    - Mudado temporariamente para o Pixel Launcher
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/42242
+- name: Lineage OS
+  version: Android 16
+  android: Android 16
+  author: LineageOS Team
+  origin: official
+  date: Semanalmente
+  link: https://download.lineageos.org/devices/devon/builds#:~:text=lineage%2D23.0%2D20251122%2Dnightly%2Ddevon%2Dsigned.zip
+  size: ~1 GB
+  status: stable
+  changelog:
+    - "Mudanças: https://download.lineageos.org/devices/devon/changes"
+  notes:
+    - >-
+      ROM oficial, recomendada para estabilidade e suporte a longo prazo. A atualização no site é automatica pelo link
+      de download oficial
+  variants:
+    - label: Fonte / Telegram
+      link: https://wiki.lineageos.org/devices/devon/
+- name: crDroid
+  version: Android 14
+  android: Android 14
+  author: crDroid Team
+  origin: official
+  date: 21/10/2024
+  link: >-
+    https://crdroid.net/devon/10#:~:text=207e24c712671aeba2997f5800d6e2f15c9cf328a0972bb08bf49b36eb8204f3-,crDroid%20downloads%3A,-Download%20latest%20version
+  size: 1 GB
+  status: stable
+  notes:
+    - >-
+      ROM oficial, recomendada para estabilidade e suporte a longo prazo. A atualização no site é automatica pelo link
+      de download oficial
+    - ROM desatualizada
+  variants:
+    - label: Fonte / Telegram
+      link: https://crdroid.net/devon/10
+- name: Evolution X
+  version: Android 15
+  android: Android 15
+  author: Deivid21
+  origin: official
+  date: 14/09/2025
+  link: https://evolution-x.org/devices/devon#:~:text=Changelog-,Download%20ROM,-%23KeepEvolving
+  size: ~2 GB
+  status: stable
+  changelog:
+    - "Mudanças: https://evolution-x.org/devices/devon"
+  notes:
+    - >-
+      ROM oficial, recomendada para estabilidade e suporte a longo prazo. A atualização no site é automatica pelo link
+      de download oficial
+  variants:
+    - label: Fonte / Telegram
+      link: https://evolution-x.org/devices/devon
+- name: LMDroid
+  version: Android 15
+  android: Android 15
+  author: LibreMobileOS
+  origin: official
+  date: Semanalmente
+  link: https://get.libremobileos.com/devices/devon/builds#:~:text=LMODroid%2D6.2%2D20251104%2DRELEASE%2Ddevon.zip
+  size: ~1 GB
+  status: stable
+  notes:
+    - >-
+      ROM oficial, recomendada para estabilidade e suporte a longo prazo. A atualização no site é automatica pelo link
+      de download oficial
+  variants:
+    - label: Fonte / Telegram
+      link: https://get.libremobileos.com/devices/devon/builds
+- name: DerpFest
+  version: Android 13
+  android: Android 13
+  author: DerpTeam
+  origin: official
+  date: 10/10/2023
+  link: https://derpfest.org/devices?s=G32#:~:text=1/1-,Motorola%20Moto%20G32,-(devon)
+  size: 1.28 GB
+  status: stable
+  notes:
+    - >-
+      ROM oficial, recomendada para estabilidade e suporte a longo prazo. A atualização no site é automatica pelo link
+      de download oficial
+    - ROM desatualizada
+  variants:
+    - label: Fonte / Telegram
+      link: https://derpfest.org/devices?s=G32
+- name: Lineage OS
+  version: Android 14
+  android: Android 14
+  author: josexda
+  origin: unofficial
+  date: 16/08/2024
+  link: >-
+    https://github.com/josexda/devon_releases/releases/tag/Lineage-21.0-2024-08-16#:~:text=common%20and%20kernel-,Assets,-6
+  size: 923 MB
+  status: stable
+  notes:
+    - Build com a common e kernel do tom
+    - suporte ao KernelSu
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/37623
+- name: Infinity X
+  version: Android 14
+  android: Android 14
+  author: DelightReza
+  origin: official
+  date: 21/07/2024
+  link: https://drive.google.com/drive/folders/1g_LgXnFYUFTi_5qEF8ijnyHzGS8s6NyC?usp=sharing
+  size: 1.3 GB
+  status: stable
+  notes:
+    - Dolby Atmos adicionado
+    - Adicionado suporte a Blur
+    - Build com GAPPS
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/36632
+- name: Aicp
+  version: Android 13
+  android: Android 14
+  author: josexda
+  origin: unofficial
+  date: 03/07/2024
+  link: >-
+    https://github.com/josexda/devon_releases/releases/tag/Aicp13-2024%2F07%2F03#:~:text=03%0A%0AInitial%20commit-,Assets,-7
+  size: 794 MB
+  status: stable
+  notes:
+    - Suporte a update ota
+    - se você estiver usando a rom stock, use as imagens disponíveis no link de download e o copy partition.
+    - se estiver em alguma rom do android 14, use o boot disponível no github para instalar a rom
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/36434
+- name: Arrow OS
+  version: Android 13
+  android: Android 13
+  author: josexda
+  origin: unofficial
+  date: 21/01/2023
+  link: https://github.com/JoseXda/devon_releases/releases/tag/Arrow13.1#:~:text=13.1%20December%20patch-,Assets,-6
+  size: 813 MB
+  status: stable
+  notes:
+    - build EOL
+    - Parch de dezembro
+    - sem suporte ao ksu
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/31887
+- name: Pixel Experience
+  version: Android 13
+  android: Android 13
+  author: josexda
+  origin: unofficial
+  date: 27/01/2023
+  link: https://github.com/JoseXda/devon_releases/releases/tag/PE13.2023%2F01%2F27#:~:text=13%20January%20patch-,Assets,-6
+  size: 1.32 GB
+  status: stable
+  notes:
+    - Patch de janeiro
+    - suporte ao KernelSu
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/31964
+- name: Superior Xtended
+  version: Android 14
+  android: Android 14
+  author: josexda
+  origin: unofficial
+  date: 11/03/2024
+  link: https://drive.google.com/drive/folders/14Xqb4TmG-mEaKJhSUnWzMgoBVs4ZnVTU?usp=sharing
+  size: 1 GB
+  status: stable
+  notes:
+    - Viper4FX e KernelSu incluído
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/32861
+- name: Project Sakura
+  version: Android 14
+  android: Android 14
+  author: josexda
+  origin: unofficial
+  date: 21/04/2024
+  link: https://github.com/josexda/devon_releases/releases/tag/Sakura-2024-04-21#:~:text=and%20ViperFX%20suport-,Assets,-6
+  size: 1.19 GB
+  status: stable
+  notes:
+    - audio baixo microfone corrigido
+    - QPR2
+    - KernelSu e Viper4FX incluso
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/35119
+- name: Genesis OS
+  version: Android 15
+  android: Android 15
+  author: José
+  origin: official
+  date: 29/11/2024
+  link: https://www.genesisos.dev/devices/devon
+  size: ~1 GB
+  status: stable
+  changelog:
+    - "Modificações: https://www.genesisos.dev/devices/devon"
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG32Brasil/36095

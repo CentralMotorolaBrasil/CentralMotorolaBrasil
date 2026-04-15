@@ -1,0 +1,35 @@
+- name: MGC 8.1
+  version: 8.1.101/GV1zfix
+  author: BSG
+  date: 09/02/2022
+  link: https://drive.google.com/drive/folders/1yjuF6kpKmqopEYSoBG-sLSEr2pl3tsSj?usp=sharing
+  size: 123.8 MB
+  recommended: false
+- name: MGC 9.2
+  version: 9.2.113/V27
+  author: BSG
+  date: 21/09/2024
+  link: https://drive.google.com/file/d/1D85fZ1ODnaeMwPWu_6ExCc6vRi98qxcn/view?usp=sharing
+  size: 442.9 MB
+  recommended: false
+- name: LMC 8.3
+  version: 8.3_Release_1_
+  author: Hasli
+  date: 31/12/2023
+  link: https://drive.google.com/file/d/1A9eEDNSsy6EgnLsWhNShZQugYQG196II/view?usp=sharing
+  size: 81.1 MB
+  recommended: false
+- name: MGC 8.1
+  version: 8.1.101/GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/file/d/1iiQLkhZ2O_FQFNdqv4XdPRTzFgFWsylt/view?usp=sharing
+  size: 81.2 MB
+  recommended: false
+- name: SGCAM 8.4
+  version: 8.4.400.42.XXX/STABLEV43
+  author: Shamin
+  date: 25/12/2022
+  link: https://drive.google.com/file/d/1Eo5_dB53UojjzC_12q0akY2eQ1khTxm5/view?usp=sharing
+  size: 133.8 MB
+  recommended: false

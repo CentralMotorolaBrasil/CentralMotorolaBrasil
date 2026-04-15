@@ -1,6 +1,14 @@
 - name: TWRP
-  version: "3.7.0_9-0"
+  version: 3.7.0_9-0
   author: TeamWin group
   date: 09/10/2022
-  link: https://dl.twrp.me/berlin/twrp-3.7.0_9-0-berlin.img#:~:text=Thank%20you%20for%20choosing%20TWRP.%20Please%20click%20the%20link%20below%20to%20start%20your%20download.
+  link: >-
+    https://dl.twrp.me/berlin/twrp-3.7.0_9-0-berlin.img#:~:text=Thank%20you%20for%20choosing%20TWRP.%20Please%20click%20the%20link%20below%20to%20start%20your%20download.
   size: 25.9 MB
+  notes:
+    - Flashear via fastboot
+    - Recomendado para usuários iniciantes
+    - Compatível com a maioria das ROMs customizadas
+    - Versão mais recente estável
+    - Suporte completo para o berlin
+    - Interface otimizada para touch

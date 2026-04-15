@@ -1,114 +1,52 @@
-
-  - name: MGC
-    version: "9.4.103/V14"
-    author: BSG
-    date: "20/09/2025"
-    size: "382.4 MB"
-    link: https://drive.google.com/file/d/1ih-yNiF_24ij2XrryXZIRDNjKuzy8Gf9/view?usp=sharing
-    official: true
-    description: "Versão oficial MGC BSG 9.4, com otimizações avançadas para fotografia computacional, baseada no Google Camera 9.4.103 com Camera2 API"
-    details:
-      version: "9.4.103/V14"
-      developer: BSG
-      description: "Versão oficial MGC BSG 9.4, com otimizações avançadas para fotografia computacional, baseada no Google Camera 9.4.103 com Camera2 API"
-      changelog:
-        - "Menu MERGE processor adicionado com opções Auto, Default, For Wiener, For SABRE, For Spatial Bayer e For Spatial RGB"
-        - "Menu CaptureSession for InputConfiguration adicionado na seção Session Quality"
-        - "Seção Noise Model Correction com capacidade de carregar arquivos em formato *.с"
-        - "Item Dynamic noise factor para trabalhar com User Noise Model"
-        - "Ajustes de Chroma (Scale, Offset) e Luma (Scale, Offset)"
-        - "Correção de bugs e melhorias gerais de compatibilidade"
-        - "Otimizações de processamento de imagem"
-      knownIssues: []
-      notes:
-        - "Requer Android 11 ou superior para funcionamento ideal"
-        - "Pode não funcionar em dispositivos sem suporte completo a Camera2 API"
-
-  - name: MGC 9.4
-    version: "9.4.103/V22"
-    author: BSG
-    date: "15/11/2025"
-    size: "381.1 MB"
-    link: https://drive.google.com/file/d/1NLycxfxU5QBZUecu-qWRUwiKN-2tF_hG/view?usp=sharing
-    official: true
-    description: "Versão oficial MGC BSG 9.4.103 V22 com otimizações avançadas de processamento de cor e ajustes de brilho para fotografia computacional"
-    details:
-      version: "9.4.103/V22"
-      developer: BSG
-      description: "Versão oficial MGC BSG 9.4.103 V22 com otimizações avançadas de processamento de cor e ajustes de brilho para fotografia computacional"
-      changelog:
-        - "Adicionado item Brightness (min/max) à seção Sabre Param nas configurações adicionais (range dinâmico baseado em ISO)"
-        - "Adicionada seção Color Factor com múltiplas opções de ajuste de cores"
-        - "Suporte para múltiplas variantes de pacote (snap, MGC, ENG, meitu, scan3d, aweme)"
-        - "Correção de bugs encontrados na operação"
-        - "Melhorias de compatibilidade em alguns dispositivos"
-      knownIssues: []
-      notes:
-        - "Requer Android 11 ou superior para funcionamento ideal"
-        - "Pode não funcionar em dispositivos sem suporte completo a Camera2 API"
-
-  - name: MGC 8.1
-    version: "8.1.101/GV2b"
-    author: BSG
-    date: "31/05/2022"
-    size: "81.2 MB"
-    link: https://drive.google.com/file/d/1IGI37PeVwt8RV4b04ogYLYroSsS2eiz6/view?usp=sharing
-    official: false
-    description: "Versão não oficial MGC BSG 8.1.101 A9 GV2b, com otimizações para fotografia computacional"
-    details:
-      version: "8.1.101/GV2b"
-      developer: BSG
-      description: "Versão não oficial MGC BSG 8.1.101 A9 GV2b otimizada para diversos dispositivos"
-      changelog:
-        - "Mensagem de salvamento de foto como ícone na barra superior"
-        - "Ocultar toggles na cortina superior"
-        - "Contagem de frames em HDR+ com flash"
-        - "Correção de bugs e melhorias de performance"
-      knownIssues: []
-      notes:
-        - "Requer Android 9 ou superior"
-        - "Pode não funcionar sem suporte Camera2 API"
-
-  - name: MGC 9.4
-    version: "9.4.103/V31"
-    author: BSG
-    date: "17/01/2026"
-    size: "306.8 MB"
-    link: https://drive.google.com/file/d/1uqjxOOuK_s0c6N1GUvqtdgo6ae-Nrs25/view?usp=sharing
-    official: false
-    description: "Versão não oficial com controle avançado de exposição e ISO"
-    details:
-      version: "9.4.103/V31"
-      developer: BSG
-      description: "Versão com controle avançado de exposição e ISO"
-      changelog:
-        - "Nova seção ISO/Exposure nas configurações"
-        - "Ajustes dinâmicos baseados em ISO"
-        - "HDR Ratio Limit Override"
-        - "Correção de bugs e otimizações"
-      knownIssues: []
-      notes:
-        - "Requer Android 11 ou superior"
-        - "Pode não funcionar sem suporte Camera2 API"
-
-  - name: SGCAM 8.4
-    version: "8.4.400.42/STABLE_V43"
-    author: Shamim
-    date: "25/12/2022"
-    size: "133.8 MB"
-    link: https://drive.google.com/file/d/1wNIYoT2YwNUDumIKjB27MVF8zPLVEYQ6/view?usp=sharing
-    official: true
-    description: "Versão estável com sistema avançado de marca d'água e detecção de lentes"
-    details:
-      version: "8.4.400.42/STABLE_V43"
-      developer: Shamim
-      description: "Versão estável com recursos avançados de marca d'água e otimizações"
-      changelog:
-        - "Otimização de detecção de lentes"
-        - "Sistema avançado de marca d'água"
-        - "Correção de múltiplos bugs"
-        - "Melhorias internas"
-      knownIssues: []
-      notes:
-        - "Pode não funcionar sem suporte Camera2 API"
-        - "Versão estável e legada"
+- name: MGC
+  version: 9.4.103/V14
+  author: BSG
+  date: 20/09/2025
+  link: https://drive.google.com/file/d/1ih-yNiF_24ij2XrryXZIRDNjKuzy8Gf9/view?usp=sharing
+  size: 382.4 MB
+  recommended: false
+  notes:
+    - Requer Android 11 ou superior para funcionamento ideal
+    - Pode não funcionar em dispositivos sem suporte completo a Camera2 API
+- name: MGC 9.4
+  version: 9.4.103/V22
+  author: BSG
+  date: 15/11/2025
+  link: https://drive.google.com/file/d/1NLycxfxU5QBZUecu-qWRUwiKN-2tF_hG/view?usp=sharing
+  size: 381.1 MB
+  recommended: false
+  notes:
+    - Requer Android 11 ou superior para funcionamento ideal
+    - Pode não funcionar em dispositivos sem suporte completo a Camera2 API
+- name: MGC 8.1
+  version: 8.1.101/GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/file/d/1IGI37PeVwt8RV4b04ogYLYroSsS2eiz6/view?usp=sharing
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Pode não funcionar em dispositivos sem suporte completo a Camera2 API
+    - Alguns recursos podem não estar disponíveis em todos os chipsets
+    - Requer Android 9.0 (Pie) ou superior para funcionamento ideal
+- name: MGC 9.4
+  version: 9.4.103/V31
+  author: BSG
+  date: 17/01/2026
+  link: https://drive.google.com/file/d/1uqjxOOuK_s0c6N1GUvqtdgo6ae-Nrs25/view?usp=sharing
+  size: 306.8 MB
+  recommended: false
+  notes:
+    - Requer Android 11 ou superior para funcionamento ideal
+    - Pode não funcionar em dispositivos sem suporte completo a Camera2 API
+- name: SGCAM 8.4
+  version: 8.4.400.42/STABLE_V43
+  author: Shamim
+  date: 25/12/2022
+  link: https://drive.google.com/file/d/1wNIYoT2YwNUDumIKjB27MVF8zPLVEYQ6/view?usp=sharing
+  size: 133.8 MB
+  recommended: false
+  notes:
+    - Pode não funcionar em dispositivos sem suporte completo a Camera2 API
+    - Alguns recursos podem não estar disponíveis em todos os chipsets
+    - Versão estável e legada, recomendada para fotografia computacional de qualidade DSLR

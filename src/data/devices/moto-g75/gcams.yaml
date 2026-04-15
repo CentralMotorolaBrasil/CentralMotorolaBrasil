@@ -1,0 +1,39 @@
+- name: AGC
+  version: 9.2.14/V14.0
+  author: BigKaka
+  date: Janeiro 2025
+  link: https://1-dontsharethislink.celsoazevedo.com/file/filesc/AGC9.2.14_V14.0.apk
+  size: 135 MB
+  recommended: false
+  notes:
+    - Suporte a arquivos .agc para importar/exportar configurações
+    - Toolkit AGC 6.0+ compatível com esta versão
+    - Photosphere funciona sem necessidade de arquivo de configuração
+    - Compatível com configurações de AGC 9.1 V10+
+    - Recomendado para Moto G75 - melhor experiência de câmera
+- name: MGC
+  version: 9.4.103/V14
+  author: BSG
+  date: 20/09/2025
+  link: https://www.celsoazevedo.com/files/android/google-camera/dev-bsg/f/dl287/
+  size: 150 MB
+  recommended: false
+  notes:
+    - Suporte a arquivos .agc para importar/exportar configurações
+    - Configs salvos em /Download/MGC_CONFIG/9.4.103/
+    - 853 itens de Developer Settings disponíveis
+    - Toolkit AGC 6.0+ compatível com esta versão
+    - Grupo de discussão oficial no Telegram disponível para suporte
+- name: MGC
+  version: 9.3.160/V28
+  author: BSG
+  date: 26/04/2025
+  link: https://www.celsoazevedo.com/files/android/google-camera/dev-bsg/
+  size: 145 MB
+  recommended: false
+  notes:
+    - Disponível em 6 variantes de package (snap, MGC, ENG, meitu, scan3d, aweme)
+    - Configs salvos em /Download/MGC_CONFIG/9.3.160/
+    - Suporte a arquivos .agc e .gawb para importar configurações
+    - "Grupo Telegram oficial disponível para suporte: t.me/publicgroup_mgc_bsg"
+    - Compatível com Toolkit AGC 6.0+ para customizações avançadas

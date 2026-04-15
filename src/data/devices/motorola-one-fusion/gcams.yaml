@@ -1,0 +1,55 @@
+- name: SGCAM
+  version: 8.4.400.42/V43
+  author: Shamim
+  date: 25/12/2022
+  link: https://drive.google.com/file/d/1IGh2pomD7knsvjAFVq-V_T2SgD1cSN-m/view?usp=sharing
+  size: 133.8 MB
+  recommended: false
+  notes:
+    - Versão estável e bem testada pela comunidade Shamim
+    - Suportada em múltiplos pacotes (snap, scan3d, aweme, eng, ruler)
+    - Compatível com diversos aparelhos Android 10+
+    - Recomendado para Motorola One Fusion e dispositivos similares
+    - Sistema de marca d'água é exclusividade desta versão
+- name: MGC
+  version: 8.1.101/GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/file/d/1h-8G0NjWm5iiJQkM5vxE2TvZG5Ke9iIL/view?usp=sharing
+  size: 85.1 MB
+  recommended: false
+  notes:
+    - Versão estável e bem testada pela comunidade BSG
+    - Suportada em múltiplos pacotes (snap, MGC, ENG, ruler, scan3d, qcamera3, aweme)
+    - Compatível com diversos aparelhos Android 9+
+    - Recomendado para usuários que buscam estabilidade e compatibilidade
+    - Otimizações principais focadas em melhor apresentação de notificações
+- name: HC-StrikeRemix
+  version: "1.1"
+  author: rz_end
+  date: 13/10/2020
+  link: https://drive.google.com/file/d/1f6Ua40zut2CA6TfyKrZ6_1bIUJPQcZ-j/view?usp=sharing
+  size: 84.1 MB
+  recommended: false
+  notes:
+    - Versão estável e bem testada pela comunidade rz_end
+    - Baseada em GCAM 6.1 com customizações específicas
+    - Compatível com Android 9.0+
+    - Recomendado para dispositivos Xiaomi, Motorola, OnePlus e similares
+    - Ampla variedade de XMLs disponíveis através do GB Clube
+    - Uma das gcams mais populares da comunidade GCAM Brasil
+- name: AGC
+  version: 9.4.23/V1.0-snap
+  author: BigKaka
+  date: 17/07/2024
+  link: https://drive.google.com/file/d/1wmsnhzxAmM3_3VQotCR0a4WPmPl4Z-GV/view?usp=sharing
+  size: 405.1 MB
+  recommended: false
+  notes:
+    - Versão full-featured e bem testada pela comunidade BigKaka
+    - Compatível com Android 12 e superiores (11 com limitações)
+    - Suportada em múltiplos pacotes (snap, samsung, aweme, ruler)
+    - Recomendado para Galaxy S23 Ultra e iQOO Neo 8
+    - Suporta configurações .xml e .agc
+    - LUT processing é exclusividade desta versão
+    - Uma das versões AGC mais completas e estáveis

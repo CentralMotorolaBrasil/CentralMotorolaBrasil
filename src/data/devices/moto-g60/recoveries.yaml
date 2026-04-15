@@ -1,0 +1,13 @@
+- name: TWRP
+  version: 3.7.1
+  author: TeamWin group
+  date: 04/10/2022
+  link: https://drive.google.com/uc?export=download&id=1I4IeSRFlntRYX6EWPLFWbHFqE9T7Fbz4
+  size: 32.8 MB
+  notes:
+    - Flashear via fastboot
+    - Recomendado para usuários iniciantes
+    - Compatível com a maioria das ROMs customizadas
+    - Versão mais recente estável
+    - Suporte completo para o Moto G60
+    - Interface otimizada para touch

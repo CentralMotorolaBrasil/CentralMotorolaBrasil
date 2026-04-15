@@ -1,0 +1,25 @@
+- name: TWRP
+  version: 3.7.1
+  author: TeamWin group
+  date: 18/02/2024
+  link: https://drive.google.com/uc?export=download&id=11hw1JA2qrlsWpD4jk0TD9cWMnmQUdSS_
+  size: 96 MB
+  notes:
+    - Recovery oficial e estável, recomendado para instalação de ROMs customizadas.
+    - Touch (funcionará em diferentes atualizações de software)
+    - Descriptografia (agradecimentos a @ThEMarD)
+    - ADB, ADB sideload, MTP, fastbootd
+- name: OrangeFox Recovery
+  version: R11.1
+  author: ZetLink
+  date: 05/10/2025
+  link: >-
+    https://github.com/SM6225-Motorola/android_device_motorola_rhode-OFRP/releases/download/05-10-2025/OrangeFox-R11.3_251005-Unofficial-rhode.img
+  size: 96 MB
+  notes:
+    - >-
+      Após instalar qualquer arquivo (ROM/Gapps/Recovery), reinicie primeiro no modo de recuperação (reinicialização
+      suave) e depois reinicie novamente no modo de recuperação
+    - >-
+      Lembre-se que, para não perder o modo de recuperação, você pode marcar a caixa 'Reinstalar' antes de instalar
+      qualquer coisa.

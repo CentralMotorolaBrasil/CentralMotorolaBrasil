@@ -1,0 +1,23 @@
+- name: Orange Fox
+  version: R12.1
+  author: Sammm77
+  date: 15/06/2024
+  link: https://drive.google.com/drive/folders/13CkSPQBVnGuMrX2A5Hei7PvtRZj2NRQ0?usp=sharing
+  size: 96 MB
+  notes:
+    - Basta flashar o arquivo .zip no recovery TWRP ou bootar a imagem via fastboot
+    - Descriptografia e demais funções funcionando corretamente
+    - Release inicial do OrangeFox
+- name: TWRP
+  version: 3.7.1
+  author: TeamWin group
+  date: 13/06/2024
+  link: https://drive.google.com/drive/folders/1hA98z0k0PCjoQRKssMd7H0MDjIql1d7Z?usp=sharing
+  size: 96 MB
+  notes:
+    - Flashear via fastboot
+    - Recomendado para usuários iniciantes
+    - Compatível com a maioria das ROMs customizadas
+    - Versão mais recente estável
+    - Suporte completo para o Moto G84
+    - Interface otimizada para touch

@@ -1,0 +1,17 @@
+- name: StarlightKernel
+  version: "2.1"
+  author: Clover
+  date: 07/02/2026
+  link: https://drive.google.com/file/d/1ssg6jTJRghEq5qIfnrTLRK6Di0WkMIJj/view?usp=sharing
+  size: 18.1 MB
+  features:
+    - Problema de áudio e vídeo corrigido
+    - Inclui KernelSU-Next e SusFS
+    - Inclui Simple LMK
+    - ZSTD definido como algoritmo padrão de compressão do ZRAM
+    - Inclui o scheduler BORE
+    - Outras melhorias e recursos adicionais
+    - Testado apenas no Android 16
+    - >-
+      Pode funcionar em ROMs Android 14 ou 15, porém requer um procedimento adicional (consultar o grupo de suporte para
+      instruções)

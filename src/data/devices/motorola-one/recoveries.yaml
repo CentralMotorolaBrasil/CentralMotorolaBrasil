@@ -1,0 +1,18 @@
+- name: TWRP
+  version: 3.6.2-11
+  author: jro1979oliver
+  date: 13/07/2022
+  link: https://mega.nz/folder/f5hykZxD#MKsyBIXxepvbGTd1G1Glkw
+  size: 32.9 MB
+  notes:
+    - Antes de instalar, faça backup completo dos seus dados
+    - Verifique se o bootloader está desbloqueado antes de prosseguir
+- name: OrangeFox
+  version: v11.1 Beta
+  author: jro1979oliver
+  date: 13/07/2022
+  link: https://mega.nz/folder/OhJgUYKa#fyhFPGF_53P2MSEzPMgdXg
+  size: 32.9 MB
+  notes:
+    - Antes de instalar, faça backup completo dos seus dados
+    - Verifique se o bootloader está desbloqueado antes de prosseguir

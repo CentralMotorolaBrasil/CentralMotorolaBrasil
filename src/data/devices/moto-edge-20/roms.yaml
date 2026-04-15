@@ -1,22 +1,24 @@
-- name: Pixel Experience
-  version: "Android 14"
+- name: Pixel Experience|BETA
+  version: Android 14
   android: Android 14
   author: jro1979oliver
   origin: official
   date: 04/03/2024
   link: https://get.pixelexperience.org/changelog/berlin/PixelExperience_berlin-14.0-20240304-1232-OFFICIAL.zip
   size: 1.85 GB
-  status: beta
+  status: stable
   changelog:
     - Build inicial BETA Android 14
   notes:
-    - Link oficial
-    - Recovery oficial disponível
-    - "MD5: f3dd38b63ffa6530073f4fe9182ef520"
-
-- name: Pixel Experience Plus
-  version: "Android 13"
-  android: Android 13
+    - Link oficial, atualizado de acordo com a repositório oficial da ROM
+    - Recovery oficial da ROM disponível para download junto
+    - MD5 hash:f3dd38b63ffa6530073f4fe9182ef520
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motorolaedge20br/7847
+- name: Pixel Experience|Plus Edition
+  version: Android 13
+  android: Android 14
   author: jro1979oliver
   origin: official
   date: 29/01/2024
@@ -24,16 +26,19 @@
   size: 1.66 GB
   status: stable
   changelog:
-    - Patch de segurança de Janeiro
-    - ASB-2024-01-05 integrado
-    - Blobs atualizados
+    - Patch de segurança de Janeiro integrado
+    - Últimas atualizações de segurança do kernel mescladas (ASB-2024-01-05_11-5.4)
+    - Blobs atualizados para T1RGS33.135-109-9-7
   notes:
-    - Versão Plus Edition
-    - Recovery oficial disponível
-    - "MD5: 31a18d58092bc30f5b17d3de1f8d7a76"
-
+    - Link oficial, atualizado de acordo com a repositório oficial da ROM
+    - Recovery oficial da ROM disponível para download junto
+    - Versão Plus Edition (com opções de customização extras)!
+    - MD5 hash:31a18d58092bc30f5b17d3de1f8d7a76
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/motorolaedge20br/13844
 - name: crDroid
-  version: "Android 14"
+  version: Android 14
   android: Android 14
   author: VitorSSSouzaBR
   origin: official
@@ -42,15 +47,18 @@
   size: 1.2 GB
   status: stable
   changelog:
-    - Release inicial do crDroid 10.x
-    - Integridade funcionando
+    - Release inicial do crDroid 10.x (Android 14)
+    - "Integridade funcionando: MEETS_DEVICE_INTEGRITY e MEETS_BASIC_INTEGRITY"
   notes:
-    - Recovery e GAPPS disponíveis
+    - Link oficial, atualizado de acordo com a repositório oficial da ROM
+    - Recovery oficial e GAPPS da ROM disponível para download junto
     - "SHA256: 848239590c051f2b504af253e42291a733e6fac16101b77107e5f9bc19bdd486"
     - "MD5: 534d74b4b6001eff9a9e098d64a4fe69"
-
-- name: LineageOS
-  version: "Android 16"
+  variants:
+    - label: Fonte / Telegram
+      link: https://crdroid.net/berlin/10#
+- name: Lineage OS
+  version: Android 16
   android: Android 16
   author: LineageOS Team
   origin: official
@@ -58,12 +66,15 @@
   link: https://download.lineageos.org/devices/berlin/builds
   size: ~1.2 GB
   status: stable
+  changelog:
+    - "Changelog acoplado ao link para download no site oficial: Aba 'Changes'"
   notes:
-    - Builds semanais
-    - Changelog no site oficial
-
-- name: /e/OS
-  version: "Android 15"
+    - Link oficial, atualizado de acordo com a repositório oficial da ROM
+  variants:
+    - label: Fonte / Telegram
+      link: https://download.lineageos.org/devices/berlin/changes
+- name: /E/OS
+  version: Android 15
   android: Android 15
   author: MarenaCommunity
   origin: official
@@ -72,16 +83,34 @@
   size: 1.4 GB
   status: stable
   changelog:
-    - Melhorias de privacidade avançada
-    - Correções gerais e estabilidade
-    - Atualizações no App Lounge
-    - Patch de segurança de outubro de 2025
+    - Melhorias no sistema de Privacidade Avançada com alertas em tempo real sobre vazamento de dados
+    - App Lounge agora exibe o tamanho dos apps do F-Droid
+    - App Lounge passou a sugerir aplicativos com base na região
+    - Correções e melhorias gerais de estabilidade
+    - Correções na Privacidade Avançada (relatório semanal funcionando corretamente)
+    - Busca do App Lounge mais fluida
+    - Correção no comportamento de links da Play Store dentro do App Lounge
+    - Intervalo correto na verificação semanal de atualizações de apps
+    - Correções em redirecionamento quando apps não estão disponíveis
+    - Correções em fones de ouvido com fio para chamadas e música
+    - Correção de taxa de atualização fixa para evitar falhas gráficas
+    - Correção de falhas no Controle Parental
+    - Correção de espaço em branco em Configurações > Armazenamento
+    - Correções de login e deeplinks em aplicativos de terceiros
+    - Atualização do navegador para versão mais recente
+    - Atualização do microG com correções de crashes
+    - Merge das últimas correções e patches do LineageOS 22.2
+    - Inclui patch de segurança do Android de outubro de 2025
   notes:
-    - Foco em privacidade
-    - Base atualizada com patches recentes
-
+    - Versão 3.2 do /e/OS com foco em privacidade e estabilidade
+    - Atualização válida para builds oficiais e comunitárias
+    - Inclui melhorias gerais no sistema e aplicativos nativos
+    - Base atualizada com correções de segurança recentes
+  variants:
+    - label: Fonte / Telegram
+      link: https://images.ecloud.global/community/berlin/
 - name: LMDroid OS
-  version: "Android 15"
+  version: Android 15
   android: Android 15
   author: LibreMobileOS
   origin: official
@@ -90,5 +119,4 @@
   size: ~1.3 GB
   status: stable
   notes:
-    - Builds semanais
-    - Link oficial atualizado automaticamente
+    - Link oficial, atualizado de acordo com a repositório oficial da ROM

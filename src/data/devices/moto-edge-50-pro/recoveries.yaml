@@ -1,20 +1,12 @@
-
-  - name: Leaf OS Recovery
-    version: leaf a14
-    author: SamarV121
-    origin: official
-    date: 05/05/2024
-    link: https://drive.google.com/drive/folders/1v4HoVV7vDp3qo2pljZo_eSJ0q9WzmK7k?usp=sharing
-    size: 128 MB
-    status: stable
-    notes:
-      - Recovery da LeafOS para macan/eqe
-      - Dispositivo com bootloader desbloqueado
-      - ADB e Fastboot configurados
-    changelog:
-      - Funções padrão de recovery
-      - Acesso ADB root shell e sideload
-      - Suporte ao Fastbootd
-    variants:
-      - label: Fonte
-        link: https://t.me/MotorolaEdge50Pro/19787
+- name: Leaf OS Recovery
+  version: leaf a14
+  author: SamarV121
+  date: 05/05/2024
+  link: https://drive.google.com/drive/folders/1v4HoVV7vDp3qo2pljZo_eSJ0q9WzmK7k?usp=sharing
+  size: 128 MB
+  notes:
+    - Dispositivo com bootloader desbloqueado
+    - ADB e Fastboot configurados
+    - Funções padrão de recovery
+    - Acesso ADB root shell e sideload
+    - Suporte ao Fastbootd

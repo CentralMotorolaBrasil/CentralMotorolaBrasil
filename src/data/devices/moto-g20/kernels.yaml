@@ -1,0 +1,23 @@
+- name: Unikernel|SukiSU
+  version: "1.0"
+  author: FelipeCH
+  date: 31/07/2025
+  link: https://drive.google.com/file/d/1Y8CBP85MYT7CSjeuvI5RT_HVByk0Af_-/view?usp=sharing
+  size: 9.8 MB
+- name: Unikernel|KSU
+  version: 3.2.0
+  author: FelipeCH
+  date: 29/07/2025
+  link: https://drive.google.com/file/d/1VwTg9ua0G_dLW2K02UwPxu_dg-48SQtm/view?usp=sharing
+  size: 9.8 MB
+- name: KernelSU senname
+  version: "1.0"
+  author: FelipeCH
+  date: 07/11/2024
+  link: https://drive.google.com/file/d/1KXI6z8VuDAO5AFHBRSjDELFglLBDq2U8/view?usp=sharing
+  size: 9.8 MB
+  features:
+    - Adicionado KernelSU para o kernel RTAS31-68-66-2
+    - "Kernel: RTAS31-68-66-2"
+    - "KernelSU version: 0.9.5"
+    - Certifique-se de fazer um backup

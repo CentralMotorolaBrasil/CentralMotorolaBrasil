@@ -1,0 +1,77 @@
+- name: MGC 8.1
+  version: 8.1.101/GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/file/d/1EaaFU2FGXTmmaRvqW8FtjSTycpm-ZxY2/view?usp=sharing
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Pode não funcionar em dispositivos sem suporte completo a Camera2 API
+    - Alguns recursos podem não estar disponíveis em todos os chipsets
+    - Requer Android 9.0 (Pie) ou superior para funcionamento ideal
+- name: NGCam 7.4
+  version: 7.4.104/v2.0
+  author: Nikita
+  date: 06/12/2020
+  link: https://drive.google.com/file/d/1o7PDC7pEjSzVkSoiV9AwCfdGxe-d9n9_/view?usp=drive_link
+  size: 130 MB
+  recommended: false
+  notes:
+    - Esta é a versão FINAL da série 7.4 - altamente estável
+    - "Package Name: org.codeaurora.snapcam (compatível com Snapcam)"
+    - Baseada em BSG e Arnova8G2 GCam 7.4.104
+    - isDefaultsLite config vem habilitada por padrão e funciona melhor em quase todos os dispositivos
+    - Suporte completo a Lib Patcher para customizações avançadas
+    - Pixel Binning button agora funciona sem necessidade de reinicializar
+    - Requer Android 8.1+ para funcionamento ideal
+- name: HC StrikeRemix
+  version: "1.1"
+  author: rz_end
+  date: 22/11/2020
+  link: https://drive.google.com/file/d/1IrITf36hHWJpRLQIu1QrrWCYI6kiJLFy/view?usp=sharing
+  size: 84.1 MB
+  recommended: false
+  notes:
+    - Desenvolvida por rz_end (Raizen/Remix series)
+    - Baseada em Xcam Beta11 e GCam 6.1
+    - Suportada em Android 9.0+ (Android 10 e 11 testados)
+    - "Créditos: Arnova8G2, Urnyx05, UltraM8, The_Dise, Jairo Rossi, Abhi Shake"
+    - Altamente recomendada para Xiaomi Redmi Series (Note 8, Note 9, etc)
+    - Compatível com Moto G series (G6 Plus, G7, G7 Plus, G7 Power)
+    - Suporte a XMLs através do GB Club ou arquivo manual
+    - Imagens com alta qualidade de processamento e excelente Night Sight
+    - Requer Camera2 API ativada
+    - Interface intuitiva com toggles rápidos na cortina superior
+    - Versão estável e bem-mantida pela comunidade
+- name: Graphene Camera 45
+  version: "45"
+  author: Dev
+  date: 15/10/2022
+  link: https://drive.google.com/file/d/1tEUpCUxn1VxGp7wvRc9dmCMmawdQb9Nk/view?usp=sharing
+  size: 4.6 MB
+  recommended: false
+  notes:
+    - Simples, mas com o essencial
+    - Serve como alternativa à GCam
+- name: GCAM Go 3.3
+  version: 3.3.439
+  author: Dev
+  date: 12/05/2022
+  link: https://drive.google.com/file/d/1CofBESGT3pR17nJuhKubRKRl7QydgjJV/view?usp=sharing
+  size: 79.1 MB
+  recommended: false
+  notes:
+    - Versão otimizada para dispositivos com especificações modestas
+    - "Package Name: com.google.android.apps.cameralite (compatível com Google Camera Go)"
+    - Requer Android 5.0+ (Android 8.0+ recomendado para melhor performance)
+    - Duas variantes disponíveis
+    - Ambas as versões suportam 32 e 64 bits
+    - Filters de Snapchat funcionam apenas na câmera frontal
+    - "RAM mínima recomendada: 2GB (funciona em 1GB)"
+    - "Espaço de armazenamento necessário: mínimo 100MB livres"
+    - Suporte a fotografia computacional via HDR+ aprimorado
+    - Night Sight automático com detecção de cenas escuras
+    - Modo retrato com efeito bokeh
+    - QR Code scanner integrado
+    - Logcat para debug e troubleshooting
+    - Maior compatibilidade com dispositivos Xiaomi, Motorola e outras marcas populares

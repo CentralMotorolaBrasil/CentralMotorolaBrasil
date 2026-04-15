@@ -1,0 +1,532 @@
+- name: Stock Mod
+  version: Android 12
+  android: Android 12
+  author: Anand
+  origin: unofficial
+  date: 14/09/2022
+  link: https://drive.google.com/drive/folders/1EC3_IDa_GAR6Liu8afb8red4E-ij8uff?usp=sharing
+  size: 2.5 GB
+  status: stable
+  changelog:
+    - >-
+      Removidos Assistant, Google Duo, Device Help, Facebook, Google One, Play Movies, Google Photos, Motorola
+      Notifications, YT Music e mais
+    - Adicionado Ready For
+    - Adicionado Tap to Wake Up / DT2S (Toque para Desligar Tela)
+    - Adicionada animação de inicialização do Pixel
+    - Removido papel de parede padrão
+    - Removido Play Auto Install
+    - Removido OTA
+    - Removido Multi Volume problemático
+    - Substituído Google Dialer/Mensagens
+    - Adicionados widgets de hora e clima
+  notes:
+    - Versão LITE Android 11 da StockMod disponível em nosso repositório juntamente com o Download dessa
+    - Tutorial para a ROM disponível em nossos repositórios junto com o Download
+  variants:
+    - label: Build anterior
+      link: https://t.me/MotoG60BR/332910
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/332911
+- name: /e/os
+  version: Android 13
+  android: Android 13
+  author: ronnz98
+  origin: unofficial
+  date: 18/02/2024
+  link: https://drive.usercontent.google.com/download?id=1zBewuu1nBP3T8rDRW8CU-FOHmgYHlQAq&export=download
+  size: 1.01 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://community.e.foundation/t/custom-build-motorola-moto-g60-g40-hanoip-for-e-os-t-3-x/78187
+- name: MyUI 6
+  version: Android 14
+  android: Android 14
+  author: Sozosha
+  origin: unofficial
+  date: 04/07/2025
+  link: https://drive.google.com/drive/folders/1GPzS5sWv5-zd8brfBSR-krSQyWojrgv-?usp=sharing
+  size: 1.47 GB
+  status: stable
+  changelog:
+    - Último patch de segurança
+    - Kernel atualizado para .210
+    - Build inicial
+    - Build Gapps
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/hanoipfiles/228
+- name: BananaDroid
+  version: Android 14
+  android: Android 14
+  author: Sozosha
+  origin: unofficial
+  date: 18/02/2024
+  link: https://drive.usercontent.google.com/download?id=10-yQy4jEuZXfXr7dtjkQNRKAFhSOaDYq&export=download
+  size: 1.01 GB
+  status: stable
+  variants:
+    - label: Fonte / Telegram
+      link: https://sourceforge.net/projects/kevin-roms/files/Hanoip/
+- name: Project Matrixx
+  version: Android 14
+  android: Android 14
+  author: Sozosha
+  origin: unofficial
+  date: 03/02/2024
+  link: https://drive.usercontent.google.com/download?id=1rV_7ydDzIG4eZSCsbsS-RbB0PGuUKIcH&export=download
+  size: 1.16 GB
+  status: stable
+  changelog:
+    - Corrigido espaço para Gapps na build vanilla
+    - Desbloqueio facial funcionando
+    - Volte funciona para algumas pessoas
+    - Aumento de som (não tenho certeza se é perceptível)
+    - Fixado em 60Hz
+    - Sem KernelSU
+  known_issues:
+    - 60Hz Fixo não se mexe
+    - Provavelmente OTG
+    - SELinux Permissivo
+  notes:
+    - Limpeza é recomendada
+    - NickGapps recomendado
+  variants:
+    - label: Build anterior
+      link: https://sourceforge.net/projects/kevin-roms/files/Hanoip/#:~:text=Matrixx%2Dv10.2.1%2DUnofficial,945.1%20MB
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/268732
+- name: Genesis OS
+  version: Android 14
+  android: Android 14
+  author: Sozosha
+  origin: unofficial
+  date: 20/02/2024
+  link: https://drive.usercontent.google.com/download?id=1m2wdS_a7nXbelmvNgmGo7zLMPXlEactD&export=download
+  size: 1.47 GB
+  status: stable
+  changelog:
+    - Último patch de segurança
+    - Kernel atualizado para .210
+    - Build inicial
+    - Build Gapps
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/271153
+- name: AOSP Valhalla
+  version: Android 15
+  android: Android 15
+  author: semisapeol
+  origin: unofficial
+  date: 27/01/2024
+  link: https://drive.google.com/drive/folders/1tLHCG7bmfO4XRtyTbBpAapjR7b_zF3g4?usp=sharing
+  size: 2.5 GB
+  status: stable
+  changelog:
+    - Build inicial A15
+    - Build com GAPPS e KSU
+    - Build com patch de setembro
+  known_issues:
+    - Moto Actions não funciona
+  notes:
+    - Relativamente estável
+    - Limpeza necessária
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/308127
+- name: Evolution X
+  version: Android 14
+  android: Android 14
+  author: Sozosha
+  origin: unofficial
+  date: 27/01/2024
+  link: https://drive.usercontent.google.com/download?id=18jBj7RYWsjXdKQrM1wiY_gYHQePu84m8&export=download
+  size: 1.73 GB
+  status: stable
+  changelog:
+    - Ajuste no padding da status bar (Anoos)
+    - VolTE funciona para algumas pessoas (Anoos)
+    - Agora 60hz fixo (Anoos)
+    - Adicionado nome do mantenedor
+    - Eles removeram apps inúteis
+    - Compatível com KernelSU
+    - Build Enforcing
+    - Certificado pelo Google Play
+    - OTG Funcionando
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/268730
+- name: Rising OS
+  version: Android 14
+  android: Android 14
+  author: semisapeol
+  origin: unofficial
+  date: 14/02/2024
+  link: https://drive.google.com/drive/folders/1fd33JV9K1dOlLdWqYsZaKcWrZSRQ58Zb?usp=sharing
+  size: 1.55 GB
+  status: stable
+  changelog:
+    - Lançamento inicial RisingOS A14
+    - SELinux Enforcing
+    - Build DT Estável
+    - Patch de segurança de fevereiro 2024
+    - Corrigidas algumas permissões de node de energia
+    - Ajustes em overlays
+    - Correções diversas de bugs e melhorias de estabilidade
+    - NothingOS Launcher incluso
+  notes:
+    - Patch de Segurança - Fev. '24
+    - Status da Build - Enforcing
+    - Melhor GCAM para a ROM disponível em nosso repositório junto com a ROM
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/273938
+- name: Hello UI | Port
+  version: Android 14
+  android: Android 14
+  author: Anandbizuka
+  origin: unofficial
+  date: 14/02/2024
+  link: https://drive.usercontent.google.com/download?id=1Jc0Ob-Wc12bIsL4myCJe6zK-wQg2wGS5&export=download
+  size: 2.5 GB
+  status: stable
+  changelog:
+    - Build inicial A14 Hello-ui
+    - Patch de segurança de Março de 2024
+    - Build Encriptada
+    - ViperFX atualizada para a 6.2 @WSTprojects
+    - Botão Google Assistente Adicionado
+    - Build com Cosmic-KSU @CosmicFresh
+    - Aplicativos/Funções da Motorola adicionadas
+    - Baseado no Patch de Março do Edge 50 pro
+  known_issues:
+    - >-
+      Dados móveis - Como corrigir: 1- Pesquise no Google: 'Configurações Apn (sua operadora)' 2- Preencha corretamente
+      em 'Nome dos Pontos de Acesso'
+  notes:
+    - Após a configuração inicial ser completada, o dispositivo irá reiniciar automaticamente, então não se preocupe
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/278276
+- name: Paranoid Android
+  version: Android 14
+  android: Android 14
+  author: AOSPA
+  origin: official
+  date: 14/02/2024
+  link: https://drive.usercontent.google.com/download?id=1imGLuGcquwIybo2YvSyYamlJJ1XmGr3n&export=download
+  size: 1.51 GB
+  status: stable
+  changelog:
+    - Lançamento inicial AOSPA A14
+    - Patch de segurança de fevereiro 2024
+    - Usar powerprofile da stock
+    - Definir tamanho de partição reservada
+    - Corrigir algumas permissões de node de energia
+    - Usar fingerprints da stock
+    - Ajustes em overlays
+    - Adicionar algumas negações de selinux
+    - Correções diversas de bugs e melhorias de estabilidade
+  variants:
+    - label: Build anterior
+      link: https://www.pling.com/p/2137972#:~:text=LMODroid%2D5.0%2D20240315,1345.30%20MB
+    - label: Fonte / Telegram
+      link: https://www.pling.com/p/2129773
+- name: Superior Extended
+  version: Android 14
+  android: Android 14
+  author: Sozosha
+  origin: unofficial
+  date: 17/03/2024
+  link: https://drive.usercontent.google.com/download?id=1Ywaq5gKbJ5u8N1OXXLPcwFHKTx7pRHc1&export=download
+  size: 1.31 GB
+  status: stable
+  changelog:
+    - Build Inicial
+    - Patch de Segurança Atualizado
+    - Corrigidas chamadas distorcidas
+    - Builds 60 e 120 Hz
+    - Corrigido brilho baixo
+    - Aumentado som do alto-falante
+    - Build Enforcing
+    - Ajustado o padding um pouco
+    - Build Gapps
+  known_issues:
+    - Dual VolTE
+  notes:
+    - Limpeza recomendada
+    - Não me reporte bugs sem Logcat
+    - Em alguns casos não é certificado na Play Store
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/276189
+- name: LMDroid
+  version: Android 14
+  android: Android 14
+  author: anoosragh69, semisapeol
+  origin: unofficial
+  date: 17/03/2024
+  link: https://drive.google.com/drive/folders/1CoY-ov7Q7SWRYshyw1N0cdfGQraHW35y?usp=sharing
+  size: 1.31 GB
+  status: stable
+  changelog:
+    - Mudança para user builds
+    - Corrigido crash aleatório do wifi
+    - Adicionado GcamGo
+    - Adicionado notchbarkiller
+    - Corrigido padding do notch
+    - Corrigidos alguns aplicativos em modo tela cheia
+    - Corrigidas algumas negações de permissão (denials)
+    - Algumas coisas de performance
+  notes:
+    - Patch de Segurança - Fev. '24
+    - Status da Build - Enforcing
+  variants:
+    - label: Build anterior
+      link: https://www.pling.com/p/2137972#:~:text=LMODroid%2D5.0%2D20240315,1345.30%20MB
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/275410
+- name: Awaken OS
+  version: Android 14
+  android: Android 14
+  author: semisapeol
+  origin: unofficial
+  date: 13/05/2024
+  link: https://drive.usercontent.google.com/download?id=1Wc1hRxLhA1YW4eEAaaNi7bpyH77LtRHp&export=download
+  size: 1.53 GB
+  status: stable
+  changelog:
+    - Corrigido problema de toque
+    - Muitas mudanças no lado do kernel
+    - Reverter mudança para renderizador hwui vulkan
+    - Corrigido toque na recovery da ROM
+    - Removido liboemcrypto
+    - Correções diversas de bugs e melhorias de estabilidade
+  notes:
+    - Versão Android - 14 AP1A
+    - Patch de Segurança - 5 de Maio de 2024
+    - Status da Build - Enforcing
+  variants:
+    - label: Build anterior
+      link: https://www.pling.com/p/2148669#:~:text=awaken%2D4.4%2Dursa,1636.96%20MB
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/285783
+- name: Project Infinity X
+  version: Android 14
+  android: Android 14
+  author: Sozosha
+  origin: unofficial
+  date: 09/07/2024
+  link: https://drive.usercontent.google.com/download?id=1hIs8q95E723vVAsY917LjiVXRkjXvuYM&export=download
+  size: 1.32 GB
+  status: stable
+  changelog:
+    - Build inicial do Android 14
+    - Adicionadas bibliotecas ausentes para qpr3
+    - Compilação 60hz
+    - Build assinada
+    - Compilados alguns pacotes extras de telefonia
+    - Usar servidor SUPL do GrapheneOS
+    - Melhorias no Wi-Fi
+    - Compilado com Clang 16
+  variants:
+    - label: Build anterior
+      link: https://sourceforge.net/projects/infinity-x/files/hanoip/14/
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/290417
+- name: DerpFest
+  version: Android 14
+  android: Android 14
+  author: semisapeol
+  origin: unofficial
+  date: 17/06/2024
+  link: https://drive.google.com/drive/folders/1AoyS0BuGYzH9yZHQks5AaiUrsWrJZLtT?usp=sharing
+  size: 1.82 GB
+  status: stable
+  changelog:
+    - Patch de Segurança do mês de Junho
+    - Reversão para o renderizador vulkan hwui
+    - Touch consertado no recovery
+    - MotoAções removidas
+    - USB FTP
+    - Diversas correções de bugs e melhorias na estabilidade
+    - 120hz Por Padrão
+    - Build Assinada (Device_Integrity)
+    - >-
+      Address some sepolicy issues - Some perf improvements - Upstream kernel to 4.14.344 - Misc stability improvements
+      - Fix OTA
+  notes:
+    - Para 60Hz, Flasheie o 'Derpfest-AOSP-60Hz-locker-v2.5-signed', disponível em nosso repositório junto com a ROM
+  variants:
+    - label: Build anterior
+      link: https://www.pling.com/p/2130278#:~:text=DerpFest%2D14%2DCommunity%2DStable%2Dhanoip%2D20240216,1566.27%20MB
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/288708
+- name: Project Pixelage
+  version: Android 15
+  android: Android 15
+  author: semisapeol
+  origin: unofficial
+  date: 09/11/2024
+  link: https://drive.google.com/drive/folders/1eodr6t-_XDnzckPHxo48EcENQea-u8l4?usp=sharing
+  size: 1.77 GB
+  status: stable
+  changelog:
+    - Compilação A15-QPR1
+    - Estável
+    - Compilação com patch de segurança de novembro
+    - Mudança para pixellibperfmanager
+    - Android 15 QPR1 inicial
+    - Patch de segurança de dezembro
+    - Spoof como ASUS Rog 8 para alguns jogos selecionados
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/312216
+- name: Project 2by2
+  version: Android 15
+  android: Android 14
+  author: semisapeol
+  origin: official
+  date: 18/11/2024
+  link: https://drive.google.com/drive/folders/1suJoDalUDGUKDkPly1JE4h4i5AiS4Uw9?usp=sharing
+  size: 1.8 GB
+  status: stable
+  changelog:
+    - Melhorias na interface
+    - Mudança para o pixel power-libperfmgr
+    - Sincronizado com a fonte mais recente
+  notes:
+    - Não atualize via OTA - A compilação mais nova não foi assinada com as mesmas chaves
+  variants:
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/312846
+- name: Project Sakura
+  version: Android 14
+  android: Android 14
+  author: Anoosragh
+  origin: unofficial
+  date: 26/12/2024
+  link: https://drive.usercontent.google.com/download?id=13qApu86gs-g-R3P8cTvw0IKfna5Mjpxd&export=download
+  size: 1.43 GB
+  status: stable
+  changelog:
+    - Desfoque nas Configurações Rápidas
+    - Painel de notificações estilo R
+    - Ajustes no gesto Q
+    - Notificações ambientais pulse
+    - Carregamento inteligente
+  notes:
+    - "MD5: 89a608ce0bea0d82cdd91f1f7d21ede1"
+    - Versão EOL, End Of Life
+  variants:
+    - label: Build anterior
+      link: https://sourceforge.net/projects/projectsakura/files/hanoip/#:~:text=ProjectSakura%2D9.4%2D20240831,1.6%20GB
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/317820
+- name: Pixel OS
+  version: Android 15
+  android: Android 15
+  author: cool585
+  origin: unofficial
+  date: 20/02/2024
+  link: https://drive.google.com/drive/folders/17YasHhXUJEzDNsXWxgKlxqtC6wxqleVP?usp=sharing
+  size: 1.86 GB
+  status: stable
+  changelog:
+    - Lançamento inicial do Android 15
+    - Patch de segurança de fevereiro
+    - Taxa de atualização dinâmica corrigida
+    - Adicionada taxa de atualização de 90hz
+    - Melhorias diversas aleatórias em desempenho e estabilidade
+  notes:
+    - É altamente recomendado flashar a stock antes de flashar a ROM
+    - Reinicialize 1 ou 2 vezes se volte ou chamadas não funcionarem
+  variants:
+    - label: Build anterior
+      link: https://www.pling.com/p/2130171/#:~:text=Product-,Files%20(9),-Changelogs%20(6)
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/321646
+- name: crDroid
+  version: Android 15
+  android: Android 15
+  author: cool585
+  origin: unofficial
+  date: 16/05/2025
+  link: https://drive.google.com/drive/folders/1jMscnecgUZy2yQKPEsK8yvSiHIt8-_AU?usp=drive_link
+  size: 1.06 GB
+  status: stable
+  changelog:
+    - "Destaques e Mudanças Específicas do Dispositivo:"
+    - "Tipo de compilação: Estável"
+    - "Dispositivo: Motorola G40/60 Fusion"
+    - "Mantenedor do dispositivo: DhineshCool (cool585)"
+    - 16 de Maio de 2025
+    - "Mudanças na ROM:"
+    - Fonte sincronizada
+    - "Mudanças no dispositivo:"
+    - "CORREÇÃO RÁPIDA:"
+    - Corrigido impressão digital fpc
+    - 15 de Maio de 2025
+    - Mudança para novo codec2
+    - Novos blobs térmicos do clo
+    - Importados blobs de localização da árvore moto sm7250
+    - Blobs atualizados e limpos para qpr2
+    - Cybertron v15
+    - Refinamento no sbalancer
+    - Compressão lz4 melhorada
+    - Corrigido dreno de bateria ao reproduzir conteúdo de mídia
+    - Limpeza de coisas do agendador
+  variants:
+    - label: Build anterior
+      link: https://sourceforge.net/projects/cool585/files/hanoip/crdroid/cr11/11.1/
+    - label: Fonte / Telegram
+      link: https://t.me/MotoG60BR/324305
+- name: Pixel Builds
+  version: Android 15
+  android: Android 15
+  author: cool585
+  origin: official
+  date: Periodicamente
+  link: https://pixelbuilds.org/download/hanoip
+  size: 1.07 GB
+  status: stable
+  notes:
+    - >-
+      Como uma ROM oficial, o download em nosso site sempre será o mais recente, sincronizado automaticamente com o
+      repositório oficial da ROM
+- name: Pixel Experience
+  version: Android 14
+  android: Android 14
+  author: cool585
+  origin: unofficial
+  date: 31/03/2024
+  link: https://drive.google.com/file/d/1tCivJkLPM8B-bqeWGuhKylM9-Uf5y_VQ/view?usp=sharing
+  size: 1.6 GB
+  status: stable
+  notes:
+    - ROM não oficial, use por sua conta e risco.
+    - Versão em desenvolvimento, pode conter bugs.
+- name: Lineage OS
+  version: Android 15
+  android: Android 15
+  author: cool585
+  origin: unofficial
+  date: 09/05/2025
+  link: https://drive.usercontent.google.com/download?id=1HDhGllY9mpCoYDZkN3sEddcwAaUX302o&export=download&authuser=0
+  size: 895 MB
+  status: stable
+  changelog:
+    - Sincronização de fontes
+    - Patch de segurança de abril
+    - Mudança para aidl thermal hal
+    - Atualização da pilha térmica do qssi13.0
+    - Mudança para novo codec c2 do sunfish
+    - Atualização de bibliotecas de localização e GPS
+    - Novo kernel Cybertron v15
+    - Reestruturação no sbalancer
+    - Melhoria na compressão lz4
+    - Correção do consumo de bateria ao reproduzir conteúdo de mídia
+    - Limpeza de configurações do scheduler
+  notes:
+    - ROM não oficial, use por sua conta e risco.

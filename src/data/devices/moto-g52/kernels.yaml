@@ -1,0 +1,50 @@
+- name: Ayanami Kernel
+  version: RC1 | AnyKernel3
+  author: LucasMatrixz
+  date: 29/03/2026
+  link: https://drive.usercontent.google.com/download?id=145h2Dj_XvhnofPFwnPj75dSd9IjwzJnp&export=download
+  size: 17.7 MB
+  features:
+    - Backslashxx KernelSU v3.2.2
+    - Introduced BORE scheduler
+    - TCP BBR enabled
+    - upstream binder to android-mainline
+    - mq-deadline is enabled by default
+    - Merged Kona
+    - st14/cip30
+    - Droidspaces support is available
+    - >-
+      USING A CUSTOM RECOVERY ALONGSIDE THIS KERNEL (ex.: TWRP, OrangeFox or PBRP) is NOT ALLOWED AND WILL BRICK YOUR
+      DEVICE
+    - "However, using the recovery shipped with a custom ROM (ex.: LineageOS recovery) is FINE"
+    - If a bootloop occurs, simply flash the original boot.img or flash the ROM again.
+    - >-
+      This kernel has only been tested on LineageOS 22.2 and the stock ROM. I have no idea if it will work properly on
+      Android 16.
+    - "Instruções do desenvolvedor sobre a instalação: Only flash in recovery."
+- name: Dance Kernel
+  version: "1.0"
+  author: zetlink
+  date: 19/02/2024
+  link: https://drive.google.com/file/d/1ABPY6EXeIs6ISakkj0zqvMlbr82pme/view?usp=sharing
+  size: 96 MB
+  features:
+    - Otimizações de performance
+    - Melhor gerenciamento de memória
+    - Requer TWRP para instalação
+- name: KultriKernel
+  version: "3"
+  author: Kultrinha_
+  date: 26/01/2026
+  link: https://drive.google.com/file/d/1-tAitPfYxvqGPSoivrMB3ptSditu-5Lb/view?usp=sharing
+  size: 17.9 MB
+  features:
+    - Kernel baseado no Linux 4.19.325
+    - Backslashxx KSU implementado
+    - Para ROMs LineageOS 23.X based
+    - >-
+      NÃO utilize recovery customizado junto com este kernel (ex.: TWRP, OrangeFox ou PBRP), pois isso causará brick no
+      dispositivo
+    - "O uso do recovery fornecido pela própria ROM customizada (ex.: LineageOS Recovery) é permitido"
+    - Caso ocorra bootloop, basta flashar o boot.img original ou reinstalar a ROM
+    - Código-fonte do kernel disponível no repositório oficial do LineageOS para o sm6225

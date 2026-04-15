@@ -1,0 +1,16 @@
+- name: TWRP
+  version: 3.7.1
+  author: HemanthJabalpuri
+  date: 28/01/2024
+  link: https://github.com/HemanthJabalpuri/twrp_motorola_devon/releases#:~:text=wiki/Flashing%2DInstructions-,Assets,-3
+  size: 43.8 MB
+  notes:
+    - "Instruções de flash: https://github.com/HemanthJabalpuri/twrp_motorola_rhode/wiki/Flashing-Instructions"
+    - Sincronizar com as fontes mais recentes do TWRP
+    - Corrige o fastbootd
+- name: Orange Fox
+  version: "20240627"
+  author: ChonDoit
+  date: 27/06/2024
+  link: https://github.com/ChonDoit/ofox_devon/releases#:~:text=and%20minor%20fixes-,Assets,-6
+  size: 96 MB

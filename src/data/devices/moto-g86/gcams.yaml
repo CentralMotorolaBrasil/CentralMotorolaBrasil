@@ -1,0 +1,22 @@
+- name: MGC 9.4
+  version: 9.4.103/V14
+  author: BSG
+  date: 20/09/2025
+  link: https://drive.google.com/drive/folders/1e0BMiUk6ZKaIzgP9Q_rCJ-p3Z4xY0zU-?usp=sharing
+  size: 382.4 MB
+  recommended: false
+  notes:
+    - Requer Android 11 ou superior para funcionamento ideal
+    - Pode não funcionar em dispositivos sem suporte completo a Camera2 API
+    - XML disponível juntamente com o download dessa GCam
+- name: MGC 9.4
+  version: 9.4.103/V22
+  author: BSG
+  date: 15/11/2025
+  link: https://drive.google.com/drive/folders/1WnKvErRlwrOOreGADx2EtZzrLpYbYki5?usp=sharing
+  size: 381.1 MB
+  recommended: false
+  notes:
+    - Requer Android 11 ou superior para funcionamento ideal
+    - Pode não funcionar em dispositivos sem suporte completo a Camera2 API
+    - XML disponível juntamente com o download dessa GCam
