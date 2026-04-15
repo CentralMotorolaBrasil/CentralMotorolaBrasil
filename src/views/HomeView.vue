@@ -43,13 +43,13 @@
         <p class="section-tag">{{ t('quickNavTag') }}</p>
         <h2 style="font-size:1.3rem;font-weight:600;margin-bottom:20px;">{{ t('quickNavTitle') }}</h2>
         <div class="row g-3">
-          <div class="col-6 col-md-3" v-for="cat in quickCategories" :key="cat.labelKey">
-            <router-link :to="cat.to" class="text-decoration-none">
+          <div class="col-6 col-md-3" v-for="(cat, idx) in quickCategories" :key="idx">
+            <router-link :to="getCategoryLink(cat)" class="text-decoration-none">
               <div class="ch-card p-4 text-center h-100" style="cursor:pointer;">
                 <div class="mb-3" style="width:52px;height:52px;border-radius:14px;background:var(--accent-dim);display:flex;align-items:center;justify-content:center;margin:0 auto;">
                   <i :class="cat.icon" style="color:var(--accent);font-size:1.4rem;"></i>
                 </div>
-                <div style="font-weight:600;font-size:0.95rem;margin-bottom:6px;">{{ t(cat.labelKey) }}</div>
+                <div style="font-weight:600;font-size:0.95rem;margin-bottom:6px;">{{ cat.label }}</div>
                 <div style="font-size:0.78rem;color:var(--text-secondary);">{{ t(cat.descKey) }}</div>
               </div>
             </router-link>
@@ -128,11 +128,16 @@ const stats = [
 ]
 
 const quickCategories = [
-  { labelKey: 'navDevices',   icon: 'bi bi-phone',                  descKey: 'catDevicesDesc',    to: '/devices' },
-  { labelKey: 'statRoms',     icon: 'bi bi-android2',               descKey: 'catRomsDesc',       to: '/devices' },
-  { labelKey: 'statRecoveries', icon: 'bi bi-arrow-counterclockwise', descKey: 'catRecoveriesDesc', to: '/devices' },
-  { labelKey: 'settings',     icon: 'bi bi-sliders',                descKey: 'catSettingsDesc',   to: '/settings' },
+  { label: t('filterAll'),   icon: 'bi bi-grid-3x3-gap',             descKey: 'catDevicesDesc',    categoryId: 'all' },
+  { label: t('motoGSeries'),     icon: 'bi bi-phone',               descKey: 'catRomsDesc',       categoryId: 'moto-g' },
+  { label: t('motoEdgeSeries'), icon: 'bi bi-phone-fill', descKey: 'catRecoveriesDesc', categoryId: 'moto-edge' },
+  { label: t('motoESeries'),     icon: 'bi bi-phone-landscape',                descKey: 'catSettingsDesc',   categoryId: 'moto-e' },
 ]
+
+function getCategoryLink(cat) {
+  if (cat.to) return cat.to
+  return { path: '/devices', query: { category: cat.categoryId } }
+}
 
 const featuredDevices = devices.filter(d => d.roms.length >= 2).slice(0, 6)
 </script>

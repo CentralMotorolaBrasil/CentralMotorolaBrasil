@@ -118,16 +118,32 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { ref, computed, onMounted, watch } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { devices, categories } from '../data/devices/index.js'
 import DeviceCard from '../components/DeviceCard.vue'
 import { useI18n } from '../utils/i18n.js'
 
 const { t } = useI18n()
 const route = useRoute()
+const router = useRouter()
 const search = ref(route.query.q || '')
-const activeCategory = ref('all')
+const activeCategory = ref(route.query.category || 'all')
+
+// Sincronizar activeCategory com a query param da rota
+function syncCategoryFromRoute() {
+  const categoryParam = route.query.category || 'all'
+  activeCategory.value = categoryParam
+  search.value = route.query.q || ''
+}
+
+onMounted(() => {
+  syncCategoryFromRoute()
+})
+
+watch(() => route.query, () => {
+  syncCategoryFromRoute()
+})
 const showFaq = ref(false)
 const faqItems = ref([
   {
