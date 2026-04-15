@@ -122,15 +122,28 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, onMounted, onBeforeUnmount, watch } from 'vue'
 import { useI18n } from '../utils/i18n.js'
 
 const { t, currentLanguage, currentLanguageLabel, languages, setLanguage } = useI18n()
 
 const tab = ref('themes')
-const animationsEnabled = ref(true)
+const animationsEnabled = ref(JSON.parse(localStorage.getItem('animationsEnabled') ?? 'true'))
 const activeAccent = ref('Ciano')
 const languageDropdownOpen = ref(false)
+
+function applyAnimationsPreference(enabled) {
+  if (enabled) {
+    document.documentElement.classList.remove('no-animations')
+  } else {
+    document.documentElement.classList.add('no-animations')
+  }
+}
+
+watch(animationsEnabled, (value) => {
+  localStorage.setItem('animationsEnabled', JSON.stringify(value))
+  applyAnimationsPreference(value)
+})
 
 function toggleLanguageDropdown() {
   languageDropdownOpen.value = !languageDropdownOpen.value
@@ -147,7 +160,10 @@ function closeDropdownOnOutsideClick(e) {
   }
 }
 
-onMounted(() => document.addEventListener('click', closeDropdownOnOutsideClick))
+onMounted(() => {
+  applyAnimationsPreference(animationsEnabled.value)
+  document.addEventListener('click', closeDropdownOnOutsideClick)
+})
 onBeforeUnmount(() => document.removeEventListener('click', closeDropdownOnOutsideClick))
 
 const accentColors = [

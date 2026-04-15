@@ -198,6 +198,16 @@ body::before {
   animation-delay: 0.2s;
 }
 
+/* reduzir animações drasticamente quando desativado */
+.no-animations *,
+.no-animations *::before,
+.no-animations *::after {
+  animation-duration: 0.01s !important;
+  animation-delay: 0s !important;
+  transition-duration: 0.01s !important;
+  transition-delay: 0s !important;
+}
+
 /* nav fixa com blur */
 .ch-nav {
   background: rgba(10, 15, 26, 0.85);
