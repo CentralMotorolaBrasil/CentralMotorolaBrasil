@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "convert-images": "bun scripts/convert-images.js"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -17,6 +18,8 @@
     "@vitejs/plugin-vue": "^6.0.0",
     "js-yaml": "^4.1.1",
     "terser": "^5.46.1",
+    "glob": "^13.0.6",
+    "sharp": "^0.34.5",
     "vite": "^8.0.8"
   }
 }
