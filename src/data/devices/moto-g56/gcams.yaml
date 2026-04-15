@@ -1,0 +1,13 @@
+- name: MGC
+  version: 8.1.101/A9 GV2b
+  author: BSG
+  date: 31/05/2022
+  link: https://drive.google.com/file/d/1M95FW29b2AINqfZ9JbwtXAU6L1okXszl/view?usp=sharing
+  size: 81.2 MB
+  recommended: false
+  notes:
+    - Requer Android 10 ou superior (idealmente Android 11+) para funcionamento ideal
+    - Processador 64-bit obrigatório
+    - Suporte completo e otimizado para Camera2 API
+    - "Múltiplas variações de assinatura disponíveis: SNAP, ENG, MGC, SCAN3D, RULER, QCAMERA3, AWEME"
+    - Compatível com Xiaomi, OnePlus, Samsung, POCO, Redmi e muitas outras marcas
