@@ -29,6 +29,7 @@
 
 * {
   box-sizing: border-box;
+  image-rendering: -webkit-optimize-contrast;
   margin: 0;
   padding: 0;
 }
