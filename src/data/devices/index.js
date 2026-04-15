@@ -38,3 +38,13 @@ export const devices = Object.entries(infoModules).map(([path, mod]) => {
     kernels,
   }
 })
+
+export const devicesById = Object.create(null)
+for (const device of devices) {
+  devicesById[device.id] = device
+}
+
+export const categoriesById = Object.create(null)
+for (const category of categories) {
+  categoriesById[category.id] = category
+}

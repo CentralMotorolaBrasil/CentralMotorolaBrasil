@@ -228,12 +228,12 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
-import { devices, categories } from '../data/devices/index.js'
+import { devicesById, categoriesById } from '../data/devices/index.js'
 import { useI18n } from '../utils/i18n.js'
 
 const { t, currentLanguage } = useI18n()
 const route = useRoute()
-const device = computed(() => devices.find(d => d.id === route.params.id))
+const device = computed(() => devicesById[route.params.id])
 const activeTab = ref('roms')
 const openVariant = ref(null)
 const deviceImageFailed = ref(false)
@@ -253,7 +253,7 @@ onBeforeUnmount(() => document.removeEventListener('click', closeOnOutsideClick)
 
 const categoryLabel = computed(() => {
   if (!device.value) return ''
-  return categories.find(c => c.id === device.value.category)?.label || ''
+  return categoriesById[device.value.category]?.label || ''
 })
 
 const tabs = computed(() => {

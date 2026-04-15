@@ -59,7 +59,7 @@
 import { computed, watchEffect } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from './utils/i18n.js'
-import { devices } from './data/devices/index.js'
+import { devicesById } from './data/devices/index.js'
 
 const { t } = useI18n()
 const route = useRoute()
@@ -78,7 +78,7 @@ watchEffect(() => {
   } else if (route.path === '/settings') {
     pageLabel = t('settings')
   } else if (route.path.startsWith('/device/')) {
-    const device = devices.find(d => d.id === route.params.id)
+    const device = devicesById[route.params.id]
     pageLabel = device?.name || t('deviceNotFound')
   }
 
