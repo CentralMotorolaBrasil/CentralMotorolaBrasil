@@ -29,7 +29,6 @@
 
 * {
   box-sizing: border-box;
-  image-rendering: -webkit-optimize-contrast;
   margin: 0;
   padding: 0;
 }
@@ -41,6 +40,11 @@ body {
   font-family: var(--sans);
   min-height: 100vh;
   overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body::before {
@@ -59,18 +63,9 @@ body::before {
   z-index: 1;
 }
 
-/* scroll bar mais discreta */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--bg-secondary);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--border-hover);
-  border-radius: 3px;
+/* scrollbar oculta mas funcional */
+html {
+  scrollbar-gutter: stable;
 }
 
 /* card padrão */
