@@ -80,28 +80,29 @@
       </template>
 
       <template v-if="tab === 'about'">
-        <div class="ch-card p-5 text-center fade-up">
+        <!-- INFORMAÇÕES DO SITE -->
+        <div class="ch-card p-5 text-center fade-up mb-5">
           <div style="width:64px;height:64px;background:var(--accent-dim);border:1px solid var(--border-hover);border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
             <i class="bi bi-cpu" style="color:var(--accent);font-size:1.8rem;"></i>
           </div>
           <h2 style="font-family:var(--mono);font-size:1.4rem;font-weight:700;margin-bottom:8px;">CentralMotorolaBrasil</h2>
-          <p style="color:var(--text-secondary);font-size:0.9rem;max-width:380px;margin:0 auto 24px;">
+          <p style="color:var(--text-secondary);font-size:0.9rem;max-width:380px;margin:0 auto 20px;">
             {{ t('aboutDesc1') }}
           </p>
-          <p style="color:var(--text-secondary);font-size:0.9rem;max-width:380px;margin:0 auto 24px;">
+          <p style="color:var(--text-secondary);font-size:0.9rem;max-width:380px;margin:0 auto 28px;">
             {{ t('aboutDesc2') }}
           </p>
-          <div class="d-flex justify-content-center gap-4 mb-4">
+          <div class="d-flex justify-content-center gap-4 mb-5 flex-wrap">
             <div class="text-center">
               <div style="font-family:var(--mono);font-size:0.75rem;color:var(--text-muted);">{{ t('version') }}</div>
               <div style="font-family:var(--mono);font-size:1rem;color:var(--accent);">1.0.0</div>
             </div>
-            <div style="width:1px;background:var(--border-color);"></div>
+            <div style="width:1px;background:var(--border-color);height:40px;"></div>
             <div class="text-center">
               <div style="font-family:var(--mono);font-size:0.75rem;color:var(--text-muted);">{{ t('updated') }}</div>
               <div style="font-family:var(--mono);font-size:1rem;color:var(--accent);">{{ formattedUpdateDate }}</div>
             </div>
-            <div style="width:1px;background:var(--border-color);"></div>
+            <div style="width:1px;background:var(--border-color);height:40px;"></div>
             <div class="text-center">
               <div style="font-family:var(--mono);font-size:0.75rem;color:var(--text-muted);">{{ t('license') }}</div>
               <div style="font-family:var(--mono);font-size:1rem;color:var(--accent);">MIT</div>
@@ -111,9 +112,40 @@
             <a href="https://github.com/CentralMotorolaBrasil/CentralMotorolaBrasil" class="btn-ghost btn d-flex align-items-center gap-2">
               <i class="bi bi-code-slash"></i> {{ t('sourceCode') }}
             </a>
-            <a href="#" class="btn-accent btn d-flex align-items-center gap-2">
-              <i class="bi bi-heart"></i> {{ t('support') }}
+            <a href="https://t.me/CentralMotorolaBrasil" class="btn-accent btn d-flex align-items-center gap-2">
+              <i class="bi bi-telegram"></i> {{ t('visitTelegram') }}
             </a>
+          </div>
+        </div>
+
+        <!-- CRÉDITOS -->
+        <div class="ch-card p-5 fade-up fade-up-1">
+          <h3 class="text-center mb-5" style="font-size:1.2rem;font-weight:700;">{{ t('credits') }}</h3>
+          <div class="row g-4 justify-content-center">
+            <!-- Eric -->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="d-flex flex-column align-items-center h-100">
+                <div class="mb-3" style="flex-shrink:0;">
+                  <img src="/images/dev_eric.avif" alt="Eric" class="rounded" style="width:120px;height:120px;object-fit:cover;border:1px solid var(--border-color);" />
+                </div>
+                <div class="text-center">
+                  <div class="fw-bold mb-2" style="font-size:1rem;color:var(--text);">Eric</div>
+                  <div style="font-size:0.85rem;color:var(--text-secondary);">{{ t('developmentAndDesign') }}</div>
+                </div>
+              </div>
+            </div>
+            <!-- Lucas -->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="d-flex flex-column align-items-center h-100">
+                <div class="mb-3" style="flex-shrink:0;">
+                  <img src="/images/lucasmsilva.avif" alt="Lucas" class="rounded" style="width:120px;height:120px;object-fit:cover;border:1px solid var(--border-color);" />
+                </div>
+                <div class="text-center">
+                  <div class="fw-bold mb-2" style="font-size:1rem;color:var(--text);">Lucas</div>
+                  <div style="font-size:0.85rem;color:var(--text-secondary);">{{ t('contribution') }}</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </template>

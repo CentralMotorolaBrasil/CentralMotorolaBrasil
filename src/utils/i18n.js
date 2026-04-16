@@ -28,6 +28,10 @@ const translations = {
     license: 'LICENÇA',
     sourceCode: 'Código fonte',
     support: 'Apoie o Projeto',
+    visitTelegram: 'Visite nosso canal do Telegram',
+    credits: 'Créditos',
+    developmentAndDesign: 'Desenvolvedor principal do site',
+    contribution: 'Dev principal & otimizações',
 
     // App.vue / Nav
     navHome: 'Início',
@@ -105,6 +109,10 @@ const translations = {
     license: 'LICENCIA',
     sourceCode: 'Código fuente',
     support: 'Apoya el Proyecto',
+    visitTelegram: 'Visita nuestro canal de Telegram',
+    credits: 'Créditos',
+    developmentAndDesign: 'Desarrollo y Diseño',
+    contribution: 'Contribución',
 
     navHome: 'Inicio',
     navDevices: 'Dispositivos',
@@ -178,6 +186,10 @@ const translations = {
     license: 'LICENSE',
     sourceCode: 'Source code',
     support: 'Support the Project',
+    visitTelegram: 'Visit our Telegram channel',
+    credits: 'Credits',
+    developmentAndDesign: 'Development and Design',
+    contribution: 'Contribution',
 
     navHome: 'Home',
     navDevices: 'Devices',
