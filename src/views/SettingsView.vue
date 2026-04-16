@@ -99,7 +99,7 @@
             <div style="width:1px;background:var(--border-color);"></div>
             <div class="text-center">
               <div style="font-family:var(--mono);font-size:0.75rem;color:var(--text-muted);">{{ t('updated') }}</div>
-              <div style="font-family:var(--mono);font-size:1rem;color:var(--accent);">11 {{ t('april') }} 2026</div>
+              <div style="font-family:var(--mono);font-size:1rem;color:var(--accent);">{{ formattedUpdateDate }}</div>
             </div>
             <div style="width:1px;background:var(--border-color);"></div>
             <div class="text-center">
@@ -124,13 +124,16 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount, watch } from 'vue'
 import { useI18n } from '../utils/i18n.js'
+import { useBuildInfo } from '../utils/build-info.js'
 
 const { t, currentLanguage, currentLanguageLabel, languages, setLanguage } = useI18n()
+const { lastUpdated, formatDate } = useBuildInfo()
 
 const tab = ref('themes')
 const animationsEnabled = ref(JSON.parse(localStorage.getItem('animationsEnabled') ?? 'true'))
 const activeAccent = ref('Ciano')
 const languageDropdownOpen = ref(false)
+const formattedUpdateDate = ref('')
 
 function applyAnimationsPreference(enabled) {
   if (enabled) {
@@ -162,6 +165,7 @@ function closeDropdownOnOutsideClick(e) {
 
 onMounted(() => {
   applyAnimationsPreference(animationsEnabled.value)
+  formattedUpdateDate.value = formatDate(lastUpdated, t)
   document.addEventListener('click', closeDropdownOnOutsideClick)
 })
 onBeforeUnmount(() => document.removeEventListener('click', closeDropdownOnOutsideClick))
