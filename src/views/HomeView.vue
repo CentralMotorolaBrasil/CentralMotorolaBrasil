@@ -1,13 +1,19 @@
 <template>
   <div class="home-page">
+    <ChangelogModal v-model="showChangelog" />
+
     <div class="container-lg px-3 px-md-4 py-5" style="max-width:1100px;margin:0 auto;">
 
       <div class="text-center mb-5 fade-up">
-        <div class="d-inline-flex align-items-center gap-2 mb-4"
-          style="background:var(--accent-dim);border:1px solid var(--border-hover);border-radius:100px;padding:6px 16px;">
+        <button
+          class="ch-pill-btn d-inline-flex align-items-center gap-2 mb-4"
+          @click="showChangelog = true"
+          title="Ver changelog v1.0"
+        >
           <span style="width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;animation:glowPulse 2s infinite;"></span>
           <span style="font-family:var(--mono);font-size:0.7rem;color:var(--accent);">{{ t('stableTag') }}</span>
-        </div>
+          <i class="bi bi-chevron-right" style="font-size:0.6rem;color:var(--accent);opacity:0.7;"></i>
+        </button>
 
         <h1 style="font-size:clamp(2rem,5vw,3.2rem);font-weight:700;letter-spacing:-0.03em;line-height:1.1;margin-bottom:16px;">
           {{ t('heroTitle1') }}<br>
@@ -96,15 +102,26 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { devices, categories } from '../data/devices/index.js'
 import { useI18n } from '../utils/i18n.js'
+import ChangelogModal from '../components/ChangelogModal.vue'
 
 const router = useRouter()
 const { t } = useI18n()
 const searchQuery = ref('')
 const failedImages = ref({})
+
+const showChangelog = ref(false)
+
+onMounted(() => {
+  const seen = localStorage.getItem('ch_changelog_v1_seen')
+  if (!seen) {
+    showChangelog.value = true
+    localStorage.setItem('ch_changelog_v1_seen', '1')
+  }
+})
 
 function goSearch() {
   if (searchQuery.value.trim()) {
@@ -141,3 +158,25 @@ function getCategoryLink(cat) {
 
 const featuredDevices = devices.filter(d => d.roms.length >= 2).slice(0, 6)
 </script>
+
+<style scoped>
+.ch-pill-btn {
+  background: var(--accent-dim);
+  border: 1px solid var(--border-hover);
+  border-radius: 100px;
+  padding: 6px 16px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  text-decoration: none;
+  line-height: 1;
+}
+.ch-pill-btn:hover {
+  background: rgba(56, 189, 248, 0.22);
+  border-color: var(--accent);
+  box-shadow: 0 0 14px var(--accent-glow);
+  transform: translateY(-1px);
+}
+.ch-pill-btn:active {
+  transform: translateY(0);
+}
+</style>
