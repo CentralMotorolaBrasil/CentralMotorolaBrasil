@@ -1,3 +1,75 @@
+- name: Mist OS
+  version: "4.6 Lucent"
+  android: Android 16
+  author: JNW_SG
+  origin: official
+  date: 13/04/2026
+  link: https://sourceforge.net/projects/project-mistos/files/Android16/fogos
+  size: "~2.4 GB"
+  status: stable
+  changelog:
+    - Patch de Segurança de Abril de 2026
+    - Device tree migrada para LineageOS
+    - Kernel mudou para LineageOS
+    - Adicionado Lineage LiveDisplay
+    - Adicionado ViPER4AndroidFX
+    - Ajuste dos valores de Powerhint para o processador
+  known_issues:
+    - "Risco de ban no Free Fire"
+  notes:
+    - Baseado em OSS
+    - "SELinux: Enforcing"
+    - Flash a partir da versão anterior é possível
+    - Dolby Atmos e Moto Camera incluídos
+    - Trees. LineageOS / Kernel. LineageOS
+  variants:
+    - label: Screenshots
+      link: https://t.me/MistOSDiscussion/33218?single
+
+- name: Halcyon
+  version: "16.2 Bloom"
+  android: Android 16 QPR2
+  author: herobuxx
+  origin: official
+  date: 12/04/2026
+  link: https://get.hlcyn.org/builds/fogos
+  size: 1.14 GB / 1.90 GB
+  status: beta
+  notes:
+    - Baseado em código aberto
+    - Versões Vanilla e GApps disponíveis
+    - "SELinux: Enforcing"
+  variants:
+    - label: Guia de instalação
+      link: https://wiki.hlcyn.org/devices/fogos/#installation-guide
+    - label: Suporte
+      link: https://t.me/buxxedchat
+
+- name: Voltage OS
+  version: "5.8"
+  android: Android 16 QPR2
+  author: TRIDEV099
+  origin: unofficial
+  date: 12/04/2026
+  size: "~1.4 GB"
+  status: stable
+  changelog:
+    - Rebase das fontes do dispositivo
+    - Código-fonte sincronizado ao mais recente
+    - Adaptado valores de powerhint para holi
+  notes:
+    - Versão Vanilla / OSS based
+    - "SELinux: Enforcing"
+    - Dolby Atmos e Moto Camera incluídos
+    - "Trees: LineageOS, TheMuppets"
+  variants:
+    - label: Pixeldrain
+      link: https://pixeldrain.com/u/5uymArvZ
+    - label: Gofile
+      link: https://gofile.io/d/vypEFh
+    - label: SourceForge
+      link: https://sourceforge.net/projects/tridevbox/files/VoltageOS/voltage-5.8-fogos-20260412-1608-UNOFFICIAL.zip/download
+
 - name: Halcyon
   version: "16.2"
   android: Android 16 QPR2
@@ -21,6 +93,10 @@
   size: 2.0 GB
   status: stable
   variants:
+    - label: Versão Vanilla
+      link: https://t.me/MadLaBDiscussion/52261
+    - label: Versão GApps
+      link: https://drive.google.com/uc?id=1IflOqv1FS6m2Q6NfTQ9Y_VfUNKfKxM3T&export=download
     - label: Guia para bloquear bootloader
       link: https://telegra.ph/Bootloader-Locking-For-Sedona-Devices-01-19
     - label: Download AVB Key

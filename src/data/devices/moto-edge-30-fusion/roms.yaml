@@ -1,3 +1,29 @@
+- name: AxionAOSP
+  version: "2.5"
+  android: Android 16
+  author: trumodet 
+  origin: unofficial
+  date: 09/04/2026
+  link: https://huggingface.co/kynexdev/tundra-temp-state/resolve/main/tundra/customs/trumodet/axion-2.5-REVERIE-20260410-UNOFFICIAL-GMS-tundra.zip
+  size: 1.70 GB
+  status: stable
+  variants:
+    - label: Screenshots
+      link: https://t.me/motoedge30fusion/59957?single
+    - label: Suporte
+      link: https://t.me/trumodet
+- name: InfinityX
+  version: 3.9
+  android: Android 16
+  author: trumodet 
+  origin: unofficial
+  date: 07/04/2026
+  link: https://artifacts.serverhive.in/?id=project-infinity-x-tundra-20260408-021601085145
+  size: 1.70 GB
+  status: stable
+  variants:
+    - label: Suporte
+      link: https://t.me/trumodet
 - name: Pixel OS
   version: Android 16
   android: Android 16

@@ -1,3 +1,75 @@
+- name: YAAP
+  version: QPR2
+  android: Android 16
+  author: BarryBlackCat
+  origin: unofficial
+  date: 13/04/2026
+  link: https://github.com/BarryBlackCat/yaap_bangkk/releases/tag/v1.0.0
+  size: 2.10 GB
+  status: stable
+  variants:
+    - label: Changelog
+      link: https://github.com/BarryBlackCat/yaap_bangkk/releases/tag/v1.0.0
+    - label: Screenshots
+      link: https://t.me/barryplace/28
+    - label: Suporte
+      link: https://t.me/g84yaap
+- name: Halcyon 16.2 Bloom
+  version: QPR2
+  android: Android 16
+  author: Vishal, Mikeng
+  origin: official
+  date: 12/04/2026
+  link: https://get.hlcyn.org/builds/bangkk
+  size: 1.81 GB
+  status: beta
+  variants:
+    - label: Guia de Instalação
+      link: https://wiki.hlcyn.org/devices/bangkk/#installation-guide
+    - label: Suporte
+      link: https://t.me/buxxedchat
+- name: AxionOS 2.5 Reverie 
+  version: QPR2
+  android: Android 16
+  author: ZedissP
+  origin: unofficial
+  date: 12/04/2026
+  link: https://github.com/ZedissPp/ota/releases/download/16.2/axion-2.5-REVERIE-20260412-UNOFFICIAL-GMS-bangkk.zip
+  size: 1.70 GB
+  status: stable
+  variants:
+    - label: Changelog
+      link: https://raw.githubusercontent.com/ZedissPp/ota/refs/heads/main/changelog/2.5/README.md
+    - label: Suporte
+      link: https://t.me/zedisspechat
+- name: AyakaUI
+  version: QPR2
+  android: Android 16
+  author: ZedissP
+  origin: unofficial
+  date: 12/04/2026
+  link: https://pixeldrain.com/u/gzCEzdUC
+  size: 2.67 GB
+  status: stable
+  variants:
+    - label: Changelog
+      link: https://telegra.ph/AyakaUI-Source-Changelog-04-09
+    - label: Suporte
+      link: https://t.me/zedisspechat
+- name: AxionAOSP
+  version: 2.5
+  android: Android 16
+  author: ZedissP
+  origin: unofficial
+  date: 07/04/2026
+  link: https://pixeldrain.com/u/usL5ucxo
+  size: 2.67 GB
+  status: stable
+  variants:
+    - label: Screenshots
+      link: https://t.me/zedisspechannel/603?single
+    - label: Suporte
+      link: https://t.me/zedisspechat
 - name: Project Infinity X
   version: Android 16
   android: Android 16

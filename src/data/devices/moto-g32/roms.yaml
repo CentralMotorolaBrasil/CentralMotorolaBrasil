@@ -1,3 +1,22 @@
+- name: Axion OS
+  version: Android 16
+  android: Android 16
+  author: Kultrinha_
+  origin: unofficial
+  date: 07/04/2026
+  link: https://drive.serverhive.in/drive/ZV7ZjWrnM5yoA-cXflaNhq9f/devon/2026-04-08/axion-2.5-REVERIE-20260408-UNOFFICIAL-VANILLA-devon.zip
+  size: 1.36 GB
+  status: stable
+  changelog:
+    - QS Header fixed
+  notes:
+    - Rsuntk KernelSU implemented (Download disponível do módulo juntamente com a ROM em nossos repositórios oficiais)
+    - Vanila build
+  variants:
+    - label: Build anterior
+      link: https://drive.usercontent.google.com/download?id=1mYsDPVZP5daIJSwekvA3zxbLu4se36tG&export=download&authuser=0
+    - label: Fonte / Telegram
+      link: https://t.me/sm6225projects/337
 - name: Luna OS
   version: Android 16
   android: Android 16
@@ -62,25 +81,6 @@
   variants:
     - label: Fonte / Telegram
       link: https://t.me/MotoG52BR/250285
-- name: Axion OS
-  version: Android 16
-  android: Android 16
-  author: Kultrinha_
-  origin: unofficial
-  date: 02/04/2026
-  link: https://drive.google.com/drive/folders/1siMPz7-ur1Ko8rrwa8t1kxFae3vBFPCO?usp=sharing
-  size: 1.36 GB
-  status: stable
-  changelog:
-    - QS Header fixed
-  notes:
-    - Rsuntk KernelSU implemented (Download disponível do módulo juntamente com a ROM em nossos repositórios oficiais)
-    - Vanila build
-  variants:
-    - label: Build anterior
-      link: https://drive.usercontent.google.com/download?id=1mYsDPVZP5daIJSwekvA3zxbLu4se36tG&export=download&authuser=0
-    - label: Fonte / Telegram
-      link: https://t.me/sm6225projects/337
 - name: Genesis OS
   version: Android 15
   android: Android 15

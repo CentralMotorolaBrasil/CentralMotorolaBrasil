@@ -64,7 +64,7 @@
               <p>{{ t('noRoms') }}</p>
             </div>
             <div v-else class="d-flex flex-column gap-3">
-              <div v-for="rom in device.roms" :key="rom.name" class="dl-row">
+              <div v-for="(rom, romIndex) in device.roms" :key="`rom-${romIndex}`" class="dl-row">
                 <div class="row align-items-center g-2">
                   <div class="col">
                     <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
@@ -88,15 +88,29 @@
                       <button
                         class="btn-accent btn d-flex align-items-center gap-2"
                         style="font-size:0.85rem;padding:8px 18px;"
-                        @click.stop="toggleVariant(rom.name)">
+                        @click.stop="toggleVariant(`rom-${romIndex}`)">
                         <i class="bi bi-download"></i>
                         {{ t('btnDownload') }}
                         <i class="bi ms-1"
-                          :class="openVariant === rom.name ? 'bi-chevron-up' : 'bi-chevron-down'"
+                          :class="openVariant === `rom-${romIndex}` ? 'bi-chevron-up' : 'bi-chevron-down'"
                           style="font-size:0.7rem;"></i>
                       </button>
                       <transition name="variant-drop">
-                        <div v-if="openVariant === rom.name" class="variant-menu">
+                        <div v-if="openVariant === `rom-${romIndex}`" class="variant-menu">
+                          <!-- Link principal (se existir) -->
+                          <a
+                            v-if="rom.link"
+                            :href="rom.link"
+                            target="_blank"
+                            rel="noopener"
+                            class="variant-item variant-main"
+                            @click="openVariant = null">
+                            <i class="bi bi-download me-2" style="color:var(--accent);font-size:0.8rem;"></i>
+                            <span style="font-weight:600;">{{ t('downloadLink') }}</span>
+                          </a>
+                          <!-- Separador (apenas se houver link principal e variantes) -->
+                          <div v-if="rom.link && rom.variants.length" class="variant-divider"></div>
+                          <!-- Links extras (variantes) -->
                           <a
                             v-for="v in rom.variants"
                             :key="v.label"
@@ -135,7 +149,7 @@
               <p>{{ t('noRecoveries') }}</p>
             </div>
             <div v-else class="d-flex flex-column gap-3">
-              <div v-for="rec in device.recoveries" :key="rec.name" class="dl-row">
+              <div v-for="(rec, recIndex) in device.recoveries" :key="`rec-${recIndex}`" class="dl-row">
                 <div class="row align-items-center g-2">
                   <div class="col">
                     <div class="mb-1" style="font-weight:600;font-size:0.95rem;">{{ rec.name }} <span class="mono" style="font-size:0.75rem;color:var(--text-muted);">{{ rec.version }}</span></div>
@@ -162,7 +176,7 @@
               <p>{{ t('noGcams') }}</p>
             </div>
             <div v-else class="d-flex flex-column gap-3">
-              <div v-for="gcam in device.gcams" :key="gcam.name" class="dl-row">
+              <div v-for="(gcam, gcamIndex) in device.gcams" :key="`gcam-${gcamIndex}`" class="dl-row">
                 <div class="row align-items-center g-2">
                   <div class="col">
                     <div class="d-flex align-items-center gap-2 flex-wrap mb-1">
@@ -193,7 +207,7 @@
               <p>{{ t('noKernels') }}</p>
             </div>
             <div v-else class="d-flex flex-column gap-3">
-              <div v-for="kernel in device.kernels" :key="kernel.name" class="dl-row">
+              <div v-for="(kernel, kernelIndex) in device.kernels" :key="`kernel-${kernelIndex}`" class="dl-row">
                 <div class="row align-items-center g-2">
                   <div class="col">
                     <div class="mb-1" style="font-weight:600;font-size:0.95rem;">{{ kernel.name }} <span class="mono" style="font-size:0.75rem;color:var(--text-muted);">{{ kernel.version }}</span></div>
@@ -332,6 +346,22 @@ function onImgErr(e) {
 .variant-item:hover {
   background: var(--accent-dim);
   color: var(--accent);
+}
+
+.variant-main {
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-weight: 600;
+}
+.variant-main:hover {
+  background: var(--accent-glow);
+  color: var(--accent);
+}
+
+.variant-divider {
+  height: 1px;
+  background: var(--border-hover);
+  margin: 6px 0;
 }
 
 .variant-drop-enter-active,

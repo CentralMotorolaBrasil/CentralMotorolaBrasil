@@ -1,3 +1,195 @@
+- name: Axion AOSP
+  version: "2.5a QPR2"
+  android: Android 16 QPR2
+  author: "not_ayan99"
+  origin: official
+  date: 12/04/2026
+  size: "~1.6 GB / ~2.1 GB"
+  status: stable
+  changelog:
+    - Fixed the heating issue
+  notes:
+    - Clean flash needed if you are coming from other rom/port
+    - Important installation instructions available
+    - "MD5 Vanilla: fc3995f23e5556ed8b4e8fe871016be2"
+    - "MD5 GApps: 59f440048eed315017c6333b7676bbb0"
+  variants:
+    - label: Download Vanilla
+      link: https://cdn.axionos.org/cancunf/axion-2.5-REVERIE-20260412-OFFICIAL-VANILLA-cancunf.zip
+    - label: Download GApps
+      link: https://cdn.axionos.org/cancunf/axion-2.5-REVERIE-20260412-OFFICIAL-GMS-cancunf.zip
+    - label: Initial Install Vanilla
+      link: https://drive.google.com/uc?id=1NSKrtVm3kM87iwOsYIFxzSRYIr0qhMsU&export=download
+    - label: Initial Install GApps
+      link: https://drive.google.com/file/d/1TP8EM3CJorr2nY4pZaM21VOiIlX3lwNH/view?usp=drivesdk
+    - label: Screenshots
+      link: https://t.me/ayan_rants/3267?single
+    - label: Suporte
+      link: https://t.me/stoopid_ayan
+
+- name: YAAP
+  version: "16 Banshee"
+  android: Android 16 QPR2
+  author: "cyberknight777 x sarthakroy2002"
+  origin: official
+  date: 11/04/2026
+  size: "~2.5 GB"
+  status: stable
+  notes:
+    - Use variant specific initial install zips
+    - OTA or dirty flash is fine from YAAP 15 and previous YAAP 16 build
+    - Read instructions thoroughly
+    - "SHA256 Vanilla: 1763ba0305a0f6fee5091d3a79e67a4f718abe484a90df5787359fce96141107"
+    - "SHA256 GApps: 9ee8dc47e2ba82f274c69e5680d51242125ec413afcf0722d5cb9a985fbf062a"
+  variants:
+    - label: Download Vanilla
+      link: https://mirror.codebucket.de/yaap/cancunf/vanilla/YAAP-16-Vanilla-cancunf-20260411.zip
+    - label: Download GApps
+      link: https://mirror.codebucket.de/yaap/cancunf/YAAP-16-Banshee-cancunf-20260411.zip
+    - label: Initial Install Vanilla
+      link: https://mirror.codebucket.de/yaap/cancunf/vanilla/yaap_vanilla_cancunf_initial_install.zip
+    - label: Initial Install GApps
+      link: https://mirror.codebucket.de/yaap/cancunf/yaap_banshee_cancunf_initial_install.zip
+    - label: Changelog
+      link: https://yaaprom.org/devices/cancunf
+    - label: Flashing Instructions
+      link: https://cyberknight777.dev/instructions/cancunf
+    - label: Suporte
+      link: https://t.me/motorolag54official
+
+- name: PixelOS
+  version: "16 QPR2"
+  android: Android 16 QPR2
+  author: "cyberknight777 x sarthakroy2002"
+  origin: official
+  date: 10/04/2026
+  size: "~2.1 GB"
+  status: stable
+  notes:
+    - Dirty flash is fine from last PixelOS 15 build and OTA from previous PixelOS 16 build
+    - Clean flash needed if coming from other rom/port
+    - "SHA256 GApps: 7700290dae0f0e85beadede879aacf513d27501b7f9598ec969ea3654f71bdfb"
+  variants:
+    - label: Download GApps
+      link: https://pixelos.net/download/cancunf
+    - label: Initial Install GApps
+      link: https://sourceforge.net/projects/pixelos-releases/files/sixteen/cancunf/recovery
+    - label: Flashing Instructions
+      link: https://pixelos.net/download/cancunf
+    - label: Suporte
+      link: https://t.me/motorolag54official
+
+- name: Project Infinity X
+  version: "3.9"
+  android: Android 16 QPR2
+  author: ussr_1674
+  origin: official
+  date: 09/04/2026
+  size: "~1.68 GB / ~2.8 GB"
+  status: stable
+  notes:
+    - Clean flash needed if coming from other rom/port
+    - Use variant specific initial install zips
+    - Read instructions thoroughly
+    - "SHA256 Vanilla: cd6b79af09f208e3e0d21e0c0f34d8f30ccc58cf9d55e12022016f29f9a52988"
+    - "SHA256 GApps: fc99c225310507aa9a652b711f7759e483d037c7b9986478bf02a20bec68cc0c"
+  variants:
+    - label: Download Vanilla
+      link: https://projectinfinity-x.com/downloads/cancunf
+    - label: Download GApps
+      link: https://projectinfinity-x.com/downloads/cancunf
+    - label: Initial Install Vanilla
+      link: https://sourceforge.net/projects/infinity-x/files/cancunf/16/vanilla/infinity_vanilla_initial_install.zip/download
+    - label: Initial Install GApps
+      link: https://sourceforge.net/projects/infinity-x/files/cancunf/16/gapps/infinity_gms_initial_install.zip/download
+    - label: Changelog Device
+      link: https://raw.githubusercontent.com/ProjectInfinity-X/official_devices/refs/heads/16/changelog/cancunf.txt
+    - label: Screenshots
+      link: https://t.me/soviets_stuff/132
+    - label: Flashing Instructions
+      link: https://cyberknight777.dev/instructions/cancunf/#flashing-roms
+    - label: Suporte
+      link: https://t.me/sovietstuff_chat
+
+- name: Axion AOSP
+  version: "2.5a QPR2"
+  android: Android 16 QPR2
+  author: "not_ayan99"
+  origin: official
+  date: 08/04/2026
+  size: "~1.6 GB / ~2.1 GB"
+  status: stable
+  notes:
+    - Clean flash needed if you are coming from other rom/port
+    - Important installation instructions available
+    - "MD5 Vanilla: 17f08b44685d813562ccaabdab96324b"
+    - "MD5 GApps: 826f2bba400a87c3f97615acddb7510a"
+  variants:
+    - label: Download Vanilla
+      link: https://cdn.axionos.org/cancunf/axion-2.5-REVERIE-20260407-OFFICIAL-VANILLA-cancunf.zip
+    - label: Download GApps
+      link: https://cdn.axionos.org/cancunf/axion-2.5-REVERIE-20260407-OFFICIAL-GMS-cancunf.zip
+    - label: Initial Install Vanilla
+      link: https://drive.google.com/uc?id=1NSKrtVm3kM87iwOsYIFxzSRYIr0qhMsU&export=download
+    - label: Initial Install GApps
+      link: https://drive.google.com/file/d/1TP8EM3CJorr2nY4pZaM21VOiIlX3lwNH/view?usp=drivesdk
+    - label: Screenshots
+      link: https://t.me/ayan_rants/3267?single
+    - label: Suporte
+      link: https://t.me/stoopid_ayan
+
+- name: PixelOS
+  version: "16 QPR2"
+  android: Android 16 QPR2
+  author: "cyberknight777 x sarthakroy2002"
+  origin: official
+  date: 08/04/2026
+  size: "~2.1 GB"
+  status: stable
+  notes:
+    - Dirty flash is fine from last PixelOS 15 build and OTA from previous PixelOS 16 build
+    - Clean flash needed if coming from other rom/port
+    - "SHA256 GApps: e818a482badb40d5516e03961166061b31666e7688a575e9d439ae7e67d9ddf5"
+  variants:
+    - label: Download GApps
+      link: https://pixelos.net/download/cancunf
+    - label: Initial Install GApps
+      link: https://sourceforge.net/projects/pixelos-releases/files/sixteen/cancunf/recovery
+    - label: Flashing Instructions
+      link: https://pixelos.net/download/cancunf
+    - label: Suporte
+      link: https://t.me/motorolag54official
+
+- name: YAAP
+  version: "16 Banshee"
+  android: Android 16 QPR2
+  author: "cyberknight777 x sarthakroy2002"
+  origin: official
+  date: 06/04/2026
+  size: "~2.5 GB"
+  status: stable
+  notes:
+    - Use variant specific initial install zips
+    - OTA or dirty flash is fine from YAAP 15 and previous YAAP 16 build
+    - Read instructions thoroughly
+    - "SHA256 Vanilla: 32fdc221cc04d47391a363f2ab12e993cee698a10c26f615bfcb2f9bbaa589ef"
+    - "SHA256 GApps: 28a70ec70fba2dd2ea4e05e67f6869afe682996e63700b3b9036aa609b4e256c"
+  variants:
+    - label: Download Vanilla
+      link: https://mirror.codebucket.de/yaap/cancunf/vanilla/YAAP-16-Vanilla-cancunf-20260406.zip
+    - label: Download GApps
+      link: https://mirror.codebucket.de/yaap/cancunf/YAAP-16-Banshee-cancunf-20260406.zip
+    - label: Initial Install Vanilla
+      link: https://mirror.codebucket.de/yaap/cancunf/vanilla/yaap_vanilla_cancunf_initial_install.zip
+    - label: Initial Install GApps
+      link: https://mirror.codebucket.de/yaap/cancunf/yaap_banshee_cancunf_initial_install.zip
+    - label: Changelog
+      link: https://yaaprom.org/devices/cancunf
+    - label: Flashing Instructions
+      link: https://cyberknight777.dev/instructions/cancunf
+    - label: Suporte
+      link: https://t.me/motorolag54official
+
 - name: Avium UI
   version: Android 16
   android: Android 16
