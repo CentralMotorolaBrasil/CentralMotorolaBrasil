@@ -1,6 +1,6 @@
 name: Moto G35
 codename: manila
 category: moto-g
-android: Android 14
-chip: Snapdragon 695
+android: Android 14 → 15
+chip: T760 Unisoc
 img: /images/moto-g35.avif

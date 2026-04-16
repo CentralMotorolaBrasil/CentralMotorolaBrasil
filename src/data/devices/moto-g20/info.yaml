@@ -1,6 +1,6 @@
 name: Moto G20
 codename: java
 category: moto-g
-android: Android 11 → 12
-chip: Unisoc T606
+android: Android 11
+chip: T700 Unisoc
 img: /images/moto-g20.avif

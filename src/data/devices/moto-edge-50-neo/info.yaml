@@ -1,6 +1,6 @@
 name: Moto Edge 50 Neo
 codename: vienna
 category: moto-edge
-android: Android 14 → 15
-chip: MediaTek Dimensity 6300
+android: Android 14 → 16
+chip: Dimensity 7300 MediaTek
 img: /images/moto-edge-50-neo.avif
